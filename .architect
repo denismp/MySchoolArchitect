@@ -4164,6 +4164,6 @@
     },
     "editMode": "code",
     "userSettings": {
-        "no-cmd": false
+        "no-cmd": true
     }
 }

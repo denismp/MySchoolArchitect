@@ -2,9 +2,9 @@
     "name": "MySchool",
     "settings": {
         "cmd": {
-            "license": "commercial",
-            "cmdVersion": "4.0.4.84",
-            "frameworkVersion": "4.2.1.883"
+            "license": "",
+            "cmdVersion": "",
+            "frameworkVersion": ""
         },
         "urlPrefix": "http://localhost:8080/MySchool",
         "spacesToIndent": "tab",
@@ -32,12 +32,11 @@
         "displayfield-ExtBox1-1484-inputEl": "Not Installed",
         "displayfield-ExtBox1-1279-inputEl": "Not Installed",
         "displayfield-ExtBox1-1430-inputEl": "Not Installed",
-        "lastBuildSelection": {
-            "value": "webBuild",
-            "display": "Build web app"
-        },
         "displayfield-ExtBox1-1540-inputEl": "Not Installed",
-        "displayfield-ExtBox1-1537-inputEl": "Not Installed"
+        "displayfield-ExtBox1-1537-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1275-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1330-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1380-inputEl": "Not Installed"
     },
     "xdsVersion": "3.0.4",
     "xdsBuild": 1386,
