@@ -24,7 +24,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "quarters"
+                "url": "quarters/json"
             },
             "designerId": "e020e8f8-e308-4d8d-9a99-bd2882a0bc0c",
             "cn": [

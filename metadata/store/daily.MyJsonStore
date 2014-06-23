@@ -23,7 +23,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "dailys"
+                "url": "dailys/json"
             },
             "designerId": "6e29c988-de39-457a-88c4-3a5e628b4865",
             "cn": [

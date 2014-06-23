@@ -24,7 +24,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "skillratingses"
+                "url": "skillratingses/json"
             },
             "designerId": "a1d0e4d8-6b33-4a59-8350-fa7a97a22e07",
             "cn": [

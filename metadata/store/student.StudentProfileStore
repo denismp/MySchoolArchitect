@@ -25,7 +25,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "studentprofileviews"
+                "url": "studentprofileviews/json"
             },
             "designerId": "e557c32a-acd8-48d4-8486-bba9a41a178e",
             "cn": [

@@ -24,7 +24,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "monthlyevaluationratingses"
+                "url": "monthlyevaluationratingses/json"
             },
             "designerId": "f09b64f6-b905-438b-836a-b2fd2687555d",
             "cn": [

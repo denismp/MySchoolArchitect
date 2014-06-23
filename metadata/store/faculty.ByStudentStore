@@ -25,7 +25,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "facultybystudentviews"
+                "url": "facultybystudentviews/json"
             },
             "designerId": "4c4aafdf-ab4c-42ea-8394-d3aab77cd396",
             "cn": [

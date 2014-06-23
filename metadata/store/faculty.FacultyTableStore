@@ -24,7 +24,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "facultys"
+                "url": "facultys/json"
             },
             "designerId": "c0d929d1-427c-4a44-9028-6f6092b5281f",
             "cn": [

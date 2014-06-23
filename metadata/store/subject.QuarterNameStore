@@ -24,7 +24,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "quarternameses"
+                "url": "quarternameses/json"
             },
             "designerId": "afc3d57b-1e49-4fa0-9f36-327a189a5f7e",
             "cn": [

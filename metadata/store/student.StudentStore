@@ -25,7 +25,7 @@
                     "{ 'Accept' : 'application/json' }",
                     ""
                 ],
-                "url": "students"
+                "url": "students/json"
             },
             "designerId": "6e5fa777-2c73-497e-953f-2eae00114fec",
             "cn": [
