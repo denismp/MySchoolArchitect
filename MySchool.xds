@@ -13,7 +13,7 @@
         "lineEnding": "LF",
         "genTimestamps": false,
         "cacheBust": false,
-        "buildShouldOverwriteIndex": false,
+        "buildShouldOverwriteIndex": true,
         "canvasControls": {
             "viewportSize": {
                 "name": "Auto Expand",
@@ -36,7 +36,8 @@
         "displayfield-ExtBox1-1537-inputEl": "Not Installed",
         "displayfield-ExtBox1-1275-inputEl": "Not Installed",
         "displayfield-ExtBox1-1330-inputEl": "Not Installed",
-        "displayfield-ExtBox1-1380-inputEl": "Not Installed"
+        "displayfield-ExtBox1-1380-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1834-inputEl": "Not Installed"
     },
     "xdsVersion": "3.0.4",
     "xdsBuild": 1386,
@@ -142,7 +143,9 @@
             "d05f130f-9740-43c5-b85b-8a8841b20d29",
             "e8a0462f-9c2c-405a-9253-cefaecb34ce4",
             "371780ed-f1d3-41b8-b9a2-43621ba52035",
-            "e1844f11-b765-4d7f-9351-fd331705bd23"
+            "e1844f11-b765-4d7f-9351-fd331705bd23",
+            "6d5f0145-0dc5-4d77-af50-62fc3d384d4e",
+            "dd453643-33de-47d0-9dfe-fba8fd9275dc"
         ],
         "store": [
             "dd4c2f23-5978-4a8e-a8ad-ceca3b4a5b04",

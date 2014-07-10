@@ -743,6 +743,60 @@
                 "scope": "me"
             },
             "designerId": "365e3138-6caf-42d6-afb4-594d82acf4f0"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "studentpasswordtool",
+                "selector": "#studentpasswordtool"
+            },
+            "designerId": "57da1c08-f706-4f99-94d8-179ab6c7683e"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#studentpasswordtool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onStudentpasswordtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "var studentStore\t\t\t\t= Ext.getStore('student.StudentStore');",
+                    "//var facultyStore\t\t\t\t= Ext.getStore('faculty.FacultyTableStore');",
+                    "//var subjectStore\t\t\t\t= Ext.getStore('subject.SubjectStore');",
+                    "//var commonQuarterSubjectStore\t= Ext.getStore( 'common.QuarterSubjectStore');",
+                    "//var commonMonthStore\t\t\t= Ext.getStore('common.MonthStore');",
+                    "",
+                    "//var studentRecord\t= studentStore.getAt(0);",
+                    "//var studentId\t\t= studentRecord.get( 'id' );",
+                    "//var studentName\t\t= studentRecord.get( 'userName' );",
+                    "",
+                    "var newDialog = Ext.create( 'MySchool.view.student.PasswordDialog' );",
+                    "",
+                    "//newDialog.down('#studentid').setValue( studentId );",
+                    "//newDialog.down('#studentname').setValue( studentName );",
+                    "",
+                    "//commonQuarterSubjectStore.myLoad();",
+                    "//commonMonthStore.myLoad();",
+                    "",
+                    "window.console.log( 'Password Dialog' );",
+                    "",
+                    "newDialog.render( Ext.getBody() );",
+                    "newDialog.show();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "64f8d86c-8512-4c02-9b02-542d383dfc70"
         }
     ]
 }

@@ -99,6 +99,16 @@
             "codeClass": null,
             "designerId": "7581b7e2-8568-4b80-bd37-57015dd4a6d3",
             "masterInstanceId": "e1844f11-b765-4d7f-9351-fd331705bd23"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "2ce182d8-ad5f-4b4d-8c35-6e283239dde8",
+            "masterInstanceId": "6d5f0145-0dc5-4d77-af50-62fc3d384d4e"
         }
     ]
 }

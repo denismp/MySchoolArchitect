@@ -6,7 +6,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "autoScroll": true,
         "designer|initialView": true,
         "designer|userClassName": "MainPanel",
         "height": null,
