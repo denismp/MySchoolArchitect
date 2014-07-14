@@ -32,7 +32,8 @@
             "weekly.EvaluationsModel",
             "faculty.ByStudentModel",
             "student.StudentProfileModel",
-            "faculty.FacultyTableModel"
+            "faculty.FacultyTableModel",
+            "student.PasswordModel"
         ],
         "name": "MySchool",
         "stores": [
@@ -53,7 +54,8 @@
             "weekly.EvaluationsRatingsStore",
             "faculty.ByStudentStore",
             "student.StudentProfileStore",
-            "faculty.FacultyTableStore"
+            "faculty.FacultyTableStore",
+            "student.StudentPasswordStore"
         ],
         "views": [
             "MainPanel",
