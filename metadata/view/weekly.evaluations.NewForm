@@ -88,7 +88,7 @@
                         "layout|anchor": "100%",
                         "name": "motivation",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "de58c87b-bcfc-42bd-9280-928d0224d820"
@@ -106,7 +106,7 @@
                         "layout|anchor": "100%",
                         "name": "organization",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "d4cb7988-7803-43ed-b9bf-8d9e0df99856"
@@ -124,7 +124,7 @@
                         "layout|anchor": "100%",
                         "name": "effectiveUseOfStudyTime",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "325ca8e0-7ade-4414-bf90-08c2093fedb5"
@@ -142,7 +142,7 @@
                         "layout|anchor": "100%",
                         "name": "qualityOfWork",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "6d08a658-d153-488a-8462-f48734463690"
@@ -160,7 +160,7 @@
                         "layout|anchor": "100%",
                         "name": "accuracyOfWork",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "ccf014e3-0146-474f-94f1-531027a6eb1a"
@@ -178,7 +178,7 @@
                         "layout|anchor": "100%",
                         "name": "complexityOfWork",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "af05d36a-5801-4449-9de8-9396d43f2ebe"
@@ -196,7 +196,7 @@
                         "layout|anchor": "100%",
                         "name": "growth",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "13d590b2-ba47-4536-99dd-d5f375dad1d7"
@@ -214,7 +214,7 @@
                         "layout|anchor": "100%",
                         "name": "consistency",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "1963068d-acfe-4d9e-8b34-cb996553b94c"

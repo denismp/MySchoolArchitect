@@ -124,7 +124,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "0ff93159-47b2-4f55-be0c-af0c4212c40d"
                 }
@@ -153,7 +153,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "484539ad-437a-47fa-8c24-eb1601df1b9c"
                 }
@@ -182,7 +182,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "4a8a5f21-40f7-48ab-b2ca-83e7db495c79"
                 }
@@ -211,7 +211,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "b7050f8f-2b67-4ce3-b576-1ebc0350afa2"
                 }
@@ -240,7 +240,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "b4ee0575-af1b-4287-a620-5be29759c410"
                 }
@@ -269,7 +269,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "0596caf1-af96-41be-8dbe-8f943101ec06"
                 }

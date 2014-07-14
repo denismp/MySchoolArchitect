@@ -111,7 +111,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "2ff35143-edcf-48d3-922a-65eebf850584"
                 }
@@ -141,7 +141,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "1c8ceb43-8524-48c6-878f-96a7758081c8"
                 }
@@ -171,7 +171,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "97be322a-c4ce-48b2-afb0-a0e5cf6e8b7b"
                 }
@@ -201,7 +201,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "64a5fa8a-5814-4d95-9b98-518af41dc1d1"
                 }
@@ -231,7 +231,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "24841536-71c1-4aa0-8f97-cc825e956a2f"
                 }
@@ -261,7 +261,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "67b139e1-f9d4-45e6-a47f-74d5a204b0f7"
                 }
@@ -291,7 +291,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "5e95b65a-6d6b-4031-8cec-d72f8d17ec17"
                 }
@@ -321,7 +321,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "maxValue": 10,
-                        "minValue": 6
+                        "minValue": 5
                     },
                     "designerId": "894ce6f5-4b3f-4f71-89af-b6f24a766389"
                 }

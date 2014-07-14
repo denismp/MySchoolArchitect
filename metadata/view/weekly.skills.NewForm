@@ -88,7 +88,7 @@
                         "layout|anchor": "100%",
                         "name": "remembering",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "15fea535-dc73-48bc-a715-ac29ce91470e"
@@ -106,7 +106,8 @@
                         "layout|anchor": "100%",
                         "name": "understanding",
                         "value": [
-                            "6"
+                            "5",
+                            ""
                         ]
                     },
                     "designerId": "46659169-2e20-40d7-bcdc-c69827490cd1"
@@ -124,7 +125,7 @@
                         "layout|anchor": "100%",
                         "name": "applying",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "4986ec2a-afd1-4fc2-b3ef-19ccc298e6ee"
@@ -142,7 +143,7 @@
                         "layout|anchor": "100%",
                         "name": "analyzing",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "9e9ed79d-0b58-4d70-b8c6-aa048005c2a9"
@@ -160,7 +161,7 @@
                         "layout|anchor": "100%",
                         "name": "evaluating",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "c5811d80-39df-463e-a507-f44841065687"
@@ -178,7 +179,7 @@
                         "layout|anchor": "100%",
                         "name": "creating",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "b5aedc9d-518b-4769-b8a7-5b9ec8ef05b4"
