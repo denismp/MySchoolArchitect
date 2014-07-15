@@ -71,7 +71,7 @@
                         "layout|anchor": "100%",
                         "name": "accuratelyIdCorrections",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "10517e0c-3bf1-45dd-b05a-4d16971ec93d"
@@ -89,7 +89,7 @@
                         "layout|anchor": "100%",
                         "name": "completingCourseObjectives",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "d5dc8cb3-9655-4397-b277-323b37f4b558"
@@ -107,7 +107,7 @@
                         "layout|anchor": "100%",
                         "name": "criticalThinkingSkills",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "22f4bc1e-43bf-4a0b-9d46-f3cdaec93d7c"
@@ -125,7 +125,7 @@
                         "layout|anchor": "100%",
                         "name": "effectiveCorrectionActions",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "28e81024-bbda-4897-b95a-dcd18c191a79"
@@ -143,7 +143,7 @@
                         "layout|anchor": "100%",
                         "name": "levelOfDifficulty",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "e69f1503-9bc5-45a9-800a-9f0127eba08b"
@@ -161,7 +161,7 @@
                         "layout|anchor": "100%",
                         "name": "responsibilityOfProgress",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "fcb0e937-7771-444d-8d84-d0c178e070dd"
@@ -179,7 +179,7 @@
                         "layout|anchor": "100%",
                         "name": "thoughtfulnessOfReflections",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "82ebb77d-0f88-4c25-9324-1c61058e2379"
@@ -197,7 +197,7 @@
                         "layout|anchor": "100%",
                         "name": "workingEffectivelyWithAdvisor",
                         "value": [
-                            "6"
+                            "5"
                         ]
                     },
                     "designerId": "ab7b4e75-e651-4897-8cb7-1621f8bf2018"
