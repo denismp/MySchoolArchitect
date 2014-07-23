@@ -96,6 +96,19 @@
             },
             "codeClass": null,
             "userConfig": {
+                "name": "facultyUserName",
+                "type": "string"
+            },
+            "designerId": "03021a2b-fbfc-44ac-9473-d229c5a9c0ad"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "subjName",
                 "type": "string"
             },

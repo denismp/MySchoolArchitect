@@ -238,9 +238,22 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentName",
-                "text": "UserName"
+                "text": "StudentUser"
             },
             "designerId": "11c3ec9f-bef6-4bc1-abf5-7ab926d6cece"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "facultyUserName",
+                "text": "FacultyUser"
+            },
+            "designerId": "9617c504-9468-473f-aab6-91f998f207f7"
         },
         {
             "type": "Ext.grid.column.Column",
@@ -281,6 +294,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrGradeType",
+                "hidden": true,
                 "text": "GradeType"
             },
             "designerId": "96f959d1-f5c2-4e1b-9d6a-30580f362d95",

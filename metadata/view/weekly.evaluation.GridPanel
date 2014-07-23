@@ -453,6 +453,19 @@
             "designerId": "9a0fd64c-34ff-4108-b741-c679af2b9048"
         },
         {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "facultyUserName",
+                "text": "facultyUserName"
+            },
+            "designerId": "3b48e174-ea7d-4ad5-8e9e-c507bccdcb91"
+        },
+        {
             "type": "Ext.grid.column.Date",
             "reference": {
                 "name": "columns",

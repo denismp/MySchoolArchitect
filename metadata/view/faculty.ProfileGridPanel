@@ -118,7 +118,6 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyUserName",
-                "hidden": true,
                 "text": "facultyUserName"
             },
             "designerId": "7b8bc30d-e7b1-4cbe-8af5-8a8ebf35c789"

@@ -173,6 +173,19 @@
             },
             "codeClass": null,
             "userConfig": {
+                "dataIndex": "facultyUserName",
+                "text": "Faculty Name"
+            },
+            "designerId": "f0980262-cb41-49c2-a9d9-dde596dae18c"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "dataIndex": "whoUpdated",
                 "flex": null,
                 "text": "whoUpdated"
