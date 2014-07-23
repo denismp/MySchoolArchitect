@@ -40,6 +40,36 @@
                         "root": "data"
                     },
                     "designerId": "5d9b48c8-2a69-412e-87e5-72e7703bb574"
+                },
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onRestException",
+                        "implHandler": [
+                            "//debugger;",
+                            "var smsg = response.request.options.method + '<br>' + response.request.options.action + '<br>' + response.responseText + '<br>' + response.status + '<br>' + response.statusText + '<br>' + operation.params.data;",
+                            "Ext.MessageBox.show({",
+                            "    title: 'REMOTE EXCEPTION',",
+                            "    msg: smsg,",
+                            "    icon: Ext.MessageBox.ERROR,",
+                            "    buttons: Ext.Msg.OK,",
+                            "    resizeable: true",
+                            "});",
+                            "window.console.log( smsg );",
+                            "if( this.getCount() > 0 )",
+                            "{",
+                            "    this.reload();",
+                            "}"
+                        ],
+                        "name": "exception",
+                        "scope": "me"
+                    },
+                    "designerId": "ce58c174-4e9e-4db7-a9c0-ff849a691d32"
                 }
             ]
         },
@@ -53,6 +83,7 @@
             "userConfig": {
                 "fn": "onJsonstoreWrite",
                 "implHandler": [
+                    "debugger;",
                     "window.console.log( \"BodiesOfWorkStore reload...\");",
                     "store.reload();"
                 ],
@@ -78,6 +109,24 @@
                 "scope": "me"
             },
             "designerId": "1f5afa6a-d84a-46e8-89bf-3d8f71f85371"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onJsonstoreAdd",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"BodiesOfWorkStore add...\");"
+                ],
+                "name": "add",
+                "scope": "me"
+            },
+            "designerId": "808bb43b-6185-4491-af43-53fc3fd0c6c1"
         }
     ]
 }

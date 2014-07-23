@@ -33,7 +33,8 @@
             "faculty.ByStudentModel",
             "student.StudentProfileModel",
             "faculty.FacultyTableModel",
-            "student.PasswordModel"
+            "student.PasswordModel",
+            "security.SecurityModel"
         ],
         "name": "MySchool",
         "stores": [
@@ -55,7 +56,8 @@
             "faculty.ByStudentStore",
             "student.StudentProfileStore",
             "faculty.FacultyTableStore",
-            "student.StudentPasswordStore"
+            "student.StudentPasswordStore",
+            "security.SecurityStore"
         ],
         "views": [
             "MainPanel",

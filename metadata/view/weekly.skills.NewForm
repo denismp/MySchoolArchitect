@@ -33,6 +33,23 @@
             "designerId": "c4d71b27-0cee-452f-9491-2d5270b5fbb4",
             "cn": [
                 {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "fieldLabel": "Student User Name",
+                        "itemId": "skills-studentname",
+                        "layout|anchor": "100%",
+                        "name": "studentUserName",
+                        "readOnly": true
+                    },
+                    "designerId": "36b56f5b-c4a2-41eb-b398-27bcce130557"
+                },
+                {
                     "type": "linkedinstance",
                     "reference": {
                         "name": "items",
@@ -201,21 +218,6 @@
                         ]
                     },
                     "designerId": "1752dd60-f7ce-4f9f-9bb2-aab1fe3b040c"
-                },
-                {
-                    "type": "Ext.form.field.Hidden",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "fieldLabel": "studentname",
-                        "itemId": "skills-studentname",
-                        "layout|anchor": "100%",
-                        "name": "studentUserName"
-                    },
-                    "designerId": "36b56f5b-c4a2-41eb-b398-27bcce130557"
                 },
                 {
                     "type": "Ext.form.field.Hidden",

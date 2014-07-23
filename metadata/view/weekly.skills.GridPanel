@@ -284,6 +284,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "locked",
+                "hidden": true,
                 "text": "Locked?"
             },
             "designerId": "0e95a67a-1fc9-4380-a9fd-f0651a05214b",
@@ -354,6 +355,7 @@
             "userConfig": {
                 "dataIndex": "version",
                 "format": "000000",
+                "hidden": true,
                 "text": "version"
             },
             "designerId": "9a72aa2b-6691-4126-a0ab-7f373f88a9d2"
@@ -397,7 +399,6 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "hidden": true,
                 "text": "studentUserName"
             },
             "designerId": "46d25752-e6c2-4020-b2c8-a8550ef7dcf6"

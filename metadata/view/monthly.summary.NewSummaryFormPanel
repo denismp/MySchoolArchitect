@@ -33,6 +33,22 @@
             "designerId": "033ee53b-a574-497b-bb61-24fad7ca68a9",
             "cn": [
                 {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "studentname",
+                        "itemId": "newmonthlysummary-studentname",
+                        "layout|anchor": "100%",
+                        "name": "studentname",
+                        "readOnly": true
+                    },
+                    "designerId": "076a9241-a389-4ec8-b39f-2022a12d917b"
+                },
+                {
                     "type": "linkedinstance",
                     "reference": {
                         "name": "items",
@@ -231,21 +247,6 @@
                         "name": "quarterId"
                     },
                     "designerId": "8fa0d29c-aea6-4cd1-9aa4-9066836cd13a"
-                },
-                {
-                    "type": "Ext.form.field.Hidden",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "fieldLabel": "studentname",
-                        "itemId": "newmonthlysummary-studentname",
-                        "layout|anchor": "100%",
-                        "name": "studentname"
-                    },
-                    "designerId": "076a9241-a389-4ec8-b39f-2022a12d917b"
                 },
                 {
                     "type": "Ext.form.field.Hidden",

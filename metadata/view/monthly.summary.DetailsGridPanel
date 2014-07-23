@@ -123,6 +123,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "locked",
+                "hidden": true,
                 "text": "Locked?"
             },
             "designerId": "37278d86-1dc7-485c-a171-83c75fe3aa44",
@@ -175,6 +176,7 @@
             "userConfig": {
                 "dataIndex": "version",
                 "format": "000000",
+                "hidden": true,
                 "text": "version"
             },
             "designerId": "78f092e2-f000-448f-898f-a2905e7921f8"

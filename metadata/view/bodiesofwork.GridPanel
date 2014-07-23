@@ -121,6 +121,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "locked",
+                "hidden": true,
                 "text": "Locked?"
             },
             "designerId": "0912e35a-e682-43ab-820f-2fcd56e2852b",
@@ -160,7 +161,6 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "hidden": true,
                 "text": "Student Name"
             },
             "designerId": "16c94f7d-baa4-436f-aa27-7b4c92b96df7"

@@ -323,6 +323,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "locked",
+                "hidden": true,
                 "menuText": "false",
                 "text": "Locked?"
             },
@@ -421,6 +422,7 @@
             "userConfig": {
                 "dataIndex": "version",
                 "format": "000000",
+                "hidden": true,
                 "text": "version"
             },
             "designerId": "f274a00a-7556-4ee9-a0d0-e3c7d3037168"
@@ -446,7 +448,6 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "hidden": true,
                 "text": "studentUserName"
             },
             "designerId": "9a0fd64c-34ff-4108-b741-c679af2b9048"

@@ -145,6 +145,7 @@
             "userConfig": {
                 "dataIndex": "qtrLastUpdated",
                 "format": "m/d/Y",
+                "hidden": true,
                 "text": "Date"
             },
             "designerId": "00e18179-73c1-41db-8607-28a2e5f32442"
@@ -159,6 +160,7 @@
             "userConfig": {
                 "cls": null,
                 "dataIndex": "qtrCompleted",
+                "hidden": true,
                 "text": "Complete?"
             },
             "designerId": "9671afa8-1ac5-4e16-80cf-02095ee4ee5f",
@@ -236,7 +238,6 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentName",
-                "hidden": true,
                 "text": "UserName"
             },
             "designerId": "11c3ec9f-bef6-4bc1-abf5-7ab926d6cece"
@@ -250,6 +251,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrGrade",
+                "hidden": true,
                 "text": "Grade"
             },
             "designerId": "67f7eae4-a5ff-4d59-933f-1f0e2dbe0052",
@@ -279,7 +281,6 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrGradeType",
-                "hidden": true,
                 "text": "GradeType"
             },
             "designerId": "96f959d1-f5c2-4e1b-9d6a-30580f362d95",

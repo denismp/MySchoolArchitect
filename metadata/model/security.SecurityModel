@@ -1,0 +1,66 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "security.SecurityModel"
+    },
+    "designerId": "e7937816-536f-47d7-aa23-b0c337082b5e",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "type": null
+            },
+            "designerId": "ec763c9b-f1ab-425c-a78c-72dfa01ffe7d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "userName",
+                "type": "string"
+            },
+            "designerId": "dc1056d1-8a83-4921-b139-952524c4a611"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "userRole",
+                "type": "string"
+            },
+            "designerId": "774a0c72-7b91-453b-a58d-07cc7760e9b2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "version",
+                "type": "int"
+            },
+            "designerId": "c5b4ef68-2501-423f-b98d-86d756449fb7"
+        }
+    ]
+}

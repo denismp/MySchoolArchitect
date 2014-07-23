@@ -33,6 +33,22 @@
             "designerId": "ff03d98f-40c9-49c4-9d42-40ef1968f7a8",
             "cn": [
                 {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "studentname",
+                        "itemId": "evaluation-studentname",
+                        "layout|anchor": "100%",
+                        "name": "studentUserName",
+                        "readOnly": true
+                    },
+                    "designerId": "0ef61121-6169-4703-85d4-01070992aa67"
+                },
+                {
                     "type": "linkedinstance",
                     "reference": {
                         "name": "items",
@@ -236,21 +252,6 @@
                         ]
                     },
                     "designerId": "afd035bd-7feb-44ba-97e5-39d6cc7c066d"
-                },
-                {
-                    "type": "Ext.form.field.Hidden",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "fieldLabel": "studentname",
-                        "itemId": "evaluation-studentname",
-                        "layout|anchor": "100%",
-                        "name": "studentUserName"
-                    },
-                    "designerId": "0ef61121-6169-4703-85d4-01070992aa67"
                 },
                 {
                     "type": "Ext.form.field.Hidden",

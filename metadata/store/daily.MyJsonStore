@@ -101,7 +101,7 @@
             "userConfig": {
                 "fn": "onJsonstoreWrite",
                 "implHandler": [
-                    "//debugger;",
+                    "debugger;",
                     "console.log(\"daily.MyJsonStore.onJsonstoreWrite(): called...\");",
                     "store.reload();"
                 ],

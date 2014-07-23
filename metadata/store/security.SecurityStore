@@ -1,0 +1,61 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "designer|userClassName": "security.SecurityStore",
+        "model": "security.SecurityModel",
+        "storeId": "security.SecurityStore"
+    },
+    "designerId": "3bc3c9df-5bff-4a9e-8300-95d11bd4e999",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Rest",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "headers": [
+                    "{ 'Accept' : 'application/json' }",
+                    ""
+                ],
+                "url": "securityviews/json"
+            },
+            "designerId": "1b537300-9e6d-4760-8d34-9b8765eaf8aa",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "designerId": "6d8c1c8b-38b1-4a2f-8920-53915d7aff6e"
+                },
+                {
+                    "type": "Ext.data.writer.Json",
+                    "reference": {
+                        "name": "writer",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dateFormat": "m/d/Y",
+                        "encode": true,
+                        "root": "data"
+                    },
+                    "designerId": "9f6d29d0-4920-4d11-ae75-8c456ae26abc"
+                }
+            ]
+        }
+    ]
+}
