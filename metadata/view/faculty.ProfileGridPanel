@@ -145,7 +145,6 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "hidden": true,
                 "text": "studentUserName"
             },
             "designerId": "ee2fbb77-e12c-448a-aec6-6c6230bb0dd4"
@@ -185,6 +184,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "enabled",
+                "hidden": true,
                 "itemId": "facultyprofilegridpanelenabled",
                 "text": "Enabled?"
             },
@@ -200,6 +200,7 @@
             "userConfig": {
                 "dataIndex": "version",
                 "format": "000000",
+                "hidden": true,
                 "text": "version"
             },
             "designerId": "e4e6023a-9d14-47cb-9589-dcfc9054bb85"
@@ -227,6 +228,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "lastUpdated",
+                "hidden": true,
                 "text": "lastUpdated"
             },
             "designerId": "42a0aa1f-ca84-4f48-9fb8-be5597a25146"

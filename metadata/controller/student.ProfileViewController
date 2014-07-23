@@ -563,6 +563,7 @@
                 "designer|targetType": "Ext.panel.Tool",
                 "fn": "onStudentprofilenewtoolClick",
                 "implHandler": [
+                    "/*",
                     "debugger;",
                     "var studentStore\t\t\t\t= Ext.getStore('student.StudentStore');",
                     "var facultyStore\t\t\t\t= Ext.getStore('faculty.FacultyTableStore');",
@@ -585,7 +586,8 @@
                     "window.console.log( 'New Student Dialog' );",
                     "",
                     "newDialog.render( Ext.getBody() );",
-                    "newDialog.show();"
+                    "newDialog.show();",
+                    "*/"
                 ],
                 "name": "click",
                 "scope": "me"
