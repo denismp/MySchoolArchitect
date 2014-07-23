@@ -427,7 +427,6 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "whoUpdated",
-                "hidden": true,
                 "text": "whoUpdated"
             },
             "designerId": "365d3e7d-b4dd-4179-95d1-c0dcbeeaf1c0"
