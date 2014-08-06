@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "autoLoad": true,
         "designer|userAlias": "facultytablestore",
         "designer|userClassName": "faculty.FacultyTableStore",
         "model": "faculty.FacultyTableModel",
@@ -24,7 +25,7 @@
                 "headers": [
                     "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "facultys/json"
+                "url": "facultyviews"
             },
             "designerId": "c0d929d1-427c-4a44-9028-6f6092b5281f",
             "cn": [
@@ -85,7 +86,7 @@
                 "fn": "onJsonpstoreLoad",
                 "implHandler": [
                     "//debugger;",
-                    "console.log(\"monthly.EvaluationRatingsStore.onJsonstoreLoad() called...\");"
+                    "console.log(\"monthly.FacultyTableStore.onJsonstoreLoad() called...\");"
                 ],
                 "name": "load",
                 "scope": "me"
@@ -103,7 +104,7 @@
                 "fn": "onJsonpstoreWrite",
                 "implHandler": [
                     "//debugger;",
-                    "console.log(\"monthly.EvaluationRatingsStore.onJsonstoreWrite(): called...\");",
+                    "console.log(\"monthly.FacultyTableStore.onJsonstoreWrite(): called...\");",
                     "store.reload();"
                 ],
                 "name": "write",

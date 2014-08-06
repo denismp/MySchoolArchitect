@@ -10,6 +10,7 @@
         "designer|userAlias": "subjectfacultynamescombobox",
         "designer|userClassName": "subject.FacultyNamesComboBox",
         "displayField": "email",
+        "editable": false,
         "emptyText": "Select one.",
         "fieldLabel": "Faculty",
         "forceSelection": true,

@@ -31,6 +31,19 @@
             },
             "codeClass": null,
             "userConfig": {
+                "name": "facultyviewid",
+                "type": "int"
+            },
+            "designerId": "919600be-7795-4f12-a0c3-2388b13dce58"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "email",
                 "type": "string"
             },

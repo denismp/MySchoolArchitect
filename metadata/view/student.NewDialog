@@ -1,0 +1,306 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "studentnewdialog",
+        "designer|userClassName": "student.NewDialog",
+        "height": 532,
+        "itemId": "studentnewdialog",
+        "title": "New Student",
+        "width": 390
+    },
+    "designerId": "15757665-3f7a-4bd0-a6a2-f0ca624bc83f",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "draggable": true,
+                "frame": true,
+                "height": 499,
+                "itemId": "studentnewform",
+                "title": null,
+                "width": 378
+            },
+            "designerId": "c81bf827-c3ab-4ab8-9118-78006144ec3f",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 445,
+                        "itemId": "studentnewformfieldset",
+                        "padding": 5,
+                        "title": null
+                    },
+                    "designerId": "482c3471-e3fb-4922-9882-ce0744da4ce4",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|anchor": "100%",
+                                "width": null
+                            },
+                            "designerId": "22cd5a5e-1051-4da3-ba7c-957356f32161",
+                            "masterInstanceId": "5dd35732-eed7-42fa-a4ef-42b8e310916a"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "First Name",
+                                "itemId": "studentnewform_firstname",
+                                "layout|anchor": "100%",
+                                "name": "firstname"
+                            },
+                            "designerId": "fe50db6e-b2df-44bb-9230-9b652e8e9613"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Middle",
+                                "itemId": "studentnewform_middlename",
+                                "layout|anchor": "100%",
+                                "name": "middlename"
+                            },
+                            "designerId": "80b73788-8fcf-4dc3-af2e-c11e692ec650"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Last Name",
+                                "itemId": "studentnewform_lastname",
+                                "layout|anchor": "100%",
+                                "name": "lastname"
+                            },
+                            "designerId": "ababaf1c-f87d-4bb3-8c76-71a147820fdc"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Phone1",
+                                "itemId": "studentnewform_phone1",
+                                "layout|anchor": "100%",
+                                "name": "phone1"
+                            },
+                            "designerId": "fe7e8395-2564-4d24-8104-d76c259ce816"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Phone2",
+                                "itemId": "studentnewform_phone2",
+                                "layout|anchor": "100%",
+                                "name": "phone2"
+                            },
+                            "designerId": "c0029962-7234-4135-895f-c344537f1f24"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Address1",
+                                "itemId": "studentnewform_address1",
+                                "layout|anchor": "100%",
+                                "name": "address1"
+                            },
+                            "designerId": "d81db76f-48e7-45d6-9839-5bc69c53e5b0"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Address2",
+                                "itemId": "studentnewform_address2",
+                                "layout|anchor": "100%",
+                                "name": "address2"
+                            },
+                            "designerId": "8a2eff0e-5446-4ae8-b29d-15f02d0d5fd5"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "City",
+                                "itemId": "studentnewform_city",
+                                "layout|anchor": "100%",
+                                "name": "city"
+                            },
+                            "designerId": "e8097d18-c585-45ba-b341-ada0c842b4b3"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "State/Province",
+                                "itemId": "studentnewform_state",
+                                "layout|anchor": "100%",
+                                "name": "state"
+                            },
+                            "designerId": "4c3cb28a-4eb9-489d-81a7-6f98f6e2cec7"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Postal Code",
+                                "itemId": "studentnewform_postalcode",
+                                "layout|anchor": "100%",
+                                "name": "postalcode"
+                            },
+                            "designerId": "4223f8c0-2e91-49e3-a8da-43915d3dba65"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Country",
+                                "itemId": "studentnewform_country",
+                                "layout|anchor": "100%",
+                                "name": "country"
+                            },
+                            "designerId": "ba3515d3-7a49-4cde-b6a7-16ad923be9f7"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Email",
+                                "itemId": "studentnewform_email",
+                                "layout|anchor": "100%",
+                                "name": "email"
+                            },
+                            "designerId": "6a00ac08-f7fc-47b2-86ad-0018469ef436"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "User Name",
+                                "itemId": "studentnewform_username",
+                                "layout|anchor": "100%",
+                                "name": "username"
+                            },
+                            "designerId": "a1ab4c9b-750a-4a23-898e-3f46b9fd3eec"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Password",
+                                "itemId": "studentnewform_password",
+                                "layout|anchor": "100%",
+                                "name": "password"
+                            },
+                            "designerId": "854245c2-2bf4-4e29-91b6-f60eaacefc4f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "studentcancel",
+                        "text": "Cancel"
+                    },
+                    "designerId": "ec2aa1cf-4971-423e-9a14-e4fda5ac046f"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "studentsubmit",
+                        "text": "Submit"
+                    },
+                    "designerId": "36ba52a1-60be-481e-8093-8318315f3974"
+                }
+            ]
+        }
+    ]
+}

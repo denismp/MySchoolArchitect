@@ -203,7 +203,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "editable": false,
                         "layout|anchor": "100%"
                     },
                     "designerId": "8655334e-bb23-45e3-abed-ac081af4d5ad",

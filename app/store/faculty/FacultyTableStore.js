@@ -27,11 +27,12 @@ Ext.define('MySchool.store.faculty.FacultyTableStore', {
 		var me = this;
 		cfg = cfg || {};
 		me.callParent([Ext.apply({
+			autoLoad: true,
 			model: 'MySchool.model.faculty.FacultyTableModel',
 			storeId: 'faculty.FacultyTableStore',
 			proxy: {
 				type: 'rest',
-				url: 'facultys/json',
+				url: 'facultyviews',
 				headers: {
 					Accept: 'application/json'
 				},
@@ -80,12 +81,12 @@ Ext.define('MySchool.store.faculty.FacultyTableStore', {
 
 	onJsonpstoreLoad: function(store, records, successful, eOpts) {
 		//debugger;
-		console.log("monthly.EvaluationRatingsStore.onJsonstoreLoad() called...");
+		console.log("monthly.FacultyTableStore.onJsonstoreLoad() called...");
 	},
 
 	onJsonpstoreWrite: function(store, operation, eOpts) {
 		//debugger;
-		console.log("monthly.EvaluationRatingsStore.onJsonstoreWrite(): called...");
+		console.log("monthly.FacultyTableStore.onJsonstoreWrite(): called...");
 		store.reload();
 	}
 
