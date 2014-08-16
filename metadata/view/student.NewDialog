@@ -8,7 +8,7 @@
     "userConfig": {
         "designer|userAlias": "studentnewdialog",
         "designer|userClassName": "student.NewDialog",
-        "height": 532,
+        "height": 548,
         "itemId": "studentnewdialog",
         "title": "New Student",
         "width": 390
@@ -26,7 +26,7 @@
                 "bodyPadding": 10,
                 "draggable": true,
                 "frame": true,
-                "height": 499,
+                "height": 508,
                 "itemId": "studentnewform",
                 "title": null,
                 "width": 378
