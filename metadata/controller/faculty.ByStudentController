@@ -420,6 +420,7 @@
                 "designer|targetType": "Ext.panel.Tool",
                 "fn": "onFacultyprofilenewtoolClick",
                 "implHandler": [
+                    "/*",
                     "debugger;",
                     "var studentStore\t\t\t\t= Ext.getStore('student.StudentStore');",
                     "var subjectStore\t\t\t\t= Ext.getStore('subject.SubjectStore');",
@@ -441,7 +442,8 @@
                     "window.console.log( 'New Faculty By Student Dialog' );",
                     "",
                     "newDialog.render( Ext.getBody() );",
-                    "newDialog.show();"
+                    "newDialog.show();",
+                    "*/"
                 ],
                 "name": "click",
                 "scope": "me"
@@ -581,7 +583,7 @@
                     "\t\tcallback: this.onMyJsonStoreLoad,",
                     "\t\tstudentName: this.userName,",
                     "\t\tscope: this",
-                    "\t});\t",
+                    "\t});",
                     "}",
                     "//grid.getSelectionModel().select( 0 );",
                     "//tablepanel.getSelectionModel().select( 0 );"

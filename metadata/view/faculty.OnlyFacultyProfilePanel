@@ -1,0 +1,215 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "facultyonlyfacultyprofilepanel",
+        "designer|userClassName": "faculty.OnlyFacultyProfilePanel",
+        "itemId": "facultyonlyprofilepanel",
+        "layout": "fit",
+        "title": "Faculty Profiles Details"
+    },
+    "designerId": "b7ea4af6-425b-4954-a2a7-d2ea8cc375c5",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top"
+            },
+            "designerId": "2471e544-4094-499c-a718-72a6434f0ca5",
+            "masterInstanceId": "89923cf6-f0e9-4d24-8697-c51880828783"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "bottom"
+            },
+            "designerId": "ae107088-a41a-4962-b473-fa39dffc181c",
+            "masterInstanceId": "6e49116b-c01f-4267-a1cc-04cbb3eeb1a2"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfacultyrefreshtool",
+                "type": "refresh"
+            },
+            "designerId": "830d266f-03ad-493e-b82e-c68a9149e434"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfacultysearchtool",
+                "type": "search"
+            },
+            "designerId": "d37ed3a1-3be4-484a-b878-ef326b816850",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onOnlyfacultysearchtoolClick",
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "98c45c86-0c14-4fe8-8a47-a69869c23ca7"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfacultynewtool",
+                "type": "plus"
+            },
+            "designerId": "37eeed93-b50c-4904-ad03-4c6a2e8ab658"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfacultysavetool",
+                "type": "save"
+            },
+            "designerId": "df499142-360f-465d-8615-767a7f1f7f4d",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onOnlyfacultysavetoolClick",
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "4dd17192-25c1-4b0a-b8f0-feb10b8ac0cb"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfacultydeletetool",
+                "type": "minus"
+            },
+            "designerId": "768eddaf-2ac5-47d5-b860-44b57a68b008",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onOnlyfacultydeletetoolClick",
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "c2275d5c-6628-4bcd-8474-1f9193597626"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfacultylocktool",
+                "type": "pin"
+            },
+            "designerId": "ad2d928c-9ce2-4d8e-88c2-4f150de4b22e",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onOnlyfacultylocktoolClick",
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "05a0a22b-bedf-4ae2-8acc-018e5f6ad2d1"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfacultylpasswordtool",
+                "type": "gear"
+            },
+            "designerId": "9b4c8c68-1845-4e51-9396-14f561ff5d8b",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onOnlyfacultylpasswordtoolClick",
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "6d4181fd-bbd7-4675-89b9-1fab1f62a816"
+                }
+            ]
+        }
+    ]
+}

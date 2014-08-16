@@ -15,7 +15,8 @@
             "weekly.EvaluationsController",
             "monthly.EvaluationRatingsController",
             "faculty.ByStudentController",
-            "student.ProfileViewController"
+            "student.ProfileViewController",
+            "faculty.OnlyFacultyProfileViewController"
         ],
         "models": [
             "subject.SubjectsModel",
@@ -158,7 +159,11 @@
             "subject.FacultyNamesComboBox",
             "student.PasswordTool",
             "student.PasswordDialog",
-            "student.NewDialog"
+            "student.NewDialog",
+            "faculty.OnlyFacultyProfilePanel",
+            "faculty.ProfileGridFacultyOnlyPanel",
+            "faculty.FacultyOnlyProfileForm",
+            "faculty.NewDialog"
         ]
     },
     "designerId": "application"

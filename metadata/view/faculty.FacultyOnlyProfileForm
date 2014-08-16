@@ -1,0 +1,254 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoScroll": true,
+        "bodyPadding": 10,
+        "collapseFirst": false,
+        "designer|userAlias": "facultyfacultyonlyprofileform",
+        "designer|userClassName": "faculty.FacultyOnlyProfileForm",
+        "frameHeader": false,
+        "height": null,
+        "id": null,
+        "itemId": "facultyonlyprofileform",
+        "layout": null,
+        "maxHeight": 450,
+        "minHeight": 450,
+        "title": "Faculty Profile Form"
+    },
+    "designerId": "6e49116b-c01f-4267-a1cc-04cbb3eeb1a2",
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "First Name",
+                "id": null,
+                "itemId": "faculty-firstname",
+                "name": "firstName",
+                "width": 300
+            },
+            "designerId": "567efc95-5516-49b0-a9ea-1bf73a2f71ff"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Middle Name",
+                "id": null,
+                "itemId": "faculty-middlename",
+                "name": "middleName",
+                "width": 300
+            },
+            "designerId": "04ccc71b-78af-4e2a-bb48-c1e65d881310"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Last Name",
+                "id": null,
+                "itemId": "faculty-lastname",
+                "name": "lastName",
+                "width": 300
+            },
+            "designerId": "82ddb104-dcf0-4fc0-8c9e-fa806b83d4b2"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Phone1",
+                "id": null,
+                "itemId": "faculty-phone1",
+                "name": "phone1"
+            },
+            "designerId": "0370c2a9-2bc1-4ff2-b4eb-2ca15783600d"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Phone2",
+                "id": null,
+                "itemId": "faculty-phone2",
+                "name": "phone2"
+            },
+            "designerId": "31c23012-dd38-4b7a-979b-fb1540a08112"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Address1",
+                "id": null,
+                "itemId": "faculty-address1",
+                "name": "address1",
+                "width": 300
+            },
+            "designerId": "e90b490c-be8a-4f52-853a-d02509c21fbf"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Address2",
+                "id": null,
+                "itemId": "faculty-address2",
+                "name": "address2",
+                "width": 300
+            },
+            "designerId": "4182d3a7-cbcc-4387-a101-92310c23571d"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "City",
+                "id": null,
+                "itemId": "faculty-city",
+                "name": "city",
+                "width": 300
+            },
+            "designerId": "c5c9aae4-e967-40c4-998a-3ca8823e0f6f"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Province/State",
+                "id": null,
+                "itemId": "faculty-province",
+                "name": "province",
+                "width": 300
+            },
+            "designerId": "6353df28-cd8a-41f1-b6cc-129b01defec9"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Postal Code",
+                "itemId": "faculty-postalcode",
+                "name": "postalCode"
+            },
+            "designerId": "c1b1c40c-40f5-4a14-bec3-8a29cab1481d"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Country",
+                "id": null,
+                "itemId": "faculty-country",
+                "name": "country"
+            },
+            "designerId": "0c71f4d3-e0d2-48fb-a672-be1566193efa"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Email",
+                "id": null,
+                "itemId": "faculty-email",
+                "name": "email",
+                "width": 300
+            },
+            "designerId": "da91da3a-9dd1-40d9-a7c5-10e5528d84c7"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfacultyprofileformeditbutton",
+                "text": "Edit"
+            },
+            "designerId": "8295848f-2eeb-4837-ae5c-7e8ba8e1ae42"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "disabled": true,
+                "itemId": "onlyfacultyprofileformcanelbutton",
+                "text": "Cancel"
+            },
+            "designerId": "f808ddb4-8b08-41df-be50-f87b7ed5d8f8"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "disabled": true,
+                "itemId": "onlyfacultyprofileformsavebutton",
+                "text": "Save"
+            },
+            "designerId": "24f6b46b-c706-4e10-877e-17544242410a"
+        }
+    ]
+}

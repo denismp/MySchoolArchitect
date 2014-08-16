@@ -1,0 +1,560 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "faculty.OnlyFacultyProfileViewController"
+    },
+    "designerId": "785abbaf-cc45-4547-bdb9-c49f92523e95",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "OnlyFacultyForm",
+                "selector": "#facultyonlyprofileform"
+            },
+            "designerId": "2ae1ab86-e835-42ec-a874-62e6ae8d1a02"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "OnlyFacultyGridPanel",
+                "selector": "#facultyonlygridpanel"
+            },
+            "designerId": "a51f29db-32d7-464c-a431-fab7d6256aa9"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "form",
+                    "selected"
+                ],
+                "fn": "loadForm",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "console.log( form );",
+                    "",
+                    "form.loadRecord( selected[0] );",
+                    "",
+                    "var myFields = form.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "    myFields.items[i].disable();",
+                    "}",
+                    "console.log('faculty.OnlyFacultyProfileViewController.loadForm(): completed');"
+                ]
+            },
+            "designerId": "3297f237-5c91-4115-98e1-3793969b678b"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMyJsonStoreLoad",
+                "implHandler": [
+                    "//debugger;",
+                    "//var g_ = Ext.ComponentQuery.query(\"#monthlysummarygridpanel\")[0];",
+                    "var g_ = this.getOnlyFacultyGridPanel();",
+                    "",
+                    "if (g_.getStore().getCount() > 0) {",
+                    "    g_.getSelectionModel().deselectAll();",
+                    "    g_.getSelectionModel().select( 0 );",
+                    "}",
+                    "",
+                    "this.gridViewReady = true;"
+                ]
+            },
+            "designerId": "66ffd2c4-2ac1-47f8-b2f3-7acd5941b1b9"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultyonlygridpanel",
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onFacultyonlygridpanelSelectionChange",
+                "implHandler": [
+                    "debugger;",
+                    "// in the onMyJsonStoreLoad we do a deselect so we need to test",
+                    "// if selected[0] has a value",
+                    "if ( Ext.isDefined( selected  ) && Ext.isDefined( selected[0]  )) {",
+                    "    var myForm = this.getOnlyFacultyForm();",
+                    "",
+                    "    this.loadForm( myForm, selected );",
+                    "",
+                    "",
+                    "    console.log('onFacultyonlygridpanelSelectionChange()');",
+                    "}"
+                ],
+                "name": "selectionchange",
+                "scope": "me"
+            },
+            "designerId": "03822e56-b9d8-4509-aed5-9689a3e9c4a8"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultyonlygridpanel",
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onFacultyonlygridpanelViewReady",
+                "implHandler": [
+                    "debugger;",
+                    "console.log('onFacultyprofilerefreshtoolClick()');",
+                    "var myStore = Ext.getStore('faculty.FacultyTableStore');",
+                    "",
+                    "var securityStore = Ext.getStore('security.SecurityStore');",
+                    "var securityRecord = securityStore.getAt(0);",
+                    "this.userName = securityRecord.get('userName');",
+                    "this.userRole = securityRecord.get('userRole');",
+                    "var title;",
+                    "var myGrid = this.getOnlyFacultyGridPanel();",
+                    "",
+                    "",
+                    "if( this.userRole === 'ROLE_FACULTY')",
+                    "{",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}",
+                    "else",
+                    "{",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this",
+                    "\t});",
+                    "}",
+                    ""
+                ],
+                "name": "viewready",
+                "scope": "me"
+            },
+            "designerId": "91500d39-f891-4ee8-bd6f-17fb5547d217"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyfacultyrefreshtool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onOnlyfacultyrefreshtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "console.log('onFacultyprofilerefreshtoolClick()');",
+                    "var myStore = Ext.getStore('faculty.FacultyTableStore');",
+                    "",
+                    "var securityStore = Ext.getStore('security.SecurityStore');",
+                    "var securityRecord = securityStore.getAt(0);",
+                    "this.userName = securityRecord.get('userName');",
+                    "this.userRole = securityRecord.get('userRole');",
+                    "var title;",
+                    "var myGrid = this.getOnlyFacultyGridPanel();",
+                    "",
+                    "",
+                    "if( this.userRole === 'ROLE_FACULTY')",
+                    "{",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}",
+                    "else",
+                    "{",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this",
+                    "\t});",
+                    "}",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "00fee40c-41d4-422a-b3fb-65f977dc6110"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyfacultynewtool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onOnlyfacultynewtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var facultyStore = Ext.getStore('faculty.FacultyTableStore');",
+                    "",
+                    "if( this.userRole === 'ROLE_ADMIN')",
+                    "{",
+                    "\tvar newDialog = Ext.create( 'MySchool.view.faculty.NewDialog' );",
+                    "",
+                    "\twindow.console.log( 'New Faculty Dialog' );",
+                    "",
+                    "\tnewDialog.render( Ext.getBody() );",
+                    "\tnewDialog.show();",
+                    "}",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "3dc33e6a-2e03-4631-8881-c00bb1a00f87"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultycancel",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onFacultycancelClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Cancel New Faculty\" );",
+                    "var myForm = button.up().getForm();",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "046fbfda-7066-4480-866e-4099ceee332f"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultysubmit",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onFacultysubmitClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Submit New Faculty\" );",
+                    "var myForm\t\t\t\t\t= button.up().getForm();",
+                    "var myPanel\t\t\t\t\t= button.up();",
+                    "var myGrid\t\t\t\t\t= this.getOnlyFacultyGridPanel();",
+                    "",
+                    "//Get the values from the form and insert a new record into the StudentStore.",
+                    "",
+                    "var formValues\t\t\t\t= myForm.getValues();",
+                    "",
+                    "//\tCreate an empty record",
+                    "var myRecord\t= Ext.create('MySchool.model.faculty.FacultyTableModel');",
+                    "",
+                    "//\tGet the stores that we will need",
+                    "",
+                    "var firstname\t= formValues.firstname;",
+                    "var middlename\t= formValues.middlename;",
+                    "var lastname\t= formValues.lastname;",
+                    "var phone1\t\t= formValues.phone1;",
+                    "var phone2\t\t= formValues.phone2;",
+                    "var address1\t= formValues.address1;",
+                    "var address2\t= formValues.address2;",
+                    "var city\t\t= formValues.city;",
+                    "var state\t\t= formValues.state;",
+                    "var postalcode\t= formValues.postalcode;",
+                    "var country\t\t= formValues.country;",
+                    "var email\t\t= formValues.email;",
+                    "var username\t= formValues.username;",
+                    "var password\t= formValues.password;",
+                    "",
+                    "",
+                    "var myStore\t\t= this.getStore( 'faculty.FacultyTableStore' );",
+                    "",
+                    "//debugger;",
+                    "",
+                    "",
+                    "myRecord.set( 'id', null );",
+                    "//myRecord.set( 'version', null );",
+                    "",
+                    "myRecord.set('whoUpdated', 'login');",
+                    "myRecord.set('lastUpdated', new Date());",
+                    "myRecord.set('email', email );",
+                    "myRecord.set('firstName', firstname );",
+                    "myRecord.set('middleName', middlename );",
+                    "myRecord.set('lastName', lastname);",
+                    "myRecord.set('phone1', phone1 );",
+                    "myRecord.set('phone2', phone2 );",
+                    "myRecord.set('address1', address1);",
+                    "myRecord.set('address2', address2);",
+                    "myRecord.set('city', city);",
+                    "myRecord.set('province', state);",
+                    "myRecord.set('postalCode',postalcode);",
+                    "myRecord.set('country',country);",
+                    "myRecord.set('userName',username);",
+                    "myRecord.set('userPassword',password);",
+                    "myRecord.set('enabled', true);",
+                    "",
+                    "//add to the store",
+                    "",
+                    "myStore.add( myRecord );",
+                    "",
+                    "//sync the store.",
+                    "myStore.sync();",
+                    "",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "e81a0936-0fd9-4210-9e4d-a30bec5bd189"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "saveOnlyFacultyProfileForm",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Save Faculty Profile Form\" );",
+                    "//var myForm\t\t\t\t\t= button.up().getForm();",
+                    "var myForm = this.getOnlyFacultyForm();",
+                    "",
+                    "",
+                    "//\tGet the stores that we will need",
+                    "var myStore\t\t= this.getStore( 'faculty.FacultyTableStore' );",
+                    "",
+                    "//var rForm = myForm.getForm();",
+                    "",
+                    "//var formValues1\t= myForm.getValues();",
+                    "//var formValues\t= myForm.getForm().getValues();",
+                    "var formFields\t= myForm.getForm().getFields();",
+                    "//var name\t= formFields.items[0].name;",
+                    "//var value\t= formFields.items[0].lastValue;",
+                    "//var test\t= this.getFormValue( formFields, 'middleName');",
+                    "//debugger;",
+                    "",
+                    "//\tCreate the form record.",
+                    "var myRecord\t= myForm.getRecord();",
+                    "",
+                    "myRecord.set('firstName', this.getFormValue( formFields, 'firstName' ) );",
+                    "myRecord.set('middleName', this.getFormValue( formFields, 'middleName' ));",
+                    "myRecord.set('lastName', this.getFormValue( formFields, 'lastName' ));",
+                    "myRecord.set('phone1', this.getFormValue( formFields, 'phone1' ));",
+                    "myRecord.set('phone2', this.getFormValue( formFields, 'phone2' ));",
+                    "myRecord.set('address1', this.getFormValue( formFields, 'address1' ));",
+                    "myRecord.set('address2', this.getFormValue( formFields, 'address2' ));",
+                    "myRecord.set('city', this.getFormValue( formFields, 'city' ));",
+                    "myRecord.set('province', this.getFormValue( formFields, 'province' ));",
+                    "myRecord.set('postalCode', this.getFormValue( formFields, 'postalCode' ));",
+                    "myRecord.set('country', this.getFormValue( formFields, 'country' ));",
+                    "myRecord.set('email', this.getFormValue( formFields, 'email' ));",
+                    "",
+                    "myRecord.set('whoUpdated', 'login');",
+                    "myRecord.set('lastUpdated', new Date());",
+                    "",
+                    "debugger;",
+                    "",
+                    "//sync the store.",
+                    "myStore.sync();"
+                ]
+            },
+            "designerId": "4d35f7a4-774a-46bc-8118-db2935739bfa"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyfacultyprofileformeditbutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onOnlyfacultyprofileformeditbuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var myForm = this.getOnlyFacultyForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].enable();",
+                    "}",
+                    "//myForm.getForm().focus();studentprofileformeditbutton",
+                    "var cancelButton\t= button.up().down('#onlyfacultyprofileformcanelbutton');",
+                    "var saveButton\t\t= button.up().down('#onlyfacultyprofileformsavebutton');",
+                    "cancelButton.enable();",
+                    "saveButton.enable();",
+                    "button.disable();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "431de9bf-0df0-4208-80ee-ea79640b22fc"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyfacultyprofileformcanelbutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onOnlyfacultyprofileformcanelbuttonClick",
+                "implHandler": [
+                    "var myForm = this.getOnlyFacultyForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].disable();",
+                    "}",
+                    "//myForm.getForm().focus();",
+                    "//var cancelButton\t= button.up().down('#onlyfacultyprofileformcanelbutton');",
+                    "var saveButton\t\t= button.up().down('#onlyfacultyprofileformsavebutton');",
+                    "var editButton\t\t= button.up().down('#onlyfacultyprofileformeditbutton');",
+                    "editButton.enable();",
+                    "saveButton.disable();",
+                    "button.disable();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "560bce69-9b66-4942-85cc-6515558becbe"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyfacultyprofileformsavebutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onOnlyfacultyprofileformsavebuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "var myForm = this.getOnlyFacultyForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].disable();",
+                    "}",
+                    "//myForm.getForm().focus();",
+                    "var cancelButton\t= button.up().down('#onlyfacultyprofileformcanelbutton');",
+                    "//var saveButton\t\t= button.up().down('#onlyfacultyprofileformsavebutton');",
+                    "var editButton\t\t= button.up().down('#onlyfacultyprofileformeditbutton');",
+                    "editButton.enable();",
+                    "cancelButton.disable();",
+                    "button.disable();",
+                    "this.saveOnlyFacultyProfileForm();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "2e034337-46d3-4040-bc88-74d4be0e6633"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "formFields",
+                    "name"
+                ],
+                "fn": "getFormValue",
+                "implHandler": [
+                    "//var name\t= formFields.items[0].name;",
+                    "//var value\t= formFields.items[0].lastValue;",
+                    "for( var i = 0; i < formFields.length; i++ )",
+                    "{",
+                    "    if( formFields.items[i].name === name )",
+                    "    {",
+                    "        return formFields.items[i].lastValue;",
+                    "    }",
+                    "}",
+                    "return \"\";"
+                ]
+            },
+            "designerId": "116879b9-1962-4b2f-a9fb-fcfe5780641f"
+        }
+    ]
+}
