@@ -932,6 +932,75 @@
                 ]
             },
             "designerId": "11b2cfda-a0e6-474b-be08-230eff47459b"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#studentpasswordcancelbutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onStudentpasswordcancelbuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Cancel Student Password\" );",
+                    "var myForm = button.up().up().getForm();",
+                    "myForm.reset();",
+                    "button.up().up().up().hide();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "3422483a-a202-43f9-9ae1-b24e7ce4d137"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#studentpasswordsubmitbutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onStudentpasswordsubmitbuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Cancel Student Password\" );",
+                    "var myForm = button.up().up().getForm();",
+                    "",
+                    "var myStore = Ext.getStore(\"student.StudentPasswordStore\");",
+                    "var userName = myForm.findField('userName').getSubmitValue();",
+                    "var userPassword = myForm.findField('userPassword').getSubmitValue();",
+                    "var userRepeatPassword = myForm.findField('userRepeatPassword').getSubmitValue();",
+                    "var myRecord = myStore.findRecord('userName', userName );",
+                    "",
+                    "if( myRecord === null )",
+                    "{",
+                    "\tExt.MessageBox.show({",
+                    "\t\ttitle: 'INVALID USER EXCEPTION',",
+                    "\t\tmsg: 'You have entered an invalid user.',",
+                    "\t\ticon: Ext.MessageBox.ERROR,",
+                    "\t\tbuttons: Ext.Msg.OK",
+                    "\t});",
+                    "}",
+                    "if( userPassword == userRepeatPassword && myRecord !== null )",
+                    "{",
+                    "\tmyRecord.set( 'userPassword', userPassword );",
+                    "\tmyStore.sync();",
+                    "\tmyStore.reload();",
+                    "}",
+                    "myForm.reset();",
+                    "button.up().up().up().hide();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "a23ac3f2-ab80-4fe7-8f78-288467efc885"
         }
     ]
 }

@@ -596,6 +596,44 @@
                 "scope": "me"
             },
             "designerId": "80ec78bd-846d-4686-b524-a97b006c3dfc"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultypasswordcanelbutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onFacultypasswordcanelbuttonClick",
+                "implHandler": [
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "8ad37dde-c78e-4a4c-a491-72298f8cd827"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultypasswordsubmitbutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onFacultypasswordsubmitbuttonClick",
+                "implHandler": [
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "91584f07-2e5f-481f-865f-8a6d3a0bdc61"
         }
     ]
 }
