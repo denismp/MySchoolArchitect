@@ -991,7 +991,7 @@
                     "{",
                     "\tmyRecord.set( 'userPassword', userPassword );",
                     "\tmyStore.sync();",
-                    "\tmyStore.reload();",
+                    "\t//myStore.reload();",
                     "}",
                     "myForm.reset();",
                     "button.up().up().up().hide();",
