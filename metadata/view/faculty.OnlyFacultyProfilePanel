@@ -193,23 +193,7 @@
                 "itemId": "onlyfacultylpasswordtool",
                 "type": "gear"
             },
-            "designerId": "9b4c8c68-1845-4e51-9396-14f561ff5d8b",
-            "cn": [
-                {
-                    "type": "basiceventbinding",
-                    "reference": {
-                        "name": "listeners",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "fn": "onOnlyfacultylpasswordtoolClick",
-                        "name": "click",
-                        "scope": "me"
-                    },
-                    "designerId": "6d4181fd-bbd7-4675-89b9-1fab1f62a816"
-                }
-            ]
+            "designerId": "9b4c8c68-1845-4e51-9396-14f561ff5d8b"
         }
     ]
 }

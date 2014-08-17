@@ -555,6 +555,47 @@
                 ]
             },
             "designerId": "116879b9-1962-4b2f-a9fb-fcfe5780641f"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyfacultylpasswordtool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onOnlyfacultylpasswordtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "var studentStore\t\t\t\t= Ext.getStore('faculty.FacultyTableStore');",
+                    "//var facultyStore\t\t\t\t= Ext.getStore('faculty.FacultyTableStore');",
+                    "//var subjectStore\t\t\t\t= Ext.getStore('subject.SubjectStore');",
+                    "//var commonQuarterSubjectStore\t= Ext.getStore( 'common.QuarterSubjectStore');",
+                    "//var commonMonthStore\t\t\t= Ext.getStore('common.MonthStore');",
+                    "",
+                    "//var studentRecord\t= studentStore.getAt(0);",
+                    "//var studentId\t\t= studentRecord.get( 'id' );",
+                    "//var studentName\t\t= studentRecord.get( 'userName' );",
+                    "",
+                    "var newDialog = Ext.create( 'MySchool.view.faculty.PasswordDialog' );",
+                    "",
+                    "//newDialog.down('#studentid').setValue( studentId );",
+                    "//newDialog.down('#studentname').setValue( studentName );",
+                    "",
+                    "//commonQuarterSubjectStore.myLoad();",
+                    "//commonMonthStore.myLoad();",
+                    "",
+                    "window.console.log( 'Password Dialog' );",
+                    "",
+                    "newDialog.render( Ext.getBody() );",
+                    "newDialog.show();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "80ec78bd-846d-4686-b524-a97b006c3dfc"
         }
     ]
 }
