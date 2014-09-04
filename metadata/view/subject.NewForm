@@ -94,7 +94,7 @@
                         "fieldLabel": "Grade Level",
                         "itemId": "newsubjectform-subjGradeLevel",
                         "layout|anchor": "100%",
-                        "maxValue": 4,
+                        "maxValue": null,
                         "minValue": 0,
                         "name": "subjGradeLevel"
                     },
