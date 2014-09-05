@@ -848,6 +848,8 @@
                 "fn": "buttonHandler",
                 "implHandler": [
                     "debugger;",
+                    "if( this.userRole === 'ROLE_USER' )",
+                    "\treturn;",
                     "window.console.log(button);",
                     "var b_\t\t= button;",
                     "var form\t= b_.up('panel');",
