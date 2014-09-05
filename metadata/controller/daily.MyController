@@ -199,7 +199,7 @@
                     "\t// this is the very first record",
                     "\tif( this.userRole === 'ROLE_USER')",
                     "\t{",
-                    "\t\t// Find the login userName from the student store.\t",
+                    "\t\t// Find the login userName from the student store.",
                     "\t\tvar studentRecord = studentStore.findRecord('userName', this.userName );",
                     "\t\tstudentId = studentRecord.get('studentId');",
                     "\t\tstudentName = this.userName;",
