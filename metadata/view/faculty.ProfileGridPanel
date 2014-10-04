@@ -118,7 +118,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyUserName",
-                "text": "facultyUserName"
+                "text": "Faculty User Name"
             },
             "designerId": "7b8bc30d-e7b1-4cbe-8af5-8a8ebf35c789"
         },
@@ -131,7 +131,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "subjName",
-                "text": "subjName"
+                "text": "Subj Name"
             },
             "designerId": "f8950937-e608-4a45-b454-dab47cc39c98"
         },
@@ -144,7 +144,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "text": "studentUserName"
+                "text": "Student User Name"
             },
             "designerId": "ee2fbb77-e12c-448a-aec6-6c6230bb0dd4"
         },
@@ -157,7 +157,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrName",
-                "text": "qtrName"
+                "text": "QtrName"
             },
             "designerId": "f2af036d-129b-4ed0-9b3f-31e63bbab8d0"
         },
@@ -170,7 +170,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrYear",
-                "text": "qtrYear"
+                "text": "QtrYear"
             },
             "designerId": "f4e5d00d-a2ea-4351-8387-3e065d24122d"
         },
@@ -214,7 +214,7 @@
             "userConfig": {
                 "dataIndex": "whoUpdated",
                 "hidden": true,
-                "text": "whoUpdated"
+                "text": "Who Updated"
             },
             "designerId": "ba504442-ccea-44a1-aeae-a5735904768f"
         },
@@ -228,7 +228,7 @@
             "userConfig": {
                 "dataIndex": "lastUpdated",
                 "hidden": true,
-                "text": "lastUpdated"
+                "text": "Last Updated"
             },
             "designerId": "42a0aa1f-ca84-4f48-9fb8-be5597a25146"
         },

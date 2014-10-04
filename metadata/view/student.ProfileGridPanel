@@ -59,7 +59,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "userName",
-                "text": "userName"
+                "text": "Student User Name"
             },
             "designerId": "afbf12f7-e283-4fe0-a980-57fb9f66895a"
         },
@@ -111,7 +111,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyEmail",
-                "text": "FacultyEmail"
+                "text": "Faculty Email"
             },
             "designerId": "e1d12df9-0670-47dd-9aa0-e93b1f4e1a87"
         },
@@ -140,7 +140,7 @@
             "userConfig": {
                 "dataIndex": "lastUpdated",
                 "hidden": true,
-                "text": "lastUpdated"
+                "text": "Last Updated"
             },
             "designerId": "8aa4cc78-8940-441c-ab00-ebe293e803af"
         },
@@ -154,7 +154,7 @@
             "userConfig": {
                 "dataIndex": "whoUpdated",
                 "hidden": true,
-                "text": "whoUpdated"
+                "text": "Who Updated"
             },
             "designerId": "f2953808-567b-40bc-9c32-e78591654362"
         },

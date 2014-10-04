@@ -27,7 +27,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "subjName",
-                "text": "subjName"
+                "text": "Subj Name"
             },
             "designerId": "15b1b83f-9c29-4158-be4a-b9be487ab456"
         },
@@ -40,7 +40,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrName",
-                "text": "qtrName"
+                "text": "Qtr Name"
             },
             "designerId": "5286260c-85e2-48aa-8229-a9acb2f1ecea"
         },
@@ -54,7 +54,7 @@
             "userConfig": {
                 "dataIndex": "qtrYear",
                 "format": "0000",
-                "text": "qtrYear"
+                "text": "QtrYear"
             },
             "designerId": "47a53b78-0431-4fd9-b054-39402a08b763"
         },
@@ -362,7 +362,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "text": "studentUserName"
+                "text": "Student User Name"
             },
             "designerId": "01627cb0-caf6-4b98-8be7-b231eb21f659"
         },
@@ -375,7 +375,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyUserName",
-                "text": "facultyUserName"
+                "text": "Faculty User Name"
             },
             "designerId": "6a01ddca-7cbd-4431-aca3-2fb1ecdc3a2e"
         },
@@ -388,7 +388,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "whoUpdated",
-                "text": "whoUpdated"
+                "text": "Who Updated"
             },
             "designerId": "dcc8f8fa-3184-4ded-978a-7188fad593b4"
         },
@@ -403,7 +403,7 @@
                 "dataIndex": "lastUpdated",
                 "format": "m/d/Y",
                 "hidden": true,
-                "text": "lastUpdated"
+                "text": "Last Updated"
             },
             "designerId": "5324170f-a974-494c-8df3-364693816d55"
         },

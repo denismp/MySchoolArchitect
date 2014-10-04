@@ -238,7 +238,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentName",
-                "text": "StudentUser"
+                "text": "Student User Name"
             },
             "designerId": "11c3ec9f-bef6-4bc1-abf5-7ab926d6cece"
         },
@@ -251,7 +251,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyUserName",
-                "text": "FacultyUser"
+                "text": "Faculty User Name"
             },
             "designerId": "9617c504-9468-473f-aab6-91f998f207f7"
         },
@@ -351,7 +351,7 @@
             "userConfig": {
                 "dataIndex": "qtrWhoUpdated",
                 "hidden": true,
-                "text": "whoUpdated"
+                "text": "Who Updated"
             },
             "designerId": "7401fa6c-3c1c-4d9b-9ff3-9b587e3aa052"
         },
@@ -365,7 +365,7 @@
             "userConfig": {
                 "dataIndex": "qtrLastUpdated",
                 "hidden": true,
-                "text": "lastUpdated"
+                "text": "Last Updated"
             },
             "designerId": "35608455-2668-40ad-8abc-6c58ca37cdea"
         }

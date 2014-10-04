@@ -41,7 +41,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrName",
-                "text": "qtrName"
+                "text": "Quarter Name"
             },
             "designerId": "47987272-872c-494f-9a43-ab982029f57a"
         },
@@ -399,7 +399,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "text": "studentUserName"
+                "text": "Student User Name"
             },
             "designerId": "46d25752-e6c2-4020-b2c8-a8550ef7dcf6"
         },
@@ -412,7 +412,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyUserName",
-                "text": "facultyUserName"
+                "text": "Faculty User Name"
             },
             "designerId": "ae2823f9-4f25-4216-8244-1f992ea3bf9e"
         },
@@ -427,7 +427,7 @@
                 "dataIndex": "lastUpdated",
                 "format": "m/d/Y",
                 "hidden": true,
-                "text": "lastUpdated"
+                "text": "Last Updated"
             },
             "designerId": "b5b58f17-48bf-413c-9876-03d483d62a1d"
         },
@@ -440,7 +440,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "whoUpdated",
-                "text": "whoUpdated"
+                "text": "Who Updated"
             },
             "designerId": "365d3e7d-b4dd-4179-95d1-c0dcbeeaf1c0"
         },

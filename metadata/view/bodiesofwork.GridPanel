@@ -108,7 +108,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "lastUpdated",
-                "text": "LastUpdate"
+                "text": "Last Update"
             },
             "designerId": "295fc172-cbb3-423b-a1bf-a412512b9fa5"
         },
@@ -188,7 +188,7 @@
             "userConfig": {
                 "dataIndex": "whoUpdated",
                 "flex": null,
-                "text": "whoUpdated"
+                "text": "Who Updated"
             },
             "designerId": "cee7a503-0312-4202-8cd2-0e443430b084"
         },
