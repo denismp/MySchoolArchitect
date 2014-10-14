@@ -8,7 +8,7 @@
     "userConfig": {
         "designer|userAlias": "studentnewdialog",
         "designer|userClassName": "student.NewDialog",
-        "height": 548,
+        "height": 597,
         "itemId": "studentnewdialog",
         "title": "New Student",
         "width": 390
@@ -26,7 +26,7 @@
                 "bodyPadding": 10,
                 "draggable": true,
                 "frame": true,
-                "height": 508,
+                "height": 557,
                 "itemId": "studentnewform",
                 "title": null,
                 "width": 378
@@ -41,7 +41,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "height": 445,
+                        "height": 478,
                         "itemId": "studentnewformfieldset",
                         "padding": 5,
                         "title": null
@@ -106,6 +106,21 @@
                                 "name": "lastname"
                             },
                             "designerId": "ababaf1c-f87d-4bb3-8c76-71a147820fdc"
+                        },
+                        {
+                            "type": "Ext.form.field.Date",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "DOB",
+                                "itemId": "studentnewform_dob",
+                                "layout|anchor": "100%",
+                                "name": "dob"
+                            },
+                            "designerId": "8daba50b-86cb-4ea0-ae1b-2afeff3ed938"
                         },
                         {
                             "type": "Ext.form.field.Text",

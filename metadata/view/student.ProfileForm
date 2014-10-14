@@ -9,13 +9,14 @@
         "autoScroll": true,
         "bodyPadding": 10,
         "collapseFirst": false,
+        "designer|snapToGrid": 10,
         "designer|userAlias": "studentprofileform",
         "designer|userClassName": "student.ProfileForm",
         "frameHeader": false,
         "height": null,
         "id": null,
         "itemId": "studentprofileform",
-        "layout": null,
+        "layout": "absolute",
         "maxHeight": 450,
         "minHeight": 450,
         "title": "Student Profile Form"
@@ -49,6 +50,8 @@
                 "fieldLabel": "Middle Name",
                 "id": null,
                 "itemId": "student-middlename",
+                "layout|x": 10,
+                "layout|y": 50,
                 "name": "middleName",
                 "width": 300
             },
@@ -65,6 +68,8 @@
                 "fieldLabel": "Last Name",
                 "id": null,
                 "itemId": "student-lastname",
+                "layout|x": 10,
+                "layout|y": 90,
                 "name": "lastName",
                 "width": 300
             },
@@ -81,6 +86,8 @@
                 "fieldLabel": "Phone1",
                 "id": null,
                 "itemId": "student-phone1",
+                "layout|x": 10,
+                "layout|y": 130,
                 "name": "phone1"
             },
             "designerId": "af996aea-d4bc-4d06-91e5-137e49a66866"
@@ -96,6 +103,8 @@
                 "fieldLabel": "Phone2",
                 "id": null,
                 "itemId": "student-phone",
+                "layout|x": 10,
+                "layout|y": 170,
                 "name": "phone2"
             },
             "designerId": "db28b09c-d29e-4502-a397-e3d68f0f6acb"
@@ -111,6 +120,8 @@
                 "fieldLabel": "Address1",
                 "id": null,
                 "itemId": "student-address1",
+                "layout|x": 360,
+                "layout|y": 90,
                 "name": "address1",
                 "width": 300
             },
@@ -127,6 +138,8 @@
                 "fieldLabel": "Address2",
                 "id": null,
                 "itemId": "student-address2",
+                "layout|x": 360,
+                "layout|y": 130,
                 "name": "address2",
                 "width": 300
             },
@@ -143,6 +156,8 @@
                 "fieldLabel": "City",
                 "id": null,
                 "itemId": "student-city",
+                "layout|x": 360,
+                "layout|y": 170,
                 "name": "city",
                 "width": 300
             },
@@ -159,6 +174,8 @@
                 "fieldLabel": "Province/State",
                 "id": null,
                 "itemId": "student-province",
+                "layout|x": 360,
+                "layout|y": 210,
                 "name": "province",
                 "width": 300
             },
@@ -174,6 +191,8 @@
             "userConfig": {
                 "fieldLabel": "Postal Code",
                 "itemId": "student-postalcode",
+                "layout|x": 360,
+                "layout|y": 250,
                 "name": "postalCode"
             },
             "designerId": "397a635e-166d-407e-808a-6d9da1ee2050"
@@ -189,6 +208,8 @@
                 "fieldLabel": "Country",
                 "id": null,
                 "itemId": "student-country",
+                "layout|x": 360,
+                "layout|y": 290,
                 "name": "country"
             },
             "designerId": "6760b060-44cf-4690-a611-8c8e71860906"
@@ -204,10 +225,30 @@
                 "fieldLabel": "Email",
                 "id": null,
                 "itemId": "student-email",
+                "layout|x": 360,
+                "layout|y": 50,
                 "name": "email",
                 "width": 300
             },
             "designerId": "db650021-66f0-4084-aae0-ed6a8ef6ce77"
+        },
+        {
+            "type": "Ext.form.field.Date",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Date of birth",
+                "id": null,
+                "itemId": "student-dob",
+                "layout|x": 360,
+                "layout|y": 10,
+                "name": "dob",
+                "width": 300
+            },
+            "designerId": "0e6b5494-cbd3-4adb-8cf4-06b78497cb02"
         },
         {
             "type": "Ext.button.Button",
@@ -218,6 +259,8 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "studentprofileformeditbutton",
+                "layout|x": 30,
+                "layout|y": 350,
                 "text": "Edit"
             },
             "designerId": "380f293b-71d5-466d-8420-8cd014324e3e"
@@ -232,6 +275,8 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "studentprofileformcancelbutton",
+                "layout|x": 80,
+                "layout|y": 350,
                 "text": "Cancel"
             },
             "designerId": "0ed0e07c-760d-4bdb-9e34-0f9e227b70b8"
@@ -246,6 +291,8 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "studentprofileformsavebutton",
+                "layout|x": 150,
+                "layout|y": 350,
                 "text": "Save"
             },
             "designerId": "b0d86221-82b0-4929-bf19-e9ddf76cfe4d"

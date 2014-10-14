@@ -173,6 +173,20 @@
             "designerId": "44db0e38-c6f9-42db-82af-fb66db49712c"
         },
         {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "dob",
+                "hidden": true,
+                "text": "dob"
+            },
+            "designerId": "9dc6dd48-6800-414d-bfcf-9173172616bd"
+        },
+        {
             "type": "Ext.grid.View",
             "reference": {
                 "name": "viewConfig",

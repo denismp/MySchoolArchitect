@@ -240,6 +240,20 @@
             "codeClass": null,
             "userConfig": {
                 "dateFormat": "m/d/Y",
+                "name": "dob",
+                "type": "date"
+            },
+            "designerId": "3e7a3303-b02b-4fcf-9d93-2e6a30d76055"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dateFormat": "m/d/Y",
                 "name": "lastUpdated",
                 "type": "date"
             },

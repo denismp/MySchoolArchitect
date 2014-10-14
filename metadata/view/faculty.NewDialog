@@ -28,7 +28,7 @@
                 "height": 508,
                 "itemId": "facultynewform",
                 "title": null,
-                "width": 378
+                "width": 381
             },
             "designerId": "498be424-140b-4ccc-8b6f-8c913f45ec5c",
             "cn": [
@@ -91,6 +91,21 @@
                                 "name": "lastname"
                             },
                             "designerId": "45f89ad5-407c-4b1f-88c3-cd4d8592ef10"
+                        },
+                        {
+                            "type": "Ext.form.field.Date",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "DOB",
+                                "itemId": "newform_dob",
+                                "layout|anchor": "100%",
+                                "name": "dob"
+                            },
+                            "designerId": "dce4843a-357c-4711-98dd-ca0f534166a8"
                         },
                         {
                             "type": "Ext.form.field.Text",

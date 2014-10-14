@@ -253,6 +253,20 @@
             },
             "codeClass": null,
             "userConfig": {
+                "dateFormat": "m/d/Y",
+                "name": "dob",
+                "type": "date"
+            },
+            "designerId": "dfd25ccd-390a-4b23-9f08-dcdcfe13a6a4"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "userName",
                 "type": "string"
             },
