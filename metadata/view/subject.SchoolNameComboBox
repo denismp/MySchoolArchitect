@@ -1,0 +1,19 @@
+{
+    "type": "Ext.form.field.ComboBox",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "subjectschoolnamecombobox",
+        "designer|userClassName": "subject.SchoolNameComboBox",
+        "displayField": "name",
+        "emptyText": "Select one.",
+        "fieldLabel": "School Name",
+        "itemId": "subjectschoolname",
+        "store": "subject.SchoolsStore",
+        "valueField": "id"
+    },
+    "designerId": "d2acdf8d-68d3-403b-9578-9f093c984a2e"
+}

@@ -65,6 +65,21 @@
             "designerId": "50c8a8de-1bee-4598-afc0-6f445dfe326b"
         },
         {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolId",
+                "format": "000000",
+                "hidden": true,
+                "text": "schoolId"
+            },
+            "designerId": "6a334f8b-3c83-4a46-bd8e-37b08fb7e29c"
+        },
+        {
             "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
@@ -106,6 +121,21 @@
                 "width": null
             },
             "designerId": "3d8e707c-25ca-4a62-87ae-86e43a3aeda0"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolName",
+                "flex": null,
+                "text": "School Name",
+                "width": null
+            },
+            "designerId": "e5553310-ef94-45bc-a49e-ba3a0de3c636"
         },
         {
             "type": "Ext.grid.column.Number",

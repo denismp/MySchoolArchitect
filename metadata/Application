@@ -35,7 +35,8 @@
             "student.StudentProfileModel",
             "faculty.FacultyTableModel",
             "student.PasswordModel",
-            "security.SecurityModel"
+            "security.SecurityModel",
+            "subject.SchoolsModel"
         ],
         "name": "MySchool",
         "stores": [
@@ -58,7 +59,8 @@
             "student.StudentProfileStore",
             "faculty.FacultyTableStore",
             "student.StudentPasswordStore",
-            "security.SecurityStore"
+            "security.SecurityStore",
+            "subject.SchoolsStore"
         ],
         "views": [
             "MainPanel",
@@ -164,7 +166,8 @@
             "faculty.ProfileGridFacultyOnlyPanel",
             "faculty.FacultyOnlyProfileForm",
             "faculty.NewDialog",
-            "faculty.PasswordDialog"
+            "faculty.PasswordDialog",
+            "subject.SchoolNameComboBox"
         ]
     },
     "designerId": "application"

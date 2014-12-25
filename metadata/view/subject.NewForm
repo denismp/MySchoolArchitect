@@ -12,7 +12,7 @@
         "draggable": true,
         "floating": true,
         "frame": true,
-        "height": null,
+        "height": 539,
         "itemId": "newsubjectform",
         "jsonSubmit": true,
         "layout": null,
@@ -30,6 +30,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "height": 461,
                 "title": "My Fields"
             },
             "designerId": "0f123e5a-ce5a-4ee1-ba19-dbebe123fc5c",
@@ -80,6 +81,21 @@
                     },
                     "designerId": "cf8de0f0-53d6-4f1b-9848-d8acea8822ec",
                     "masterInstanceId": "9f409f6e-d366-471e-bb53-73e5dea67e78"
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "editable": false,
+                        "emptyText": null,
+                        "layout|anchor": "100%"
+                    },
+                    "designerId": "8d0c5a3c-d366-469a-90b0-efb85a2e0f01",
+                    "masterInstanceId": "d2acdf8d-68d3-403b-9578-9f093c984a2e"
                 },
                 {
                     "type": "Ext.form.field.Number",

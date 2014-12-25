@@ -350,6 +350,33 @@
                 "type": "int"
             },
             "designerId": "7f0b863e-2d46-4310-b651-ceb272375c93"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "schoolId",
+                "type": "int"
+            },
+            "designerId": "e98dbd85-4fa0-4eae-901d-17bf8c15a442"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "schoolName",
+                "sortType": "asText",
+                "type": "string"
+            },
+            "designerId": "2111da5f-fa2e-4073-833d-360bff7342ba"
         }
     ]
 }
