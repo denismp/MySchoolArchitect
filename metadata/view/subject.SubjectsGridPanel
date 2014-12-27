@@ -166,21 +166,6 @@
             "designerId": "5dbb449b-e775-4cc8-9d53-c9fcdcd37570"
         },
         {
-            "type": "Ext.grid.column.Date",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "qtrLastUpdated",
-                "format": "m/d/Y",
-                "hidden": true,
-                "text": "Date"
-            },
-            "designerId": "00e18179-73c1-41db-8607-28a2e5f32442"
-        },
-        {
             "type": "Ext.grid.column.CheckColumn",
             "reference": {
                 "name": "columns",
