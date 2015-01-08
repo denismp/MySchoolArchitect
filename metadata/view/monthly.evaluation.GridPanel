@@ -40,7 +40,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrName",
-                "text": "Qtr Name"
+                "text": "Term"
             },
             "designerId": "5286260c-85e2-48aa-8229-a9acb2f1ecea"
         },
@@ -54,7 +54,7 @@
             "userConfig": {
                 "dataIndex": "qtrYear",
                 "format": "0000",
-                "text": "QtrYear"
+                "text": "Year"
             },
             "designerId": "47a53b78-0431-4fd9-b054-39402a08b763"
         },
@@ -433,7 +433,7 @@
                 "dataIndex": "qtrId",
                 "format": "000000",
                 "hidden": true,
-                "text": "qtrId"
+                "text": "termId"
             },
             "designerId": "d993edb7-6661-44c9-9d05-331d9128544a"
         },

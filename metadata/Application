@@ -16,7 +16,8 @@
             "monthly.EvaluationRatingsController",
             "faculty.ByStudentController",
             "student.ProfileViewController",
-            "faculty.OnlyFacultyProfileViewController"
+            "faculty.OnlyFacultyProfileViewController",
+            "guardian.OnlyGuardianProfileViewController"
         ],
         "models": [
             "subject.SubjectsModel",
@@ -36,7 +37,8 @@
             "faculty.FacultyTableModel",
             "student.PasswordModel",
             "security.SecurityModel",
-            "subject.SchoolsModel"
+            "subject.SchoolsModel",
+            "guardian.GuardianProfileModel"
         ],
         "name": "MySchool",
         "stores": [
@@ -60,7 +62,8 @@
             "faculty.FacultyTableStore",
             "student.StudentPasswordStore",
             "security.SecurityStore",
-            "subject.SchoolsStore"
+            "subject.SchoolsStore",
+            "guardian.GuardianProfileStore"
         ],
         "views": [
             "MainPanel",
@@ -167,7 +170,10 @@
             "faculty.FacultyOnlyProfileForm",
             "faculty.NewDialog",
             "faculty.PasswordDialog",
-            "subject.SchoolNameComboBox"
+            "subject.SchoolNameComboBox",
+            "guardian.ProfileGridGuardianOnlyPanel",
+            "guardian.GuardianOnlyProfileForm",
+            "guardian.GuardianProfilePanel"
         ]
     },
     "designerId": "application"

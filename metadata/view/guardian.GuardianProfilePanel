@@ -1,0 +1,122 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "guardianguardianprofilepanel",
+        "designer|userClassName": "guardian.GuardianProfilePanel",
+        "itemId": "guardianonlyprofilepanel",
+        "layout": "fit",
+        "title": "Guardian Profiles Details"
+    },
+    "designerId": "048b96a5-0cdf-4187-bd5e-4441c241b599",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top"
+            },
+            "designerId": "39de870f-d791-4173-8f7b-f42e82daa7e7",
+            "masterInstanceId": "9ee032ee-bda2-4fb0-89e1-af7089b8de34"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "bottom"
+            },
+            "designerId": "61be1532-974a-4c20-ad49-717805fd4607",
+            "masterInstanceId": "41cbecbd-d7c5-4007-b0a6-d05ee5840068"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyguardianrefreshtool",
+                "type": "refresh"
+            },
+            "designerId": "774f245e-23b9-4f51-aa11-0fbd15c83feb"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyguardiansearchtool",
+                "type": "search"
+            },
+            "designerId": "4d119433-27de-4515-8917-fa751c042d3e"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyguardiannewtool",
+                "type": "plus"
+            },
+            "designerId": "500ac3b3-32d8-4d8f-acbe-bd11e4e75ef7"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyfguardiansavetool",
+                "type": "save"
+            },
+            "designerId": "010679d0-f164-4da7-b092-f3e3ea4ee0c5"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyguardiandeletetool",
+                "type": "minus"
+            },
+            "designerId": "d88d7f38-cb66-4683-bbb3-d58515549702"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyguardianlocktool",
+                "type": "pin"
+            },
+            "designerId": "e0846f7c-4bc6-4f2a-9fe8-f531ec3c5241"
+        }
+    ]
+}

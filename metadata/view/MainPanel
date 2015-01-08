@@ -465,6 +465,43 @@
                             "masterInstanceId": "b7ea4af6-425b-4954-a2a7-d2ea8cc375c5"
                         }
                     ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "guardianprofiletab",
+                        "title": "Guardian Profiles"
+                    },
+                    "designerId": "149cf807-40d8-4ed9-9689-0d0e367a97f3",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "8a8d79cc-8f75-40c2-963a-b99d985ce2ae"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "top"
+                            },
+                            "designerId": "33389799-14dd-42de-82cd-5fdc789cdbe2",
+                            "masterInstanceId": "048b96a5-0cdf-4187-bd5e-4441c241b599"
+                        }
+                    ]
                 }
             ]
         }

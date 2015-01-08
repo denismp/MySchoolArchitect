@@ -69,7 +69,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrName",
-                "text": "Quarter"
+                "text": "Term"
             },
             "designerId": "abaa8438-4d34-427a-a693-53e77fbd6524"
         },
@@ -82,7 +82,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrYear",
-                "text": "QtrYear"
+                "text": "Year"
             },
             "designerId": "c3ac24bc-61dc-4a43-9155-af4cdfd83e6e"
         },
@@ -263,7 +263,7 @@
                 "dataIndex": "qtrId",
                 "format": "000000",
                 "hidden": true,
-                "text": "qtrId"
+                "text": "termId"
             },
             "designerId": "b9fab75f-31a8-4ed0-9c8e-fd6dfa321a26"
         }

@@ -518,7 +518,15 @@
                     "{",
                     "    console.log( 'No form' );",
                     "    console.log( tabPanel );",
-                    "}"
+                    "}",
+                    "var editButton = myForm.items.items[0];",
+                    "if( this.userRole === 'ROLE_USER') {",
+                    "\teditButton.disable();",
+                    "}",
+                    "else {",
+                    "\teditButton.enable();",
+                    "}",
+                    ""
                 ]
             },
             "designerId": "b72047fc-27e8-434a-bdd3-f25d051dd7a8"

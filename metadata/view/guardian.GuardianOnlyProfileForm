@@ -1,0 +1,301 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoScroll": true,
+        "bodyPadding": 10,
+        "collapseFirst": false,
+        "designer|snapToGrid": 10,
+        "designer|userAlias": "guardianguardianonlyprofileform",
+        "designer|userClassName": "guardian.GuardianOnlyProfileForm",
+        "frameHeader": false,
+        "height": null,
+        "id": null,
+        "itemId": "guardianonlyprofileform",
+        "layout": "absolute",
+        "maxHeight": 450,
+        "minHeight": 450,
+        "title": "Guardian Profile Form"
+    },
+    "designerId": "41cbecbd-d7c5-4007-b0a6-d05ee5840068",
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "First Name",
+                "id": null,
+                "itemId": "guardian-firstname",
+                "name": "firstName",
+                "width": 300
+            },
+            "designerId": "2cf949a4-84af-4c0a-b53e-78b543b4aa73"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Middle Name",
+                "id": null,
+                "itemId": "guardian-middlename",
+                "layout|x": 10,
+                "layout|y": 50,
+                "name": "middleName",
+                "width": 300
+            },
+            "designerId": "c9370bfd-bb02-40d7-9b33-9c6de76bb888"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Last Name",
+                "id": null,
+                "itemId": "guardian-lastname",
+                "layout|x": 10,
+                "layout|y": 90,
+                "name": "lastName",
+                "width": 300
+            },
+            "designerId": "39485be8-bef9-485e-b4d2-aa91ff2548e8"
+        },
+        {
+            "type": "Ext.form.field.Date",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "DOB",
+                "id": null,
+                "itemId": "guardian-dob",
+                "layout|x": 360,
+                "layout|y": 10,
+                "name": "dob",
+                "width": 300
+            },
+            "designerId": "01109780-5b55-4d77-bff7-0d005f436423"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Phone1",
+                "id": null,
+                "itemId": "guardian-phone1",
+                "layout|x": 10,
+                "layout|y": 130,
+                "name": "phone1"
+            },
+            "designerId": "2b01b985-4725-4822-b4b9-fb7862fede6e"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Phone2",
+                "id": null,
+                "itemId": "guardian-phone2",
+                "layout|x": 10,
+                "layout|y": 170,
+                "name": "phone2"
+            },
+            "designerId": "4be98759-095f-4bfb-a13d-77f78d2060b2"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Address1",
+                "id": null,
+                "itemId": "guardian-address1",
+                "layout|x": 360,
+                "layout|y": 90,
+                "name": "address1",
+                "width": 300
+            },
+            "designerId": "0198a73a-cf9c-4856-af05-ad790688519e"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Address2",
+                "id": null,
+                "itemId": "guardian-address2",
+                "layout|x": 360,
+                "layout|y": 130,
+                "name": "address2",
+                "width": 300
+            },
+            "designerId": "69860d72-d02d-4270-b8b7-b59e9726c177"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "City",
+                "id": null,
+                "itemId": "guardian-city",
+                "layout|x": 360,
+                "layout|y": 170,
+                "name": "city",
+                "width": 300
+            },
+            "designerId": "976231bb-e8e0-4b08-a106-65e264259350"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Province/State",
+                "id": null,
+                "itemId": "guardian-province",
+                "layout|x": 360,
+                "layout|y": 210,
+                "name": "province",
+                "width": 300
+            },
+            "designerId": "553b4942-12f7-484a-bcc8-40877edac02d"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Postal Code",
+                "itemId": "guardian-postalcode",
+                "layout|x": 360,
+                "layout|y": 250,
+                "name": "postalCode"
+            },
+            "designerId": "269ecd43-800a-442b-800d-83c8721374ae"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Country",
+                "id": null,
+                "itemId": "guardian-country",
+                "layout|x": 360,
+                "layout|y": 290,
+                "name": "country"
+            },
+            "designerId": "84000840-ee49-4fd1-b2ca-bad9593af751"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Email",
+                "id": null,
+                "itemId": "guardian-email",
+                "layout|x": 360,
+                "layout|y": 50,
+                "name": "email",
+                "width": 300
+            },
+            "designerId": "ee8fe4f2-2f79-4e68-97cc-6fdc9e42d235"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyguardianprofileformeditbutton",
+                "layout|x": 30,
+                "layout|y": 350,
+                "text": "Edit"
+            },
+            "designerId": "8aea8864-041a-4c70-9b65-9ca5dfb3ebcb"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "disabled": true,
+                "itemId": "onlyguardianprofileformcanelbutton",
+                "layout|x": 80,
+                "layout|y": 350,
+                "text": "Cancel"
+            },
+            "designerId": "1dd855ff-6c3f-4962-adb3-fc2ca42e40b0"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "disabled": true,
+                "itemId": "onlyguardianprofileformsavebutton",
+                "layout|x": 150,
+                "layout|y": 350,
+                "text": "Save"
+            },
+            "designerId": "85bc4331-2f1e-4aff-b59b-f3d1aefb85df"
+        }
+    ]
+}

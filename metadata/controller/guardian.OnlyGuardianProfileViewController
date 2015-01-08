@@ -1,0 +1,442 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "guardian.OnlyGuardianProfileViewController"
+    },
+    "designerId": "14e7624a-76a0-421d-81ed-2c093e4fc262",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "OnlyGuardianForm",
+                "selector": "#guardianonlyprofileform"
+            },
+            "designerId": "cb6416d3-4ff5-4f14-883f-606911b2c651"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "OnlyGuardianGridPanel",
+                "selector": "#guardianonlygridpanel"
+            },
+            "designerId": "419d0b77-7f15-490d-a996-d319e71876f0"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#guardianonlygridpanel",
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onGuardianonlygridpanelSelectionChange",
+                "implHandler": [
+                    "debugger;",
+                    "// in the onMyJsonStoreLoad we do a deselect so we need to test",
+                    "// if selected[0] has a value",
+                    "if ( Ext.isDefined( selected  ) && Ext.isDefined( selected[0]  )) {",
+                    "    var myForm = this.getOnlyGuardianForm();",
+                    "",
+                    "    this.loadForm( myForm, selected );",
+                    "",
+                    "",
+                    "    console.log('onGuardianonlygridpanelSelectionChange()');",
+                    "}"
+                ],
+                "name": "selectionchange",
+                "scope": "me"
+            },
+            "designerId": "1f2d8090-cc04-402f-9203-c96d77360b18"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#guardianonlygridpanel",
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onGuardianonlygridpanelViewReady",
+                "implHandler": [
+                    "debugger;",
+                    "console.log('onGuardianprofilerefreshtoolClick()');",
+                    "var myStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "",
+                    "var securityStore = Ext.getStore('security.SecurityStore');",
+                    "var securityRecord = securityStore.getAt(0);",
+                    "this.userName = securityRecord.get('userName');",
+                    "this.userRole = securityRecord.get('userRole');",
+                    "var ss_ = Ext.getStore('student.StudentStore');",
+                    "",
+                    "var studentName_;",
+                    "",
+                    "",
+                    "var r_ = ss_.getAt(0);",
+                    "var title;",
+                    "var myGrid = this.getOnlyGuardianGridPanel();",
+                    "",
+                    "",
+                    "if( this.userRole === 'ROLE_FACULTY'){",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}",
+                    "else if( this.userRole === 'ROLE_ADMIN'){",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this",
+                    "\t});",
+                    "}",
+                    "else{",
+                    "\ttitle = r_.get('firstName') + \" \" + r_.get('middleName') + ' ' + r_.get('lastName');",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']' + ' Guardians');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});\t\t",
+                    "}"
+                ],
+                "name": "viewready",
+                "scope": "me"
+            },
+            "designerId": "9f0f5bc3-be7a-40c1-9331-ef5dc19dc0a1"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "form",
+                    "selected"
+                ],
+                "fn": "loadForm",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "console.log( form );",
+                    "",
+                    "form.loadRecord( selected[0] );",
+                    "",
+                    "var myFields = form.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "    myFields.items[i].disable();",
+                    "}",
+                    "console.log('guardian.OnlyGuardianProfileViewController.loadForm(): completed');"
+                ]
+            },
+            "designerId": "bc267472-703f-4fc0-945d-1e3777a52ca6"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMyJsonStoreLoad",
+                "implHandler": [
+                    "//debugger;",
+                    "//var g_ = Ext.ComponentQuery.query(\"#monthlysummarygridpanel\")[0];",
+                    "var g_ = this.getOnlyGuardianGridPanel();",
+                    "",
+                    "if (g_.getStore().getCount() > 0) {",
+                    "    g_.getSelectionModel().deselectAll();",
+                    "    g_.getSelectionModel().select( 0 );",
+                    "}",
+                    "",
+                    "this.gridViewReady = true;"
+                ]
+            },
+            "designerId": "e0ebb025-c886-4546-82b6-abf35bcbb930"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "saveOnlyGuardianProfileForm",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Save Guardian Profile Form\" );",
+                    "//var myForm\t\t\t\t\t= button.up().getForm();",
+                    "var myForm = this.getOnlyGuardianForm();",
+                    "",
+                    "",
+                    "//\tGet the stores that we will need",
+                    "var myStore\t\t= this.getStore( 'guardian.GuardianProfileStore' );",
+                    "",
+                    "//var rForm = myForm.getForm();",
+                    "",
+                    "//var formValues1\t= myForm.getValues();",
+                    "//var formValues\t= myForm.getForm().getValues();",
+                    "var formFields\t= myForm.getForm().getFields();",
+                    "//var name\t= formFields.items[0].name;",
+                    "//var value\t= formFields.items[0].lastValue;",
+                    "//var test\t= this.getFormValue( formFields, 'middleName');",
+                    "//debugger;",
+                    "",
+                    "//\tCreate the form record.",
+                    "var myRecord\t= myForm.getRecord();",
+                    "",
+                    "myRecord.set('firstName', this.getFormValue( formFields, 'firstName' ) );",
+                    "myRecord.set('middleName', this.getFormValue( formFields, 'middleName' ));",
+                    "myRecord.set('lastName', this.getFormValue( formFields, 'lastName' ));",
+                    "myRecord.set('phone1', this.getFormValue( formFields, 'phone1' ));",
+                    "myRecord.set('phone2', this.getFormValue( formFields, 'phone2' ));",
+                    "myRecord.set('address1', this.getFormValue( formFields, 'address1' ));",
+                    "myRecord.set('address2', this.getFormValue( formFields, 'address2' ));",
+                    "myRecord.set('city', this.getFormValue( formFields, 'city' ));",
+                    "myRecord.set('province', this.getFormValue( formFields, 'province' ));",
+                    "myRecord.set('postalCode', this.getFormValue( formFields, 'postalCode' ));",
+                    "myRecord.set('country', this.getFormValue( formFields, 'country' ));",
+                    "myRecord.set('email', this.getFormValue( formFields, 'email' ));",
+                    "myRecord.set('dob', this.getFormValue( formFields, 'dob' ));",
+                    "",
+                    "myRecord.set('whoUpdated', 'login');",
+                    "myRecord.set('lastUpdated', new Date());",
+                    "",
+                    "debugger;",
+                    "",
+                    "//sync the store.",
+                    "myStore.sync();"
+                ]
+            },
+            "designerId": "95303e53-fd9f-471b-ab1e-1018692f0c76"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "formFields",
+                    "name"
+                ],
+                "fn": "getFormValue",
+                "implHandler": [
+                    "//var name\t= formFields.items[0].name;",
+                    "//var value\t= formFields.items[0].lastValue;",
+                    "for( var i = 0; i < formFields.length; i++ )",
+                    "{",
+                    "    if( formFields.items[i].name === name )",
+                    "    {",
+                    "        return formFields.items[i].lastValue;",
+                    "    }",
+                    "}",
+                    "return \"\";"
+                ]
+            },
+            "designerId": "177adb66-b67d-4c4c-834e-9d8f424913c9"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyguardianrefreshtool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onOnlyguardianrefreshtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "console.log('onGuardianprofilerefreshtoolClick()');",
+                    "var myStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "",
+                    "var securityStore = Ext.getStore('security.SecurityStore');",
+                    "var securityRecord = securityStore.getAt(0);",
+                    "this.userName = securityRecord.get('userName');",
+                    "this.userRole = securityRecord.get('userRole');",
+                    "var title;",
+                    "var myGrid = this.getOnlyGuardianGridPanel();",
+                    "",
+                    "",
+                    "if( this.userRole === 'ROLE_FACULTY'){",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}",
+                    "else if( this.userRole === 'ROLE_ADMIN'){",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this",
+                    "\t});",
+                    "}",
+                    "else{",
+                    "\ttitle = r_.get('firstName') + \" \" + r_.get('middleName') + ' ' + r_.get('lastName');",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']' + ' Guardians');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "4c93a74a-82d8-4876-8857-4cf5aaca07c2"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyguardianprofileformeditbutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onOnlyguardianprofileformeditbuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var myForm = this.getOnlyGuardianForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].enable();",
+                    "}",
+                    "//myForm.getForm().focus();studentprofileformeditbutton",
+                    "var cancelButton\t= button.up().down('#onlyguardianprofileformcanelbutton');",
+                    "var saveButton\t\t= button.up().down('#onlyguardianprofileformsavebutton');",
+                    "cancelButton.enable();",
+                    "saveButton.enable();",
+                    "button.disable();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "19ef753e-9731-4bd5-8196-2134f82e3efb"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyguardianprofileformcanelbutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onOnlyguardianprofileformcanelbuttonClick",
+                "implHandler": [
+                    "var myForm = this.getOnlyGuardianForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].disable();",
+                    "}",
+                    "//myForm.getForm().focus();",
+                    "//var cancelButton\t= button.up().down('#onlyguardianprofileformcanelbutton');",
+                    "var saveButton\t\t= button.up().down('#onlyguardianprofileformsavebutton');",
+                    "var editButton\t\t= button.up().down('#onlyguardianprofileformeditbutton');",
+                    "editButton.enable();",
+                    "saveButton.disable();",
+                    "button.disable();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "22035fb6-2699-431c-b5c8-e409d73b51ac"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyguardianprofileformsavebutton",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onOnlyguardianprofileformsavebuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "var myForm = this.getOnlyGuardianForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].disable();",
+                    "}",
+                    "//myForm.getForm().focus();",
+                    "var cancelButton\t= button.up().down('#onlyguardianprofileformcanelbutton');",
+                    "//var saveButton\t\t= button.up().down('#onlyguardianprofileformsavebutton');",
+                    "var editButton\t\t= button.up().down('#onlyguardianprofileformeditbutton');",
+                    "editButton.enable();",
+                    "cancelButton.disable();",
+                    "button.disable();",
+                    "this.saveOnlyGuardianProfileForm();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "7df018ce-5905-406f-b4a1-40b090ec93f0"
+        }
+    ]
+}

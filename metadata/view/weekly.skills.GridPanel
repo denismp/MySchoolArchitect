@@ -41,7 +41,7 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrName",
-                "text": "Quarter Name"
+                "text": "Term"
             },
             "designerId": "47987272-872c-494f-9a43-ab982029f57a"
         },

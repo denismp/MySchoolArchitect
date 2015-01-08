@@ -293,6 +293,14 @@
                     "{",
                     "    console.log( 'loadTabPanelForm(): No form' );",
                     "    //console.log( tabPanel );",
+                    "}",
+                    "",
+                    "var editButton = myForm.items.items[0];",
+                    "if( this.userRole === 'ROLE_USER') {",
+                    "\teditButton.disable();",
+                    "}",
+                    "else {",
+                    "\teditButton.enable();",
                     "}"
                 ]
             },
