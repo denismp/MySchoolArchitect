@@ -8,6 +8,7 @@
     "userConfig": {
         "designer|userAlias": "studentprofilelocktool",
         "designer|userClassName": "student.ProfileLockTool",
+        "disabled": true,
         "id": null,
         "itemId": "studentprofilelocktool",
         "tooltip": "Lock?",

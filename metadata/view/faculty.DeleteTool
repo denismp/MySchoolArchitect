@@ -8,6 +8,7 @@
     "userConfig": {
         "designer|userAlias": "facultydeletetool",
         "designer|userClassName": "faculty.DeleteTool",
+        "disabled": true,
         "id": null,
         "itemId": "facultyprofiledeletetool",
         "tooltip": "Delete",

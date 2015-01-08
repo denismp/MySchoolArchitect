@@ -8,6 +8,7 @@
     "userConfig": {
         "designer|userAlias": "weeklyskillslocktool",
         "designer|userClassName": "weekly.skills.LockTool",
+        "disabled": true,
         "id": null,
         "itemId": "weeklyskillslocktool",
         "tooltip": "Lock?",

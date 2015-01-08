@@ -91,6 +91,9 @@
                 "type": "array"
             },
             "codeClass": null,
+            "userConfig": {
+                "disabled": true
+            },
             "designerId": "78ffad37-d3fc-451a-8256-d2f0f1406fb1",
             "masterInstanceId": "a32ff741-a13e-438d-8972-a53fb41f833e"
         },
@@ -101,6 +104,9 @@
                 "type": "array"
             },
             "codeClass": null,
+            "userConfig": {
+                "disabled": true
+            },
             "designerId": "edb89aed-3c74-4ca0-a615-daa7d5acac12",
             "masterInstanceId": "89a1ee17-4852-4444-9814-0d266603854d"
         }

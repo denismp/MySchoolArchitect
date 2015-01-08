@@ -8,6 +8,7 @@
     "userConfig": {
         "designer|userAlias": "bodiesofworkdeletetool",
         "designer|userClassName": "bodiesofwork.DeleteTool",
+        "disabled": true,
         "id": null,
         "itemId": "tooldeletebodiesofwork",
         "tooltip": "Delete",

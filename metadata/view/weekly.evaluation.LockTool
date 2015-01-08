@@ -8,6 +8,7 @@
     "userConfig": {
         "designer|userAlias": "weeklyevaluationlocktool",
         "designer|userClassName": "weekly.evaluation.LockTool",
+        "disabled": true,
         "id": null,
         "itemId": "weeklyevaluationlocktool",
         "tooltip": "Lock?",

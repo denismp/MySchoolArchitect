@@ -8,6 +8,7 @@
     "userConfig": {
         "designer|userAlias": "monthlyevaluationdeletetool",
         "designer|userClassName": "monthly.evaluation.DeleteTool",
+        "disabled": true,
         "id": null,
         "itemId": "monthlyevaluationdeletetool",
         "tooltip": "Delete",

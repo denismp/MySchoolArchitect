@@ -8,6 +8,7 @@
     "userConfig": {
         "designer|userAlias": "weeklyskillsdeletetool",
         "designer|userClassName": "weekly.skills.DeleteTool",
+        "disabled": true,
         "id": null,
         "itemId": "weeklyskillsdeletetool",
         "tooltip": "Delete",

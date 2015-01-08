@@ -100,6 +100,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "disabled": true,
                 "itemId": "onlyguardiandeletetool",
                 "type": "minus"
             },
@@ -113,6 +114,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "disabled": true,
                 "itemId": "onlyguardianlocktool",
                 "type": "pin"
             },

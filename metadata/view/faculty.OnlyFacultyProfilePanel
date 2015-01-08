@@ -132,6 +132,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "disabled": true,
                 "itemId": "onlyfacultydeletetool",
                 "type": "minus"
             },
@@ -161,6 +162,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "disabled": true,
                 "itemId": "onlyfacultylocktool",
                 "type": "pin"
             },

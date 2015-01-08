@@ -8,6 +8,7 @@
     "userConfig": {
         "designer|userAlias": "monthlyevaluationlocktool",
         "designer|userClassName": "monthly.evaluation.LockTool",
+        "disabled": true,
         "id": null,
         "itemId": "monthlyevaluationlocktool",
         "tooltip": "Lock?",
