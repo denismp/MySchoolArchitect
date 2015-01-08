@@ -437,6 +437,37 @@
                 "scope": "me"
             },
             "designerId": "7df018ce-5905-406f-b4a1-40b090ec93f0"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyfguardiansavetool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onOnlyfguardiansavetoolClick",
+                "implHandler": [
+                    "window.console.log( \"guardian.GuardianProfileStore.Save\" );",
+                    "debugger;",
+                    "",
+                    "var mystore = Ext.getStore(\"guardian.GuardianProfileStore\");",
+                    "",
+                    "var records = mystore.getModifiedRecords();",
+                    "for( var i = 0; i < records.length; i++ )",
+                    "{",
+                    "    records[i].set( 'lastUpdated', new Date() );",
+                    "    records[i].set( 'whoUpdated', 'login');",
+                    "}",
+                    "",
+                    "mystore.sync();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "e0b28716-eabe-4f1e-93ab-2fd056efc650"
         }
     ]
 }

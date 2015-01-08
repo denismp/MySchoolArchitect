@@ -101,7 +101,21 @@
                 "dataIndex": "studentUserName",
                 "text": "Student User Name"
             },
-            "designerId": "32d3ed39-3808-48fe-911f-d37cb72e829e"
+            "designerId": "32d3ed39-3808-48fe-911f-d37cb72e829e",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false
+                    },
+                    "designerId": "08a671a4-ba62-41f4-bf6a-4101740cc113"
+                }
+            ]
         },
         {
             "type": "Ext.grid.column.Column",
@@ -251,6 +265,15 @@
                 "minHeight": null
             },
             "designerId": "2abe507a-0b49-4ea5-b47f-149987cf7b8d"
+        },
+        {
+            "type": "Ext.grid.plugin.CellEditing",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": "Ext.grid.plugin.CellEditing",
+            "designerId": "99278eac-8afe-4d5d-ab3e-69f125f7bdbb"
         }
     ]
 }
