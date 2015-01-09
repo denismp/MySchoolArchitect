@@ -468,6 +468,37 @@
                 "scope": "me"
             },
             "designerId": "e0b28716-eabe-4f1e-93ab-2fd056efc650"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyguardiannewtool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onOnlyguardiannewtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var facultyStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "",
+                    "if( this.userRole === 'ROLE_ADMIN'){",
+                    "\tvar newDialog = Ext.create( 'MySchool.view.guardian.NewDialog' );",
+                    "",
+                    "\twindow.console.log( 'New Guardian Dialog' );",
+                    "",
+                    "\tnewDialog.render( Ext.getBody() );",
+                    "\tnewDialog.show();",
+                    "}",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "813566f1-0cfd-4b4f-9c7a-f55f2df33592"
         }
     ]
 }

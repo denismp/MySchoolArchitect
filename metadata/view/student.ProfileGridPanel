@@ -123,10 +123,39 @@
             },
             "codeClass": null,
             "userConfig": {
+                "dataIndex": "guardianUserName",
+                "text": "Guardian User Name"
+            },
+            "designerId": "89745d6a-9865-4523-866e-b19c086be988",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "blankText": null
+                    },
+                    "designerId": "463b0df6-60b3-464a-9971-2cd79627aec5"
+                }
+            ]
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "dataIndex": "guardianEmail",
                 "text": "Guardian Email"
             },
-            "designerId": "89745d6a-9865-4523-866e-b19c086be988"
+            "designerId": "6c249c7e-2bb1-4132-aa5a-28c000ff1870"
         },
         {
             "type": "Ext.grid.column.CheckColumn",
@@ -241,6 +270,15 @@
                 "text": "guardianId"
             },
             "designerId": "64f9eada-d0c5-4464-b16e-b901449fe40b"
+        },
+        {
+            "type": "Ext.grid.plugin.CellEditing",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": "Ext.grid.plugin.CellEditing",
+            "designerId": "d40231cd-1018-411b-9094-ed8fbf149ac5"
         }
     ]
 }

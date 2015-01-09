@@ -1,0 +1,291 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "guardian.NewDialog",
+        "height": 523,
+        "itemId": "studentnewdialog",
+        "title": "New Guardian",
+        "width": 390
+    },
+    "designerId": "eef3cc7a-b307-4c9c-a96c-780f0f8f35f4",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "draggable": true,
+                "frame": true,
+                "height": 482,
+                "itemId": "studentnewform",
+                "title": null,
+                "width": 380
+            },
+            "designerId": "06ec7e7e-0b3d-4432-9401-92491e6e35b8",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 415,
+                        "itemId": "studentnewformfieldset",
+                        "padding": 5,
+                        "title": null
+                    },
+                    "designerId": "fe08f598-b5f6-425f-a958-8e8d71820c8e",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "User Name",
+                                "itemId": "guardiannewform_username",
+                                "layout|anchor": "100%",
+                                "name": "firstname"
+                            },
+                            "designerId": "107ca064-568d-456e-b4da-cbb63b7ddb2d"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "First Name",
+                                "itemId": "guardiannewform_firstname",
+                                "layout|anchor": "100%",
+                                "name": "firstname"
+                            },
+                            "designerId": "ddfac24b-bfa6-43ef-9430-e86a2908690f"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Middle",
+                                "itemId": "guardiannewform_middlename",
+                                "layout|anchor": "100%",
+                                "name": "middlename"
+                            },
+                            "designerId": "c532cf36-49ec-478c-9c24-7dc17911c959"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Last Name",
+                                "itemId": "guardiannewform_lastname",
+                                "layout|anchor": "100%",
+                                "name": "lastname"
+                            },
+                            "designerId": "d3e21934-7247-4b70-8892-1f5c3610829a"
+                        },
+                        {
+                            "type": "Ext.form.field.Date",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "DOB",
+                                "itemId": "guardiannewform_dob",
+                                "layout|anchor": "100%",
+                                "name": "dob"
+                            },
+                            "designerId": "45a2c193-922c-4224-a073-a37cb622a4d6"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Phone1",
+                                "itemId": "guardiannewform_phone1",
+                                "layout|anchor": "100%",
+                                "name": "phone1"
+                            },
+                            "designerId": "14c030d7-bf0f-463c-af59-233c0f23acbd"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Phone2",
+                                "itemId": "guardiannewform_phone2",
+                                "layout|anchor": "100%",
+                                "name": "phone2"
+                            },
+                            "designerId": "bdc44ea6-87ac-4f76-8117-b5661e7beaf7"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Address1",
+                                "itemId": "guardiannewform_address1",
+                                "layout|anchor": "100%",
+                                "name": "address1"
+                            },
+                            "designerId": "0efe13c5-9126-403a-8caa-512451130468"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Address2",
+                                "itemId": "guardiannewform_address2",
+                                "layout|anchor": "100%",
+                                "name": "address2"
+                            },
+                            "designerId": "a9e38410-7f2f-4ec9-829f-2eed8881ae1e"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "City",
+                                "itemId": "guardiannewform_city",
+                                "layout|anchor": "100%",
+                                "name": "city"
+                            },
+                            "designerId": "5ab4d3e5-1388-4c40-860b-ffc2a4f25e76"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "State/Province",
+                                "itemId": "guardiannewform_state",
+                                "layout|anchor": "100%",
+                                "name": "state"
+                            },
+                            "designerId": "9250a151-2569-43e0-a64d-64205c74d217"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Postal Code",
+                                "itemId": "guardiannewform_postalcode",
+                                "layout|anchor": "100%",
+                                "name": "postalcode"
+                            },
+                            "designerId": "3faeef22-3dcd-429d-b3f7-00872bb2485c"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Country",
+                                "itemId": "guardiannewform_country",
+                                "layout|anchor": "100%",
+                                "name": "country"
+                            },
+                            "designerId": "3f675dea-4b08-400b-b88c-77a164756f18"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Email",
+                                "itemId": "guardiannewform_email",
+                                "layout|anchor": "100%",
+                                "name": "email"
+                            },
+                            "designerId": "ecbce0c5-4b8a-4305-9138-c339da7eabf5"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "guardiancancel",
+                        "text": "Cancel"
+                    },
+                    "designerId": "b716d77f-9521-44f9-bee1-c8dc2ef3a7bc"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "guardiansubmit",
+                        "text": "Submit"
+                    },
+                    "designerId": "24fd600b-72df-4a7e-be1d-3892f23b38ec"
+                }
+            ]
+        }
+    ]
+}

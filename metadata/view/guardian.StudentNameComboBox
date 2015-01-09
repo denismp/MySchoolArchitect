@@ -1,0 +1,24 @@
+{
+    "type": "Ext.form.field.ComboBox",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "allowOnlyWhitespace": false,
+        "designer|userAlias": "guardianstudentnamecombobox",
+        "designer|userClassName": "guardian.StudentNameComboBox",
+        "displayField": "userName",
+        "editable": false,
+        "emptyText": "Select one.",
+        "fieldLabel": "Student",
+        "forceSelection": true,
+        "itemId": "guardiannamescombobox",
+        "minHeight": 20,
+        "renderTo": null,
+        "store": "student.StudentPasswordStore",
+        "valueField": "studentId"
+    },
+    "designerId": "33200324-9f1f-49f9-b11a-e39b79191ff0"
+}
