@@ -59,6 +59,9 @@
                 "type": "array"
             },
             "codeClass": null,
+            "userConfig": {
+                "disabled": true
+            },
             "designerId": "eb97b706-4202-495e-be3f-cf08cf33246e",
             "masterInstanceId": "2db3271c-d89b-445f-a612-8b164a47b14b"
         },
