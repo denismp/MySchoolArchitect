@@ -1,0 +1,23 @@
+{
+    "type": "Ext.form.field.ComboBox",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "allowBlank": false,
+        "allowOnlyWhitespace": false,
+        "designer|userAlias": "guardiantypescombobox",
+        "designer|userClassName": "guardian.GuardianTypesComboBox",
+        "displayField": "name",
+        "fieldLabel": "Guardian Type",
+        "forceSelection": true,
+        "itemId": "guardiannewform_type",
+        "name": "combotype",
+        "queryMode": "local",
+        "store": "guardian.GuardianTypeStore",
+        "valueField": "id"
+    },
+    "designerId": "334af58d-54d3-4306-a0bd-18994c53a982"
+}

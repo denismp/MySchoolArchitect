@@ -38,7 +38,8 @@
             "student.PasswordModel",
             "security.SecurityModel",
             "subject.SchoolsModel",
-            "guardian.GuardianProfileModel"
+            "guardian.GuardianProfileModel",
+            "guardian.GuardianTypeModel"
         ],
         "name": "MySchool",
         "stores": [
@@ -63,7 +64,8 @@
             "student.StudentPasswordStore",
             "security.SecurityStore",
             "subject.SchoolsStore",
-            "guardian.GuardianProfileStore"
+            "guardian.GuardianProfileStore",
+            "guardian.GuardianTypeStore"
         ],
         "views": [
             "MainPanel",
@@ -174,8 +176,9 @@
             "guardian.ProfileGridGuardianOnlyPanel",
             "guardian.GuardianOnlyProfileForm",
             "guardian.GuardianProfilePanel",
+            "guardian.StudentNameComboBox",
             "guardian.NewDialog",
-            "guardian.StudentNameComboBox"
+            "guardian.GuardianTypesComboBox"
         ]
     },
     "designerId": "application"

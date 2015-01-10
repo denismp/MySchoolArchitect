@@ -70,6 +70,19 @@
             },
             "codeClass": null,
             "userConfig": {
+                "name": "type",
+                "type": "int"
+            },
+            "designerId": "692e1676-3daf-4b86-aa2a-f6dff6d3a406"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "email",
                 "type": "string"
             },

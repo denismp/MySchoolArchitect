@@ -1,0 +1,68 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "data": [
+            "[]"
+        ],
+        "designer|userAlias": "guardiantypestore",
+        "designer|userClassName": "guardian.GuardianTypeStore",
+        "model": "guardian.GuardianTypeModel",
+        "storeId": "guardian.GuardianTypeStore"
+    },
+    "designerId": "1bff7521-cc4b-4bc9-9066-9400bbf8e273",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "type": "int"
+            },
+            "designerId": "2a881827-5b6f-4510-b0c3-f54624d7f03c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "type": "string"
+            },
+            "designerId": "c8ff7848-3636-4d8f-b792-0fcffda42f0a"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "myLoad",
+                "implHandler": [
+                    "this.removeAll();",
+                    "",
+                    "this.add( { name: \"Father\", id: 0});",
+                    "this.add( { name: \"Mother\", id: 1});",
+                    "this.add( { name: \"Legal\", id: 2});",
+                    "",
+                    ""
+                ]
+            },
+            "designerId": "22832026-6d9f-40b5-bc67-8a3754db8d41"
+        }
+    ]
+}

@@ -8,7 +8,8 @@
     "userConfig": {
         "designer|userAlias": "studentnewdialog",
         "designer|userClassName": "student.NewDialog",
-        "height": 597,
+        "draggable": false,
+        "height": 590,
         "itemId": "studentnewdialog",
         "title": "New Student",
         "width": 390
@@ -18,15 +19,15 @@
         {
             "type": "Ext.form.Panel",
             "reference": {
-                "name": "items",
+                "name": "dockedItems",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
                 "bodyPadding": 10,
-                "draggable": true,
+                "dock": "top",
                 "frame": true,
-                "height": 557,
+                "height": 526,
                 "itemId": "studentnewform",
                 "title": null,
                 "width": 378
@@ -36,11 +37,12 @@
                 {
                     "type": "Ext.form.FieldSet",
                     "reference": {
-                        "name": "items",
+                        "name": "dockedItems",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "dock": "top",
                         "height": 478,
                         "itemId": "studentnewformfieldset",
                         "padding": 5,

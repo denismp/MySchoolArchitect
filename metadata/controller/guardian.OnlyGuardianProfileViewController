@@ -6,7 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "guardian.OnlyGuardianProfileViewController"
+        "designer|userClassName": "guardian.OnlyGuardianProfileViewController",
+        "stores": [
+            "guardian.GuardianTypeStore"
+        ]
     },
     "designerId": "14e7624a-76a0-421d-81ed-2c093e4fc262",
     "cn": [
@@ -483,7 +486,9 @@
                 "implHandler": [
                     "debugger;",
                     "",
-                    "var facultyStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "var guardianStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "var guardianTypesStore = Ext.getStore('guardian.GuardianTypeStore');",
+                    "guardianTypesStore.myLoad();",
                     "",
                     "if( this.userRole === 'ROLE_ADMIN'){",
                     "\tvar newDialog = Ext.create( 'MySchool.view.guardian.NewDialog' );",
@@ -493,12 +498,129 @@
                     "\tnewDialog.render( Ext.getBody() );",
                     "\tnewDialog.show();",
                     "}",
+                    "",
                     ""
                 ],
                 "name": "click",
                 "scope": "me"
             },
             "designerId": "813566f1-0cfd-4b4f-9c7a-f55f2df33592"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#guardiancancel",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onGuardiancancelClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Cancel New Guardian\" );",
+                    "var myForm = button.up().getForm();",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "6ef51288-c2aa-4cb8-9674-3201e9278b1f"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#guardiansubmit",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onGuardiansubmitClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Submit New Guardian\" );",
+                    "var myForm\t\t\t\t\t= button.up().getForm();",
+                    "var myPanel\t\t\t\t\t= button.up();",
+                    "var myGrid\t\t\t\t\t= this.getOnlyGuardianGridPanel();",
+                    "",
+                    "//Get the values from the form and insert a new record into the GuardianProfileStore.",
+                    "",
+                    "var formValues\t\t\t\t= myForm.getValues();",
+                    "",
+                    "//\tCreate an empty record",
+                    "var myRecord\t= Ext.create('MySchool.model.guardian.GuardianProfileModel');",
+                    "",
+                    "//\tGet the stores that we will need",
+                    "",
+                    "var firstname\t= formValues.firstname;",
+                    "var middlename\t= formValues.middlename;",
+                    "var lastname\t= formValues.lastname;",
+                    "var phone1\t\t= formValues.phone1;",
+                    "var phone2\t\t= formValues.phone2;",
+                    "var address1\t= formValues.address1;",
+                    "var address2\t= formValues.address2;",
+                    "var city\t\t= formValues.city;",
+                    "var state\t\t= formValues.state;",
+                    "var postalcode\t= formValues.postalcode;",
+                    "var country\t\t= formValues.country;",
+                    "var email\t\t= formValues.email;",
+                    "var username\t= formValues.username;",
+                    "",
+                    "var type\t\t= formValues.combotype;",
+                    "",
+                    "var dob\t\t\t= formValues.dob;",
+                    "",
+                    "",
+                    "var myStore\t\t= this.getStore( 'guardian.GuardianProfileStore' );",
+                    "",
+                    "//debugger;",
+                    "",
+                    "",
+                    "myRecord.set( 'id', null );",
+                    "//myRecord.set( 'version', null );",
+                    "",
+                    "myRecord.set('whoUpdated', 'login');",
+                    "myRecord.set('lastUpdated', new Date());",
+                    "myRecord.set('email', email );",
+                    "myRecord.set('firstName', firstname );",
+                    "myRecord.set('middleName', middlename );",
+                    "myRecord.set('lastName', lastname);",
+                    "myRecord.set('phone1', phone1 );",
+                    "myRecord.set('phone2', phone2 );",
+                    "myRecord.set('address1', address1);",
+                    "myRecord.set('address2', address2);",
+                    "myRecord.set('city', city);",
+                    "myRecord.set('province', state);",
+                    "myRecord.set('postalCode',postalcode);",
+                    "myRecord.set('country',country);",
+                    "myRecord.set('userName',username);",
+                    "",
+                    "myRecord.set('enabled', true);",
+                    "myRecord.set('dob', dob);",
+                    "",
+                    "myRecord.set('type', type);",
+                    "",
+                    "//add to the store",
+                    "",
+                    "myStore.add( myRecord );",
+                    "",
+                    "//sync the store.",
+                    "myStore.sync();",
+                    "",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "8006faa7-b809-4cc3-980a-adeb5b8337eb"
         }
     ]
 }

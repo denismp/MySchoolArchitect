@@ -17,13 +17,13 @@
         {
             "type": "Ext.form.Panel",
             "reference": {
-                "name": "items",
+                "name": "dockedItems",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
                 "bodyPadding": 10,
-                "draggable": true,
+                "dock": "top",
                 "frame": true,
                 "height": 508,
                 "itemId": "facultynewform",
@@ -35,11 +35,12 @@
                 {
                     "type": "Ext.form.FieldSet",
                     "reference": {
-                        "name": "items",
+                        "name": "dockedItems",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "dock": "top",
                         "height": 445,
                         "itemId": "facultynewformfieldset",
                         "padding": 5,
@@ -60,7 +61,26 @@
                                 "layout|anchor": "100%",
                                 "name": "firstname"
                             },
-                            "designerId": "f18c11e7-93e7-4384-b09b-0e0974f3940c"
+                            "designerId": "f18c11e7-93e7-4384-b09b-0e0974f3940c",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onNewform_firstnameBoxReady",
+                                        "implHandler": [
+                                            "component.focus(false, 200);"
+                                        ],
+                                        "name": "boxready",
+                                        "scope": "me"
+                                    },
+                                    "designerId": "4a419180-93c4-41ed-8fab-55406ddc210a"
+                                }
+                            ]
                         },
                         {
                             "type": "Ext.form.field.Text",
