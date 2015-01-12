@@ -7,12 +7,11 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": false,
-        "designer|userAlias": "subjectstore",
-        "designer|userClassName": "subject.SubjectStore",
-        "model": "subject.SubjectsModel",
-        "storeId": "subject.SubjectStore"
+        "designer|userClassName": "school.SchoolProfileStore",
+        "model": "school.SchoolProfileModel",
+        "storeId": "school.SchoolProfileStore"
     },
-    "designerId": "dd4c2f23-5978-4a8e-a8ad-ceca3b4a5b04",
+    "designerId": "3ebbf4f4-5aff-44a9-9025-c66cd9f1f543",
     "cn": [
         {
             "type": "Ext.data.proxy.Rest",
@@ -23,12 +22,11 @@
             "codeClass": null,
             "userConfig": {
                 "headers": [
-                    "{ 'Accept' : 'application/json' }",
-                    ""
+                    "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "subjectviews/json"
+                "url": "schoolprofileviews/json"
             },
-            "designerId": "2a230106-f489-496a-bf00-5dbff0504f99",
+            "designerId": "d07215e1-76b5-4a40-b2eb-d6633e01a7aa",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -40,7 +38,7 @@
                     "userConfig": {
                         "root": "data"
                     },
-                    "designerId": "e8431f32-bf2f-43cd-9c0e-dca5088b59d1"
+                    "designerId": "3747acbd-2a8e-4c14-bdf0-814873d29d9b"
                 },
                 {
                     "type": "basiceventbinding",
@@ -52,7 +50,7 @@
                     "userConfig": {
                         "fn": "onRestException",
                         "implHandler": [
-                            "//debugger;",
+                            "debugger;",
                             "var smsg = response.request.options.method + '<br>' + response.request.options.action + '<br>' + response.responseText + '<br>' + response.status + '<br>' + response.statusText + '<br>' + operation.params.data;",
                             "Ext.MessageBox.show({",
                             "    title: 'REMOTE EXCEPTION',",
@@ -62,18 +60,17 @@
                             "    resizeable: true",
                             "});",
                             "window.console.log( smsg );",
-                            "if( response.responseText.indexOf( 'Please specify a valid student user name' ) > -1 ){",
-                            "\tthis.reload();",
-                            "}",
                             "//if( this.getCount() > 0 )",
                             "//{",
                             "//    this.reload();",
-                            "//}"
+                            "//}",
+                            "////this.reload();",
+                            ""
                         ],
                         "name": "exception",
                         "scope": "me"
                     },
-                    "designerId": "7bc3f091-b6a1-45bd-a3f3-dc5e875ccf9c"
+                    "designerId": "2a334e13-6d02-413b-80ba-b78a239a32f0"
                 }
             ]
         },
@@ -85,22 +82,15 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "onJsonstoreBeforeSync",
+                "fn": "onJsonstoreLoad",
                 "implHandler": [
                     "//debugger;",
-                    "var smsg = 'Before sync()';",
-                    "//Ext.MessageBox.show({",
-                    "//    title: 'REMOTE EXCEPTION',",
-                    "//    msg: smsg,",
-                    "//    icon: Ext.MessageBox.ERROR,",
-                    "//    buttons: Ext.Msg.OK",
-                    "//});",
-                    "window.console.log( smsg );"
+                    "console.log(\"school.SchoolProfileStore.onJsonstoreLoad() called...\");"
                 ],
-                "name": "beforesync",
+                "name": "load",
                 "scope": "me"
             },
-            "designerId": "5c51fb02-bf21-4ff0-ab40-30e3a7ce531a"
+            "designerId": "f16712a5-1dcc-455d-a779-5dbfe891a1b8"
         },
         {
             "type": "basiceventbinding",
@@ -112,13 +102,14 @@
             "userConfig": {
                 "fn": "onJsonstoreWrite",
                 "implHandler": [
-                    "window.console.log( \"SubjectStore reload...\");",
+                    "//debugger;",
+                    "console.log(\"school.SchoolProfileStore.onJsonstoreWrite(): called...\");",
                     "store.reload();"
                 ],
                 "name": "write",
                 "scope": "me"
             },
-            "designerId": "d7be4d2e-6b04-48cb-a86c-70fa2b83911f"
+            "designerId": "9f8f3880-3a38-4132-97ea-a50bce3ab32d"
         }
     ]
 }

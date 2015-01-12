@@ -7,12 +7,11 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": false,
-        "designer|userAlias": "subjectstore",
-        "designer|userClassName": "subject.SubjectStore",
-        "model": "subject.SubjectsModel",
-        "storeId": "subject.SubjectStore"
+        "designer|userClassName": "admin.AdminProfileStore",
+        "model": "admin.AdminProfileModel",
+        "storeId": "admin.AdminProfileStore"
     },
-    "designerId": "dd4c2f23-5978-4a8e-a8ad-ceca3b4a5b04",
+    "designerId": "a4034d36-4d65-4c15-939e-0195e3ca6748",
     "cn": [
         {
             "type": "Ext.data.proxy.Rest",
@@ -23,12 +22,11 @@
             "codeClass": null,
             "userConfig": {
                 "headers": [
-                    "{ 'Accept' : 'application/json' }",
-                    ""
+                    "{ 'Accept' : 'application/json' }"
                 ],
-                "url": "subjectviews/json"
+                "url": "adminviews/json"
             },
-            "designerId": "2a230106-f489-496a-bf00-5dbff0504f99",
+            "designerId": "9fd29e7b-8c56-4fca-a677-0430fb30c0ae",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -40,7 +38,7 @@
                     "userConfig": {
                         "root": "data"
                     },
-                    "designerId": "e8431f32-bf2f-43cd-9c0e-dca5088b59d1"
+                    "designerId": "b3094ea6-7b3e-4e0b-838f-a36dcaeb9848"
                 },
                 {
                     "type": "basiceventbinding",
@@ -52,7 +50,7 @@
                     "userConfig": {
                         "fn": "onRestException",
                         "implHandler": [
-                            "//debugger;",
+                            "debugger;",
                             "var smsg = response.request.options.method + '<br>' + response.request.options.action + '<br>' + response.responseText + '<br>' + response.status + '<br>' + response.statusText + '<br>' + operation.params.data;",
                             "Ext.MessageBox.show({",
                             "    title: 'REMOTE EXCEPTION',",
@@ -62,18 +60,17 @@
                             "    resizeable: true",
                             "});",
                             "window.console.log( smsg );",
-                            "if( response.responseText.indexOf( 'Please specify a valid student user name' ) > -1 ){",
-                            "\tthis.reload();",
-                            "}",
                             "//if( this.getCount() > 0 )",
                             "//{",
                             "//    this.reload();",
-                            "//}"
+                            "//}",
+                            "////this.reload();",
+                            ""
                         ],
                         "name": "exception",
                         "scope": "me"
                     },
-                    "designerId": "7bc3f091-b6a1-45bd-a3f3-dc5e875ccf9c"
+                    "designerId": "310df48e-9ae4-413d-9d88-953fef387d10"
                 }
             ]
         },
@@ -85,22 +82,15 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "onJsonstoreBeforeSync",
+                "fn": "onJsonstoreLoad",
                 "implHandler": [
                     "//debugger;",
-                    "var smsg = 'Before sync()';",
-                    "//Ext.MessageBox.show({",
-                    "//    title: 'REMOTE EXCEPTION',",
-                    "//    msg: smsg,",
-                    "//    icon: Ext.MessageBox.ERROR,",
-                    "//    buttons: Ext.Msg.OK",
-                    "//});",
-                    "window.console.log( smsg );"
+                    "console.log(\"admin.AdminProfileStore.onJsonstoreLoad() called...\");"
                 ],
-                "name": "beforesync",
+                "name": "load",
                 "scope": "me"
             },
-            "designerId": "5c51fb02-bf21-4ff0-ab40-30e3a7ce531a"
+            "designerId": "5dc93ba7-f41a-4db1-afab-70a5c5a7f5e6"
         },
         {
             "type": "basiceventbinding",
@@ -112,13 +102,14 @@
             "userConfig": {
                 "fn": "onJsonstoreWrite",
                 "implHandler": [
-                    "window.console.log( \"SubjectStore reload...\");",
+                    "//debugger;",
+                    "console.log(\"admin.AdminProfileStore.onJsonstoreWrite(): called...\");",
                     "store.reload();"
                 ],
                 "name": "write",
                 "scope": "me"
             },
-            "designerId": "d7be4d2e-6b04-48cb-a86c-70fa2b83911f"
+            "designerId": "68d452ec-b096-46d1-b554-c68ccffbca05"
         }
     ]
 }

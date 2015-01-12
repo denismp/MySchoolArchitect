@@ -1,0 +1,374 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoScroll": true,
+        "designer|userAlias": "adminprofilegridadminonlypanel",
+        "designer|userClassName": "admin.ProfileGridAdminOnlyPanel",
+        "forceFit": true,
+        "height": null,
+        "itemId": "adminonlygridpanel",
+        "maxHeight": 200,
+        "minHeight": 200,
+        "store": "admin.AdminProfileStore",
+        "title": "School Admins"
+    },
+    "designerId": "e8b73df9-eed7-416f-ba0b-e305f48120a1",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "id",
+                "format": "000000",
+                "hidden": true,
+                "text": "id"
+            },
+            "designerId": "94fef6e5-1205-4776-bb73-a10b94d53bc7"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "adminId",
+                "format": "000000",
+                "hidden": true,
+                "text": "adminId"
+            },
+            "designerId": "2e5708c9-0c84-4798-b1bb-3bddb3c93f32"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "adminviewId",
+                "format": "000000",
+                "hidden": true,
+                "text": "adminviewId"
+            },
+            "designerId": "5bc32aa2-f52d-4b35-9bd6-7daf790dd567"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolId",
+                "format": "000000",
+                "hidden": true,
+                "text": "schoolId"
+            },
+            "designerId": "ba83be6d-edd8-4d4c-b97d-bdbcea145ed5"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "userName",
+                "text": "Admin User Name"
+            },
+            "designerId": "bdf55612-bae4-4381-87a1-803ce8f492e0"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolName",
+                "text": "School Name"
+            },
+            "designerId": "1aea456f-22e2-4f19-b6b3-0eca3d9994f3"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "firstName",
+                "hidden": true,
+                "text": "First Name"
+            },
+            "designerId": "06e88b14-4ce2-4394-9741-caa708ecb5f8"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "middleName",
+                "hidden": true,
+                "text": "Middle Name"
+            },
+            "designerId": "af076d7c-f9f9-419e-8964-7a784107257e"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "lastName",
+                "hidden": true,
+                "text": "Last Name"
+            },
+            "designerId": "3f88864f-d7fe-49cb-9b1d-bb522c17b6c4"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "email",
+                "text": "Admin Email"
+            },
+            "designerId": "0bdd18ea-b15a-4c07-82e0-7faad1ad2100"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "phone1",
+                "hidden": true,
+                "text": "phone1"
+            },
+            "designerId": "8004b726-ef37-4af8-81f2-cfe08afd8d14"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "phone2",
+                "hidden": true,
+                "text": "phone2"
+            },
+            "designerId": "147e4ece-09db-4136-bf60-fb1c9008d2e2"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "address1",
+                "hidden": true,
+                "text": "address1"
+            },
+            "designerId": "3ed20983-dddc-439a-825a-dae5efcf4fd0"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "address2",
+                "hidden": true,
+                "text": "address2"
+            },
+            "designerId": "f079c4ca-18f1-44fc-8747-1377c71a5259"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "city",
+                "hidden": true,
+                "text": "city"
+            },
+            "designerId": "f7f14f8a-e3de-49e6-b42c-86e0439735f2"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "province",
+                "hidden": true,
+                "text": "province"
+            },
+            "designerId": "0e2ea2a4-5eae-4d7a-94fd-70f1d20bbd4b"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "postalCode",
+                "hidden": true,
+                "text": "postalCode"
+            },
+            "designerId": "670d6ad0-9409-4c86-a92b-49da27be49fd"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "country",
+                "hidden": true,
+                "text": "country"
+            },
+            "designerId": "a69c6b16-80f1-4ba0-b0df-be8351b274b2"
+        },
+        {
+            "type": "Ext.grid.column.CheckColumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "enabled",
+                "hidden": true,
+                "itemId": "adminprofilegridpanelenabled",
+                "text": "Enabled?"
+            },
+            "designerId": "68d75c58-6397-40e0-850f-7cce0d18c615"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "version",
+                "format": "000000",
+                "hidden": true,
+                "text": "version"
+            },
+            "designerId": "87eb44f0-df8f-4202-8b4c-dc630997e0f9"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "whoUpdated",
+                "hidden": true,
+                "text": "Who Updated"
+            },
+            "designerId": "7eb9125e-33bc-4fe4-87eb-036cde89524e"
+        },
+        {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "lastUpdated",
+                "hidden": true,
+                "text": "Last Updated"
+            },
+            "designerId": "264c3164-593b-43b7-8b2a-dd218cb63e7b"
+        },
+        {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "createdDate",
+                "hidden": true,
+                "text": "Created Date"
+            },
+            "designerId": "bda99178-535e-497d-9318-29fa9515705e"
+        },
+        {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "dob",
+                "hidden": true,
+                "text": "dob"
+            },
+            "designerId": "57c85079-c192-4c81-8f84-82b523dc0497"
+        },
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "minHeight": null
+            },
+            "designerId": "d09e867d-09ca-43e4-9df3-46d5d146d5f2"
+        }
+    ]
+}

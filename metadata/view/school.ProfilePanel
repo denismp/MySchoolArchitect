@@ -6,13 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "guardianguardianprofilepanel",
-        "designer|userClassName": "guardian.GuardianProfilePanel",
-        "itemId": "guardianonlyprofilepanel",
+        "designer|userAlias": "schoolprofilepanel",
+        "designer|userClassName": "school.ProfilePanel",
+        "itemId": "schoolprofiledetailspanel",
         "layout": "fit",
-        "title": "Guardian Profile Details"
+        "title": "School Profiles Details"
     },
-    "designerId": "048b96a5-0cdf-4187-bd5e-4441c241b599",
+    "designerId": "f2c4abc4-62b7-4398-b304-4a9dd4a83312",
     "cn": [
         {
             "type": "linkedinstance",
@@ -24,8 +24,8 @@
             "userConfig": {
                 "dock": "top"
             },
-            "designerId": "39de870f-d791-4173-8f7b-f42e82daa7e7",
-            "masterInstanceId": "9ee032ee-bda2-4fb0-89e1-af7089b8de34"
+            "designerId": "32966e70-e54a-4956-b0b4-c3e15c703648",
+            "masterInstanceId": "d826ceba-7f12-4b3d-8246-ffef8cb96586"
         },
         {
             "type": "linkedinstance",
@@ -37,8 +37,8 @@
             "userConfig": {
                 "dock": "bottom"
             },
-            "designerId": "61be1532-974a-4c20-ad49-717805fd4607",
-            "masterInstanceId": "41cbecbd-d7c5-4007-b0a6-d05ee5840068"
+            "designerId": "5fd27135-02b0-4954-b8f5-d0f1a50fc17b",
+            "masterInstanceId": "dbc2b851-0490-4545-964e-78ea8b452a6a"
         },
         {
             "type": "Ext.panel.Tool",
@@ -48,10 +48,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "itemId": "onlyguardianrefreshtool",
+                "itemId": "schoolrefreshtool",
+                "tooltip": "Refresh",
                 "type": "refresh"
             },
-            "designerId": "774f245e-23b9-4f51-aa11-0fbd15c83feb"
+            "designerId": "f48f060d-bf63-4931-bf09-b6a608dd56ce"
         },
         {
             "type": "Ext.panel.Tool",
@@ -62,10 +63,11 @@
             "codeClass": null,
             "userConfig": {
                 "disabled": true,
-                "itemId": "onlyguardiansearchtool",
+                "itemId": "schoolsearchtool",
+                "tooltip": "Search",
                 "type": "search"
             },
-            "designerId": "4d119433-27de-4515-8917-fa751c042d3e"
+            "designerId": "86c58b48-1812-488e-b031-e4049ac72c12"
         },
         {
             "type": "Ext.panel.Tool",
@@ -75,10 +77,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "itemId": "onlyguardiannewtool",
+                "itemId": "schoolnewtool",
+                "tooltip": "Search",
                 "type": "plus"
             },
-            "designerId": "500ac3b3-32d8-4d8f-acbe-bd11e4e75ef7"
+            "designerId": "ff6c3960-b2b1-4437-8318-789ccd23046c"
         },
         {
             "type": "Ext.panel.Tool",
@@ -88,10 +91,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "itemId": "onlyfguardiansavetool",
+                "itemId": "schoolsavetool",
+                "tooltip": "Search",
                 "type": "save"
             },
-            "designerId": "010679d0-f164-4da7-b092-f3e3ea4ee0c5"
+            "designerId": "4a30380b-5fa2-43ec-98bb-7a3679b24951"
         },
         {
             "type": "Ext.panel.Tool",
@@ -102,10 +106,11 @@
             "codeClass": null,
             "userConfig": {
                 "disabled": true,
-                "itemId": "onlyguardiandeletetool",
+                "itemId": "schooldeletetool",
+                "tooltip": "Search",
                 "type": "minus"
             },
-            "designerId": "d88d7f38-cb66-4683-bbb3-d58515549702"
+            "designerId": "e93ca998-a034-44c6-95ec-e90e2ac780e1"
         },
         {
             "type": "Ext.panel.Tool",
@@ -116,10 +121,11 @@
             "codeClass": null,
             "userConfig": {
                 "disabled": true,
-                "itemId": "onlyguardianlocktool",
+                "itemId": "schoollocktool",
+                "tooltip": "Search",
                 "type": "pin"
             },
-            "designerId": "e0846f7c-4bc6-4f2a-9fe8-f531ec3c5241"
+            "designerId": "78b265a4-dfa8-44d0-a4e0-91bc86804aaf"
         }
     ]
 }

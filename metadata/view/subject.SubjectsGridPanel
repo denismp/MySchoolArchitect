@@ -44,7 +44,6 @@
             "userConfig": {
                 "dataIndex": "subjId",
                 "format": "000000",
-                "hidden": true,
                 "text": "subjId"
             },
             "designerId": "548d29c2-5965-4356-b971-886f9678ea11"
@@ -135,7 +134,18 @@
                 "text": "School Name",
                 "width": null
             },
-            "designerId": "e5553310-ef94-45bc-a49e-ba3a0de3c636"
+            "designerId": "e5553310-ef94-45bc-a49e-ba3a0de3c636",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "e8cf9f37-f489-4657-a2fd-753643ed7159"
+                }
+            ]
         },
         {
             "type": "Ext.grid.column.Number",
@@ -214,7 +224,7 @@
             },
             "codeClass": "Ext.grid.plugin.CellEditing",
             "userConfig": {
-                "clicksToEdit": 1
+                "clicksToEdit": null
             },
             "designerId": "5a1b14f6-e16e-447e-a090-316414fdf463"
         },

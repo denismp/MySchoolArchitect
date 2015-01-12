@@ -6,13 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "guardianguardianprofilepanel",
-        "designer|userClassName": "guardian.GuardianProfilePanel",
-        "itemId": "guardianonlyprofilepanel",
+        "designer|userAlias": "adminadminprofilepanel",
+        "designer|userClassName": "admin.AdminProfilePanel",
+        "itemId": "adminonlyprofilepanel",
         "layout": "fit",
-        "title": "Guardian Profile Details"
+        "title": "School Admin Profile Details"
     },
-    "designerId": "048b96a5-0cdf-4187-bd5e-4441c241b599",
+    "designerId": "49b7b18d-8597-4700-a2c6-5a851088ced3",
     "cn": [
         {
             "type": "linkedinstance",
@@ -24,21 +24,18 @@
             "userConfig": {
                 "dock": "top"
             },
-            "designerId": "39de870f-d791-4173-8f7b-f42e82daa7e7",
-            "masterInstanceId": "9ee032ee-bda2-4fb0-89e1-af7089b8de34"
+            "designerId": "52a6ef83-60ef-45b0-9660-48601bec5b2d",
+            "masterInstanceId": "e8b73df9-eed7-416f-ba0b-e305f48120a1"
         },
         {
             "type": "linkedinstance",
             "reference": {
-                "name": "dockedItems",
+                "name": "items",
                 "type": "array"
             },
             "codeClass": null,
-            "userConfig": {
-                "dock": "bottom"
-            },
-            "designerId": "61be1532-974a-4c20-ad49-717805fd4607",
-            "masterInstanceId": "41cbecbd-d7c5-4007-b0a6-d05ee5840068"
+            "designerId": "8ecf298c-94bc-4afe-a232-accc5481b622",
+            "masterInstanceId": "83e4f3e8-93d4-4c79-b14b-c61498b1bf95"
         },
         {
             "type": "Ext.panel.Tool",
@@ -48,10 +45,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "itemId": "onlyguardianrefreshtool",
+                "itemId": "onlyadminrefreshtool",
                 "type": "refresh"
             },
-            "designerId": "774f245e-23b9-4f51-aa11-0fbd15c83feb"
+            "designerId": "aa47b7e3-b8db-4d25-b03c-7044d4dc14b7"
         },
         {
             "type": "Ext.panel.Tool",
@@ -62,10 +59,10 @@
             "codeClass": null,
             "userConfig": {
                 "disabled": true,
-                "itemId": "onlyguardiansearchtool",
+                "itemId": "onlyadminsearchtool",
                 "type": "search"
             },
-            "designerId": "4d119433-27de-4515-8917-fa751c042d3e"
+            "designerId": "4d767b39-0de2-4d91-89c6-0c48db057cb9"
         },
         {
             "type": "Ext.panel.Tool",
@@ -75,10 +72,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "itemId": "onlyguardiannewtool",
+                "itemId": "onlyadminnewtool",
                 "type": "plus"
             },
-            "designerId": "500ac3b3-32d8-4d8f-acbe-bd11e4e75ef7"
+            "designerId": "67643017-363c-4d0f-8387-59a305ae3506"
         },
         {
             "type": "Ext.panel.Tool",
@@ -88,10 +85,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "itemId": "onlyfguardiansavetool",
+                "itemId": "onlyadminsavetool",
                 "type": "save"
             },
-            "designerId": "010679d0-f164-4da7-b092-f3e3ea4ee0c5"
+            "designerId": "27268660-a5da-45fc-ab74-f91e13f52d3a"
         },
         {
             "type": "Ext.panel.Tool",
@@ -102,10 +99,10 @@
             "codeClass": null,
             "userConfig": {
                 "disabled": true,
-                "itemId": "onlyguardiandeletetool",
+                "itemId": "onlyadmindeletetool",
                 "type": "minus"
             },
-            "designerId": "d88d7f38-cb66-4683-bbb3-d58515549702"
+            "designerId": "dd1c2cec-e5dd-418a-a22d-a0dc73f71699"
         },
         {
             "type": "Ext.panel.Tool",
@@ -116,10 +113,23 @@
             "codeClass": null,
             "userConfig": {
                 "disabled": true,
-                "itemId": "onlyguardianlocktool",
+                "itemId": "onlyadminlocktool",
                 "type": "pin"
             },
-            "designerId": "e0846f7c-4bc6-4f2a-9fe8-f531ec3c5241"
+            "designerId": "6814b3aa-8143-4db1-8af5-6f645548b0ae"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyadminpasswordtool",
+                "type": "gear"
+            },
+            "designerId": "030da1c3-8163-420c-ac3e-6b920fc34ec3"
         }
     ]
 }
