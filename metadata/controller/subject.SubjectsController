@@ -96,6 +96,7 @@
                 "fn": "onViewReady",
                 "implHandler": [
                     "grid.getSelectionModel().select( 0 );",
+                    "this.schoolNameComboBox = null;",
                     ""
                 ]
             },
@@ -117,9 +118,10 @@
                 "fn": "onSubjectsavetoolidClick",
                 "implHandler": [
                     "window.console.log( \"Save\" );",
-                    "//debugger;",
+                    "debugger;",
                     "",
                     "var mystore = Ext.getStore(\"subject.SubjectStore\");",
+                    "var myGrid = this.getSubjectsGrid();",
                     "",
                     "if( this.userRole === 'ROLE_USER' )",
                     "{",
@@ -133,6 +135,7 @@
                     "    records[i].set( 'qtrLastUpdated', new Date() );",
                     "    //records[i].set( 'quarter.lastUpdated', new Date() );",
                     "    records[i].set( 'qtrWhoUpdated', 'login');",
+                    "\t",
                     "    if( false )",
                     "    {",
                     "        var form = this.getSubjectsForm().getForm();",
@@ -305,6 +308,7 @@
                     "",
                     "var mystore = Ext.getStore(\"subject.SubjectStore\");",
                     "var myAllSubjStore = Ext.getStore(\"subject.AllSubjectStore\");",
+                    "myAllSubjStore.reload();",
                     "var mySchoolsStore = Ext.getStore(\"subject.SchoolsStore\");",
                     "var subjAllEmpty_ = myAllSubjStore.getCount() < 1 ? true : false;",
                     "var mynamestore = Ext.getStore( \"subject.QuarterNameStore\" );",
@@ -1375,6 +1379,19 @@
                 "scope": "me"
             },
             "designerId": "77890bc7-66ba-416b-a648-241324e39a57"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "subjectsGrid",
+                "selector": "#subjectsgrid"
+            },
+            "designerId": "d24f5676-c26c-4f72-97d5-87fbcf73efcc"
         }
     ]
 }

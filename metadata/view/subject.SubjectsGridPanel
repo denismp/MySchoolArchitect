@@ -134,16 +134,23 @@
                 "text": "School Name",
                 "width": null
             },
-            "designerId": "e5553310-ef94-45bc-a49e-ba3a0de3c636",
+            "designerId": "0524e154-f41f-463d-8c0a-52ffecff793c",
             "cn": [
                 {
-                    "type": "Ext.form.field.Text",
+                    "type": "Ext.form.field.ComboBox",
                     "reference": {
                         "name": "editor",
                         "type": "object"
                     },
                     "codeClass": null,
-                    "designerId": "e8cf9f37-f489-4657-a2fd-753643ed7159"
+                    "userConfig": {
+                        "displayField": "name",
+                        "itemId": "subjectgridschoolnamecombobox",
+                        "name": "schoolname",
+                        "store": "subject.SchoolsStore",
+                        "valueField": "name"
+                    },
+                    "designerId": "714bd6fb-3f38-482c-a341-20ef1a5945f7"
                 }
             ]
         },
