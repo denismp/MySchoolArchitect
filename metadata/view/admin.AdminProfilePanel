@@ -46,6 +46,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyadminrefreshtool",
+                "tooltip": "Refresh",
                 "type": "refresh"
             },
             "designerId": "aa47b7e3-b8db-4d25-b03c-7044d4dc14b7"
@@ -60,6 +61,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyadminsearchtool",
+                "tooltip": "Search",
                 "type": "search"
             },
             "designerId": "4d767b39-0de2-4d91-89c6-0c48db057cb9"
@@ -73,6 +75,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyadminnewtool",
+                "tooltip": "New",
                 "type": "plus"
             },
             "designerId": "67643017-363c-4d0f-8387-59a305ae3506"
@@ -86,6 +89,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyadminsavetool",
+                "tooltip": "Save",
                 "type": "save"
             },
             "designerId": "27268660-a5da-45fc-ab74-f91e13f52d3a"
@@ -100,6 +104,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyadmindeletetool",
+                "tooltip": "Delete",
                 "type": "minus"
             },
             "designerId": "dd1c2cec-e5dd-418a-a22d-a0dc73f71699"
@@ -114,6 +119,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyadminlocktool",
+                "tooltip": "Lock",
                 "type": "pin"
             },
             "designerId": "6814b3aa-8143-4db1-8af5-6f645548b0ae"
@@ -127,6 +133,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyadminpasswordtool",
+                "tooltip": "Password",
                 "type": "gear"
             },
             "designerId": "030da1c3-8163-420c-ac3e-6b920fc34ec3"

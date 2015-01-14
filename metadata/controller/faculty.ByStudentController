@@ -884,6 +884,37 @@
                 ]
             },
             "designerId": "efab196f-456e-4f94-9f05-019be4236590"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultyprofilesbystudenttab",
+                "designer|targetType": "Ext.panel.Panel",
+                "fn": "onFacultyprofilesbystudenttabActivate",
+                "implHandler": [
+                    "debugger;",
+                    "//subjectsgrid",
+                    "// catch the tab activate but only reload if we have processed",
+                    "// the viewready indicated by this.gridViewReady",
+                    "console.log('tab.activate()');",
+                    "",
+                    "if ( Ext.isDefined( this.gridViewReady  ) ) {",
+                    "    //var g_ = Ext.ComponentQuery.query(\"#subjectsgrid\")[0];",
+                    "\tvar g_ = this.getFacultyByStudentGridPanel();",
+                    "",
+                    "    g_.getStore().reload();",
+                    "}",
+                    ""
+                ],
+                "name": "activate",
+                "scope": "me"
+            },
+            "designerId": "8b685d5e-3151-483f-970d-0a5ecbec5950"
         }
     ]
 }

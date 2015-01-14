@@ -1004,6 +1004,37 @@
                 "scope": "me"
             },
             "designerId": "a23ac3f2-ab80-4fe7-8f78-288467efc885"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#studentprofilestab",
+                "designer|targetType": "Ext.panel.Panel",
+                "fn": "onStudentprofilestabActivate",
+                "implHandler": [
+                    "debugger;",
+                    "//subjectsgrid",
+                    "// catch the tab activate but only reload if we have processed",
+                    "// the viewready indicated by this.gridViewReady",
+                    "console.log('tab.activate()');",
+                    "",
+                    "if ( Ext.isDefined( this.gridViewReady  ) ) {",
+                    "    //var g_ = Ext.ComponentQuery.query(\"#subjectsgrid\")[0];",
+                    "\tvar g_ = this.getStudentProfileGridPanel();",
+                    "",
+                    "    g_.getStore().reload();",
+                    "}",
+                    ""
+                ],
+                "name": "activate",
+                "scope": "me"
+            },
+            "designerId": "74935354-3f9d-4560-9ab1-032bf387eafc"
         }
     ]
 }

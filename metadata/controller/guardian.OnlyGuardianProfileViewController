@@ -131,7 +131,7 @@
                     "\t\tparams: {",
                     "\t\t\tstudentName: this.userName",
                     "\t\t}",
-                    "\t});\t\t",
+                    "\t});",
                     "}"
                 ],
                 "name": "viewready",
@@ -291,6 +291,11 @@
                 "fn": "onOnlyguardianrefreshtoolClick",
                 "implHandler": [
                     "debugger;",
+                    "var myStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "myStore.reload();",
+                    "",
+                    "if( false ){",
+                    "//debugger;\t",
                     "console.log('onGuardianprofilerefreshtoolClick()');",
                     "var myStore = Ext.getStore('guardian.GuardianProfileStore');",
                     "",
@@ -336,6 +341,7 @@
                     "\t\t\tstudentName: this.userName",
                     "\t\t}",
                     "\t});",
+                    "}",
                     "}",
                     ""
                 ],
@@ -621,6 +627,37 @@
                 "scope": "me"
             },
             "designerId": "8006faa7-b809-4cc3-980a-adeb5b8337eb"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#guardianprofiletab",
+                "designer|targetType": "Ext.panel.Panel",
+                "fn": "onGuardianprofiletabActivate",
+                "implHandler": [
+                    "debugger;",
+                    "//subjectsgrid",
+                    "// catch the tab activate but only reload if we have processed",
+                    "// the viewready indicated by this.gridViewReady",
+                    "console.log('tab.activate()');",
+                    "",
+                    "if ( Ext.isDefined( this.gridViewReady  ) ) {",
+                    "    //var g_ = Ext.ComponentQuery.query(\"#subjectsgrid\")[0];",
+                    "\tvar g_ = this.getOnlyGuardianGridPanel();",
+                    "",
+                    "    g_.getStore().reload();",
+                    "}",
+                    ""
+                ],
+                "name": "activate",
+                "scope": "me"
+            },
+            "designerId": "6a39d452-d70b-4fb2-87ab-34d9db38bd72"
         }
     ]
 }

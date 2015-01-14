@@ -17,7 +17,8 @@
             "faculty.ByStudentController",
             "student.ProfileViewController",
             "faculty.OnlyFacultyProfileViewController",
-            "guardian.OnlyGuardianProfileViewController"
+            "guardian.OnlyGuardianProfileViewController",
+            "school.SchoolProfileViewController"
         ],
         "models": [
             "subject.SubjectsModel",

@@ -150,7 +150,7 @@
                     "    this.loadTabPanelForm( this.getBodiesOfWorkWhatTabPanel(), selected, 'what' );",
                     "    this.loadTabPanelForm( this.getBodiesOfWorkDescriptionTabPanel(), selected, 'description' );",
                     "    this.loadTabPanelForm( this.getBodiesOfWorkObjectiveTabPanel(), selected, 'objective' );",
-                    "    ",
+                    "",
                     "    console.log('onBodiesofworssubjectsgridSelectionChange()');",
                     "}",
                     ""
@@ -216,6 +216,7 @@
                 "designer|targetType": "Ext.panel.Panel",
                 "fn": "onBodiesofworkstabActivate",
                 "implHandler": [
+                    "debugger;",
                     "// catch the tab activate but only reload if we have processed",
                     "// the viewready indicated by this.gridViewReady",
                     "console.log('#bodiesofworkstab.activate()');",

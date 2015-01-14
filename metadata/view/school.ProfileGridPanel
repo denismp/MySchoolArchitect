@@ -87,40 +87,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "qtrId",
+                "dataIndex": "adminId",
                 "format": "000000",
                 "hidden": true,
-                "text": "termId"
-            },
-            "designerId": "e6960c7d-76be-496d-974d-b70efd385c5e"
-        },
-        {
-            "type": "Ext.grid.column.Number",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "facultyId",
-                "format": "000000",
-                "hidden": true,
-                "text": "facultyId"
+                "text": "adminId"
             },
             "designerId": "60494ed8-df87-4db7-b3b8-7ecf59e6a92b"
-        },
-        {
-            "type": "Ext.grid.column.Column",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "schoolName",
-                "text": "School Name"
-            },
-            "designerId": "94cd9d45-faad-4a4f-8cdd-517b2afe939e"
         },
         {
             "type": "Ext.grid.column.Column",
@@ -143,11 +115,27 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "email",
-                "hidden": true,
-                "text": "School Email"
+                "dataIndex": "name",
+                "text": "School Name"
             },
-            "designerId": "eb10b38b-ae14-4597-b319-167a7ebdc36e"
+            "designerId": "94cd9d45-faad-4a4f-8cdd-517b2afe939e",
+            "cn": [
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "displayField": "name",
+                        "name": "name",
+                        "store": "subject.SchoolsStore",
+                        "valueField": "name"
+                    },
+                    "designerId": "65efad1a-6a19-4595-b4e8-b2c0383d27ef"
+                }
+            ]
         },
         {
             "type": "Ext.grid.column.Column",
@@ -161,61 +149,6 @@
                 "text": "Admin User Name"
             },
             "designerId": "567042db-4ddc-4d61-8229-1d81a4c76d20"
-        },
-        {
-            "type": "Ext.grid.column.Column",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "adminEmail",
-                "text": "Admin Email"
-            },
-            "designerId": "2c71751c-2a4b-4f4d-9e91-b3bd7b1c59bd"
-        },
-        {
-            "type": "Ext.grid.column.Column",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "comments",
-                "hidden": true,
-                "text": "Comments"
-            },
-            "designerId": "21477a12-6ebd-4980-9d14-cd9c7e6f2cef"
-        },
-        {
-            "type": "Ext.grid.column.Column",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "custodianOfRecords",
-                "hidden": true,
-                "text": "Custodian Of Records"
-            },
-            "designerId": "b70cecb2-4825-4c70-9684-90ba6b566d2c"
-        },
-        {
-            "type": "Ext.grid.column.Column",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "custodianTitle",
-                "hidden": true,
-                "text": "Title"
-            },
-            "designerId": "a2f38820-4774-462a-b9b5-d9845579d8ce"
         },
         {
             "type": "Ext.grid.column.CheckColumn",
@@ -300,6 +233,15 @@
                 "minHeight": null
             },
             "designerId": "4ee186db-ae3f-4a96-abf6-ad4beb8043b3"
+        },
+        {
+            "type": "Ext.grid.plugin.CellEditing",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": "Ext.grid.plugin.CellEditing",
+            "designerId": "9d158459-93f9-4678-ab70-b1ba5447efe5"
         }
     ]
 }

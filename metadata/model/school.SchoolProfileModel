@@ -44,7 +44,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "schooladminId",
+                "name": "adminId",
                 "type": "int"
             },
             "designerId": "3ff3f90f-87dc-4d7c-a332-996d9e5ccd7a"
@@ -96,7 +96,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "schoolName",
+                "name": "name",
                 "type": "string"
             },
             "designerId": "af0b7056-3b14-4c30-8a32-ab0ae28da753"
@@ -336,6 +336,19 @@
                 "type": "string"
             },
             "designerId": "e9ad8d66-7163-4de8-90c0-1cfbdfd00a29"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "enabled",
+                "type": "boolean"
+            },
+            "designerId": "8fe42a73-d8c5-4312-9679-40719a366132"
         },
         {
             "type": "Ext.data.Field",

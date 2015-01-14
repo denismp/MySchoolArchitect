@@ -67,7 +67,26 @@
                 "tooltip": "Search",
                 "type": "search"
             },
-            "designerId": "86c58b48-1812-488e-b031-e4049ac72c12"
+            "designerId": "86c58b48-1812-488e-b031-e4049ac72c12",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onSchoolsearchtoolClick",
+                        "implHandler": [
+                            ""
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "9c248336-a9fa-49b8-9419-349ad380b05c"
+                }
+            ]
         },
         {
             "type": "Ext.panel.Tool",
@@ -78,10 +97,29 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "schoolnewtool",
-                "tooltip": "Search",
+                "tooltip": "New",
                 "type": "plus"
             },
-            "designerId": "ff6c3960-b2b1-4437-8318-789ccd23046c"
+            "designerId": "ff6c3960-b2b1-4437-8318-789ccd23046c",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onSchoolnewtoolClick",
+                        "implHandler": [
+                            ""
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "5a2c0770-5db4-4764-b968-5c2942aae41f"
+                }
+            ]
         },
         {
             "type": "Ext.panel.Tool",
@@ -92,7 +130,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "schoolsavetool",
-                "tooltip": "Search",
+                "tooltip": "Save",
                 "type": "save"
             },
             "designerId": "4a30380b-5fa2-43ec-98bb-7a3679b24951"
@@ -107,10 +145,29 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "schooldeletetool",
-                "tooltip": "Search",
+                "tooltip": "Delete",
                 "type": "minus"
             },
-            "designerId": "e93ca998-a034-44c6-95ec-e90e2ac780e1"
+            "designerId": "e93ca998-a034-44c6-95ec-e90e2ac780e1",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onSchooldeletetoolClick",
+                        "implHandler": [
+                            ""
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "cbf110cc-bfa4-4056-9319-be71aebaf718"
+                }
+            ]
         },
         {
             "type": "Ext.panel.Tool",
@@ -122,10 +179,29 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "schoollocktool",
-                "tooltip": "Search",
+                "tooltip": "Lock",
                 "type": "pin"
             },
-            "designerId": "78b265a4-dfa8-44d0-a4e0-91bc86804aaf"
+            "designerId": "78b265a4-dfa8-44d0-a4e0-91bc86804aaf",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onSchoollocktoolClick",
+                        "implHandler": [
+                            ""
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "9ece7a73-3c15-48f7-9036-51c7f25321a7"
+                }
+            ]
         }
     ]
 }

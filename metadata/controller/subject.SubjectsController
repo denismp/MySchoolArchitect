@@ -1002,7 +1002,8 @@
                     "if (g_.getStore().getCount() > 0) {",
                     "    g_.getSelectionModel().deselectAll();",
                     "    g_.getSelectionModel().select( 0 );",
-                    "}"
+                    "}",
+                    "this.gridViewReady = true;"
                 ]
             },
             "designerId": "fe341c7d-e646-4b94-8a07-310ab8985ba2"
@@ -1366,7 +1367,7 @@
                 "fn": "onSubjectspanelShow",
                 "implHandler": [
                     "window.console.log(\"onSubjectpanelShow()...\");",
-                    "//debugger;",
+                    "debugger;",
                     "",
                     "this.userName = securityRecord.get('userName');",
                     "this.userRole = securityRecord.get('userRole');",
@@ -1392,6 +1393,36 @@
                 "selector": "#subjectsgrid"
             },
             "designerId": "d24f5676-c26c-4f72-97d5-87fbcf73efcc"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#subjecttab",
+                "designer|targetType": "Ext.panel.Panel",
+                "fn": "onSubjecttabActivate",
+                "implHandler": [
+                    "debugger;",
+                    "//subjectsgrid",
+                    "// catch the tab activate but only reload if we have processed",
+                    "// the viewready indicated by this.gridViewReady",
+                    "console.log('#subjectsgrid.activate()');",
+                    "",
+                    "if ( Ext.isDefined( this.gridViewReady  ) ) {",
+                    "    var g_ = Ext.ComponentQuery.query(\"#subjectsgrid\")[0];",
+                    "",
+                    "    g_.getStore().reload();",
+                    "}",
+                    ""
+                ],
+                "name": "activate",
+                "scope": "me"
+            },
+            "designerId": "e68bace0-b1c3-49b0-adfe-b71a7f48bbee"
         }
     ]
 }

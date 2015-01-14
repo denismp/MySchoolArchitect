@@ -49,6 +49,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyguardianrefreshtool",
+                "tooltip": "Refresh",
                 "type": "refresh"
             },
             "designerId": "774f245e-23b9-4f51-aa11-0fbd15c83feb"
@@ -63,6 +64,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyguardiansearchtool",
+                "tooltip": "Search",
                 "type": "search"
             },
             "designerId": "4d119433-27de-4515-8917-fa751c042d3e"
@@ -76,6 +78,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyguardiannewtool",
+                "tooltip": "New",
                 "type": "plus"
             },
             "designerId": "500ac3b3-32d8-4d8f-acbe-bd11e4e75ef7"
@@ -89,6 +92,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyfguardiansavetool",
+                "tooltip": "Save",
                 "type": "save"
             },
             "designerId": "010679d0-f164-4da7-b092-f3e3ea4ee0c5"
@@ -103,6 +107,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyguardiandeletetool",
+                "tooltip": "Delete",
                 "type": "minus"
             },
             "designerId": "d88d7f38-cb66-4683-bbb3-d58515549702"

@@ -34,7 +34,7 @@
                 "fieldLabel": "School Name",
                 "id": null,
                 "itemId": "school-name",
-                "name": "firstName",
+                "name": "name",
                 "width": 300
             },
             "designerId": "d1c024cd-de9a-47f2-9470-d25bce14990a"
@@ -209,7 +209,7 @@
                 "itemId": "school-district",
                 "layout|x": 10,
                 "layout|y": 310,
-                "name": "email",
+                "name": "district",
                 "width": 300
             },
             "designerId": "4bb06ad1-85c0-40c7-a5e0-a855f63448c7"
@@ -228,7 +228,7 @@
                 "labelWidth": 150,
                 "layout|x": 350,
                 "layout|y": 10,
-                "name": "email",
+                "name": "custodianOfRecords",
                 "width": 350
             },
             "designerId": "2f4679c8-6ae2-44b6-a161-992fc3b8f343"
@@ -246,7 +246,7 @@
                 "itemId": "school-custodiantitle",
                 "layout|x": 400,
                 "layout|y": 40,
-                "name": "email",
+                "name": "custodianTitle",
                 "width": 300
             },
             "designerId": "8ad8fcaa-8468-41d5-a628-ba3b9712f17e"

@@ -183,7 +183,7 @@
                     "\telse {",
                     "\t\teditButton.enable();",
                     "\t}",
-                    "\t\t",
+                    "",
                     "}",
                     ""
                 ],
@@ -204,6 +204,11 @@
                 "designer|targetType": "Ext.panel.Tool",
                 "fn": "onOnlyfacultyrefreshtoolClick",
                 "implHandler": [
+                    "debugger;",
+                    "var myStore = Ext.getStore('faculty.FacultyTableStore');",
+                    "myStore.reload();",
+                    "",
+                    "if( false ){",
                     "debugger;",
                     "console.log('onFacultyprofilerefreshtoolClick()');",
                     "var myStore = Ext.getStore('faculty.FacultyTableStore');",
@@ -240,6 +245,7 @@
                     "\t\tcallback: this.onMyJsonStoreLoad,",
                     "\t\tscope: this",
                     "\t});",
+                    "}",
                     "}",
                     ""
                 ],
@@ -677,6 +683,37 @@
                 "scope": "me"
             },
             "designerId": "91584f07-2e5f-481f-865f-8a6d3a0bdc61"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultyonlyprofilestab",
+                "designer|targetType": "Ext.panel.Panel",
+                "fn": "onFacultyonlyprofilestabActivate",
+                "implHandler": [
+                    "debugger;",
+                    "//subjectsgrid",
+                    "// catch the tab activate but only reload if we have processed",
+                    "// the viewready indicated by this.gridViewReady",
+                    "console.log('tab.activate()');",
+                    "",
+                    "if ( Ext.isDefined( this.gridViewReady  ) ) {",
+                    "    //var g_ = Ext.ComponentQuery.query(\"#subjectsgrid\")[0];",
+                    "\tvar g_ = this.getOnlyFacultyGridPanel();",
+                    "",
+                    "    g_.getStore().reload();",
+                    "}",
+                    ""
+                ],
+                "name": "activate",
+                "scope": "me"
+            },
+            "designerId": "b8b9ebbf-32d8-4fda-a6de-2734d36fd6cc"
         }
     ]
 }

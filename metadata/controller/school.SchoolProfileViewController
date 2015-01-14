@@ -1,0 +1,367 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "school.SchoolProfileViewController",
+        "stores": [
+            "school.SchoolProfileStore",
+            "subject.SchoolsStore"
+        ]
+    },
+    "designerId": "afd0d89f-ed12-49d1-95dd-130f9459d308",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "SchoolProfileForm",
+                "selector": "#schoolprofileform"
+            },
+            "designerId": "abf6b5ad-7965-4d5b-bce5-a8a3f0de3e9d"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "SchoolGridPanel",
+                "selector": "#schoolprofilesgridpanel"
+            },
+            "designerId": "e1202e8f-c724-4f86-8e70-95e51ef4aa9d"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "form",
+                    "selected"
+                ],
+                "fn": "loadForm",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "console.log( form );",
+                    "",
+                    "form.loadRecord( selected[0] );",
+                    "",
+                    "var myFields = form.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "    myFields.items[i].disable();",
+                    "}",
+                    "console.log('school.SchoolViewController.loadForm(): completed');"
+                ]
+            },
+            "designerId": "e36c9941-7f08-4e06-8ade-5e30a562a320"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMyJsonStoreLoad",
+                "implHandler": [
+                    "//debugger;",
+                    "//var g_ = Ext.ComponentQuery.query(\"#monthlysummarygridpanel\")[0];",
+                    "var g_ = this.getSchoolGridPanel();",
+                    "",
+                    "if (g_.getStore().getCount() > 0) {",
+                    "    g_.getSelectionModel().deselectAll();",
+                    "    g_.getSelectionModel().select( 0 );",
+                    "}",
+                    "",
+                    "this.gridViewReady = true;"
+                ]
+            },
+            "designerId": "e8434687-8a7a-4e73-af4f-9cd7feb03241"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "saveProfileForm",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Save School Profile Form\" );",
+                    "//var myForm\t\t\t\t\t= button.up().getForm();",
+                    "var myForm = this.getSchoolProfileForm();",
+                    "",
+                    "",
+                    "//\tGet the stores that we will need",
+                    "var myStore\t\t= this.getStore( 'school.SchoolProfileStore' );",
+                    "",
+                    "//var rForm = myForm.getForm();",
+                    "",
+                    "//var formValues1\t= myForm.getValues();",
+                    "//var formValues\t= myForm.getForm().getValues();",
+                    "var formFields\t= myForm.getForm().getFields();",
+                    "//var name\t= formFields.items[0].name;",
+                    "//var value\t= formFields.items[0].lastValue;",
+                    "//var test\t= this.getFormValue( formFields, 'middleName');",
+                    "//debugger;",
+                    "",
+                    "//\tCreate the form record.",
+                    "var myRecord\t= myForm.getRecord();",
+                    "",
+                    "myRecord.set('firstName', this.getFormValue( formFields, 'firstName' ) );",
+                    "myRecord.set('middleName', this.getFormValue( formFields, 'middleName' ));",
+                    "myRecord.set('lastName', this.getFormValue( formFields, 'lastName' ));",
+                    "myRecord.set('phone1', this.getFormValue( formFields, 'phone1' ));",
+                    "myRecord.set('phone2', this.getFormValue( formFields, 'phone2' ));",
+                    "myRecord.set('address1', this.getFormValue( formFields, 'address1' ));",
+                    "myRecord.set('address2', this.getFormValue( formFields, 'address2' ));",
+                    "myRecord.set('city', this.getFormValue( formFields, 'city' ));",
+                    "myRecord.set('province', this.getFormValue( formFields, 'province' ));",
+                    "myRecord.set('postalCode', this.getFormValue( formFields, 'postalCode' ));",
+                    "myRecord.set('country', this.getFormValue( formFields, 'country' ));",
+                    "myRecord.set('email', this.getFormValue( formFields, 'email' ));",
+                    "myRecord.set('dob', this.getFormValue( formFields, 'dob' ));",
+                    "",
+                    "myRecord.set('whoUpdated', 'login');",
+                    "myRecord.set('lastUpdated', new Date());",
+                    "",
+                    "debugger;",
+                    "",
+                    "//sync the store.",
+                    "myStore.sync();"
+                ]
+            },
+            "designerId": "1177a2a6-3838-45b8-bfe9-dc4b431bd0c5"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "formFields",
+                    "name"
+                ],
+                "fn": "getFormValue",
+                "implHandler": [
+                    "//var name\t= formFields.items[0].name;",
+                    "//var value\t= formFields.items[0].lastValue;",
+                    "for( var i = 0; i < formFields.length; i++ )",
+                    "{",
+                    "    if( formFields.items[i].name === name )",
+                    "    {",
+                    "        return formFields.items[i].lastValue;",
+                    "    }",
+                    "}",
+                    "return \"\";"
+                ]
+            },
+            "designerId": "138519dd-bfd5-4b07-888d-8302badab9b5"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoolprofilesgridpanel",
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onSchoolprofilesgridpanelViewReady",
+                "implHandler": [
+                    "debugger;",
+                    "console.log('onSchoolprofilesgridpanelViewReady()');",
+                    "var myStore = Ext.getStore('school.SchoolProfileStore');",
+                    "",
+                    "var securityStore = Ext.getStore('security.SecurityStore');",
+                    "var securityRecord = securityStore.getAt(0);",
+                    "this.userName = securityRecord.get('userName');",
+                    "this.userRole = securityRecord.get('userRole');",
+                    "var ss_ = Ext.getStore('student.StudentStore');",
+                    "",
+                    "var studentName_;",
+                    "",
+                    "",
+                    "var r_ = ss_.getAt(0);",
+                    "var title;",
+                    "var myGrid = this.getSchoolGridPanel();",
+                    "",
+                    "",
+                    "if( this.userRole === 'ROLE_FACULTY'){",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}",
+                    "else if( this.userRole === 'ROLE_ADMIN'){",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this",
+                    "\t});",
+                    "}",
+                    "else{",
+                    "\ttitle = r_.get('firstName') + \" \" + r_.get('middleName') + ' ' + r_.get('lastName');",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']' + ' Guardians');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}"
+                ],
+                "name": "viewready",
+                "scope": "me"
+            },
+            "designerId": "cdb23ada-d577-47f9-b802-8e3a2364a6a7"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoolprofilesgridpanel",
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onSchoolprofilesgridpanelSelectionChange",
+                "implHandler": [
+                    "debugger;",
+                    "// in the onMyJsonStoreLoad we do a deselect so we need to test",
+                    "// if selected[0] has a value",
+                    "if ( Ext.isDefined( selected  ) && Ext.isDefined( selected[0]  )) {",
+                    "    var myForm = this.getSchoolProfileForm();",
+                    "",
+                    "    this.loadForm( myForm, selected );",
+                    "",
+                    "",
+                    "    console.log('onSchoolprofilesgridpanelSelectionChanged()');",
+                    "}"
+                ],
+                "name": "selectionchange",
+                "scope": "me"
+            },
+            "designerId": "381413d3-80be-413b-9a7a-e0d58c3d04df"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoolrefreshtool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onSchoolrefreshtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "var myStore = Ext.getStore('school.SchoolProfileStore');",
+                    "myStore.reload();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "e4e42f67-9fdc-41a1-9ac7-a68d68e2b42e"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoolsavetool",
+                "designer|targetType": "Ext.panel.Tool",
+                "fn": "onSchoolsavetoolClick",
+                "implHandler": [
+                    "window.console.log( \"school.SchoolProfileStore.Save\" );",
+                    "debugger;",
+                    "",
+                    "var mystore = Ext.getStore(\"school.SchoolProfileStore\");",
+                    "",
+                    "var records = mystore.getModifiedRecords();",
+                    "for( var i = 0; i < records.length; i++ )",
+                    "{",
+                    "    records[i].set( 'lastUpdated', new Date() );",
+                    "    records[i].set( 'whoUpdated', 'login');",
+                    "}",
+                    "",
+                    "mystore.sync();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "25f4a668-8eec-426c-8fb1-072df1e7ad9d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoolprofiletab",
+                "designer|targetType": "Ext.panel.Panel",
+                "fn": "onSchoolprofiletabActivate",
+                "implHandler": [
+                    "debugger;",
+                    "//subjectsgrid",
+                    "// catch the tab activate but only reload if we have processed",
+                    "// the viewready indicated by this.gridViewReady",
+                    "console.log('tab.activate()');",
+                    "",
+                    "if ( Ext.isDefined( this.gridViewReady  ) ) {",
+                    "    //var g_ = Ext.ComponentQuery.query(\"#subjectsgrid\")[0];",
+                    "\tvar g_ = this.getSchoolGridPanel();",
+                    "",
+                    "    g_.getStore().reload();",
+                    "}",
+                    ""
+                ],
+                "name": "activate",
+                "scope": "me"
+            },
+            "designerId": "4f33768f-3d10-4e8d-b0ee-f2a89348da9e"
+        }
+    ]
+}
