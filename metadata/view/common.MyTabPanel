@@ -9,7 +9,7 @@
         "autoScroll": true,
         "designer|userAlias": "commonmytabpanel",
         "designer|userClassName": "common.MyTabPanel",
-        "itemId": "mypanel41",
+        "itemId": "mypanel55",
         "layout": "fit",
         "minHeight": null,
         "minWidth": 273,
@@ -32,6 +32,7 @@
                 "minHeight": 250,
                 "title": null
             },
+            "name": "MyForm",
             "designerId": "6aa88a64-7ae6-468e-817f-aacec42d1ab7",
             "cn": [
                 {
@@ -51,6 +52,7 @@
                         "minHeight": 220,
                         "name": "mytextbox"
                     },
+                    "name": "MyTextArea2",
                     "designerId": "d6ecf17d-f503-4ce0-8765-5c15312061d3"
                 },
                 {
@@ -68,6 +70,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "MyButton",
                     "designerId": "aea036ee-cf76-4d3a-a2a1-b27e90f10a63"
                 }
             ]
@@ -100,6 +103,7 @@
                     "return config;"
                 ]
             },
+            "name": "processCommonMyTabPanel",
             "designerId": "dc4c49f4-8f18-47f6-b5be-374eab189813"
         }
     ]

@@ -27,6 +27,7 @@
                 ],
                 "url": "studentprofileviews/json"
             },
+            "name": "MyRestProxy9",
             "designerId": "e557c32a-acd8-48d4-8486-bba9a41a178e",
             "cn": [
                 {
@@ -39,6 +40,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader9",
                     "designerId": "ae3f6fc8-146e-4b59-9904-4d825d54d2b7"
                 },
                 {
@@ -71,6 +73,7 @@
                         "name": "exception",
                         "scope": "me"
                     },
+                    "name": "onRestException",
                     "designerId": "042aea92-012d-44e1-ab02-039156b43cc0"
                 }
             ]
@@ -91,6 +94,7 @@
                 "name": "load",
                 "scope": "me"
             },
+            "name": "onJsonstoreLoad",
             "designerId": "158a7ab6-f408-4dc2-b017-99f571c85203"
         },
         {
@@ -110,6 +114,7 @@
                 "name": "write",
                 "scope": "me"
             },
+            "name": "onJsonstoreWrite",
             "designerId": "921e2b55-ece2-46ac-b975-8c9285a1815e"
         }
     ]

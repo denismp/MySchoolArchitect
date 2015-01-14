@@ -26,6 +26,7 @@
                 ],
                 "url": "schoolprofileviews/json"
             },
+            "name": "MyRestProxy12",
             "designerId": "d07215e1-76b5-4a40-b2eb-d6633e01a7aa",
             "cn": [
                 {
@@ -38,6 +39,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader12",
                     "designerId": "3747acbd-2a8e-4c14-bdf0-814873d29d9b"
                 },
                 {
@@ -70,6 +72,7 @@
                         "name": "exception",
                         "scope": "me"
                     },
+                    "name": "onRestException",
                     "designerId": "2a334e13-6d02-413b-80ba-b78a239a32f0"
                 }
             ]
@@ -90,6 +93,7 @@
                 "name": "load",
                 "scope": "me"
             },
+            "name": "onJsonstoreLoad",
             "designerId": "f16712a5-1dcc-455d-a779-5dbfe891a1b8"
         },
         {
@@ -109,6 +113,7 @@
                 "name": "write",
                 "scope": "me"
             },
+            "name": "onJsonstoreWrite",
             "designerId": "9f8f3880-3a38-4132-97ea-a50bce3ab32d"
         }
     ]

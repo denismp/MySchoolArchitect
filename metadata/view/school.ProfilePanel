@@ -24,6 +24,7 @@
             "userConfig": {
                 "dock": "top"
             },
+            "name": "school.profilegridpanel",
             "designerId": "32966e70-e54a-4956-b0b4-c3e15c703648",
             "masterInstanceId": "d826ceba-7f12-4b3d-8246-ffef8cb96586"
         },
@@ -37,6 +38,7 @@
             "userConfig": {
                 "dock": "bottom"
             },
+            "name": "school.profileform",
             "designerId": "5fd27135-02b0-4954-b8f5-d0f1a50fc17b",
             "masterInstanceId": "dbc2b851-0490-4545-964e-78ea8b452a6a"
         },
@@ -52,6 +54,7 @@
                 "tooltip": "Refresh",
                 "type": "refresh"
             },
+            "name": "MyTool13",
             "designerId": "f48f060d-bf63-4931-bf09-b6a608dd56ce"
         },
         {
@@ -67,6 +70,7 @@
                 "tooltip": "Search",
                 "type": "search"
             },
+            "name": "MyTool14",
             "designerId": "86c58b48-1812-488e-b031-e4049ac72c12",
             "cn": [
                 {
@@ -84,6 +88,7 @@
                         "name": "click",
                         "scope": "me"
                     },
+                    "name": "onSchoolsearchtoolClick",
                     "designerId": "9c248336-a9fa-49b8-9419-349ad380b05c"
                 }
             ]
@@ -100,6 +105,7 @@
                 "tooltip": "New",
                 "type": "plus"
             },
+            "name": "MyTool15",
             "designerId": "ff6c3960-b2b1-4437-8318-789ccd23046c",
             "cn": [
                 {
@@ -117,6 +123,7 @@
                         "name": "click",
                         "scope": "me"
                     },
+                    "name": "onSchoolnewtoolClick",
                     "designerId": "5a2c0770-5db4-4764-b968-5c2942aae41f"
                 }
             ]
@@ -133,6 +140,7 @@
                 "tooltip": "Save",
                 "type": "save"
             },
+            "name": "MyTool16",
             "designerId": "4a30380b-5fa2-43ec-98bb-7a3679b24951"
         },
         {
@@ -148,6 +156,7 @@
                 "tooltip": "Delete",
                 "type": "minus"
             },
+            "name": "MyTool17",
             "designerId": "e93ca998-a034-44c6-95ec-e90e2ac780e1",
             "cn": [
                 {
@@ -165,6 +174,7 @@
                         "name": "click",
                         "scope": "me"
                     },
+                    "name": "onSchooldeletetoolClick",
                     "designerId": "cbf110cc-bfa4-4056-9319-be71aebaf718"
                 }
             ]
@@ -182,6 +192,7 @@
                 "tooltip": "Lock",
                 "type": "pin"
             },
+            "name": "MyTool18",
             "designerId": "78b265a4-dfa8-44d0-a4e0-91bc86804aaf",
             "cn": [
                 {
@@ -199,6 +210,7 @@
                         "name": "click",
                         "scope": "me"
                     },
+                    "name": "onSchoollocktoolClick",
                     "designerId": "9ece7a73-3c15-48f7-9036-51c7f25321a7"
                 }
             ]

@@ -34,6 +34,7 @@
                     "// add search handler code here."
                 ]
             },
+            "name": "handler",
             "designerId": "b9a6eaf3-ba91-4337-9ab6-0cb873c4473e"
         }
     ]

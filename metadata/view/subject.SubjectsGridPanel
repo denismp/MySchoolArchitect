@@ -32,6 +32,7 @@
                 "hidden": true,
                 "text": "id"
             },
+            "name": "MyNumberColumn",
             "designerId": "3c19373c-d4e6-4a91-94f8-7255e30365c3"
         },
         {
@@ -46,6 +47,7 @@
                 "format": "000000",
                 "text": "subjId"
             },
+            "name": "MyNumberColumn1",
             "designerId": "548d29c2-5965-4356-b971-886f9678ea11"
         },
         {
@@ -61,6 +63,7 @@
                 "hidden": true,
                 "text": "qtrId"
             },
+            "name": "MyNumberColumn2",
             "designerId": "50c8a8de-1bee-4598-afc0-6f445dfe326b"
         },
         {
@@ -76,6 +79,7 @@
                 "hidden": true,
                 "text": "schoolId"
             },
+            "name": "MyNumberColumn3",
             "designerId": "6a334f8b-3c83-4a46-bd8e-37b08fb7e29c"
         },
         {
@@ -90,6 +94,7 @@
                 "hidden": true,
                 "text": "subjVersion"
             },
+            "name": "MyColumn",
             "designerId": "dffa39a4-cf1e-4370-ab61-689be79736fa"
         },
         {
@@ -104,6 +109,7 @@
                 "hidden": true,
                 "text": "termVersion"
             },
+            "name": "MyColumn1",
             "designerId": "6c212c2c-ce39-4367-ada1-6a603b5be723"
         },
         {
@@ -119,6 +125,7 @@
                 "text": "Subject Name",
                 "width": null
             },
+            "name": "MyColumn2",
             "designerId": "3d8e707c-25ca-4a62-87ae-86e43a3aeda0"
         },
         {
@@ -134,6 +141,7 @@
                 "text": "School Name",
                 "width": null
             },
+            "name": "MyColumn3",
             "designerId": "0524e154-f41f-463d-8c0a-52ffecff793c",
             "cn": [
                 {
@@ -150,6 +158,7 @@
                         "store": "subject.SchoolsStore",
                         "valueField": "name"
                     },
+                    "name": "MyComboBox",
                     "designerId": "714bd6fb-3f38-482c-a341-20ef1a5945f7"
                 }
             ]
@@ -167,6 +176,7 @@
                 "text": "Grade Level",
                 "width": null
             },
+            "name": "MyNumberColumn4",
             "designerId": "5b7f4241-70f0-47f3-946b-581e795845e8"
         },
         {
@@ -180,6 +190,7 @@
                 "dataIndex": "subjCreditHours",
                 "text": "Credit Hours"
             },
+            "name": "MyNumberColumn5",
             "designerId": "5dbb449b-e775-4cc8-9d53-c9fcdcd37570"
         },
         {
@@ -195,6 +206,7 @@
                 "hidden": true,
                 "text": "Complete?"
             },
+            "name": "MyCheckColumn",
             "designerId": "9671afa8-1ac5-4e16-80cf-02095ee4ee5f",
             "cn": [
                 {
@@ -204,6 +216,7 @@
                         "type": "object"
                     },
                     "codeClass": null,
+                    "name": "MyCheckbox",
                     "designerId": "1f174953-c81f-4bcc-a879-cdb200278c4e"
                 }
             ]
@@ -221,6 +234,7 @@
                 "shadow": null,
                 "shadowOffset": null
             },
+            "name": "MyGridView",
             "designerId": "2ef4beeb-3d12-4c5e-ad95-23493c551339"
         },
         {
@@ -233,6 +247,7 @@
             "userConfig": {
                 "clicksToEdit": null
             },
+            "name": "MyCellEditingPlugin",
             "designerId": "5a1b14f6-e16e-447e-a090-316414fdf463"
         },
         {
@@ -246,6 +261,7 @@
                 "dataIndex": "qtrName",
                 "text": "Term"
             },
+            "name": "MyColumn4",
             "designerId": "5ee0f30c-8621-415a-9573-764a85153f2d"
         },
         {
@@ -259,6 +275,7 @@
                 "dataIndex": "qtrYear",
                 "text": "Year"
             },
+            "name": "MyColumn5",
             "designerId": "25598ab8-6374-464b-94eb-4ee6bb3d3206"
         },
         {
@@ -272,6 +289,7 @@
                 "dataIndex": "studentName",
                 "text": "Student User Name"
             },
+            "name": "MyColumn6",
             "designerId": "11c3ec9f-bef6-4bc1-abf5-7ab926d6cece"
         },
         {
@@ -285,6 +303,7 @@
                 "dataIndex": "facultyUserName",
                 "text": "Faculty User Name"
             },
+            "name": "MyColumn7",
             "designerId": "9617c504-9468-473f-aab6-91f998f207f7"
         },
         {
@@ -299,6 +318,7 @@
                 "hidden": true,
                 "text": "Grade"
             },
+            "name": "MyColumn8",
             "designerId": "67f7eae4-a5ff-4d59-933f-1f0e2dbe0052",
             "cn": [
                 {
@@ -313,6 +333,7 @@
                         "maxValue": 4,
                         "minValue": 0
                     },
+                    "name": "MyNumberField",
                     "designerId": "6d3d04b1-a553-4bd8-931c-fe5f33922785"
                 }
             ]
@@ -329,6 +350,7 @@
                 "hidden": true,
                 "text": "GradeType"
             },
+            "name": "MyColumn9",
             "designerId": "96f959d1-f5c2-4e1b-9d6a-30580f362d95",
             "cn": [
                 {
@@ -344,6 +366,7 @@
                         "maxWidth": null,
                         "minValue": 1
                     },
+                    "name": "MyNumberField1",
                     "designerId": "18afdc24-85bf-4d47-a577-486dc79ab649"
                 }
             ]
@@ -360,6 +383,7 @@
                 "hidden": true,
                 "text": "Locked?"
             },
+            "name": "MyCheckColumn1",
             "designerId": "94105066-09e2-4bd0-bcf8-f79595877a96",
             "cn": [
                 {
@@ -369,6 +393,7 @@
                         "type": "object"
                     },
                     "codeClass": null,
+                    "name": "MyCheckbox1",
                     "designerId": "79597291-639f-4e16-964b-6976be1bc761"
                 }
             ]
@@ -385,6 +410,7 @@
                 "hidden": true,
                 "text": "Who Updated"
             },
+            "name": "MyColumn10",
             "designerId": "7401fa6c-3c1c-4d9b-9ff3-9b587e3aa052"
         },
         {
@@ -399,6 +425,7 @@
                 "hidden": true,
                 "text": "Last Updated"
             },
+            "name": "MyDateColumn",
             "designerId": "35608455-2668-40ad-8abc-6c58ca37cdea"
         }
     ]

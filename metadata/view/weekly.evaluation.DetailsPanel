@@ -28,6 +28,7 @@
                 "height": 334,
                 "minHeight": null
             },
+            "name": "weekly.evaluation.gridpanel",
             "designerId": "f2a91120-967a-4f2b-a6b0-330e0c26cdc9",
             "masterInstanceId": "c00921ce-f39c-4a16-8f7a-108ee06748f5"
         },
@@ -42,6 +43,7 @@
                 "dock": "bottom",
                 "title": null
             },
+            "name": "weekly.evaluation.detailstabpanel",
             "designerId": "d134f4aa-3e61-400f-8aa7-bc0c8faf4798",
             "masterInstanceId": "cd66f02c-8260-4748-a75e-d8caed2e81a6"
         },
@@ -52,6 +54,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "weekly.evaluation.refreshtool",
             "designerId": "0774570e-e413-40fb-96c3-4b59eb6ac65c",
             "masterInstanceId": "cad069e2-2042-46c9-8ed1-24a3a9ec8514"
         },
@@ -65,6 +68,7 @@
             "userConfig": {
                 "disabled": true
             },
+            "name": "weekly.evaluation.searchtool",
             "designerId": "a8c73735-23f6-49c2-86e3-4be6dc2e3fc1",
             "masterInstanceId": "9fd45be8-a0f9-46d3-9fa8-536c17662d5e"
         },
@@ -75,6 +79,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "weekly.evaluation.newtool",
             "designerId": "1dbcbe52-6203-4dab-8610-a34737b3dcbd",
             "masterInstanceId": "76192643-86ca-429b-8aba-36826f1688ca"
         },
@@ -85,6 +90,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "weekly.evaluation.savetool",
             "designerId": "b5c436a3-0acf-40ca-93ca-b94488eae073",
             "masterInstanceId": "f750934f-93d1-4bec-98ca-846b9f51f90a"
         },
@@ -95,6 +101,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "weekly.evaluation.deletetool",
             "designerId": "fc950560-f950-4b6a-85d0-2dc9b7d08d97",
             "masterInstanceId": "0b7da60c-ca11-44e0-8c7f-63580de59b4f"
         },
@@ -105,6 +112,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "weekly.evaluation.locktool",
             "designerId": "7bb763f7-cbdd-4c2e-859e-fa7ba2fb72de",
             "masterInstanceId": "150fe4e6-adda-4c8d-87f0-835937c2bc5d"
         }

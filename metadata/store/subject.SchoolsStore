@@ -28,6 +28,7 @@
                 ],
                 "url": "schools/json"
             },
+            "name": "MyRestProxy1",
             "designerId": "63bc4d03-fad7-4fd0-8c32-14435b7f09d7",
             "cn": [
                 {
@@ -40,6 +41,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader1",
                     "designerId": "80e0ad67-9b0f-4d4a-b688-9bed4cd20172"
                 }
             ]

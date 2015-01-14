@@ -27,6 +27,7 @@
                 ],
                 "url": "bodyofworkviews/json"
             },
+            "name": "MyRestProxy2",
             "designerId": "a0a067a5-5145-49c5-82a2-3507f39494f3",
             "cn": [
                 {
@@ -39,6 +40,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader2",
                     "designerId": "5d9b48c8-2a69-412e-87e5-72e7703bb574"
                 },
                 {
@@ -69,6 +71,7 @@
                         "name": "exception",
                         "scope": "me"
                     },
+                    "name": "onRestException",
                     "designerId": "ce58c174-4e9e-4db7-a9c0-ff849a691d32"
                 }
             ]
@@ -90,6 +93,7 @@
                 "name": "write",
                 "scope": "me"
             },
+            "name": "onJsonstoreWrite",
             "designerId": "0c42ca54-2411-469f-b1eb-3b5ffc98113e"
         },
         {
@@ -108,6 +112,7 @@
                 "name": "load",
                 "scope": "me"
             },
+            "name": "onJsonstoreLoad",
             "designerId": "1f5afa6a-d84a-46e8-89bf-3d8f71f85371"
         },
         {
@@ -126,6 +131,7 @@
                 "name": "add",
                 "scope": "me"
             },
+            "name": "onJsonstoreAdd",
             "designerId": "808bb43b-6185-4491-af43-53fc3fd0c6c1"
         }
     ]

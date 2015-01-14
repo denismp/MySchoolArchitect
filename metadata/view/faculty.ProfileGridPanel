@@ -32,6 +32,7 @@
                 "hidden": true,
                 "text": "id"
             },
+            "name": "MyNumberColumn70",
             "designerId": "c978bdc4-445d-4765-96e3-d4e373e8a101"
         },
         {
@@ -47,6 +48,7 @@
                 "hidden": true,
                 "text": "faultybystudentId"
             },
+            "name": "MyNumberColumn71",
             "designerId": "75861bd4-3971-4260-b286-3bbef28c6669"
         },
         {
@@ -62,6 +64,7 @@
                 "hidden": true,
                 "text": "studentId"
             },
+            "name": "MyNumberColumn72",
             "designerId": "e4470ec3-af51-4606-acaf-1917442b5f19"
         },
         {
@@ -77,6 +80,7 @@
                 "hidden": true,
                 "text": "subjId"
             },
+            "name": "MyNumberColumn73",
             "designerId": "d84d1b3a-1fba-4615-bb7b-b5fc285e76a8"
         },
         {
@@ -92,6 +96,7 @@
                 "hidden": true,
                 "text": "termId"
             },
+            "name": "MyNumberColumn74",
             "designerId": "e63c4298-0c6c-4f24-9e0a-8bca39cc2a22"
         },
         {
@@ -107,6 +112,7 @@
                 "hidden": true,
                 "text": "facultyId"
             },
+            "name": "MyNumberColumn75",
             "designerId": "95e79a1f-e656-48aa-ab7a-c94f6f5b61aa"
         },
         {
@@ -120,6 +126,7 @@
                 "dataIndex": "facultyUserName",
                 "text": "Faculty User Name"
             },
+            "name": "MyColumn46",
             "designerId": "7b8bc30d-e7b1-4cbe-8af5-8a8ebf35c789"
         },
         {
@@ -133,6 +140,7 @@
                 "dataIndex": "subjName",
                 "text": "Subj Name"
             },
+            "name": "MyColumn47",
             "designerId": "f8950937-e608-4a45-b454-dab47cc39c98"
         },
         {
@@ -146,6 +154,7 @@
                 "dataIndex": "studentUserName",
                 "text": "Student User Name"
             },
+            "name": "MyColumn48",
             "designerId": "ee2fbb77-e12c-448a-aec6-6c6230bb0dd4"
         },
         {
@@ -159,6 +168,7 @@
                 "dataIndex": "qtrName",
                 "text": "Term"
             },
+            "name": "MyColumn49",
             "designerId": "f2af036d-129b-4ed0-9b3f-31e63bbab8d0"
         },
         {
@@ -172,6 +182,7 @@
                 "dataIndex": "qtrYear",
                 "text": "Year"
             },
+            "name": "MyColumn50",
             "designerId": "f4e5d00d-a2ea-4351-8387-3e065d24122d"
         },
         {
@@ -187,6 +198,7 @@
                 "itemId": "facultyprofilegridpanelenabled",
                 "text": "Enabled?"
             },
+            "name": "MyCheckColumn8",
             "designerId": "7df2e5b6-6fbe-4447-a369-34114b75cfbf"
         },
         {
@@ -202,6 +214,7 @@
                 "hidden": true,
                 "text": "version"
             },
+            "name": "MyNumberColumn76",
             "designerId": "e4e6023a-9d14-47cb-9589-dcfc9054bb85"
         },
         {
@@ -216,6 +229,7 @@
                 "hidden": true,
                 "text": "Who Updated"
             },
+            "name": "MyColumn51",
             "designerId": "ba504442-ccea-44a1-aeae-a5735904768f"
         },
         {
@@ -230,6 +244,7 @@
                 "hidden": true,
                 "text": "Last Updated"
             },
+            "name": "MyDateColumn7",
             "designerId": "42a0aa1f-ca84-4f48-9fb8-be5597a25146"
         },
         {
@@ -242,6 +257,7 @@
             "userConfig": {
                 "minHeight": null
             },
+            "name": "MyGridView7",
             "designerId": "38f229f9-cc14-4a4d-bcb3-a85eff0cddee"
         }
     ]

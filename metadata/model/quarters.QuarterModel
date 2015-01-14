@@ -21,6 +21,7 @@
                 "name": "qtrName",
                 "type": "string"
             },
+            "name": "MyField403",
             "designerId": "5ab50e54-518a-40c0-a82b-a43d3011551b"
         },
         {
@@ -34,6 +35,7 @@
                 "name": "qtr_year",
                 "type": "int"
             },
+            "name": "MyField404",
             "designerId": "f69fe745-9c9f-40e5-95b7-ca11a78def84"
         },
         {
@@ -47,6 +49,7 @@
                 "name": "gradeType",
                 "type": "int"
             },
+            "name": "MyField405",
             "designerId": "8fb7a3a9-2d35-41ce-91df-e35ccd745190"
         },
         {
@@ -60,6 +63,7 @@
                 "name": "grade",
                 "type": "int"
             },
+            "name": "MyField406",
             "designerId": "7c00ecfe-3b40-4215-9348-364d61e2f614"
         },
         {
@@ -73,6 +77,7 @@
                 "name": "locked",
                 "type": "boolean"
             },
+            "name": "MyField407",
             "designerId": "7aae12bd-451b-4a6a-b8f7-a15b85e3165f"
         },
         {
@@ -86,6 +91,7 @@
                 "name": "whoUpdated",
                 "type": "string"
             },
+            "name": "MyField408",
             "designerId": "c93435cc-0e92-4b3e-9858-34b054a6fcf4"
         },
         {
@@ -100,6 +106,7 @@
                 "name": "lastUpdated",
                 "type": "date"
             },
+            "name": "MyField409",
             "designerId": "3b2664e2-80da-4dbe-aa94-61e4f503272a"
         },
         {
@@ -114,6 +121,7 @@
                 "designer|displayName": "hasManysubject.SubjectsModel",
                 "model": "subject.SubjectsModel"
             },
+            "name": "MyHasManyAssociation",
             "designerId": "4366410c-3eb7-4f65-a10e-3aebf30814c6",
             "cn": [
                 {
@@ -126,6 +134,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader17",
                     "designerId": "bbf2a2e3-15e1-468b-a84b-46aeb6c1bd7c"
                 }
             ]
@@ -141,6 +150,7 @@
                 "designer|displayName": "hasOnestudent.StudentModel",
                 "model": "student.StudentModel"
             },
+            "name": "MyHasOneAssociation",
             "designerId": "b17d6463-474d-483a-b660-337b55ed77e7",
             "cn": [
                 {
@@ -153,6 +163,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader18",
                     "designerId": "cd39507e-522a-45c5-8333-41d222424351"
                 }
             ]
@@ -169,6 +180,7 @@
                 "foreignKey": null,
                 "model": "student.StudentModel"
             },
+            "name": "MyBelongsToAssociation",
             "designerId": "f8081a12-8253-4a34-a23a-7122e7ff78df",
             "cn": [
                 {
@@ -181,6 +193,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader19",
                     "designerId": "8e2adccf-ebfe-4c30-8068-5848c7b13ab8"
                 }
             ]

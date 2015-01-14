@@ -30,6 +30,7 @@
                 "itemId": "evaluationsfieldset",
                 "title": "Evaluations Fields"
             },
+            "name": "MyFieldSet6",
             "designerId": "ff03d98f-40c9-49c4-9d42-40ef1968f7a8",
             "cn": [
                 {
@@ -46,6 +47,7 @@
                         "name": "studentUserName",
                         "readOnly": true
                     },
+                    "name": "MyTextField83",
                     "designerId": "0ef61121-6169-4703-85d4-01070992aa67"
                 },
                 {
@@ -58,6 +60,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
+                    "name": "common.quartersubjectcombobox5",
                     "designerId": "560f490b-f7ad-4e5a-8328-1a10a9ffb67f",
                     "masterInstanceId": "41872b83-972c-4338-a84b-63ceea0340bc"
                 },
@@ -71,6 +74,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
+                    "name": "common.monthcombobox4",
                     "designerId": "59d7fa5c-2bcf-41dc-929d-54691d7535c5",
                     "masterInstanceId": "013dec09-40b4-43be-9cd0-ecf74b1836c2"
                 },
@@ -89,6 +93,7 @@
                         "minValue": 1,
                         "name": "week_number"
                     },
+                    "name": "MyNumberField35",
                     "designerId": "ae91b8f4-909b-4ac2-b1b2-65e11e5dab2e"
                 },
                 {
@@ -107,6 +112,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField63",
                     "designerId": "de58c87b-bcfc-42bd-9280-928d0224d820"
                 },
                 {
@@ -125,6 +131,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField64",
                     "designerId": "d4cb7988-7803-43ed-b9bf-8d9e0df99856"
                 },
                 {
@@ -143,6 +150,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField65",
                     "designerId": "325ca8e0-7ade-4414-bf90-08c2093fedb5"
                 },
                 {
@@ -161,6 +169,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField66",
                     "designerId": "6d08a658-d153-488a-8462-f48734463690"
                 },
                 {
@@ -179,6 +188,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField67",
                     "designerId": "ccf014e3-0146-474f-94f1-531027a6eb1a"
                 },
                 {
@@ -197,6 +207,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField68",
                     "designerId": "af05d36a-5801-4449-9de8-9396d43f2ebe"
                 },
                 {
@@ -215,6 +226,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField69",
                     "designerId": "13d590b2-ba47-4536-99dd-d5f375dad1d7"
                 },
                 {
@@ -233,6 +245,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField70",
                     "designerId": "1963068d-acfe-4d9e-8b34-cb996553b94c"
                 },
                 {
@@ -251,6 +264,7 @@
                             "'comments'"
                         ]
                     },
+                    "name": "MyHiddenField71",
                     "designerId": "afd035bd-7feb-44ba-97e5-39d6cc7c066d"
                 },
                 {
@@ -266,6 +280,7 @@
                         "layout|anchor": "100%",
                         "name": "subjName"
                     },
+                    "name": "MyHiddenField72",
                     "designerId": "41ef1cc3-afcd-444a-ab41-2918a0a74129"
                 },
                 {
@@ -281,6 +296,7 @@
                         "layout|anchor": "100%",
                         "name": "qtrName"
                     },
+                    "name": "MyHiddenField73",
                     "designerId": "76b1bf21-4ddd-4d4f-9fb4-84505209eab6"
                 },
                 {
@@ -296,6 +312,7 @@
                         "layout|anchor": "100%",
                         "name": "qtrYear"
                     },
+                    "name": "MyHiddenField74",
                     "designerId": "6ea28c84-8c91-4350-8787-04e193c971b0"
                 },
                 {
@@ -311,6 +328,7 @@
                         "layout|anchor": "100%",
                         "name": "studentId"
                     },
+                    "name": "MyHiddenField75",
                     "designerId": "d1280e65-6dc7-4ddd-a08c-070b4c6a0f4b"
                 },
                 {
@@ -326,6 +344,7 @@
                         "layout|anchor": "100%",
                         "name": "subjId"
                     },
+                    "name": "MyHiddenField76",
                     "designerId": "b5bc21d4-850a-4f26-a079-f4eec21d2b36"
                 },
                 {
@@ -341,6 +360,7 @@
                         "layout|anchor": "100%",
                         "name": "qtrId"
                     },
+                    "name": "MyHiddenField77",
                     "designerId": "4e1ede2d-7701-4658-8d25-5c3794e9937c"
                 }
             ]
@@ -356,6 +376,7 @@
                 "itemId": "evaluationcancel",
                 "text": "Canel"
             },
+            "name": "MyButton36",
             "designerId": "f95e1815-2d78-4f85-a21d-6b6cbd11ade1"
         },
         {
@@ -369,6 +390,7 @@
                 "itemId": "evaluationsubmit",
                 "text": "Submit"
             },
+            "name": "MyButton37",
             "designerId": "150c2df7-5c09-4241-a223-f4c015d62dbe"
         }
     ]

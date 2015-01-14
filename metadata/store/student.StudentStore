@@ -27,6 +27,7 @@
                 ],
                 "url": "students/json"
             },
+            "name": "MyRestProxy18",
             "designerId": "6e5fa777-2c73-497e-953f-2eae00114fec",
             "cn": [
                 {
@@ -39,6 +40,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader21",
                     "designerId": "15114e0d-4317-46ca-8e7e-7c970ddd74cd"
                 },
                 {
@@ -53,6 +55,7 @@
                         "encode": true,
                         "root": "data"
                     },
+                    "name": "MyJsonWriter2",
                     "designerId": "52d0608c-2abb-4d87-a0ea-4683ac098190"
                 }
             ]

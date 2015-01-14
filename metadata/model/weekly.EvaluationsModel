@@ -22,6 +22,7 @@
                 "name": "id",
                 "type": null
             },
+            "name": "MyField110",
             "designerId": "ea54c57a-b8f9-430a-a77d-6e03d87270f6"
         },
         {
@@ -35,6 +36,7 @@
                 "name": "weeklyevaluationId",
                 "type": "int"
             },
+            "name": "MyField111",
             "designerId": "9e156362-c088-4153-950f-045aacd5e3df"
         },
         {
@@ -48,6 +50,7 @@
                 "name": "week_month",
                 "type": "int"
             },
+            "name": "MyField112",
             "designerId": "3acd4ece-9f45-4686-a27e-babb51d23d41"
         },
         {
@@ -61,6 +64,7 @@
                 "name": "week_number",
                 "type": "int"
             },
+            "name": "MyField113",
             "designerId": "20a30e1d-08ef-4aa9-9bb8-63023e3d073a"
         },
         {
@@ -74,6 +78,7 @@
                 "name": "motivation",
                 "type": "int"
             },
+            "name": "MyField114",
             "designerId": "1187d6d1-a24a-428a-8db2-0dcf664e1b97"
         },
         {
@@ -87,6 +92,7 @@
                 "name": "organization",
                 "type": "int"
             },
+            "name": "MyField115",
             "designerId": "c436300f-c626-4373-bc6b-2467a2f6f52b"
         },
         {
@@ -100,6 +106,7 @@
                 "name": "effectiveUseOfStudyTime",
                 "type": "int"
             },
+            "name": "MyField116",
             "designerId": "16ddbfda-86d5-4953-9ed0-6ce21d9c5201"
         },
         {
@@ -113,6 +120,7 @@
                 "name": "qualityOfWork",
                 "type": "int"
             },
+            "name": "MyField117",
             "designerId": "f54e8357-4b10-46be-bb74-0db4ec866c2a"
         },
         {
@@ -126,6 +134,7 @@
                 "name": "accuracyOfWork",
                 "type": "int"
             },
+            "name": "MyField118",
             "designerId": "2a116425-0850-48e8-a2d2-34b13a4cbe24"
         },
         {
@@ -139,6 +148,7 @@
                 "name": "complexityOfWork",
                 "type": "int"
             },
+            "name": "MyField119",
             "designerId": "e26489c5-5b1b-4cd0-af32-f44f38775e95"
         },
         {
@@ -152,6 +162,7 @@
                 "name": "growth",
                 "type": "int"
             },
+            "name": "MyField120",
             "designerId": "f19ce604-8d5b-40a3-b60a-0a1e617b5a3f"
         },
         {
@@ -165,6 +176,7 @@
                 "name": "consistency",
                 "type": "int"
             },
+            "name": "MyField121",
             "designerId": "872018d6-829d-4dee-9544-24f4feb3d9d8"
         },
         {
@@ -178,6 +190,7 @@
                 "name": "comments",
                 "type": "string"
             },
+            "name": "MyField122",
             "designerId": "d7a02323-116d-4bcd-b218-e76a557d59eb"
         },
         {
@@ -191,6 +204,7 @@
                 "name": "locked",
                 "type": "boolean"
             },
+            "name": "MyField123",
             "designerId": "a3918262-20b6-4177-9b08-a67a18266f27"
         },
         {
@@ -205,6 +219,7 @@
                 "name": "lastUpdated",
                 "type": "date"
             },
+            "name": "MyField124",
             "designerId": "2507b76f-0872-4524-8d16-10ee69b23f6c"
         },
         {
@@ -218,6 +233,7 @@
                 "name": "whoUpdated",
                 "type": "string"
             },
+            "name": "MyField125",
             "designerId": "847c8d7e-486b-4278-9e7b-e9ae08a93880"
         },
         {
@@ -231,6 +247,7 @@
                 "name": "qtrId",
                 "type": "int"
             },
+            "name": "MyField126",
             "designerId": "ff87ceae-88ef-4a47-a907-600148e2a8c7"
         },
         {
@@ -244,6 +261,7 @@
                 "name": "qtrName",
                 "type": "string"
             },
+            "name": "MyField127",
             "designerId": "9a942089-2faf-45a0-9897-5d5661b1d06a"
         },
         {
@@ -257,6 +275,7 @@
                 "name": "qtrYear",
                 "type": "int"
             },
+            "name": "MyField128",
             "designerId": "318e411c-a589-4258-add5-169178c2e352"
         },
         {
@@ -270,6 +289,7 @@
                 "name": "studentId",
                 "type": "int"
             },
+            "name": "MyField129",
             "designerId": "de09ebd9-e431-4eb2-b1cb-a58c4b0b345a"
         },
         {
@@ -283,6 +303,7 @@
                 "name": "studentUserName",
                 "type": "string"
             },
+            "name": "MyField130",
             "designerId": "e9a3125b-9f32-45cf-bf9c-ddd8c7b1ab1a"
         },
         {
@@ -296,6 +317,7 @@
                 "name": "facultyUserName",
                 "type": "string"
             },
+            "name": "MyField131",
             "designerId": "0d606c6a-ee88-4cc5-9b2f-ae67b00be641"
         },
         {
@@ -309,6 +331,7 @@
                 "name": "subjId",
                 "type": "int"
             },
+            "name": "MyField132",
             "designerId": "c8b9e738-216f-4287-b68d-800aa9b1c4de"
         },
         {
@@ -322,6 +345,7 @@
                 "name": "subjName",
                 "type": "string"
             },
+            "name": "MyField133",
             "designerId": "9d363c1b-028c-4fc0-8bb1-c464f080be17"
         },
         {
@@ -335,6 +359,7 @@
                 "name": "version",
                 "type": "int"
             },
+            "name": "MyField134",
             "designerId": "19b1e123-ac38-4203-948a-2ff794a03cb8"
         }
     ]

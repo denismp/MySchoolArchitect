@@ -28,6 +28,7 @@
                 "itemId": "bodiesofworkwhattabpanel",
                 "title": "What"
             },
+            "name": "common.mytabpanel",
             "designerId": "b4cc7624-343e-48d9-80e3-feb46bb7e64a",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -44,6 +45,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig",
                     "designerId": "c856b52a-b37a-4a9e-8270-847dc67ed52c"
                 }
             ]
@@ -60,6 +62,7 @@
                 "itemId": "bodiesofworkdescriptiontabpanel",
                 "title": "Description"
             },
+            "name": "common.mytabpanel1",
             "designerId": "8cd3a521-b458-4792-a225-6199a499535c",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -76,6 +79,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig1",
                     "designerId": "bde657d8-ba39-4a50-8714-300a27e2bcfd"
                 }
             ]
@@ -91,6 +95,7 @@
                 "itemId": "bodiesofworkobjectivetabpanel",
                 "title": "Objective"
             },
+            "name": "common.mytabpanel2",
             "designerId": "9e18c0da-e4fe-4aba-b917-737e6e0f37c3",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -106,6 +111,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig2",
                     "designerId": "51d7f20e-5257-4dd8-a44f-340ff7e3a0ab"
                 }
             ]

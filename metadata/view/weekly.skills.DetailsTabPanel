@@ -26,6 +26,7 @@
                 "itemId": "weeklyskillscommentstabpanel",
                 "title": "Comments"
             },
+            "name": "common.mytabpanel9",
             "designerId": "4cf6a80d-abba-4448-b0c8-91f7837af4f7",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -41,6 +42,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig9",
                     "designerId": "09da84dd-4503-4841-8bd7-f0e7e9a0b654"
                 }
             ]

@@ -28,6 +28,7 @@
                 "ref": "WeeklyEvaluationsGridPanel",
                 "selector": "#weeklyevaluationgridpanel"
             },
+            "name": "WeeklyEvaluationsGridPanel",
             "designerId": "d4162ab2-5da4-4c55-8096-a9fec90d0443"
         },
         {
@@ -41,6 +42,7 @@
                 "ref": "WeeklyEvaluationsCommentsTabPanel",
                 "selector": "#weeklyevaluationdetailstabpanel"
             },
+            "name": "WeeklyEvaluationsCommentsTabPanel",
             "designerId": "36a9ba9d-c123-4843-bdc0-462581095693"
         },
         {
@@ -110,6 +112,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onWeeklyevaluationgridpanelViewReady",
             "designerId": "f64d8b9c-2d90-46f5-a597-8c625f9c614b"
         },
         {
@@ -140,6 +143,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onWeeklyevaluationgridpanelSelectionChange",
             "designerId": "964ba5cc-3e01-46ec-be8d-001508a637c3"
         },
         {
@@ -183,6 +187,7 @@
                     "}"
                 ]
             },
+            "name": "buttonHandler",
             "designerId": "7947cb1f-ad96-439a-abfb-16ba732d7379"
         },
         {
@@ -260,6 +265,7 @@
                     "this.buttonHandler( edit_ );"
                 ]
             },
+            "name": "blurHandler",
             "designerId": "7f43fdcc-691e-4c90-927b-ff4b69f531cc"
         },
         {
@@ -304,6 +310,7 @@
                     "}"
                 ]
             },
+            "name": "loadTabPanelForm",
             "designerId": "34a66116-794e-4299-8085-ca9b55244e19"
         },
         {
@@ -328,6 +335,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "a32cd283-e287-4cac-8bc3-7ad4d5ad6a49"
         },
         {
@@ -353,6 +361,7 @@
                     "});"
                 ]
             },
+            "name": "init",
             "designerId": "18abe1a4-c070-47f4-84cb-82e64f003db3"
         },
         {
@@ -373,6 +382,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyevaluationrefreshtoolClick",
             "designerId": "68d9a05b-9e61-4958-90a6-22312649c115"
         },
         {
@@ -392,6 +402,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyevaluationsearchtoolClick",
             "designerId": "6f271ef4-1ab7-4cce-8de3-03a03ea743ef"
         },
         {
@@ -472,6 +483,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyevaluationnewtoolClick",
             "designerId": "d6157958-8ad4-4929-a981-c3e8fa10a263"
         },
         {
@@ -510,6 +522,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyevaluationsavetoolClick",
             "designerId": "3a0a46aa-dc18-4770-9e04-99a6105aa265"
         },
         {
@@ -529,6 +542,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyevaluationdeletetoolClick",
             "designerId": "df6e3067-5417-4037-860f-c3e5204b2638"
         },
         {
@@ -548,6 +562,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyevaluationlocktoolClick",
             "designerId": "a463d8b5-e1b5-432c-a599-afbee08885c6"
         },
         {
@@ -571,6 +586,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onEvaluationcancelClick",
             "designerId": "ad9e121e-9ef9-4624-862e-181f0b6b98b9"
         },
         {
@@ -700,6 +716,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onEvaluationsubmitClick",
             "designerId": "fd6ab542-9672-44ef-85ce-177e20c7f666"
         }
     ]

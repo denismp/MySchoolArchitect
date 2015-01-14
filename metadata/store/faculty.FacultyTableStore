@@ -27,6 +27,7 @@
                 ],
                 "url": "facultyviews/json"
             },
+            "name": "MyRestProxy10",
             "designerId": "c0d929d1-427c-4a44-9028-6f6092b5281f",
             "cn": [
                 {
@@ -39,6 +40,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader10",
                     "designerId": "95de194f-8258-45c0-b6cf-a0635e52ee96"
                 },
                 {
@@ -71,6 +73,7 @@
                         "name": "exception",
                         "scope": "me"
                     },
+                    "name": "onRestException",
                     "designerId": "a2c067cf-de48-4919-9055-68d455dee303"
                 }
             ]
@@ -91,6 +94,7 @@
                 "name": "load",
                 "scope": "me"
             },
+            "name": "onJsonpstoreLoad",
             "designerId": "228bfbfd-285c-42bf-ad74-4129e6084313"
         },
         {
@@ -110,6 +114,7 @@
                 "name": "write",
                 "scope": "me"
             },
+            "name": "onJsonpstoreWrite",
             "designerId": "b12219e0-701c-4374-be2e-6dc721f64b85"
         }
     ]

@@ -21,6 +21,7 @@
                 "name": "qtrName",
                 "type": "string"
             },
+            "name": "MyField337",
             "designerId": "c33bd9d7-d76e-4ce0-8493-4b34a98dae75"
         },
         {
@@ -34,6 +35,7 @@
                 "name": "version",
                 "type": "string"
             },
+            "name": "MyField338",
             "designerId": "7649c4f9-b8e2-450b-9e00-f5b6d80dbf33"
         },
         {
@@ -47,6 +49,7 @@
                 "name": "id",
                 "type": "int"
             },
+            "name": "MyField339",
             "designerId": "0f1e1acd-4d64-44b3-b4be-7edeb2bae933"
         }
     ]

@@ -52,6 +52,7 @@
                 "ref": "subjectsForm",
                 "selector": "form"
             },
+            "name": "subjectsForm",
             "designerId": "a677eea6-6182-4b3d-abe9-2c77b8349cf8"
         },
         {
@@ -80,6 +81,7 @@
                     ""
                 ]
             },
+            "name": "init",
             "designerId": "a1acc81a-0b74-4fbd-9f59-101d0487b105"
         },
         {
@@ -100,6 +102,7 @@
                     ""
                 ]
             },
+            "name": "onViewReady",
             "designerId": "c01354bc-cff9-4b49-a085-01122381d726"
         },
         {
@@ -150,6 +153,7 @@
                     "mystore.sync();"
                 ]
             },
+            "name": "onSubjectsavetoolidClick",
             "designerId": "c20c579b-a96b-4693-ad0b-489d29c77a27"
         },
         {
@@ -175,6 +179,7 @@
                 "name": "select",
                 "scope": "me"
             },
+            "name": "onSubjectsgridSelect",
             "designerId": "34c8c61a-edd5-4e1c-b140-c4d578a186a3"
         },
         {
@@ -201,6 +206,7 @@
                 "name": "change",
                 "scope": "me"
             },
+            "name": "onSubjectdescriptiontextareaChange",
             "designerId": "6faad01a-7ee9-487e-a8c0-73ff1ef18a55"
         },
         {
@@ -227,6 +233,7 @@
                 "name": "change",
                 "scope": "me"
             },
+            "name": "onSubjectobjectivetextareaChange",
             "designerId": "aa1e32c5-5e5c-43c8-b93d-0ebeef246a20"
         },
         {
@@ -245,6 +252,7 @@
                     "return config;"
                 ]
             },
+            "name": "processSubjectSubjectsController",
             "designerId": "c2194c93-8c40-4417-bed5-a3f655026c5d"
         },
         {
@@ -267,6 +275,7 @@
                     "}"
                 ]
             },
+            "name": "gridSelectionChange",
             "designerId": "3a6fa757-9e2b-4731-b8a3-392e1486d299"
         },
         {
@@ -286,6 +295,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onTooldeletestudentsbysubjectClick",
             "designerId": "10448b54-6393-4184-b6b8-2278525d4f9a"
         },
         {
@@ -416,6 +426,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onToolnewsubjectsClick",
             "designerId": "5d4868ed-6a1c-470f-b090-c3b087ab1e9b"
         },
         {
@@ -435,6 +446,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onToolsearchsubjectsClick",
             "designerId": "31fb3fa3-8dfe-4181-ab00-9fd7ab071d7d"
         },
         {
@@ -460,6 +472,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onToolrefreshsubjectsClick",
             "designerId": "e4ca8107-d4f4-45be-8249-08a2989f145a"
         },
         {
@@ -695,6 +708,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewsubjectsubmitClick",
             "designerId": "b3d92599-5297-4d2a-b7f4-7439220ea329"
         },
         {
@@ -718,6 +732,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewsubjectcancelClick",
             "designerId": "19e2a875-2a2c-4aa9-95b1-6a65f5222077"
         },
         {
@@ -738,6 +753,7 @@
                     "return index;"
                 ]
             },
+            "name": "findQuarterIdByName",
             "designerId": "99536c6c-316b-4421-ba92-29a0c47c50e1"
         },
         {
@@ -770,6 +786,7 @@
                     "return 'NONE';"
                 ]
             },
+            "name": "getQuarterName",
             "designerId": "e6b1b17b-d3e0-42a3-b8c9-76fceb8d41db"
         },
         {
@@ -802,6 +819,7 @@
                     "}"
                 ]
             },
+            "name": "getQuarterRecord",
             "designerId": "a39eb1bf-3b7e-4d1c-b60e-bf9e91f4c779"
         },
         {
@@ -832,6 +850,7 @@
                     "}"
                 ]
             },
+            "name": "getSubjectRecord",
             "designerId": "b88f258b-233e-4c40-95dd-77b5ac9f8cff"
         },
         {
@@ -862,6 +881,7 @@
                     "}"
                 ]
             },
+            "name": "getStudentRecord",
             "designerId": "79598427-4fcc-456b-9b13-c5b9a1cf6a84"
         },
         {
@@ -928,6 +948,7 @@
                     ""
                 ]
             },
+            "name": "onLaunch",
             "designerId": "996cc5c5-a5ea-4e9f-8735-e523c0f5b72c"
         },
         {
@@ -984,6 +1005,7 @@
                     "}"
                 ]
             },
+            "name": "onStudentStoreLoad",
             "designerId": "d6d7a294-1f78-440b-863d-81208024bdbc"
         },
         {
@@ -1006,6 +1028,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onSubjectStoreLoad",
             "designerId": "fe341c7d-e646-4b94-8a07-310ab8985ba2"
         },
         {
@@ -1033,6 +1056,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onSubjectformeditClick",
             "designerId": "96156d07-2149-40e7-85be-5b629f8f98fc"
         },
         {
@@ -1056,6 +1080,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onEditsubjectcancelbuttonClick",
             "designerId": "3b7f9eea-bf1d-4f47-a753-223af6226923"
         },
         {
@@ -1106,6 +1131,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onEditsubjectsubmitbuttonClick",
             "designerId": "e93ad8c1-845d-47e4-af16-59f9ebf49bbc"
         },
         {
@@ -1126,6 +1152,7 @@
                 "name": "change",
                 "scope": "me"
             },
+            "name": "onEditsubjectdescriptionChange",
             "designerId": "3f4c750e-bc33-4918-b3ef-5609a96e78fe"
         },
         {
@@ -1145,6 +1172,7 @@
                 "name": "change",
                 "scope": "me"
             },
+            "name": "onEditsubjectobjectivesChange",
             "designerId": "23ed66a9-56b0-4f0d-afca-578e83042a21"
         },
         {
@@ -1210,6 +1238,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewsubjecteditClick",
             "designerId": "de66a9a9-ac62-4e46-b347-02e1ee5c049b"
         },
         {
@@ -1231,6 +1260,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewsubjectcreateClick",
             "designerId": "35de4cfd-3beb-43fa-aafe-a8c6c954dbc6"
         },
         {
@@ -1264,6 +1294,7 @@
                 "name": "select",
                 "scope": "me"
             },
+            "name": "onSubjComboSelect",
             "designerId": "41ec68d0-a640-4184-ac47-28e366c85e59"
         },
         {
@@ -1279,6 +1310,7 @@
                     "debugger;"
                 ]
             },
+            "name": "onAllSubjectStoreLoad",
             "designerId": "34640e51-69c4-4413-9dce-ccf3a0d753f2"
         },
         {
@@ -1294,6 +1326,7 @@
                     ""
                 ]
             },
+            "name": "onCodeStoreLoad",
             "designerId": "dfd9dc6f-42bf-47ae-b682-4107d9d9903a"
         },
         {
@@ -1352,6 +1385,7 @@
                     ""
                 ]
             },
+            "name": "onSecurityStoreLoad",
             "designerId": "0774a44e-c814-4912-8fae-e53138f23c70"
         },
         {
@@ -1379,6 +1413,7 @@
                 "name": "show",
                 "scope": "me"
             },
+            "name": "onSubjectspanelShow",
             "designerId": "77890bc7-66ba-416b-a648-241324e39a57"
         },
         {
@@ -1392,6 +1427,7 @@
                 "ref": "subjectsGrid",
                 "selector": "#subjectsgrid"
             },
+            "name": "subjectsGrid",
             "designerId": "d24f5676-c26c-4f72-97d5-87fbcf73efcc"
         },
         {
@@ -1422,6 +1458,7 @@
                 "name": "activate",
                 "scope": "me"
             },
+            "name": "onSubjecttabActivate",
             "designerId": "e68bace0-b1c3-49b0-adfe-b71a7f48bbee"
         }
     ]

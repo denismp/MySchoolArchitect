@@ -28,6 +28,7 @@
                 "height": 334,
                 "minHeight": null
             },
+            "name": "daily.dailygridpanel",
             "designerId": "839555b8-2c04-47d6-99a4-539eb5234757",
             "masterInstanceId": "0dbf8df5-9454-4045-bed5-06bead3b8e81"
         },
@@ -41,6 +42,7 @@
             "userConfig": {
                 "dock": "bottom"
             },
+            "name": "daily.detailstabpanel",
             "designerId": "49dd375e-8977-4b3f-a6de-296e059d2a75",
             "masterInstanceId": "cf9350d0-8cca-44a7-a9c4-35a337fecf50"
         },
@@ -51,6 +53,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "daily.refreshtool",
             "designerId": "17480799-21cc-4d8e-9366-1e1c58d9b099",
             "masterInstanceId": "4cd5680d-7339-4692-a8cb-6e778ae36c0d"
         },
@@ -64,6 +67,7 @@
             "userConfig": {
                 "disabled": true
             },
+            "name": "daily.searchtool",
             "designerId": "34632035-b3b6-4cb0-b7df-599d2978245a",
             "masterInstanceId": "ec8690d7-56bb-47c4-a0d0-c5800c79cfee"
         },
@@ -74,6 +78,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "daily.newtool",
             "designerId": "80c9fb70-d04e-4e90-b447-f49d2abcb0f8",
             "masterInstanceId": "a30de5fe-be45-40af-b437-a1c675ff0118"
         },
@@ -84,6 +89,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "daily.savetool",
             "designerId": "6101eadb-27a9-4222-8c41-745b5fdf1b3c",
             "masterInstanceId": "b757e584-9794-46a9-8e02-66353b5755bb"
         },
@@ -97,6 +103,7 @@
             "userConfig": {
                 "disabled": true
             },
+            "name": "daily.deletetool",
             "designerId": "78ffad37-d3fc-451a-8256-d2f0f1406fb1",
             "masterInstanceId": "a32ff741-a13e-438d-8972-a53fb41f833e"
         },
@@ -110,6 +117,7 @@
             "userConfig": {
                 "disabled": true
             },
+            "name": "daily.locktool",
             "designerId": "edb89aed-3c74-4ca0-a615-daa7d5acac12",
             "masterInstanceId": "89a1ee17-4852-4444-9814-0d266603854d"
         }

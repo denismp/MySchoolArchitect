@@ -30,6 +30,7 @@
                 "ref": "StudentProfileGridPanel",
                 "selector": "#studentprofilegridpanel"
             },
+            "name": "StudentProfileGridPanel",
             "designerId": "c6e6436c-98cf-40ec-83cc-c2d0600cd9f3"
         },
         {
@@ -43,6 +44,7 @@
                 "ref": "StudentProfileForm",
                 "selector": "#studentprofileform"
             },
+            "name": "StudentProfileForm",
             "designerId": "613daafd-9931-41cb-aaf6-d3365abcab08"
         },
         {
@@ -84,6 +86,7 @@
                     "}"
                 ]
             },
+            "name": "buttonHandler",
             "designerId": "1102184f-ec74-43e1-870e-4a9c2bbdd8f3"
         },
         {
@@ -162,6 +165,7 @@
                     "this.buttonHandler( edit_ );"
                 ]
             },
+            "name": "blurHandler",
             "designerId": "b44e1e52-906b-4e09-b266-b809850e240f"
         },
         {
@@ -194,6 +198,7 @@
                     "console.log('student.StudentProfileStore.loadForm(): completed');"
                 ]
             },
+            "name": "loadForm",
             "designerId": "14e692eb-de54-4e29-9ae3-e41d3c05cdd1"
         },
         {
@@ -218,6 +223,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "e0ffc90b-74da-4865-9b9e-66f76e64a1b8"
         },
         {
@@ -275,6 +281,7 @@
                     "myStore.sync();"
                 ]
             },
+            "name": "saveStudentProfileForm",
             "designerId": "d770d629-b3f0-42da-b4a6-b501ded24f05"
         },
         {
@@ -303,6 +310,7 @@
                     "return \"\";"
                 ]
             },
+            "name": "getFormValue",
             "designerId": "eafbbe55-5419-4099-9785-e128b9cefecd"
         },
         {
@@ -378,6 +386,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onStudentprofilegridpanelViewReady",
             "designerId": "39030bc6-3b3f-4b48-947b-152489447ec3"
         },
         {
@@ -407,6 +416,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onStudentprofilegridpanelSelectionChange",
             "designerId": "88473b35-d6c3-49b2-8709-6789122ef81d"
         },
         {
@@ -430,6 +440,7 @@
                 "name": "checkchange",
                 "scope": "me"
             },
+            "name": "onCheckcolumnCheckChange",
             "designerId": "a4ea5ba7-f75d-4e8e-9d33-0771e6c7f536"
         },
         {
@@ -462,6 +473,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofileformeditbuttonClick",
             "designerId": "1ca800f8-cb1c-405a-a095-00b0902c706d"
         },
         {
@@ -493,6 +505,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofileformcancelbuttonClick",
             "designerId": "19201af7-e4d9-41b7-aa4f-10b8ad2c4909"
         },
         {
@@ -526,6 +539,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofileformsavebuttonClick",
             "designerId": "69649640-7ed3-4c92-980e-62180bd81f6e"
         },
         {
@@ -546,6 +560,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofilerefreshtoolClick",
             "designerId": "42623b21-a334-48b8-881b-7c525135dcbb"
         },
         {
@@ -565,6 +580,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofilesearchtoolClick",
             "designerId": "e4cc5344-7315-4348-a185-bfa56b7b5738"
         },
         {
@@ -608,6 +624,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofilenewtoolClick",
             "designerId": "c5790568-0bcc-4629-a0f3-91ddb8a3c8c0"
         },
         {
@@ -639,6 +656,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofilesavetoolClick",
             "designerId": "b04aa3e7-2ce1-48b6-8a32-6c60267f3c90"
         },
         {
@@ -658,6 +676,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofiledeletetoolClick",
             "designerId": "4399c621-0567-4579-b233-1e0c1d0b0f67"
         },
         {
@@ -677,6 +696,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentprofilelocktoolClick",
             "designerId": "40e23081-ad11-42c4-92a1-bc19d5c0593e"
         },
         {
@@ -701,6 +721,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentcancelClick",
             "designerId": "7a44316a-e1cd-4cfc-ae62-8f55111c8e19"
         },
         {
@@ -822,6 +843,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentsubmitClick",
             "designerId": "365e3138-6caf-42d6-afb4-594d82acf4f0"
         },
         {
@@ -835,6 +857,7 @@
                 "ref": "studentpasswordtool",
                 "selector": "#studentpasswordtool"
             },
+            "name": "studentpasswordtool",
             "designerId": "57da1c08-f706-4f99-94d8-179ab6c7683e"
         },
         {
@@ -876,6 +899,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentpasswordtoolClick",
             "designerId": "64f8d86c-8512-4c02-9b02-542d383dfc70"
         },
         {
@@ -889,6 +913,7 @@
                 "ref": "FacultyComboBox",
                 "selector": "#facultynamescombobox"
             },
+            "name": "FacultyComboBox",
             "designerId": "381e54c2-5e4b-4409-944b-2815f3829312"
         },
         {
@@ -919,6 +944,7 @@
                     ""
                 ]
             },
+            "name": "onLaunch",
             "designerId": "694ec910-f60b-4961-a2e8-e60c12949e48"
         },
         {
@@ -934,6 +960,7 @@
                     ""
                 ]
             },
+            "name": "onFacultyStoreLoad",
             "designerId": "11b2cfda-a0e6-474b-be08-230eff47459b"
         },
         {
@@ -957,6 +984,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentpasswordcancelbuttonClick",
             "designerId": "3422483a-a202-43f9-9ae1-b24e7ce4d137"
         },
         {
@@ -1003,6 +1031,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onStudentpasswordsubmitbuttonClick",
             "designerId": "a23ac3f2-ab80-4fe7-8f78-288467efc885"
         },
         {
@@ -1034,6 +1063,7 @@
                 "name": "activate",
                 "scope": "me"
             },
+            "name": "onStudentprofilestabActivate",
             "designerId": "74935354-3f9d-4560-9ab1-032bf387eafc"
         }
     ]

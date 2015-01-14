@@ -26,6 +26,7 @@
                 ],
                 "url": "guardianprofileviews/json"
             },
+            "name": "MyRestProxy11",
             "designerId": "bb13a47e-5dd9-4333-a77f-c5bcf96ec62a",
             "cn": [
                 {
@@ -38,6 +39,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader11",
                     "designerId": "3703c2d7-c47b-42d6-924f-a7e9404a1ae6"
                 },
                 {
@@ -70,6 +72,7 @@
                         "name": "exception",
                         "scope": "me"
                     },
+                    "name": "onRestException",
                     "designerId": "85bcdd20-afcd-4b2d-bf93-5c96ab390ff3"
                 }
             ]
@@ -90,6 +93,7 @@
                 "name": "load",
                 "scope": "me"
             },
+            "name": "onJsonstoreLoad",
             "designerId": "7d65b91d-4ce6-4aa7-9e9e-98ba8f6e5cb5"
         },
         {
@@ -109,6 +113,7 @@
                 "name": "write",
                 "scope": "me"
             },
+            "name": "onJsonstoreWrite",
             "designerId": "4ef35062-8360-43bc-8d01-82f9ab63b3a2"
         }
     ]

@@ -25,6 +25,7 @@
                 "ref": "SchoolProfileForm",
                 "selector": "#schoolprofileform"
             },
+            "name": "SchoolProfileForm",
             "designerId": "abf6b5ad-7965-4d5b-bce5-a8a3f0de3e9d"
         },
         {
@@ -38,6 +39,7 @@
                 "ref": "SchoolGridPanel",
                 "selector": "#schoolprofilesgridpanel"
             },
+            "name": "SchoolGridPanel",
             "designerId": "e1202e8f-c724-4f86-8e70-95e51ef4aa9d"
         },
         {
@@ -68,6 +70,7 @@
                     "console.log('school.SchoolViewController.loadForm(): completed');"
                 ]
             },
+            "name": "loadForm",
             "designerId": "e36c9941-7f08-4e06-8ade-5e30a562a320"
         },
         {
@@ -92,6 +95,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "e8434687-8a7a-4e73-af4f-9cd7feb03241"
         },
         {
@@ -149,6 +153,7 @@
                     "myStore.sync();"
                 ]
             },
+            "name": "saveProfileForm",
             "designerId": "1177a2a6-3838-45b8-bfe9-dc4b431bd0c5"
         },
         {
@@ -177,6 +182,7 @@
                     "return \"\";"
                 ]
             },
+            "name": "getFormValue",
             "designerId": "138519dd-bfd5-4b07-888d-8302badab9b5"
         },
         {
@@ -248,6 +254,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onSchoolprofilesgridpanelViewReady",
             "designerId": "cdb23ada-d577-47f9-b802-8e3a2364a6a7"
         },
         {
@@ -277,6 +284,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onSchoolprofilesgridpanelSelectionChange",
             "designerId": "381413d3-80be-413b-9a7a-e0d58c3d04df"
         },
         {
@@ -299,6 +307,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onSchoolrefreshtoolClick",
             "designerId": "e4e42f67-9fdc-41a1-9ac7-a68d68e2b42e"
         },
         {
@@ -330,6 +339,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onSchoolsavetoolClick",
             "designerId": "25f4a668-8eec-426c-8fb1-072df1e7ad9d"
         },
         {
@@ -361,6 +371,7 @@
                 "name": "activate",
                 "scope": "me"
             },
+            "name": "onSchoolprofiletabActivate",
             "designerId": "4f33768f-3d10-4e8d-b0ee-f2a89348da9e"
         }
     ]

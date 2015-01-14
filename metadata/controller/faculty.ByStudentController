@@ -28,6 +28,7 @@
                 "ref": "FacultyByStudentGridPanel",
                 "selector": "#facultyprofilesbystudentgridpanel"
             },
+            "name": "FacultyByStudentGridPanel",
             "designerId": "cb28f2ed-2112-4629-afa1-211721c0d3f0"
         },
         {
@@ -41,6 +42,7 @@
                 "ref": "FacultyByStudentForm",
                 "selector": "#facultyprofileform"
             },
+            "name": "FacultyByStudentForm",
             "designerId": "599294f2-ce10-4ee4-8b71-d6a0b6fb352c"
         },
         {
@@ -82,6 +84,7 @@
                     "}"
                 ]
             },
+            "name": "buttonHandler",
             "designerId": "02a91a97-0b75-420d-a65a-b2d2167f0e8e"
         },
         {
@@ -160,6 +163,7 @@
                     "this.buttonHandler( edit_ );"
                 ]
             },
+            "name": "blurHandler",
             "designerId": "951e7d5c-3249-48f4-8ab0-bdb4bf837ab3"
         },
         {
@@ -210,6 +214,7 @@
                     "console.log('faculty.ByStudentController.loadForm(): completed');"
                 ]
             },
+            "name": "loadForm",
             "designerId": "d11a1acd-bbcb-4140-ae6a-dbe69113191a"
         },
         {
@@ -234,6 +239,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "af7a3cff-505e-4921-8a72-e5a93ca8121c"
         },
         {
@@ -257,6 +263,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewfacultybystudentcanelClick",
             "designerId": "ceeb5ad7-be8d-44f9-998e-643d8d3cf522"
         },
         {
@@ -385,6 +392,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewfacultybystudentsubmitClick",
             "designerId": "44e9079d-4f57-427e-b1b6-1280759398b6"
         },
         {
@@ -405,6 +413,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofilerefreshtoolClick",
             "designerId": "5b00eb09-eb0a-46a4-968a-39034ac5a533"
         },
         {
@@ -424,6 +433,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofilesearchtoolClick",
             "designerId": "4e6e9649-b507-430b-8f0d-c22f9db192d6"
         },
         {
@@ -466,6 +476,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofilenewtoolClick",
             "designerId": "d8c665b8-9649-48f2-b40b-2c847778f927"
         },
         {
@@ -497,6 +508,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofilesavetoolClick",
             "designerId": "5af1c5ad-b150-48ed-b703-2c2f10742047"
         },
         {
@@ -516,6 +528,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofiledeletetoolClick",
             "designerId": "651893ca-4b87-4240-b818-19003ddb0537"
         },
         {
@@ -535,6 +548,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofilelocktoolClick",
             "designerId": "c4f6c455-f141-4fa7-8c64-ff9ac8dcdc3a"
         },
         {
@@ -609,6 +623,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onFacultyprofilesbystudentgridpanelViewReady",
             "designerId": "04767755-9b94-476b-9eb3-98c3a51ee53f"
         },
         {
@@ -638,6 +653,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onFacultyprofilesbystudentgridpanelSelectionChange",
             "designerId": "c6e7285d-9bc5-459b-afc2-103fe68e66fc"
         },
         {
@@ -661,6 +677,7 @@
                 "name": "checkchange",
                 "scope": "me"
             },
+            "name": "onFacultyprofilegridpanelenabledCheckChange",
             "designerId": "c3d0d251-496d-47f6-8d5b-4db544bfc25d"
         },
         {
@@ -681,6 +698,7 @@
                 "name": "blur",
                 "scope": "me"
             },
+            "name": "onFacultyprofileformBlur",
             "designerId": "d859ce77-ab88-41b2-b48c-cc6ee5217e69"
         },
         {
@@ -701,6 +719,7 @@
                 "name": "focus",
                 "scope": "me"
             },
+            "name": "onFacultyprofileformFocus",
             "designerId": "05928870-2b7e-4aa1-9a0d-941629208e4a"
         },
         {
@@ -735,6 +754,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofileformeditbuttonClick",
             "designerId": "c05663e5-de8a-490e-bc21-feff2c2d129d"
         },
         {
@@ -766,6 +786,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofileformcanelbuttonClick",
             "designerId": "4732424a-ba91-434c-b96e-f6d90ef7ef40"
         },
         {
@@ -799,6 +820,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultyprofileformsavebuttonClick",
             "designerId": "f47d3ec9-e866-42ab-a208-1a8d223d75a0"
         },
         {
@@ -855,6 +877,7 @@
                     "myStore.sync();"
                 ]
             },
+            "name": "saveFacultyByStudentForm",
             "designerId": "1d957178-2b12-44f1-890b-373812886c12"
         },
         {
@@ -883,6 +906,7 @@
                     "return \"\";"
                 ]
             },
+            "name": "getFormValue",
             "designerId": "efab196f-456e-4f94-9f05-019be4236590"
         },
         {
@@ -914,6 +938,7 @@
                 "name": "activate",
                 "scope": "me"
             },
+            "name": "onFacultyprofilesbystudenttabActivate",
             "designerId": "8b685d5e-3151-483f-970d-0a5ecbec5950"
         }
     ]

@@ -28,6 +28,7 @@
                 "ref": "MonthlyEvaluationGridPanel",
                 "selector": "#monthlyevaluationgridpanel"
             },
+            "name": "MonthlyEvaluationGridPanel",
             "designerId": "6bb20c93-dee8-43a5-ad7e-69f9a41dcbcd"
         },
         {
@@ -41,6 +42,7 @@
                 "ref": "MonthlyCommentsTabPanel",
                 "selector": "#monthlyevaluationcommentstabpanel"
             },
+            "name": "MonthlyCommentsTabPanel",
             "designerId": "349c4547-6451-4e8d-91b7-b12eac11fc78"
         },
         {
@@ -84,6 +86,7 @@
                     "}"
                 ]
             },
+            "name": "buttonHandler",
             "designerId": "323e64d2-f8ee-40d7-aadd-bb0cd404e7c5"
         },
         {
@@ -161,6 +164,7 @@
                     "this.buttonHandler( edit_ );"
                 ]
             },
+            "name": "blurHandler",
             "designerId": "b40d78f2-51d5-472b-9ae4-20f300b4fa81"
         },
         {
@@ -205,6 +209,7 @@
                     "}"
                 ]
             },
+            "name": "loadTabPanelForm",
             "designerId": "97e4177c-8abb-4174-9e8b-7390beb50c73"
         },
         {
@@ -229,6 +234,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "2499bdd3-7f4b-4c96-872a-47bff1dd7922"
         },
         {
@@ -249,6 +255,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onMonthlyevaluationrefreshtoolClick",
             "designerId": "46346b24-df7d-4c9e-8e79-fe2159a62e6a"
         },
         {
@@ -268,6 +275,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onMonthlyevaluationsearchtoolClick",
             "designerId": "1c727edc-9a0f-4d37-84ac-b65a8f51054c"
         },
         {
@@ -351,6 +359,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onMonthlyevaluationnewtoolClick",
             "designerId": "a6b54e4c-eb0a-48f7-83bd-ebe5fa06e9df"
         },
         {
@@ -388,6 +397,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onMonthlyevaluationsavetoolClick",
             "designerId": "94108f56-1424-42b3-a3d3-e7c91ce321a1"
         },
         {
@@ -407,6 +417,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onMonthlyevaluationdeletetoolClick",
             "designerId": "9ea3fc16-7e4c-4889-bc24-bb966b08e4c3"
         },
         {
@@ -426,6 +437,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onMonthlyevaluationlocktoolClick",
             "designerId": "6f603329-19fa-4b85-89bc-a58a3b6a0b21"
         },
         {
@@ -451,6 +463,7 @@
                     "});"
                 ]
             },
+            "name": "init",
             "designerId": "29bf401c-f63c-4bcb-83c2-c6b0570867f8"
         },
         {
@@ -520,6 +533,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onMonthlyevaluationgridpanelViewReady",
             "designerId": "83f2c978-8682-48bf-a204-6b3f5693e45a"
         },
         {
@@ -550,6 +564,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onMonthlyevaluationgridpanelSelectionChange",
             "designerId": "de0da20f-430a-4498-9195-4c0749568806"
         },
         {
@@ -573,6 +588,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewmonthlyevaluationcanelClick",
             "designerId": "f4e4cb87-5f5c-4983-bb03-55a2d9bc8ace"
         },
         {
@@ -701,6 +717,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewmonthlyevaluationsubmitClick",
             "designerId": "039891d7-d496-4ed2-a45d-80ce708a2e93"
         }
     ]

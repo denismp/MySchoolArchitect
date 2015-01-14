@@ -26,6 +26,7 @@
                 ],
                 "url": "monthlyevaluationratingses/json"
             },
+            "name": "MyRestProxy7",
             "designerId": "f09b64f6-b905-438b-836a-b2fd2687555d",
             "cn": [
                 {
@@ -38,6 +39,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader7",
                     "designerId": "48214823-b2d5-41a2-b603-f34b7efcd1ad"
                 },
                 {
@@ -70,6 +72,7 @@
                         "name": "exception",
                         "scope": "me"
                     },
+                    "name": "onRestException",
                     "designerId": "2be34656-7461-4830-b2de-bc5671ab74fd"
                 }
             ]
@@ -90,6 +93,7 @@
                 "name": "load",
                 "scope": "me"
             },
+            "name": "onJsonpstoreLoad",
             "designerId": "bd77f112-7591-4154-9a90-7598d2e79b18"
         },
         {
@@ -109,6 +113,7 @@
                 "name": "write",
                 "scope": "me"
             },
+            "name": "onJsonpstoreWrite",
             "designerId": "2b0b9b46-0048-442a-a34d-cd866ea25f14"
         }
     ]

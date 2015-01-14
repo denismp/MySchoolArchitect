@@ -21,6 +21,7 @@
             "userConfig": {
                 "name": "id"
             },
+            "name": "MyField45",
             "designerId": "a9385816-8da8-4eab-adfa-6a4e44163e3a"
         },
         {
@@ -34,6 +35,7 @@
                 "name": "subjId",
                 "type": "int"
             },
+            "name": "MyField46",
             "designerId": "68663bb9-ca33-42fa-ad31-19e6b811348e"
         },
         {
@@ -47,6 +49,7 @@
                 "name": "qtrId",
                 "type": "int"
             },
+            "name": "MyField47",
             "designerId": "dca5df31-e0fb-4525-b391-93743e826e99"
         },
         {
@@ -60,6 +63,7 @@
                 "name": "version",
                 "type": "int"
             },
+            "name": "MyField48",
             "designerId": "46ed1086-3930-4662-8561-66433e68beaa"
         },
         {
@@ -73,6 +77,7 @@
                 "name": "studentId",
                 "type": "int"
             },
+            "name": "MyField49",
             "designerId": "e8d28a11-7fff-4b42-a157-1b36fc0e343e"
         },
         {
@@ -86,6 +91,7 @@
                 "name": "studentUserName",
                 "type": "string"
             },
+            "name": "MyField50",
             "designerId": "299b784e-104f-4098-be3c-12e92f7a1796"
         },
         {
@@ -99,6 +105,7 @@
                 "name": "facultyUserName",
                 "type": "string"
             },
+            "name": "MyField51",
             "designerId": "03021a2b-fbfc-44ac-9473-d229c5a9c0ad"
         },
         {
@@ -112,6 +119,7 @@
                 "name": "subjName",
                 "type": "string"
             },
+            "name": "MyField52",
             "designerId": "f31c105d-4633-491a-9b0d-3a6b00a6417c"
         },
         {
@@ -125,6 +133,7 @@
                 "name": "qtrName",
                 "type": "string"
             },
+            "name": "MyField53",
             "designerId": "7f94a3ff-cfb4-482d-9463-4892e82b68b2"
         },
         {
@@ -138,6 +147,7 @@
                 "name": "qtrYear",
                 "type": "int"
             },
+            "name": "MyField54",
             "designerId": "5d382522-c37c-4f95-aa53-1cbc970d0470"
         },
         {
@@ -152,6 +162,7 @@
                 "name": "workName",
                 "type": "string"
             },
+            "name": "MyField55",
             "designerId": "50f99744-4ba6-4446-ac77-ccb5999db637"
         },
         {
@@ -165,6 +176,7 @@
                 "name": "description",
                 "type": "string"
             },
+            "name": "MyField56",
             "designerId": "a3303bb3-1d32-464b-9e5e-2bc4a0200895"
         },
         {
@@ -178,6 +190,7 @@
                 "name": "what",
                 "type": "string"
             },
+            "name": "MyField57",
             "designerId": "1f02ac18-cd6b-4d68-ad05-f71f48fb8bd2"
         },
         {
@@ -191,6 +204,7 @@
                 "name": "objective",
                 "type": "string"
             },
+            "name": "MyField58",
             "designerId": "416c4c25-d99d-47a5-8888-c47c9f64a031"
         },
         {
@@ -204,6 +218,7 @@
                 "name": "locked",
                 "type": "boolean"
             },
+            "name": "MyField59",
             "designerId": "3180f083-272a-4c41-b094-702f5d05f486"
         },
         {
@@ -217,6 +232,7 @@
                 "name": "whoUpdated",
                 "type": "string"
             },
+            "name": "MyField60",
             "designerId": "3bf81417-74a6-4407-8f77-a2b2b7b00dd6"
         },
         {
@@ -231,6 +247,7 @@
                 "name": "lastUpdated",
                 "type": "date"
             },
+            "name": "MyField61",
             "designerId": "28631f11-4caf-4651-ab29-7504e214ab3e"
         },
         {
@@ -244,6 +261,7 @@
                 "name": "subjGradeLevel",
                 "type": "int"
             },
+            "name": "MyField62",
             "designerId": "535a4e09-8fcc-417f-bdb0-923911b63111"
         },
         {
@@ -257,6 +275,7 @@
                 "name": "subjCreditHours",
                 "type": "int"
             },
+            "name": "MyField63",
             "designerId": "58bae607-0184-40b6-a7a7-34a9191d78cc"
         }
     ]

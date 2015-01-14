@@ -21,6 +21,7 @@
             "userConfig": {
                 "name": "id"
             },
+            "name": "MyField27",
             "designerId": "c2221a53-0bc9-4db9-bf1b-0c2a1beb9785"
         },
         {
@@ -33,6 +34,7 @@
             "userConfig": {
                 "name": "name"
             },
+            "name": "MyField28",
             "designerId": "c61d9698-016c-41ca-b56b-7d7a2d2a9133"
         },
         {
@@ -45,6 +47,7 @@
             "userConfig": {
                 "name": "email"
             },
+            "name": "MyField29",
             "designerId": "4edab4e8-622e-410d-bfc9-2740ba2c261e"
         },
         {
@@ -57,6 +60,7 @@
             "userConfig": {
                 "name": "district"
             },
+            "name": "MyField30",
             "designerId": "38ac0db6-d359-4fb9-9660-095eee8a93bb"
         },
         {
@@ -69,6 +73,7 @@
             "userConfig": {
                 "name": "custodianOfRecords"
             },
+            "name": "MyField31",
             "designerId": "d4e5b062-fefe-4165-946e-9ea12025eaae"
         },
         {
@@ -81,6 +86,7 @@
             "userConfig": {
                 "name": "custodianTitle"
             },
+            "name": "MyField32",
             "designerId": "be70e6f1-a482-44dd-9804-87d7453c5f77"
         },
         {
@@ -93,6 +99,7 @@
             "userConfig": {
                 "name": "phone1"
             },
+            "name": "MyField33",
             "designerId": "7330a095-9e99-4eb5-afa1-a73bf8a7dc94"
         },
         {
@@ -105,6 +112,7 @@
             "userConfig": {
                 "name": "phone2"
             },
+            "name": "MyField34",
             "designerId": "3d487525-6b71-4cdf-9c09-052701571dd4"
         },
         {
@@ -117,6 +125,7 @@
             "userConfig": {
                 "name": "address1"
             },
+            "name": "MyField35",
             "designerId": "acafb835-abb5-4fd8-9af0-4bdadf9c9658"
         },
         {
@@ -129,6 +138,7 @@
             "userConfig": {
                 "name": "address2"
             },
+            "name": "MyField36",
             "designerId": "cdca8510-6275-4068-be0a-ba407ef20233"
         },
         {
@@ -141,6 +151,7 @@
             "userConfig": {
                 "name": "city"
             },
+            "name": "MyField37",
             "designerId": "7f3abe36-affa-4df9-a524-d153460dfd95"
         },
         {
@@ -153,6 +164,7 @@
             "userConfig": {
                 "name": "province"
             },
+            "name": "MyField38",
             "designerId": "08ca2cc3-155c-451d-91f2-5b0ee281d21b"
         },
         {
@@ -165,6 +177,7 @@
             "userConfig": {
                 "name": "postalCode"
             },
+            "name": "MyField39",
             "designerId": "a2078b24-10b0-44f1-a5d0-ba9e4d0d6c39"
         },
         {
@@ -177,6 +190,7 @@
             "userConfig": {
                 "name": "country"
             },
+            "name": "MyField40",
             "designerId": "490b4917-52a0-4170-aced-f0918544af40"
         },
         {
@@ -189,6 +203,7 @@
             "userConfig": {
                 "name": "comments"
             },
+            "name": "MyField41",
             "designerId": "c1631f85-517d-4164-ba84-25e083076441"
         },
         {
@@ -201,6 +216,7 @@
             "userConfig": {
                 "name": "whoUpdated"
             },
+            "name": "MyField42",
             "designerId": "f2fba206-5870-4838-84ec-f03bc93b040e"
         },
         {
@@ -213,6 +229,7 @@
             "userConfig": {
                 "name": "createdDate"
             },
+            "name": "MyField43",
             "designerId": "7499ff04-5888-4a80-a083-24e04c89d2e8"
         },
         {
@@ -225,6 +242,7 @@
             "userConfig": {
                 "name": "lastUpdated"
             },
+            "name": "MyField44",
             "designerId": "b6d870d9-f59e-4511-88f1-4b5f97f1a1f0"
         }
     ]

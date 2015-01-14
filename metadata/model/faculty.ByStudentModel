@@ -22,6 +22,7 @@
                 "name": "id",
                 "type": "int"
             },
+            "name": "MyField182",
             "designerId": "d2301564-3750-4849-a93d-5a4aec45d9ef"
         },
         {
@@ -35,6 +36,7 @@
                 "name": "facultybystudentId",
                 "type": "int"
             },
+            "name": "MyField183",
             "designerId": "70046fe1-1303-4e58-9cca-367a2c4a2987"
         },
         {
@@ -48,6 +50,7 @@
                 "name": "firstName",
                 "type": "string"
             },
+            "name": "MyField184",
             "designerId": "5ab90871-3eec-4b10-a6b9-deb317a8428b"
         },
         {
@@ -61,6 +64,7 @@
                 "name": "middleName",
                 "type": "string"
             },
+            "name": "MyField185",
             "designerId": "c0393147-dadf-49b1-a7c9-c4386e34f92f"
         },
         {
@@ -74,6 +78,7 @@
                 "name": "lastName",
                 "type": "string"
             },
+            "name": "MyField186",
             "designerId": "2417c502-fffa-4e16-a8f9-6ce17f005a06"
         },
         {
@@ -87,6 +92,7 @@
                 "name": "address1",
                 "type": "string"
             },
+            "name": "MyField187",
             "designerId": "79ddd1d5-d59a-4e52-a09e-f09bc2696a09"
         },
         {
@@ -100,6 +106,7 @@
                 "name": "address2",
                 "type": "string"
             },
+            "name": "MyField188",
             "designerId": "77a4e2de-270b-4393-83c8-1212548f1e3f"
         },
         {
@@ -113,6 +120,7 @@
                 "name": "city",
                 "type": "string"
             },
+            "name": "MyField189",
             "designerId": "630f3109-e2d8-47b5-8fe0-f81f0dc08f75"
         },
         {
@@ -126,6 +134,7 @@
                 "name": "country",
                 "type": "string"
             },
+            "name": "MyField190",
             "designerId": "ef222c4f-71aa-455f-9241-3770b74864b1"
         },
         {
@@ -139,6 +148,7 @@
                 "name": "province",
                 "type": "string"
             },
+            "name": "MyField191",
             "designerId": "727fb5fb-224a-400e-b13c-3364e59ecaf1"
         },
         {
@@ -152,6 +162,7 @@
                 "name": "postalCode",
                 "type": "string"
             },
+            "name": "MyField192",
             "designerId": "11ec1fa0-87d6-4bec-ace6-db445abe071b"
         },
         {
@@ -165,6 +176,7 @@
                 "name": "phone1",
                 "type": "string"
             },
+            "name": "MyField193",
             "designerId": "21ed0ae9-7269-4c85-806f-8ca56c211682"
         },
         {
@@ -178,6 +190,7 @@
                 "name": "phone2",
                 "type": "string"
             },
+            "name": "MyField194",
             "designerId": "407e7c45-b2fc-4bb3-942a-00603b7df87c"
         },
         {
@@ -191,6 +204,7 @@
                 "name": "email",
                 "type": "string"
             },
+            "name": "MyField195",
             "designerId": "38ac9019-9d4f-4f77-bceb-164f7530891e"
         },
         {
@@ -204,6 +218,7 @@
                 "name": "enabled",
                 "type": "boolean"
             },
+            "name": "MyField196",
             "designerId": "c0d01250-b897-4fd3-a4d5-bc338d3e28f6"
         },
         {
@@ -218,6 +233,7 @@
                 "name": "lastUpdated",
                 "type": "date"
             },
+            "name": "MyField197",
             "designerId": "261a3b07-f073-47b6-86cb-ac436eb3ed7a"
         },
         {
@@ -231,6 +247,7 @@
                 "name": "whoUpdated",
                 "type": "string"
             },
+            "name": "MyField198",
             "designerId": "c0e68d39-f689-43dc-8bef-50f47dc179c1"
         },
         {
@@ -244,6 +261,7 @@
                 "name": "qtrId",
                 "type": "int"
             },
+            "name": "MyField199",
             "designerId": "e7e2fbea-84b0-471b-834a-f5a5f8875384"
         },
         {
@@ -257,6 +275,7 @@
                 "name": "qtrName",
                 "type": "string"
             },
+            "name": "MyField200",
             "designerId": "efe7ad93-24ab-4ca4-8681-eeafbb4f094f"
         },
         {
@@ -270,6 +289,7 @@
                 "name": "qtrYear",
                 "type": "int"
             },
+            "name": "MyField201",
             "designerId": "79490a6f-e593-4447-86ac-d7872a4b490b"
         },
         {
@@ -282,6 +302,7 @@
             "userConfig": {
                 "name": "studentId"
             },
+            "name": "MyField202",
             "designerId": "487ec4f4-445e-48bf-9964-38bc8ef5e150"
         },
         {
@@ -295,6 +316,7 @@
                 "name": "studentUserName",
                 "type": "string"
             },
+            "name": "MyField203",
             "designerId": "659fe89b-0b55-427d-9f0a-494a8ae4f38a"
         },
         {
@@ -308,6 +330,7 @@
                 "name": "subjId",
                 "type": null
             },
+            "name": "MyField204",
             "designerId": "1f255624-2e07-4541-abec-3fc0a53d8cc1"
         },
         {
@@ -321,6 +344,7 @@
                 "name": "subjName",
                 "type": "string"
             },
+            "name": "MyField205",
             "designerId": "0d570e85-7696-4631-8e3a-b5cb139a4304"
         },
         {
@@ -334,6 +358,7 @@
                 "name": "version",
                 "type": "int"
             },
+            "name": "MyField206",
             "designerId": "84ca7e70-722c-408b-8286-6fcb17245682"
         },
         {
@@ -346,6 +371,7 @@
             "userConfig": {
                 "name": "facultyId"
             },
+            "name": "MyField207",
             "designerId": "0c31a9d3-9905-4355-8281-36ce5d27a070"
         },
         {
@@ -359,6 +385,7 @@
                 "name": "facultyUserName",
                 "type": "string"
             },
+            "name": "MyField208",
             "designerId": "eb1eda13-234e-4948-a8e9-7a1fba0d89ab"
         }
     ]

@@ -28,6 +28,7 @@
                 ],
                 "url": "subjectviews/json"
             },
+            "name": "MyRestProxy",
             "designerId": "2a230106-f489-496a-bf00-5dbff0504f99",
             "cn": [
                 {
@@ -40,6 +41,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader",
                     "designerId": "e8431f32-bf2f-43cd-9c0e-dca5088b59d1"
                 },
                 {
@@ -73,6 +75,7 @@
                         "name": "exception",
                         "scope": "me"
                     },
+                    "name": "onRestException",
                     "designerId": "7bc3f091-b6a1-45bd-a3f3-dc5e875ccf9c"
                 }
             ]
@@ -100,6 +103,7 @@
                 "name": "beforesync",
                 "scope": "me"
             },
+            "name": "onJsonstoreBeforeSync",
             "designerId": "5c51fb02-bf21-4ff0-ab40-30e3a7ce531a"
         },
         {
@@ -118,6 +122,7 @@
                 "name": "write",
                 "scope": "me"
             },
+            "name": "onJsonstoreWrite",
             "designerId": "d7be4d2e-6b04-48cb-a86c-70fa2b83911f"
         }
     ]

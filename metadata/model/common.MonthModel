@@ -22,6 +22,7 @@
                 "name": "id",
                 "type": "int"
             },
+            "name": "MyField344",
             "designerId": "9da4f5f1-c6a9-4cfd-8c83-d158de5363de"
         },
         {
@@ -35,6 +36,7 @@
                 "name": "name",
                 "type": "string"
             },
+            "name": "MyField345",
             "designerId": "92ae3bff-9bd2-4d22-9b78-0c863e6c572d"
         }
     ]

@@ -21,6 +21,7 @@
                 "name": "id",
                 "type": null
             },
+            "name": "MyField410",
             "designerId": "ec763c9b-f1ab-425c-a78c-72dfa01ffe7d"
         },
         {
@@ -34,6 +35,7 @@
                 "name": "userName",
                 "type": "string"
             },
+            "name": "MyField411",
             "designerId": "dc1056d1-8a83-4921-b139-952524c4a611"
         },
         {
@@ -47,6 +49,7 @@
                 "name": "userRole",
                 "type": "string"
             },
+            "name": "MyField412",
             "designerId": "774a0c72-7b91-453b-a58d-07cc7760e9b2"
         },
         {
@@ -60,6 +63,7 @@
                 "name": "version",
                 "type": "int"
             },
+            "name": "MyField413",
             "designerId": "c5b4ef68-2501-423f-b98d-86d756449fb7"
         }
     ]

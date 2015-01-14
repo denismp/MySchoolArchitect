@@ -30,6 +30,7 @@
                 "layout|anchor": "100%",
                 "name": "subjDescription"
             },
+            "name": "MyTextArea6",
             "designerId": "4b730996-be6f-4d73-a3df-1199ba01bb42"
         },
         {
@@ -45,6 +46,7 @@
                 "layout|anchor": "100%",
                 "name": "subjObjectives"
             },
+            "name": "MyTextArea7",
             "designerId": "c1b2cba6-8114-4bbe-991a-45e50c9e5316"
         },
         {
@@ -58,6 +60,7 @@
                 "itemId": "editsubjectcancelbutton",
                 "text": "Cancel"
             },
+            "name": "MyButton23",
             "designerId": "0c861fad-0325-455e-a7b6-d494d7dc5f16"
         },
         {
@@ -71,6 +74,7 @@
                 "itemId": "editsubjectsubmitbutton",
                 "text": "Submit"
             },
+            "name": "MyButton24",
             "designerId": "2a340176-f7e5-49d4-a5d1-e2b8c3747c67"
         }
     ]

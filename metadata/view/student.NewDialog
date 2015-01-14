@@ -32,6 +32,7 @@
                 "title": null,
                 "width": 378
             },
+            "name": "MyForm3",
             "designerId": "c81bf827-c3ab-4ab8-9118-78006144ec3f",
             "cn": [
                 {
@@ -48,6 +49,7 @@
                         "padding": 5,
                         "title": null
                     },
+                    "name": "MyFieldSet7",
                     "designerId": "482c3471-e3fb-4922-9882-ce0744da4ce4",
                     "cn": [
                         {
@@ -61,6 +63,7 @@
                                 "layout|anchor": "100%",
                                 "width": null
                             },
+                            "name": "subject.facultynamescombobox1",
                             "designerId": "22cd5a5e-1051-4da3-ba7c-957356f32161",
                             "masterInstanceId": "5dd35732-eed7-42fa-a4ef-42b8e310916a"
                         },
@@ -77,6 +80,7 @@
                                 "layout|anchor": "100%",
                                 "name": "firstname"
                             },
+                            "name": "MyTextField90",
                             "designerId": "fe50db6e-b2df-44bb-9230-9b652e8e9613"
                         },
                         {
@@ -92,6 +96,7 @@
                                 "layout|anchor": "100%",
                                 "name": "middlename"
                             },
+                            "name": "MyTextField91",
                             "designerId": "80b73788-8fcf-4dc3-af2e-c11e692ec650"
                         },
                         {
@@ -107,6 +112,7 @@
                                 "layout|anchor": "100%",
                                 "name": "lastname"
                             },
+                            "name": "MyTextField92",
                             "designerId": "ababaf1c-f87d-4bb3-8c76-71a147820fdc"
                         },
                         {
@@ -122,6 +128,7 @@
                                 "layout|anchor": "100%",
                                 "name": "dob"
                             },
+                            "name": "MyDateField4",
                             "designerId": "8daba50b-86cb-4ea0-ae1b-2afeff3ed938"
                         },
                         {
@@ -137,6 +144,7 @@
                                 "layout|anchor": "100%",
                                 "name": "phone1"
                             },
+                            "name": "MyTextField93",
                             "designerId": "fe7e8395-2564-4d24-8104-d76c259ce816"
                         },
                         {
@@ -152,6 +160,7 @@
                                 "layout|anchor": "100%",
                                 "name": "phone2"
                             },
+                            "name": "MyTextField94",
                             "designerId": "c0029962-7234-4135-895f-c344537f1f24"
                         },
                         {
@@ -167,6 +176,7 @@
                                 "layout|anchor": "100%",
                                 "name": "address1"
                             },
+                            "name": "MyTextField95",
                             "designerId": "d81db76f-48e7-45d6-9839-5bc69c53e5b0"
                         },
                         {
@@ -182,6 +192,7 @@
                                 "layout|anchor": "100%",
                                 "name": "address2"
                             },
+                            "name": "MyTextField96",
                             "designerId": "8a2eff0e-5446-4ae8-b29d-15f02d0d5fd5"
                         },
                         {
@@ -197,6 +208,7 @@
                                 "layout|anchor": "100%",
                                 "name": "city"
                             },
+                            "name": "MyTextField97",
                             "designerId": "e8097d18-c585-45ba-b341-ada0c842b4b3"
                         },
                         {
@@ -212,6 +224,7 @@
                                 "layout|anchor": "100%",
                                 "name": "state"
                             },
+                            "name": "MyTextField98",
                             "designerId": "4c3cb28a-4eb9-489d-81a7-6f98f6e2cec7"
                         },
                         {
@@ -227,6 +240,7 @@
                                 "layout|anchor": "100%",
                                 "name": "postalcode"
                             },
+                            "name": "MyTextField99",
                             "designerId": "4223f8c0-2e91-49e3-a8da-43915d3dba65"
                         },
                         {
@@ -242,6 +256,7 @@
                                 "layout|anchor": "100%",
                                 "name": "country"
                             },
+                            "name": "MyTextField100",
                             "designerId": "ba3515d3-7a49-4cde-b6a7-16ad923be9f7"
                         },
                         {
@@ -257,6 +272,7 @@
                                 "layout|anchor": "100%",
                                 "name": "email"
                             },
+                            "name": "MyTextField101",
                             "designerId": "6a00ac08-f7fc-47b2-86ad-0018469ef436"
                         },
                         {
@@ -272,6 +288,7 @@
                                 "layout|anchor": "100%",
                                 "name": "username"
                             },
+                            "name": "MyTextField102",
                             "designerId": "a1ab4c9b-750a-4a23-898e-3f46b9fd3eec"
                         },
                         {
@@ -287,6 +304,7 @@
                                 "layout|anchor": "100%",
                                 "name": "password"
                             },
+                            "name": "MyTextField103",
                             "designerId": "854245c2-2bf4-4e29-91b6-f60eaacefc4f"
                         }
                     ]
@@ -302,6 +320,7 @@
                         "itemId": "studentcancel",
                         "text": "Cancel"
                     },
+                    "name": "MyButton42",
                     "designerId": "ec2aa1cf-4971-423e-9a14-e4fda5ac046f"
                 },
                 {
@@ -315,6 +334,7 @@
                         "itemId": "studentsubmit",
                         "text": "Submit"
                     },
+                    "name": "MyButton43",
                     "designerId": "36ba52a1-60be-481e-8093-8318315f3974"
                 }
             ]

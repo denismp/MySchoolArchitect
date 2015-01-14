@@ -24,6 +24,7 @@
             "userConfig": {
                 "dock": "top"
             },
+            "name": "admin.profilegridadminonlypanel",
             "designerId": "52a6ef83-60ef-45b0-9660-48601bec5b2d",
             "masterInstanceId": "e8b73df9-eed7-416f-ba0b-e305f48120a1"
         },
@@ -34,6 +35,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "admin.adminonlyprofileform",
             "designerId": "8ecf298c-94bc-4afe-a232-accc5481b622",
             "masterInstanceId": "83e4f3e8-93d4-4c79-b14b-c61498b1bf95"
         },
@@ -49,6 +51,7 @@
                 "tooltip": "Refresh",
                 "type": "refresh"
             },
+            "name": "MyTool19",
             "designerId": "aa47b7e3-b8db-4d25-b03c-7044d4dc14b7"
         },
         {
@@ -64,6 +67,7 @@
                 "tooltip": "Search",
                 "type": "search"
             },
+            "name": "MyTool20",
             "designerId": "4d767b39-0de2-4d91-89c6-0c48db057cb9"
         },
         {
@@ -78,6 +82,7 @@
                 "tooltip": "New",
                 "type": "plus"
             },
+            "name": "MyTool21",
             "designerId": "67643017-363c-4d0f-8387-59a305ae3506"
         },
         {
@@ -92,6 +97,7 @@
                 "tooltip": "Save",
                 "type": "save"
             },
+            "name": "MyTool22",
             "designerId": "27268660-a5da-45fc-ab74-f91e13f52d3a"
         },
         {
@@ -107,6 +113,7 @@
                 "tooltip": "Delete",
                 "type": "minus"
             },
+            "name": "MyTool23",
             "designerId": "dd1c2cec-e5dd-418a-a22d-a0dc73f71699"
         },
         {
@@ -122,6 +129,7 @@
                 "tooltip": "Lock",
                 "type": "pin"
             },
+            "name": "MyTool24",
             "designerId": "6814b3aa-8143-4db1-8af5-6f645548b0ae"
         },
         {
@@ -136,6 +144,7 @@
                 "tooltip": "Password",
                 "type": "gear"
             },
+            "name": "MyTool25",
             "designerId": "030da1c3-8163-420c-ac3e-6b920fc34ec3"
         }
     ]

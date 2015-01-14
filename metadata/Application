@@ -192,5 +192,6 @@
             "admin.AdminProfilePanel"
         ]
     },
+    "name": "Application",
     "designerId": "application"
 }

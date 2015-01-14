@@ -24,6 +24,7 @@
             "userConfig": {
                 "dock": "top"
             },
+            "name": "faculty.profilegridfacultyonlypanel",
             "designerId": "2471e544-4094-499c-a718-72a6434f0ca5",
             "masterInstanceId": "89923cf6-f0e9-4d24-8697-c51880828783"
         },
@@ -37,6 +38,7 @@
             "userConfig": {
                 "dock": "bottom"
             },
+            "name": "faculty.facultyonlyprofileform",
             "designerId": "ae107088-a41a-4962-b473-fa39dffc181c",
             "masterInstanceId": "6e49116b-c01f-4267-a1cc-04cbb3eeb1a2"
         },
@@ -51,6 +53,7 @@
                 "itemId": "onlyfacultyrefreshtool",
                 "type": "refresh"
             },
+            "name": "MyTool",
             "designerId": "830d266f-03ad-493e-b82e-c68a9149e434"
         },
         {
@@ -65,6 +68,7 @@
                 "itemId": "onlyfacultysearchtool",
                 "type": "search"
             },
+            "name": "MyTool1",
             "designerId": "d37ed3a1-3be4-484a-b878-ef326b816850",
             "cn": [
                 {
@@ -79,6 +83,7 @@
                         "name": "click",
                         "scope": "me"
                     },
+                    "name": "onOnlyfacultysearchtoolClick",
                     "designerId": "98c45c86-0c14-4fe8-8a47-a69869c23ca7"
                 }
             ]
@@ -94,6 +99,7 @@
                 "itemId": "onlyfacultynewtool",
                 "type": "plus"
             },
+            "name": "MyTool2",
             "designerId": "37eeed93-b50c-4904-ad03-4c6a2e8ab658"
         },
         {
@@ -107,6 +113,7 @@
                 "itemId": "onlyfacultysavetool",
                 "type": "save"
             },
+            "name": "MyTool3",
             "designerId": "df499142-360f-465d-8615-767a7f1f7f4d",
             "cn": [
                 {
@@ -121,6 +128,7 @@
                         "name": "click",
                         "scope": "me"
                     },
+                    "name": "onOnlyfacultysavetoolClick",
                     "designerId": "4dd17192-25c1-4b0a-b8f0-feb10b8ac0cb"
                 }
             ]
@@ -137,6 +145,7 @@
                 "itemId": "onlyfacultydeletetool",
                 "type": "minus"
             },
+            "name": "MyTool4",
             "designerId": "768eddaf-2ac5-47d5-b860-44b57a68b008",
             "cn": [
                 {
@@ -151,6 +160,7 @@
                         "name": "click",
                         "scope": "me"
                     },
+                    "name": "onOnlyfacultydeletetoolClick",
                     "designerId": "c2275d5c-6628-4bcd-8474-1f9193597626"
                 }
             ]
@@ -167,6 +177,7 @@
                 "itemId": "onlyfacultylocktool",
                 "type": "pin"
             },
+            "name": "MyTool5",
             "designerId": "ad2d928c-9ce2-4d8e-88c2-4f150de4b22e",
             "cn": [
                 {
@@ -181,6 +192,7 @@
                         "name": "click",
                         "scope": "me"
                     },
+                    "name": "onOnlyfacultylocktoolClick",
                     "designerId": "05a0a22b-bedf-4ae2-8acc-018e5f6ad2d1"
                 }
             ]
@@ -196,6 +208,7 @@
                 "itemId": "onlyfacultylpasswordtool",
                 "type": "gear"
             },
+            "name": "MyTool6",
             "designerId": "9b4c8c68-1845-4e51-9396-14f561ff5d8b"
         }
     ]

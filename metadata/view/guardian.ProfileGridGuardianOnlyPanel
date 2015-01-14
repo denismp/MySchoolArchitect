@@ -32,6 +32,7 @@
                 "hidden": true,
                 "text": "id"
             },
+            "name": "MyNumberColumn85",
             "designerId": "e32c7591-d274-4a10-913e-28dfcffcca93"
         },
         {
@@ -47,6 +48,7 @@
                 "hidden": true,
                 "text": "guardianId"
             },
+            "name": "MyNumberColumn86",
             "designerId": "42ccf08c-12d5-4349-8832-b8e9d7e3d119"
         },
         {
@@ -62,6 +64,7 @@
                 "hidden": true,
                 "text": "studentId"
             },
+            "name": "MyNumberColumn87",
             "designerId": "e249b7c5-7f9a-4a4e-994f-a8ef7fc79902"
         },
         {
@@ -75,6 +78,7 @@
                 "dataIndex": "userName",
                 "text": "Guardian User Name"
             },
+            "name": "MyColumn66",
             "designerId": "7bafa91a-7f99-44b9-8109-0c0cad8ec96b"
         },
         {
@@ -88,6 +92,7 @@
                 "dataIndex": "description",
                 "text": "Description"
             },
+            "name": "MyColumn67",
             "designerId": "31be6a9c-41f4-4d1a-aa9e-9755b28f3d78"
         },
         {
@@ -101,6 +106,7 @@
                 "dataIndex": "studentUserName",
                 "text": "Student User Name"
             },
+            "name": "MyColumn68",
             "designerId": "32d3ed39-3808-48fe-911f-d37cb72e829e",
             "cn": [
                 {
@@ -113,6 +119,7 @@
                     "userConfig": {
                         "allowBlank": false
                     },
+                    "name": "MyTextField37",
                     "designerId": "08a671a4-ba62-41f4-bf6a-4101740cc113"
                 }
             ]
@@ -128,6 +135,7 @@
                 "dataIndex": "firstName",
                 "text": "First Name"
             },
+            "name": "MyColumn69",
             "designerId": "3afa4b32-7de3-420a-acd4-71e2f0c98cce"
         },
         {
@@ -141,6 +149,7 @@
                 "dataIndex": "middleName",
                 "text": "Middle Name"
             },
+            "name": "MyColumn70",
             "designerId": "2a911914-9007-4142-996a-80d54f0f12d5"
         },
         {
@@ -154,6 +163,7 @@
                 "dataIndex": "lastName",
                 "text": "Last Name"
             },
+            "name": "MyColumn71",
             "designerId": "8b553a6b-c54c-41f5-983f-2eb885fa20c3"
         },
         {
@@ -167,6 +177,7 @@
                 "dataIndex": "email",
                 "text": "Email"
             },
+            "name": "MyColumn72",
             "designerId": "f10d4e0c-243b-4207-baf8-3ee37f73bc7b"
         },
         {
@@ -180,6 +191,7 @@
                 "dataIndex": "studentEmail",
                 "text": "Student Email"
             },
+            "name": "MyColumn73",
             "designerId": "e62be1fb-a6c1-44da-8b79-2800be8d3ca4"
         },
         {
@@ -195,6 +207,7 @@
                 "itemId": "guardianprofilegridpanelenabled",
                 "text": "Enabled?"
             },
+            "name": "MyCheckColumn11",
             "designerId": "bf1e744a-5af5-433f-8267-44771ac190ec"
         },
         {
@@ -210,6 +223,7 @@
                 "hidden": true,
                 "text": "version"
             },
+            "name": "MyNumberColumn88",
             "designerId": "2e10d133-cffc-4d91-be8b-93f846a0c3a8"
         },
         {
@@ -224,6 +238,7 @@
                 "hidden": true,
                 "text": "Who Updated"
             },
+            "name": "MyColumn74",
             "designerId": "d5498757-dadf-40d4-a6b4-70ece4c5346f"
         },
         {
@@ -238,6 +253,7 @@
                 "hidden": true,
                 "text": "Last Updated"
             },
+            "name": "MyDateColumn12",
             "designerId": "31da47fe-22f3-4a31-84e5-0a39f749167a"
         },
         {
@@ -252,6 +268,7 @@
                 "hidden": true,
                 "text": "dob"
             },
+            "name": "MyDateColumn13",
             "designerId": "a55c8a57-b924-4255-a057-31a6bf7e0dd5"
         },
         {
@@ -264,6 +281,7 @@
             "userConfig": {
                 "minHeight": null
             },
+            "name": "MyGridView10",
             "designerId": "2abe507a-0b49-4ea5-b47f-149987cf7b8d"
         },
         {
@@ -273,6 +291,7 @@
                 "type": "array"
             },
             "codeClass": "Ext.grid.plugin.CellEditing",
+            "name": "MyCellEditingPlugin6",
             "designerId": "99278eac-8afe-4d5d-ab3e-69f125f7bdbb"
         }
     ]

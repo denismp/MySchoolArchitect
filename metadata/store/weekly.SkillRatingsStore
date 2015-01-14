@@ -26,6 +26,7 @@
                 ],
                 "url": "skillratingses/json"
             },
+            "name": "MyRestProxy4",
             "designerId": "a1d0e4d8-6b33-4a59-8350-fa7a97a22e07",
             "cn": [
                 {
@@ -38,6 +39,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader4",
                     "designerId": "c0ed0ea2-53f3-4bb8-a4cb-544adade8298"
                 },
                 {
@@ -69,6 +71,7 @@
                         "name": "exception",
                         "scope": "me"
                     },
+                    "name": "onRestException",
                     "designerId": "ff84fed5-5385-4ffe-9ff2-430740dec371"
                 }
             ]
@@ -89,6 +92,7 @@
                 "name": "load",
                 "scope": "me"
             },
+            "name": "onJsonpstoreLoad",
             "designerId": "c038555c-78a5-4b0d-a525-64fc02c017db"
         },
         {
@@ -108,6 +112,7 @@
                 "name": "write",
                 "scope": "me"
             },
+            "name": "onJsonpstoreWrite",
             "designerId": "b2744f87-ca10-42c4-9886-22102e500d94"
         }
     ]

@@ -32,6 +32,7 @@
                 "hidden": true,
                 "text": "id"
             },
+            "name": "MyNumberColumn95",
             "designerId": "94fef6e5-1205-4776-bb73-a10b94d53bc7"
         },
         {
@@ -47,6 +48,7 @@
                 "hidden": true,
                 "text": "adminId"
             },
+            "name": "MyNumberColumn96",
             "designerId": "2e5708c9-0c84-4798-b1bb-3bddb3c93f32"
         },
         {
@@ -62,6 +64,7 @@
                 "hidden": true,
                 "text": "adminviewId"
             },
+            "name": "MyNumberColumn97",
             "designerId": "5bc32aa2-f52d-4b35-9bd6-7daf790dd567"
         },
         {
@@ -77,6 +80,7 @@
                 "hidden": true,
                 "text": "schoolId"
             },
+            "name": "MyNumberColumn98",
             "designerId": "ba83be6d-edd8-4d4c-b97d-bdbcea145ed5"
         },
         {
@@ -90,6 +94,7 @@
                 "dataIndex": "userName",
                 "text": "Admin User Name"
             },
+            "name": "MyColumn79",
             "designerId": "bdf55612-bae4-4381-87a1-803ce8f492e0"
         },
         {
@@ -103,6 +108,7 @@
                 "dataIndex": "schoolName",
                 "text": "School Name"
             },
+            "name": "MyColumn80",
             "designerId": "1aea456f-22e2-4f19-b6b3-0eca3d9994f3"
         },
         {
@@ -117,6 +123,7 @@
                 "hidden": true,
                 "text": "First Name"
             },
+            "name": "MyColumn81",
             "designerId": "06e88b14-4ce2-4394-9741-caa708ecb5f8"
         },
         {
@@ -131,6 +138,7 @@
                 "hidden": true,
                 "text": "Middle Name"
             },
+            "name": "MyColumn82",
             "designerId": "af076d7c-f9f9-419e-8964-7a784107257e"
         },
         {
@@ -145,6 +153,7 @@
                 "hidden": true,
                 "text": "Last Name"
             },
+            "name": "MyColumn83",
             "designerId": "3f88864f-d7fe-49cb-9b1d-bb522c17b6c4"
         },
         {
@@ -158,6 +167,7 @@
                 "dataIndex": "email",
                 "text": "Admin Email"
             },
+            "name": "MyColumn84",
             "designerId": "0bdd18ea-b15a-4c07-82e0-7faad1ad2100"
         },
         {
@@ -172,6 +182,7 @@
                 "hidden": true,
                 "text": "phone1"
             },
+            "name": "MyColumn85",
             "designerId": "8004b726-ef37-4af8-81f2-cfe08afd8d14"
         },
         {
@@ -186,6 +197,7 @@
                 "hidden": true,
                 "text": "phone2"
             },
+            "name": "MyColumn86",
             "designerId": "147e4ece-09db-4136-bf60-fb1c9008d2e2"
         },
         {
@@ -200,6 +212,7 @@
                 "hidden": true,
                 "text": "address1"
             },
+            "name": "MyColumn87",
             "designerId": "3ed20983-dddc-439a-825a-dae5efcf4fd0"
         },
         {
@@ -214,6 +227,7 @@
                 "hidden": true,
                 "text": "address2"
             },
+            "name": "MyColumn88",
             "designerId": "f079c4ca-18f1-44fc-8747-1377c71a5259"
         },
         {
@@ -228,6 +242,7 @@
                 "hidden": true,
                 "text": "city"
             },
+            "name": "MyColumn89",
             "designerId": "f7f14f8a-e3de-49e6-b42c-86e0439735f2"
         },
         {
@@ -242,6 +257,7 @@
                 "hidden": true,
                 "text": "province"
             },
+            "name": "MyColumn90",
             "designerId": "0e2ea2a4-5eae-4d7a-94fd-70f1d20bbd4b"
         },
         {
@@ -256,6 +272,7 @@
                 "hidden": true,
                 "text": "postalCode"
             },
+            "name": "MyColumn91",
             "designerId": "670d6ad0-9409-4c86-a92b-49da27be49fd"
         },
         {
@@ -270,6 +287,7 @@
                 "hidden": true,
                 "text": "country"
             },
+            "name": "MyColumn92",
             "designerId": "a69c6b16-80f1-4ba0-b0df-be8351b274b2"
         },
         {
@@ -285,6 +303,7 @@
                 "itemId": "adminprofilegridpanelenabled",
                 "text": "Enabled?"
             },
+            "name": "MyCheckColumn13",
             "designerId": "68d75c58-6397-40e0-850f-7cce0d18c615"
         },
         {
@@ -300,6 +319,7 @@
                 "hidden": true,
                 "text": "version"
             },
+            "name": "MyNumberColumn99",
             "designerId": "87eb44f0-df8f-4202-8b4c-dc630997e0f9"
         },
         {
@@ -314,6 +334,7 @@
                 "hidden": true,
                 "text": "Who Updated"
             },
+            "name": "MyColumn93",
             "designerId": "7eb9125e-33bc-4fe4-87eb-036cde89524e"
         },
         {
@@ -328,6 +349,7 @@
                 "hidden": true,
                 "text": "Last Updated"
             },
+            "name": "MyDateColumn16",
             "designerId": "264c3164-593b-43b7-8b2a-dd218cb63e7b"
         },
         {
@@ -342,6 +364,7 @@
                 "hidden": true,
                 "text": "Created Date"
             },
+            "name": "MyDateColumn17",
             "designerId": "bda99178-535e-497d-9318-29fa9515705e"
         },
         {
@@ -356,6 +379,7 @@
                 "hidden": true,
                 "text": "dob"
             },
+            "name": "MyDateColumn18",
             "designerId": "57c85079-c192-4c81-8f84-82b523dc0497"
         },
         {
@@ -368,6 +392,7 @@
             "userConfig": {
                 "minHeight": null
             },
+            "name": "MyGridView12",
             "designerId": "d09e867d-09ca-43e4-9df3-46d5d146d5f2"
         }
     ]

@@ -58,6 +58,7 @@
                     "}"
                 ]
             },
+            "name": "buttonHandler",
             "designerId": "443a413d-e976-4ffd-af77-dd9b01f49b03"
         },
         {
@@ -135,6 +136,7 @@
                     "this.buttonHandler( edit_ );"
                 ]
             },
+            "name": "blurHandler",
             "designerId": "a149282a-7aa6-4b74-8a5d-6293d17d38c1"
         },
         {
@@ -160,6 +162,7 @@
                     "});"
                 ]
             },
+            "name": "init",
             "designerId": "245d055a-1c32-42ff-8919-9548c3aff950"
         },
         {
@@ -173,6 +176,7 @@
                 "ref": "WeeklySkillsCommentsTabPanel",
                 "selector": "#weeklyskillscommentstabpanel"
             },
+            "name": "WeeklySkillsCommentsTabPanel",
             "designerId": "11ebd8d0-036e-42a0-afe9-3d0e1a6cf252"
         },
         {
@@ -186,6 +190,7 @@
                 "ref": "WeeklySkillsGridPanel",
                 "selector": "#weeklyskillsgridpanel"
             },
+            "name": "WeeklySkillsGridPanel",
             "designerId": "e53f4e50-59fc-4022-94a7-63ca8f83f217"
         },
         {
@@ -228,6 +233,7 @@
                     "}"
                 ]
             },
+            "name": "loadTabPanelForm",
             "designerId": "291d3866-e13a-46db-a099-43530c71b4c5"
         },
         {
@@ -252,6 +258,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "9d981540-f222-49a9-9466-4273b5506096"
         },
         {
@@ -272,6 +279,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyskillrefreshtoolClick",
             "designerId": "da23eba6-5587-45fd-9fa3-dfa9164ac994"
         },
         {
@@ -291,6 +299,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyskillssearchtoolClick",
             "designerId": "cab3878c-f69d-4d20-81bc-fca8a6fa213f"
         },
         {
@@ -369,6 +378,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyskillsnewtoolClick",
             "designerId": "a8d93f6b-6678-4b6e-8b76-3b0d38596098"
         },
         {
@@ -407,6 +417,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklytoolssavetoolClick",
             "designerId": "a20696d6-3db3-4fe9-b159-de9f312b2456"
         },
         {
@@ -426,6 +437,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyskillsdeletetoolClick",
             "designerId": "55384a6d-83bb-44a3-992c-94ae490aba99"
         },
         {
@@ -445,6 +457,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onWeeklyskillslocktoolClick",
             "designerId": "aff9a0bf-4995-44a0-b7b0-4984aca68995"
         },
         {
@@ -518,6 +531,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onWeeklyskillsgridpanelViewReady",
             "designerId": "cbea8b70-388f-499a-81fc-78c7c5b5f110"
         },
         {
@@ -562,6 +576,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onWeeklyskillsgridpanelSelectionChange",
             "designerId": "f6f5da3a-dd1c-4efc-a43f-63d2ad2091f0"
         },
         {
@@ -689,6 +704,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onSkillssubmitClick",
             "designerId": "f65c1f0c-477b-45c1-b13c-e0e59cf6dd15"
         },
         {
@@ -712,6 +728,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onSkillscancelClick",
             "designerId": "cf0d7e32-ba6f-4c07-9c80-881f07386e5d"
         }
     ]

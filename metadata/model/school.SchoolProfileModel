@@ -21,6 +21,7 @@
                 "name": "id",
                 "type": null
             },
+            "name": "MyField285",
             "designerId": "abec86fd-d714-4d67-922c-49829eeba2c9"
         },
         {
@@ -34,6 +35,7 @@
                 "name": "subjectId",
                 "type": "int"
             },
+            "name": "MyField286",
             "designerId": "f6069590-5532-4082-8b20-0ee7bbca8586"
         },
         {
@@ -47,6 +49,7 @@
                 "name": "adminId",
                 "type": "int"
             },
+            "name": "MyField287",
             "designerId": "3ff3f90f-87dc-4d7c-a332-996d9e5ccd7a"
         },
         {
@@ -60,6 +63,7 @@
                 "name": "schoolviewId",
                 "type": "int"
             },
+            "name": "MyField288",
             "designerId": "7e45a5d3-15ca-4700-8db1-a420ce3c7da7"
         },
         {
@@ -73,6 +77,7 @@
                 "name": "schoolId",
                 "type": "int"
             },
+            "name": "MyField289",
             "designerId": "5472cd04-b3cc-40d3-b40f-928b997c1e3e"
         },
         {
@@ -86,6 +91,7 @@
                 "name": "email",
                 "type": "string"
             },
+            "name": "MyField290",
             "designerId": "27dd22aa-de01-45f8-8836-0dd8ae45d619"
         },
         {
@@ -99,6 +105,7 @@
                 "name": "name",
                 "type": "string"
             },
+            "name": "MyField291",
             "designerId": "af0b7056-3b14-4c30-8a32-ab0ae28da753"
         },
         {
@@ -112,6 +119,7 @@
                 "name": "comments",
                 "type": "string"
             },
+            "name": "MyField292",
             "designerId": "a17fa73d-c9d8-4c4e-895d-eb1420692d57"
         },
         {
@@ -125,6 +133,7 @@
                 "name": "custodianOfRecords",
                 "type": "string"
             },
+            "name": "MyField293",
             "designerId": "7abaef0d-f227-4cfe-b6db-c7c99b490352"
         },
         {
@@ -138,6 +147,7 @@
                 "name": "custodianTitle",
                 "type": "string"
             },
+            "name": "MyField294",
             "designerId": "68de0e5b-8677-4ec8-810e-dbf5afddaad5"
         },
         {
@@ -151,6 +161,7 @@
                 "name": "phone1",
                 "type": "string"
             },
+            "name": "MyField295",
             "designerId": "2e063d31-9962-49fa-a3e3-66a62897a1d1"
         },
         {
@@ -164,6 +175,7 @@
                 "name": "phone2",
                 "type": "string"
             },
+            "name": "MyField296",
             "designerId": "2c4df91e-b034-48f5-a1c0-5113fafdc682"
         },
         {
@@ -177,6 +189,7 @@
                 "name": "address1",
                 "type": "string"
             },
+            "name": "MyField297",
             "designerId": "1cbe9e70-ecad-4b0f-810d-5540cced5a79"
         },
         {
@@ -190,6 +203,7 @@
                 "name": "address2",
                 "type": "string"
             },
+            "name": "MyField298",
             "designerId": "83080d18-838f-4cc8-b0aa-5bee6d9fbe02"
         },
         {
@@ -203,6 +217,7 @@
                 "name": "city",
                 "type": "string"
             },
+            "name": "MyField299",
             "designerId": "7578a952-19fc-44cf-9072-c8a4058726b0"
         },
         {
@@ -216,6 +231,7 @@
                 "name": "province",
                 "type": "string"
             },
+            "name": "MyField300",
             "designerId": "3e50935c-35e5-4466-ba86-47bde68a8d64"
         },
         {
@@ -229,6 +245,7 @@
                 "name": "postalCode",
                 "type": "string"
             },
+            "name": "MyField301",
             "designerId": "03865dcc-37b1-478a-bb06-7c99ee786104"
         },
         {
@@ -242,6 +259,7 @@
                 "name": "country",
                 "type": "string"
             },
+            "name": "MyField302",
             "designerId": "beb18124-15e0-45dd-8465-6e0622a26555"
         },
         {
@@ -255,6 +273,7 @@
                 "name": "whoUpdated",
                 "type": "string"
             },
+            "name": "MyField303",
             "designerId": "6362f380-fcf8-4a04-9b92-029f4093ecc2"
         },
         {
@@ -269,6 +288,7 @@
                 "name": "lastUpdated",
                 "type": "date"
             },
+            "name": "MyField304",
             "designerId": "2aecfbe5-4d33-4987-ac22-22a32c5e5411"
         },
         {
@@ -283,6 +303,7 @@
                 "name": "createdDate",
                 "type": "date"
             },
+            "name": "MyField305",
             "designerId": "055b01de-1904-44aa-87dd-e67f49b66c1f"
         },
         {
@@ -296,6 +317,7 @@
                 "name": "adminUserName",
                 "type": "string"
             },
+            "name": "MyField306",
             "designerId": "945d7eaf-a79f-4f44-83c7-9bf369fce654"
         },
         {
@@ -309,6 +331,7 @@
                 "name": "district",
                 "type": "string"
             },
+            "name": "MyField307",
             "designerId": "4e449b49-832f-4906-89b5-a5fc0f396aa4"
         },
         {
@@ -322,6 +345,7 @@
                 "name": "adminEmail",
                 "type": "string"
             },
+            "name": "MyField308",
             "designerId": "1a7295eb-5f81-483c-a8de-a5bba912d54a"
         },
         {
@@ -335,6 +359,7 @@
                 "name": "subjectName",
                 "type": "string"
             },
+            "name": "MyField309",
             "designerId": "e9ad8d66-7163-4de8-90c0-1cfbdfd00a29"
         },
         {
@@ -348,6 +373,7 @@
                 "name": "enabled",
                 "type": "boolean"
             },
+            "name": "MyField310",
             "designerId": "8fe42a73-d8c5-4312-9679-40719a366132"
         },
         {
@@ -361,6 +387,7 @@
                 "name": "version",
                 "type": "int"
             },
+            "name": "MyField311",
             "designerId": "5f0808b6-fcf2-477b-8149-5cd85c81790a"
         }
     ]

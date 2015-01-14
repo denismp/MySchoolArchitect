@@ -30,6 +30,7 @@
                 "itemId": "dailyfieldset",
                 "title": "Daily Fields"
             },
+            "name": "MyFieldSet4",
             "designerId": "942703ff-2aaa-42ce-b984-de890ffd403f",
             "cn": [
                 {
@@ -46,6 +47,7 @@
                         "name": "studentUserName",
                         "readOnly": true
                     },
+                    "name": "MyTextField81",
                     "designerId": "67ba8c12-9395-4794-aedf-7c13baedb3cf"
                 },
                 {
@@ -58,6 +60,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
+                    "name": "common.quartersubjectcombobox3",
                     "designerId": "b494faff-62e4-439f-a369-bf08c2a55126",
                     "masterInstanceId": "41872b83-972c-4338-a84b-63ceea0340bc"
                 },
@@ -71,6 +74,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
+                    "name": "common.monthcombobox2",
                     "designerId": "45f88312-e096-4854-8382-30a924794f5f",
                     "masterInstanceId": "013dec09-40b4-43be-9cd0-ecf74b1836c2"
                 },
@@ -89,6 +93,7 @@
                         "minValue": 1,
                         "name": "daily_day"
                     },
+                    "name": "MyNumberField33",
                     "designerId": "08e2795c-2148-476e-aacc-cae75faeabcf"
                 },
                 {
@@ -107,6 +112,7 @@
                             "'resources used'"
                         ]
                     },
+                    "name": "MyHiddenField38",
                     "designerId": "7ebbd0c4-a8a4-49fd-8981-74a8b84eba6a"
                 },
                 {
@@ -125,6 +131,7 @@
                             "'study details'"
                         ]
                     },
+                    "name": "MyHiddenField39",
                     "designerId": "14e75db2-8c57-4ee5-9d15-9d8bc647d8a3"
                 },
                 {
@@ -143,6 +150,7 @@
                             "'evaluation'"
                         ]
                     },
+                    "name": "MyHiddenField40",
                     "designerId": "88c343ec-002d-4469-a0a7-5e36d37ed707"
                 },
                 {
@@ -161,6 +169,7 @@
                             "'corrections'"
                         ]
                     },
+                    "name": "MyHiddenField41",
                     "designerId": "56230422-7cb7-4215-b227-dfabd2fd9393"
                 },
                 {
@@ -179,6 +188,7 @@
                             "'daily actions'"
                         ]
                     },
+                    "name": "MyHiddenField42",
                     "designerId": "34e1cb3b-b683-40d0-be28-53fce3d9ce4f"
                 },
                 {
@@ -197,6 +207,7 @@
                             "'comments'"
                         ]
                     },
+                    "name": "MyHiddenField43",
                     "designerId": "d52d4786-d4e5-4451-a4ad-f19b6821e888"
                 },
                 {
@@ -212,6 +223,7 @@
                         "layout|anchor": "100%",
                         "name": "subjName"
                     },
+                    "name": "MyHiddenField44",
                     "designerId": "e46b5094-d5db-4acc-a373-d3d95e69cd45"
                 },
                 {
@@ -227,6 +239,7 @@
                         "layout|anchor": "100%",
                         "name": "qtrName"
                     },
+                    "name": "MyHiddenField45",
                     "designerId": "c910e165-8dd3-43f2-9e35-2be51d53f591"
                 },
                 {
@@ -242,6 +255,7 @@
                         "layout|anchor": "100%",
                         "name": "daily_year"
                     },
+                    "name": "MyHiddenField46",
                     "designerId": "6b5a936c-8ac7-45e7-aa88-5ed6f9d8d262"
                 },
                 {
@@ -257,6 +271,7 @@
                         "layout|anchor": "100%",
                         "name": "studentId"
                     },
+                    "name": "MyHiddenField47",
                     "designerId": "4b68486d-9446-482a-a86b-e5d1bb4b629f"
                 },
                 {
@@ -272,6 +287,7 @@
                         "layout|anchor": "100%",
                         "name": "subjId"
                     },
+                    "name": "MyHiddenField48",
                     "designerId": "dda8dfee-3681-4363-acca-7abb244d95e8"
                 },
                 {
@@ -287,6 +303,7 @@
                         "layout|anchor": "100%",
                         "name": "qtrId"
                     },
+                    "name": "MyHiddenField49",
                     "designerId": "b9c13844-1545-47fc-812c-abd92e438471"
                 }
             ]
@@ -302,6 +319,7 @@
                 "itemId": "dailycancel",
                 "text": "Canel"
             },
+            "name": "MyButton32",
             "designerId": "ac7c1862-b012-4c63-82e2-089f18a3caac"
         },
         {
@@ -315,6 +333,7 @@
                 "itemId": "dailysubmit",
                 "text": "Submit"
             },
+            "name": "MyButton33",
             "designerId": "87803fde-a70d-49e7-b4d9-b916605cde2b"
         }
     ]

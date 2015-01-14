@@ -41,6 +41,7 @@
                     "return config;"
                 ]
             },
+            "name": "processCommonQuarterSubjectComboBox",
             "designerId": "ab08e742-c5b5-4d71-b398-e7a0cc9787d9"
         }
     ]

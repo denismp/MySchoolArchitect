@@ -27,6 +27,7 @@
                 ],
                 "url": "securityviews/json"
             },
+            "name": "MyRestProxy19",
             "designerId": "1b537300-9e6d-4760-8d34-9b8765eaf8aa",
             "cn": [
                 {
@@ -39,6 +40,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader22",
                     "designerId": "6d8c1c8b-38b1-4a2f-8920-53915d7aff6e"
                 },
                 {
@@ -53,6 +55,7 @@
                         "encode": true,
                         "root": "data"
                     },
+                    "name": "MyJsonWriter3",
                     "designerId": "9f6d29d0-4920-4d11-ae75-8c456ae26abc"
                 }
             ]

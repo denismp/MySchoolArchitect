@@ -26,6 +26,7 @@
                 ],
                 "url": "quarters/json"
             },
+            "name": "MyRestProxy17",
             "designerId": "e020e8f8-e308-4d8d-9a99-bd2882a0bc0c",
             "cn": [
                 {
@@ -38,6 +39,7 @@
                     "userConfig": {
                         "root": "data"
                     },
+                    "name": "MyJsonReader20",
                     "designerId": "d476cb74-c08f-40f6-8fda-fa487ae2ea0f"
                 },
                 {
@@ -52,6 +54,7 @@
                         "encode": true,
                         "root": "data"
                     },
+                    "name": "MyJsonWriter1",
                     "designerId": "4dd8e031-0ff4-4a7b-b6d0-9be949f3456e"
                 }
             ]

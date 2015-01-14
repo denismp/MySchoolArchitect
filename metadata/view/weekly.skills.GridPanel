@@ -30,6 +30,7 @@
                 "dataIndex": "subjName",
                 "text": "Subject Name"
             },
+            "name": "MyColumn23",
             "designerId": "ef06654c-e165-4c5b-8f85-930bbf5a71f5"
         },
         {
@@ -43,6 +44,7 @@
                 "dataIndex": "qtrName",
                 "text": "Term"
             },
+            "name": "MyColumn24",
             "designerId": "47987272-872c-494f-9a43-ab982029f57a"
         },
         {
@@ -57,6 +59,7 @@
                 "format": "0000",
                 "text": "Year"
             },
+            "name": "MyNumberColumn20",
             "designerId": "d9049387-8fc9-4925-aff7-9ecca84fb034"
         },
         {
@@ -71,6 +74,7 @@
                 "format": "00",
                 "text": "Month"
             },
+            "name": "MyNumberColumn21",
             "designerId": "2595fecb-990f-40bf-bc51-63d1b4a57e11"
         },
         {
@@ -85,6 +89,7 @@
                 "format": "0",
                 "text": "Week"
             },
+            "name": "MyNumberColumn22",
             "designerId": "e03f264a-0ea6-408b-bcd6-3b4e893f9a38"
         },
         {
@@ -99,6 +104,7 @@
                 "id": null,
                 "itemId": "bodiesofworksubjectsview"
             },
+            "name": "MyGridView3",
             "designerId": "0e6ea0b7-57b5-4934-af58-cd725b07b29e"
         },
         {
@@ -113,6 +119,7 @@
                 "format": "00",
                 "text": "Remembering"
             },
+            "name": "MyNumberColumn23",
             "designerId": "fb119870-38c1-44cd-b143-92b5a567add1",
             "cn": [
                 {
@@ -126,6 +133,7 @@
                         "maxValue": 10,
                         "minValue": 5
                     },
+                    "name": "MyNumberField3",
                     "designerId": "0ff93159-47b2-4f55-be0c-af0c4212c40d"
                 }
             ]
@@ -142,6 +150,7 @@
                 "format": "00",
                 "text": "Understanding"
             },
+            "name": "MyNumberColumn24",
             "designerId": "2023aa69-7e56-440b-bf48-016bbe79adcd",
             "cn": [
                 {
@@ -155,6 +164,7 @@
                         "maxValue": 10,
                         "minValue": 5
                     },
+                    "name": "MyNumberField4",
                     "designerId": "484539ad-437a-47fa-8c24-eb1601df1b9c"
                 }
             ]
@@ -171,6 +181,7 @@
                 "format": "00",
                 "text": "Applying"
             },
+            "name": "MyNumberColumn25",
             "designerId": "2b356f23-d48a-46d4-95bf-bcb2bae775ef",
             "cn": [
                 {
@@ -184,6 +195,7 @@
                         "maxValue": 10,
                         "minValue": 5
                     },
+                    "name": "MyNumberField5",
                     "designerId": "4a8a5f21-40f7-48ab-b2ca-83e7db495c79"
                 }
             ]
@@ -200,6 +212,7 @@
                 "format": "00",
                 "text": "Analyzing"
             },
+            "name": "MyNumberColumn26",
             "designerId": "204716bc-63c5-40c2-9663-7e1dda6b5127",
             "cn": [
                 {
@@ -213,6 +226,7 @@
                         "maxValue": 10,
                         "minValue": 5
                     },
+                    "name": "MyNumberField6",
                     "designerId": "b7050f8f-2b67-4ce3-b576-1ebc0350afa2"
                 }
             ]
@@ -229,6 +243,7 @@
                 "format": "00",
                 "text": "Evaluating"
             },
+            "name": "MyNumberColumn27",
             "designerId": "9bf870a0-b620-46bc-bae6-8cbe388dead3",
             "cn": [
                 {
@@ -242,6 +257,7 @@
                         "maxValue": 10,
                         "minValue": 5
                     },
+                    "name": "MyNumberField7",
                     "designerId": "b4ee0575-af1b-4287-a620-5be29759c410"
                 }
             ]
@@ -258,6 +274,7 @@
                 "format": "00",
                 "text": "Creating"
             },
+            "name": "MyNumberColumn28",
             "designerId": "ecc03121-e2cf-4383-8915-ae2e004ee4ed",
             "cn": [
                 {
@@ -271,6 +288,7 @@
                         "maxValue": 10,
                         "minValue": 5
                     },
+                    "name": "MyNumberField8",
                     "designerId": "0596caf1-af96-41be-8dbe-8f943101ec06"
                 }
             ]
@@ -287,6 +305,7 @@
                 "hidden": true,
                 "text": "Locked?"
             },
+            "name": "MyCheckColumn4",
             "designerId": "0e95a67a-1fc9-4380-a9fd-f0651a05214b",
             "cn": [
                 {
@@ -296,6 +315,7 @@
                         "type": "object"
                     },
                     "codeClass": null,
+                    "name": "MyCheckbox4",
                     "designerId": "7b2f7ad0-b978-45dc-912e-8074ca17e707"
                 }
             ]
@@ -313,6 +333,7 @@
                 "hidden": true,
                 "text": "id"
             },
+            "name": "MyNumberColumn29",
             "designerId": "d3c8425e-a733-4dd9-87df-b927d4d66e69"
         },
         {
@@ -328,6 +349,7 @@
                 "hidden": true,
                 "text": "subjectId"
             },
+            "name": "MyNumberColumn30",
             "designerId": "73d9e7b3-c69f-405f-b5a0-2acb55bdf53e"
         },
         {
@@ -343,6 +365,7 @@
                 "hidden": true,
                 "text": "skillId"
             },
+            "name": "MyNumberColumn31",
             "designerId": "e4ff36dd-3f74-404f-9ef5-143124bc9c85"
         },
         {
@@ -358,6 +381,7 @@
                 "hidden": true,
                 "text": "version"
             },
+            "name": "MyNumberColumn32",
             "designerId": "9a72aa2b-6691-4126-a0ab-7f373f88a9d2"
         },
         {
@@ -373,6 +397,7 @@
                 "hidden": true,
                 "text": "qtrId"
             },
+            "name": "MyNumberColumn33",
             "designerId": "01d2f03e-395a-496b-94fc-98de99497f9a"
         },
         {
@@ -388,6 +413,7 @@
                 "hidden": true,
                 "text": "studentId"
             },
+            "name": "MyNumberColumn34",
             "designerId": "9c011ae8-3017-4196-92ed-e9e0c612fe4b"
         },
         {
@@ -401,6 +427,7 @@
                 "dataIndex": "studentUserName",
                 "text": "Student User Name"
             },
+            "name": "MyColumn25",
             "designerId": "46d25752-e6c2-4020-b2c8-a8550ef7dcf6"
         },
         {
@@ -414,6 +441,7 @@
                 "dataIndex": "facultyUserName",
                 "text": "Faculty User Name"
             },
+            "name": "MyColumn26",
             "designerId": "ae2823f9-4f25-4216-8244-1f992ea3bf9e"
         },
         {
@@ -429,6 +457,7 @@
                 "hidden": true,
                 "text": "Last Updated"
             },
+            "name": "MyDateColumn3",
             "designerId": "b5b58f17-48bf-413c-9876-03d483d62a1d"
         },
         {
@@ -442,6 +471,7 @@
                 "dataIndex": "whoUpdated",
                 "text": "Who Updated"
             },
+            "name": "MyColumn27",
             "designerId": "365d3e7d-b4dd-4179-95d1-c0dcbeeaf1c0"
         },
         {
@@ -454,6 +484,7 @@
             "userConfig": {
                 "clicksToEdit": 1
             },
+            "name": "MyCellEditingPlugin2",
             "designerId": "26a2096a-fadb-4128-bdac-96dfd08db430"
         }
     ]

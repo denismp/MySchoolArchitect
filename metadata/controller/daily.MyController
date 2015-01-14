@@ -37,6 +37,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onEditdailyhourstabClick",
             "designerId": "8227d284-457d-4764-a8dd-946ae377934d"
         },
         {
@@ -114,6 +115,7 @@
                     "this.buttonHandler( edit_ );"
                 ]
             },
+            "name": "blurHandler",
             "designerId": "7cdfdf47-4058-452e-9f13-c1402aa55b2f"
         },
         {
@@ -134,6 +136,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onDailyrefreshtoolClick",
             "designerId": "fe778c87-7a5e-442a-92b7-b8046bcbbd66"
         },
         {
@@ -153,6 +156,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onDailysearchtoolClick",
             "designerId": "9290a015-8d82-4806-9b1a-223203da7f00"
         },
         {
@@ -256,6 +260,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onDailynewtoolClick",
             "designerId": "91893362-d4ef-4433-ac0e-03ced7607173"
         },
         {
@@ -287,6 +292,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onDailysavetoolClick",
             "designerId": "0bfb34a3-a4f5-496e-b649-8eef8d54a483"
         },
         {
@@ -306,6 +312,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onDailydeletetoolClick",
             "designerId": "e7f7746f-f711-41dd-b520-7250834f32cb"
         },
         {
@@ -325,6 +332,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onDailylocktoolClick",
             "designerId": "fd2a4fd4-698c-4c72-b17a-27aaafb7bffa"
         },
         {
@@ -366,6 +374,7 @@
                     "}"
                 ]
             },
+            "name": "buttonHandler",
             "designerId": "be386d5e-4d0c-447d-9b02-840ae07841f4"
         },
         {
@@ -428,6 +437,7 @@
                     "});"
                 ]
             },
+            "name": "init",
             "designerId": "136da0e8-8283-4d19-b956-df5b8910590f"
         },
         {
@@ -471,6 +481,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onDailygridpanelSelectionChange",
             "designerId": "0618fe22-9b90-49ff-8221-68c9463c2fef"
         },
         {
@@ -546,6 +557,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onDailygridpanelViewReady",
             "designerId": "51167911-33d0-467f-a28e-9b7d04eceaf6"
         },
         {
@@ -559,6 +571,7 @@
                 "ref": "DailyGridPanel",
                 "selector": "#dailygridpanel"
             },
+            "name": "DailyGridPanel",
             "designerId": "06052f2e-bc33-458a-8269-c05198769634"
         },
         {
@@ -583,6 +596,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "87071baf-996f-479c-a569-d9d0c38b388b"
         },
         {
@@ -596,6 +610,7 @@
                 "ref": "DailyResourcesUsedTabPanel",
                 "selector": "#dailyresourcesusedtabpanel"
             },
+            "name": "DailyResourcesUsedTabPanel",
             "designerId": "353629c2-b9a8-40fa-98a4-e37e84ef8c3f"
         },
         {
@@ -609,6 +624,7 @@
                 "ref": "DailyStudyDetailsTabPanel",
                 "selector": "#dailystudydetailstabpanel"
             },
+            "name": "DailyStudyDetailsTabPanel",
             "designerId": "a0143eeb-e7f0-4246-be7b-b50709674f1a"
         },
         {
@@ -622,6 +638,7 @@
                 "ref": "DailyDetailsEvaluationTabPanel",
                 "selector": "#dailydetailsevaluationtabpanel"
             },
+            "name": "DailyDetailsEvaluationTabPanel",
             "designerId": "37c0e248-f8e0-4752-b7ee-1b267492feb2"
         },
         {
@@ -658,6 +675,7 @@
                     "}"
                 ]
             },
+            "name": "loadTabPanelForm",
             "designerId": "ce92ed91-667b-4c28-82de-7d2145b47a3c"
         },
         {
@@ -671,6 +689,7 @@
                 "ref": "DailyDetailsActionsTabPanel",
                 "selector": "#dailydetailsactionstabpanel"
             },
+            "name": "DailyDetailsActionsTabPanel",
             "designerId": "f6b87f69-ece9-490b-93a2-188f9b28b634"
         },
         {
@@ -684,6 +703,7 @@
                 "ref": "DailyCommentsTabPanel",
                 "selector": "#dailydetailscommentstabpanel"
             },
+            "name": "DailyCommentsTabPanel",
             "designerId": "6ff21a5f-0c00-481d-951b-9219f7ddce31"
         },
         {
@@ -697,6 +717,7 @@
                 "ref": "DailyDetailsCorrectionTabPanel",
                 "selector": "#dailydetailscorrectiontabpanel"
             },
+            "name": "DailyDetailsCorrectionTabPanel",
             "designerId": "624b72bc-73f4-4037-945c-b3a2ac17b7fa"
         },
         {
@@ -824,6 +845,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onDailysubmitClick",
             "designerId": "17b329b9-8ab0-478e-ad5d-1a0a1ab0a1fd"
         },
         {
@@ -847,6 +869,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onDailycancelClick",
             "designerId": "5b6d7759-1358-41b2-86ca-f1aefad2f0e0"
         }
     ]

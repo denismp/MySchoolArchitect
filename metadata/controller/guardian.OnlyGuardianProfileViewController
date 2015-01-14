@@ -24,6 +24,7 @@
                 "ref": "OnlyGuardianForm",
                 "selector": "#guardianonlyprofileform"
             },
+            "name": "OnlyGuardianForm",
             "designerId": "cb6416d3-4ff5-4f14-883f-606911b2c651"
         },
         {
@@ -37,6 +38,7 @@
                 "ref": "OnlyGuardianGridPanel",
                 "selector": "#guardianonlygridpanel"
             },
+            "name": "OnlyGuardianGridPanel",
             "designerId": "419d0b77-7f15-490d-a996-d319e71876f0"
         },
         {
@@ -66,6 +68,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onGuardianonlygridpanelSelectionChange",
             "designerId": "1f2d8090-cc04-402f-9203-c96d77360b18"
         },
         {
@@ -137,6 +140,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onGuardianonlygridpanelViewReady",
             "designerId": "9f0f5bc3-be7a-40c1-9331-ef5dc19dc0a1"
         },
         {
@@ -167,6 +171,7 @@
                     "console.log('guardian.OnlyGuardianProfileViewController.loadForm(): completed');"
                 ]
             },
+            "name": "loadForm",
             "designerId": "bc267472-703f-4fc0-945d-1e3777a52ca6"
         },
         {
@@ -191,6 +196,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "e0ebb025-c886-4546-82b6-abf35bcbb930"
         },
         {
@@ -248,6 +254,7 @@
                     "myStore.sync();"
                 ]
             },
+            "name": "saveOnlyGuardianProfileForm",
             "designerId": "95303e53-fd9f-471b-ab1e-1018692f0c76"
         },
         {
@@ -276,6 +283,7 @@
                     "return \"\";"
                 ]
             },
+            "name": "getFormValue",
             "designerId": "177adb66-b67d-4c4c-834e-9d8f424913c9"
         },
         {
@@ -348,6 +356,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyguardianrefreshtoolClick",
             "designerId": "4c93a74a-82d8-4876-8857-4cf5aaca07c2"
         },
         {
@@ -381,6 +390,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyguardianprofileformeditbuttonClick",
             "designerId": "19ef753e-9731-4bd5-8196-2134f82e3efb"
         },
         {
@@ -412,6 +422,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyguardianprofileformcanelbuttonClick",
             "designerId": "22035fb6-2699-431c-b5c8-e409d73b51ac"
         },
         {
@@ -445,6 +456,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyguardianprofileformsavebuttonClick",
             "designerId": "7df018ce-5905-406f-b4a1-40b090ec93f0"
         },
         {
@@ -476,6 +488,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyfguardiansavetoolClick",
             "designerId": "e0b28716-eabe-4f1e-93ab-2fd056efc650"
         },
         {
@@ -510,6 +523,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyguardiannewtoolClick",
             "designerId": "813566f1-0cfd-4b4f-9c7a-f55f2df33592"
         },
         {
@@ -534,6 +548,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onGuardiancancelClick",
             "designerId": "6ef51288-c2aa-4cb8-9674-3201e9278b1f"
         },
         {
@@ -626,6 +641,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onGuardiansubmitClick",
             "designerId": "8006faa7-b809-4cc3-980a-adeb5b8337eb"
         },
         {
@@ -657,6 +673,7 @@
                 "name": "activate",
                 "scope": "me"
             },
+            "name": "onGuardianprofiletabActivate",
             "designerId": "6a39d452-d70b-4fb2-87ab-34d9db38bd72"
         }
     ]

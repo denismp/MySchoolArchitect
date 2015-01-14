@@ -30,6 +30,7 @@
                 "itemId": "monthlyevaluationfieldset",
                 "title": "Monthly Evaluation Fields"
             },
+            "name": "MyFieldSet3",
             "designerId": "190b1481-b2f4-4837-827e-c0f0f8d2ed44",
             "cn": [
                 {
@@ -46,6 +47,7 @@
                         "name": "studentname",
                         "readOnly": true
                     },
+                    "name": "MyTextField80",
                     "designerId": "59697496-3371-4b1f-8ea1-16b1fa06e144"
                 },
                 {
@@ -58,6 +60,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
+                    "name": "common.quartersubjectcombobox2",
                     "designerId": "bf2f061c-3dcb-41bb-bbbe-21286cc9ed32",
                     "masterInstanceId": "41872b83-972c-4338-a84b-63ceea0340bc"
                 },
@@ -71,6 +74,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
+                    "name": "common.monthcombobox1",
                     "designerId": "6b386637-321a-489c-b64e-6697fd8289c9",
                     "masterInstanceId": "013dec09-40b4-43be-9cd0-ecf74b1836c2"
                 },
@@ -90,6 +94,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField22",
                     "designerId": "10517e0c-3bf1-45dd-b05a-4d16971ec93d"
                 },
                 {
@@ -108,6 +113,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField23",
                     "designerId": "d5dc8cb3-9655-4397-b277-323b37f4b558"
                 },
                 {
@@ -126,6 +132,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField24",
                     "designerId": "22f4bc1e-43bf-4a0b-9d46-f3cdaec93d7c"
                 },
                 {
@@ -144,6 +151,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField25",
                     "designerId": "28e81024-bbda-4897-b95a-dcd18c191a79"
                 },
                 {
@@ -162,6 +170,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField26",
                     "designerId": "e69f1503-9bc5-45a9-800a-9f0127eba08b"
                 },
                 {
@@ -180,6 +189,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField27",
                     "designerId": "fcb0e937-7771-444d-8d84-d0c178e070dd"
                 },
                 {
@@ -198,6 +208,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField28",
                     "designerId": "82ebb77d-0f88-4c25-9324-1c61058e2379"
                 },
                 {
@@ -216,6 +227,7 @@
                             "5"
                         ]
                     },
+                    "name": "MyHiddenField29",
                     "designerId": "ab7b4e75-e651-4897-8cb7-1621f8bf2018"
                 },
                 {
@@ -234,6 +246,7 @@
                             "'comments'"
                         ]
                     },
+                    "name": "MyHiddenField30",
                     "designerId": "f188dc3e-ec91-401e-b4bc-67ced6cf726c"
                 },
                 {
@@ -249,6 +262,7 @@
                         "layout|anchor": "100%",
                         "name": "subjectId"
                     },
+                    "name": "MyHiddenField31",
                     "designerId": "a4547332-06de-4be0-82ce-b16b0b203f07"
                 },
                 {
@@ -264,6 +278,7 @@
                         "layout|anchor": "100%",
                         "name": "quarterId"
                     },
+                    "name": "MyHiddenField32",
                     "designerId": "a721c956-c21b-4452-a1e7-a25e64f1bfb5"
                 },
                 {
@@ -279,6 +294,7 @@
                         "layout|anchor": "100%",
                         "name": "subjectname"
                     },
+                    "name": "MyHiddenField33",
                     "designerId": "ce68843e-18e6-42f5-959c-24395fa4a01c"
                 },
                 {
@@ -294,6 +310,7 @@
                         "layout|anchor": "100%",
                         "name": "studentId"
                     },
+                    "name": "MyHiddenField34",
                     "designerId": "d3936387-102a-4db8-918c-2af10fb3d39c"
                 },
                 {
@@ -309,6 +326,7 @@
                         "layout|anchor": "100%",
                         "name": "subject"
                     },
+                    "name": "MyHiddenField35",
                     "designerId": "38bb5593-b3c3-44c5-bf0b-f3a42242d853"
                 },
                 {
@@ -324,6 +342,7 @@
                         "layout|anchor": "100%",
                         "name": "quarter"
                     },
+                    "name": "MyHiddenField36",
                     "designerId": "e505c2cb-e73d-445d-99b1-800fed104a8a"
                 },
                 {
@@ -339,6 +358,7 @@
                         "layout|anchor": "100%",
                         "name": "year"
                     },
+                    "name": "MyHiddenField37",
                     "designerId": "5c445187-16b9-4018-9b7e-1d28a29f8d02"
                 }
             ]
@@ -354,6 +374,7 @@
                 "itemId": "newmonthlyevaluationcanel",
                 "text": "Canel"
             },
+            "name": "MyButton30",
             "designerId": "956b001b-64b9-4fd7-8fb1-5812bfdc53d2"
         },
         {
@@ -367,6 +388,7 @@
                 "itemId": "newmonthlyevaluationsubmit",
                 "text": "Submit"
             },
+            "name": "MyButton31",
             "designerId": "4ef2bc2c-e3de-439c-94f3-bac8a1b63645"
         }
     ]

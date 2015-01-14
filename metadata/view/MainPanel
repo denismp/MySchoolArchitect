@@ -38,6 +38,7 @@
                 "weight": null,
                 "width": null
             },
+            "name": "MyTabPanel",
             "designerId": "cfd3253d-3156-4994-9147-41e326a31000",
             "cn": [
                 {
@@ -57,6 +58,7 @@
                         "title": "SubjectsByStudent",
                         "width": 1000
                     },
+                    "name": "MyPanel",
                     "designerId": "fb1300bf-ded0-4acd-9e1d-1aca3d27d7b2",
                     "cn": [
                         {
@@ -66,6 +68,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig20",
                             "designerId": "630cf8b4-ea21-470c-b0a5-63c09eb09bcc"
                         },
                         {
@@ -79,6 +82,7 @@
                                 "autoScroll": true,
                                 "layout|flex": 1
                             },
+                            "name": "subject.subjectspanel",
                             "designerId": "2b1bd015-bfe2-4a43-84b4-5a8647d6369a",
                             "masterInstanceId": "22072b76-4dbe-479c-8927-c3e8c20f0044"
                         }
@@ -101,6 +105,7 @@
                         "title": "Bodies Of Work",
                         "width": null
                     },
+                    "name": "MyPanel1",
                     "designerId": "3e88dbd2-62d7-4431-a4ef-11f56ac92ed0",
                     "cn": [
                         {
@@ -115,6 +120,7 @@
                                 "itemId": "bodiesofworkpaneel",
                                 "layout|flex": 1
                             },
+                            "name": "bodiesofwork.bodiesofworkpanel",
                             "designerId": "0d4ac819-ec12-4816-ac0f-a1b38d21d88f",
                             "masterInstanceId": "78d64d6c-4176-4ac6-bb01-6d72ccf195b3"
                         },
@@ -125,6 +131,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig21",
                             "designerId": "d72889f9-bce4-4bf0-9e59-ad942651a187"
                         }
                     ]
@@ -146,6 +153,7 @@
                         "minHeight": null,
                         "title": "Daily"
                     },
+                    "name": "MyPanel2",
                     "designerId": "12830a72-ef36-4dc0-990b-e262d5e0ae84",
                     "cn": [
                         {
@@ -158,6 +166,7 @@
                             "userConfig": {
                                 "minHeight": null
                             },
+                            "name": "TabConfig22",
                             "designerId": "3eda966c-db0f-44f0-8737-e1ded1d43511"
                         },
                         {
@@ -171,6 +180,7 @@
                                 "dock": "top",
                                 "layout|flex": 1
                             },
+                            "name": "daily.dailypanel",
                             "designerId": "9a6b834e-5c25-4012-b118-56b5b462db15",
                             "masterInstanceId": "516746d0-38a9-472f-a745-1b17006155e3"
                         }
@@ -191,6 +201,7 @@
                         "minHeight": 700,
                         "title": "Weekly Skills"
                     },
+                    "name": "MyPanel3",
                     "designerId": "88e382a5-8ee4-43fa-acb1-3d6b152fc797",
                     "cn": [
                         {
@@ -200,6 +211,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig23",
                             "designerId": "d4532774-d477-4c3f-a0cd-015d65d6b566"
                         },
                         {
@@ -214,6 +226,7 @@
                                 "itemId": "weeklyskillstabpanel",
                                 "layout|flex": 1
                             },
+                            "name": "weekly.skills.tabpanel",
                             "designerId": "6b5074c1-400d-4256-a6a3-0f6d4619ab72",
                             "masterInstanceId": "1423fdf6-d038-45ea-92f3-b25d585418cc"
                         }
@@ -234,6 +247,7 @@
                         "minHeight": 700,
                         "title": "Weekly Evaluation"
                     },
+                    "name": "MyPanel4",
                     "designerId": "cd9b09a5-47dd-42d1-b069-b568141ddd39",
                     "cn": [
                         {
@@ -243,6 +257,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig24",
                             "designerId": "cb810723-a11f-4004-acd9-328f3fe35dfc"
                         },
                         {
@@ -256,6 +271,7 @@
                                 "dock": "top",
                                 "layout|flex": 1
                             },
+                            "name": "weekly.evaluation.detailspanel",
                             "designerId": "b8be4833-e4ca-4552-9b6f-69c65380d684",
                             "masterInstanceId": "a110d1b6-6c61-45cc-a6e7-f038c820a467"
                         }
@@ -276,6 +292,7 @@
                         "minHeight": 700,
                         "title": "Monthly Summary"
                     },
+                    "name": "MyPanel5",
                     "designerId": "a7dc48a2-0b3e-462c-a517-bbe625fe0025",
                     "cn": [
                         {
@@ -285,6 +302,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig25",
                             "designerId": "dfd33928-d0a4-4026-9f4d-f92eb84e869e"
                         },
                         {
@@ -299,6 +317,7 @@
                                 "layout": null,
                                 "layout|flex": 1
                             },
+                            "name": "monthly.summary.detailspanel",
                             "designerId": "7ef6e8f5-595c-48db-90d6-48df8cd8c1b9",
                             "masterInstanceId": "9bebc5b4-9f9d-4bab-a83e-b5039508469d"
                         }
@@ -319,6 +338,7 @@
                         "minHeight": 700,
                         "title": "Monthly Evaluation"
                     },
+                    "name": "MyPanel6",
                     "designerId": "083d9f90-119e-4b38-a47c-3b19d47e65bf",
                     "cn": [
                         {
@@ -328,6 +348,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig26",
                             "designerId": "7da3bbcb-ea3f-4c69-84b8-e147c553d5b8"
                         },
                         {
@@ -341,6 +362,7 @@
                                 "dock": "top",
                                 "layout|flex": 1
                             },
+                            "name": "monthly.evaluation.detailspanel",
                             "designerId": "fe91d673-1dee-4241-817d-a3f4f1175f99",
                             "masterInstanceId": "bdb20158-0c47-4aa6-8822-58080b0bd812"
                         }
@@ -357,6 +379,7 @@
                         "itemId": "facultyprofilesbystudenttab",
                         "title": "Faculty Profiles by Student"
                     },
+                    "name": "MyPanel7",
                     "designerId": "dd58e145-d5ac-4a8c-8f21-73a10eb677e4",
                     "cn": [
                         {
@@ -369,6 +392,7 @@
                             "userConfig": {
                                 "layout|flex": null
                             },
+                            "name": "TabConfig27",
                             "designerId": "f2f80ceb-eb0c-4554-86a9-f7e252576d37"
                         },
                         {
@@ -382,6 +406,7 @@
                                 "dock": "top",
                                 "title": "Faculty By Student Profile Details"
                             },
+                            "name": "faculty.profilepanel",
                             "designerId": "06252ef2-6bb5-4e4f-a039-658db92add06",
                             "masterInstanceId": "0673a6ba-4eea-4f96-b040-8bccf8db4643"
                         }
@@ -400,6 +425,7 @@
                         "minHeight": 600,
                         "title": "Student Profiles"
                     },
+                    "name": "MyPanel8",
                     "designerId": "ae838009-6430-47b7-a8e2-ca3b53b7ad9b",
                     "cn": [
                         {
@@ -409,6 +435,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig28",
                             "designerId": "8b417a23-b973-44f8-b6a5-ec24a4c16cc1"
                         },
                         {
@@ -422,6 +449,7 @@
                                 "dock": "top",
                                 "itemId": "studentprofilepanel"
                             },
+                            "name": "student.profilepanel",
                             "designerId": "56ea2b00-8a0c-4b30-9d86-8aacbe0e5b79",
                             "masterInstanceId": "b1bee331-b4f1-4a12-8913-82ec18d3b753"
                         }
@@ -438,6 +466,7 @@
                         "itemId": "facultyonlyprofilestab",
                         "title": "Faculty Profiles"
                     },
+                    "name": "MyPanel9",
                     "designerId": "8acacd8f-8281-4e3e-9a39-b8aeefaca77a",
                     "cn": [
                         {
@@ -450,6 +479,7 @@
                             "userConfig": {
                                 "layout|flex": null
                             },
+                            "name": "TabConfig29",
                             "designerId": "9fdf7d64-1fa4-41d1-a8ce-90ecae5299a6"
                         },
                         {
@@ -462,6 +492,7 @@
                             "userConfig": {
                                 "dock": "top"
                             },
+                            "name": "faculty.onlyfacultyprofilepanel",
                             "designerId": "117c5dca-a4ce-48e9-9c23-b53bbb7b5784",
                             "masterInstanceId": "b7ea4af6-425b-4954-a2a7-d2ea8cc375c5"
                         }
@@ -478,6 +509,7 @@
                         "itemId": "guardianprofiletab",
                         "title": "Guardian Profiles"
                     },
+                    "name": "MyPanel10",
                     "designerId": "149cf807-40d8-4ed9-9689-0d0e367a97f3",
                     "cn": [
                         {
@@ -487,6 +519,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig30",
                             "designerId": "8a8d79cc-8f75-40c2-963a-b99d985ce2ae"
                         },
                         {
@@ -499,6 +532,7 @@
                             "userConfig": {
                                 "dock": "top"
                             },
+                            "name": "guardian.guardianprofilepanel",
                             "designerId": "33389799-14dd-42de-82cd-5fdc789cdbe2",
                             "masterInstanceId": "048b96a5-0cdf-4187-bd5e-4441c241b599"
                         }
@@ -515,6 +549,7 @@
                         "itemId": "schoolprofiletab",
                         "title": "School Profiles"
                     },
+                    "name": "MyPanel11",
                     "designerId": "c710bd1a-563a-4ff1-9b5a-e7d0bb9651a6",
                     "cn": [
                         {
@@ -524,6 +559,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig31",
                             "designerId": "e183ec23-3ae6-4e7d-bcb4-f3b5ee4d6f3d"
                         },
                         {
@@ -536,6 +572,7 @@
                             "userConfig": {
                                 "title": "School Profile Details"
                             },
+                            "name": "school.profilepanel",
                             "designerId": "ac2fa3a0-1ca2-4364-bfde-0b8354a5cc60",
                             "masterInstanceId": "f2c4abc4-62b7-4398-b304-4a9dd4a83312"
                         }
@@ -553,6 +590,7 @@
                         "title": "Admin Profiles",
                         "titleCollapse": false
                     },
+                    "name": "MyPanel12",
                     "designerId": "9e4f5504-dccd-4c46-990f-f021d07eb262",
                     "cn": [
                         {
@@ -562,6 +600,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
+                            "name": "TabConfig32",
                             "designerId": "fe9b1ff5-04cd-4613-86d0-b032f3f366ff"
                         },
                         {
@@ -571,6 +610,7 @@
                                 "type": "array"
                             },
                             "codeClass": null,
+                            "name": "admin.adminprofilepanel",
                             "designerId": "eb555367-8672-4b17-993f-a93c83ee1d62",
                             "masterInstanceId": "49b7b18d-8597-4700-a2c6-5a851088ced3"
                         },
@@ -589,6 +629,7 @@
                                 "name": "activate",
                                 "scope": "me"
                             },
+                            "name": "onAdminprofiletabActivate",
                             "designerId": "201a3090-689e-4a39-904b-eec3c53911cc"
                         }
                     ]

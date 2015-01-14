@@ -27,6 +27,7 @@
                 "itemId": "dailyresourcesusedtabpanel",
                 "title": "Resources Used"
             },
+            "name": "common.mytabpanel3",
             "designerId": "a82fa162-5c5b-4085-a2d3-2b67c7b1147b",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -43,6 +44,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig3",
                     "designerId": "ecf25006-36fa-42e1-ac18-acded441fb44"
                 }
             ]
@@ -59,6 +61,7 @@
                 "itemId": "dailystudydetailstabpanel",
                 "title": "Study Details"
             },
+            "name": "common.mytabpanel4",
             "designerId": "4ba18b92-1e6c-4209-a2f4-cb0248786944",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -75,6 +78,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig4",
                     "designerId": "5b0f84c4-c7a2-4110-8179-d19b30200137"
                 }
             ]
@@ -90,6 +94,7 @@
                 "itemId": "dailydetailsevaluationtabpanel",
                 "title": "Evaluations"
             },
+            "name": "common.mytabpanel5",
             "designerId": "c7fcb50d-1cca-4d59-a4bd-bcf730cff2ad",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -105,6 +110,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig5",
                     "designerId": "d71bb82f-11fe-4ae4-b7ae-53ea63b9f2d3"
                 }
             ]
@@ -120,6 +126,7 @@
                 "itemId": "dailydetailscorrectiontabpanel",
                 "title": "Corrections"
             },
+            "name": "common.mytabpanel6",
             "designerId": "526b3f36-8b75-4861-a2b1-b0083d827f37",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -135,6 +142,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig6",
                     "designerId": "3c50a161-9193-4365-a1ff-718fb270818a"
                 }
             ]
@@ -150,6 +158,7 @@
                 "itemId": "dailydetailsactionstabpanel",
                 "title": "Actions"
             },
+            "name": "common.mytabpanel7",
             "designerId": "b14b914d-0109-468e-a58c-092ef7bab392",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -165,6 +174,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig7",
                     "designerId": "5c2d9f1c-488f-4dec-b9a1-bdc07be47035"
                 }
             ]
@@ -180,6 +190,7 @@
                 "itemId": "dailydetailscommentstabpanel",
                 "title": "Comments"
             },
+            "name": "common.mytabpanel8",
             "designerId": "3d40736f-b310-477f-9bc2-0559f1b2cc02",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -195,6 +206,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig8",
                     "designerId": "de193fde-6260-43a3-9a30-6230d20f5d18"
                 }
             ]

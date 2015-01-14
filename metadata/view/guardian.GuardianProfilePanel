@@ -24,6 +24,7 @@
             "userConfig": {
                 "dock": "top"
             },
+            "name": "guardian.profilegridguardianonlypanel",
             "designerId": "39de870f-d791-4173-8f7b-f42e82daa7e7",
             "masterInstanceId": "9ee032ee-bda2-4fb0-89e1-af7089b8de34"
         },
@@ -37,6 +38,7 @@
             "userConfig": {
                 "dock": "bottom"
             },
+            "name": "guardian.guardianonlyprofileform",
             "designerId": "61be1532-974a-4c20-ad49-717805fd4607",
             "masterInstanceId": "41cbecbd-d7c5-4007-b0a6-d05ee5840068"
         },
@@ -52,6 +54,7 @@
                 "tooltip": "Refresh",
                 "type": "refresh"
             },
+            "name": "MyTool7",
             "designerId": "774f245e-23b9-4f51-aa11-0fbd15c83feb"
         },
         {
@@ -67,6 +70,7 @@
                 "tooltip": "Search",
                 "type": "search"
             },
+            "name": "MyTool8",
             "designerId": "4d119433-27de-4515-8917-fa751c042d3e"
         },
         {
@@ -81,6 +85,7 @@
                 "tooltip": "New",
                 "type": "plus"
             },
+            "name": "MyTool9",
             "designerId": "500ac3b3-32d8-4d8f-acbe-bd11e4e75ef7"
         },
         {
@@ -95,6 +100,7 @@
                 "tooltip": "Save",
                 "type": "save"
             },
+            "name": "MyTool10",
             "designerId": "010679d0-f164-4da7-b092-f3e3ea4ee0c5"
         },
         {
@@ -110,6 +116,7 @@
                 "tooltip": "Delete",
                 "type": "minus"
             },
+            "name": "MyTool11",
             "designerId": "d88d7f38-cb66-4683-bbb3-d58515549702"
         },
         {
@@ -124,6 +131,7 @@
                 "itemId": "onlyguardianlocktool",
                 "type": "pin"
             },
+            "name": "MyTool12",
             "designerId": "e0846f7c-4bc6-4f2a-9fe8-f531ec3c5241"
         }
     ]

@@ -59,6 +59,7 @@
                     "});"
                 ]
             },
+            "name": "init",
             "designerId": "c50d820c-1b95-4b19-91ae-67ec1019f6e0"
         },
         {
@@ -129,6 +130,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onBodiesofworkssubjectsgridViewReady",
             "designerId": "766af778-34ac-43cf-96fe-83656525b639"
         },
         {
@@ -158,6 +160,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onBodiesofworkssubjectsgridSelectionChange",
             "designerId": "79d0805f-0619-458a-99d5-df04799ae503"
         },
         {
@@ -178,6 +181,7 @@
                 "name": "boxready",
                 "scope": "me"
             },
+            "name": "onBodyofworkformBoxReady",
             "designerId": "f7ab9105-ff08-43e9-babb-32f518f46c20"
         },
         {
@@ -202,6 +206,7 @@
                     ""
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "a3e4420d-ad2d-4a5e-acc0-ce0b0bc360f5"
         },
         {
@@ -231,6 +236,7 @@
                 "name": "activate",
                 "scope": "me"
             },
+            "name": "onBodiesofworkstabActivate",
             "designerId": "2fa0d2d1-36c0-4373-8d15-7e07916f4f04"
         },
         {
@@ -254,6 +260,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onToolrefreshbodiesofworkClick",
             "designerId": "12cc3baa-92d6-44eb-824b-ea2d81998492"
         },
         {
@@ -273,6 +280,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onToolsearchbodiesofworkClick",
             "designerId": "4d1d2f84-5dcb-4b2b-8311-76af271286c5"
         },
         {
@@ -394,6 +402,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onToolnewbodiesofworkClick",
             "designerId": "522f6424-1ae5-41b3-85e7-3278709b5254"
         },
         {
@@ -413,6 +422,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onToolsavebodiesofworkClick",
             "designerId": "2fd49992-fab7-4841-b35d-0ae3e19f0f99"
         },
         {
@@ -432,6 +442,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onTooldeletebodiesofworkClick",
             "designerId": "fee12276-70bb-4a8d-a773-bc715de8bf9d"
         },
         {
@@ -451,6 +462,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onToollockbodiesofworkClick",
             "designerId": "ff5bc491-f051-42ca-becd-34b15514e2cd"
         },
         {
@@ -620,6 +632,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewbodiesofworkcancelClick",
             "designerId": "34238379-b16d-4c04-8d82-b5526b39f70e"
         },
         {
@@ -639,6 +652,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewbodiesofworksubmitClick",
             "designerId": "9135f782-fb42-4abc-87c2-90fe18b2e107"
         },
         {
@@ -658,6 +672,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onNewbodiesofworkcreateClick",
             "designerId": "60ab6003-cf7b-4fd0-91b9-22fd9c37a2df"
         },
         {
@@ -679,6 +694,7 @@
                 "name": "select",
                 "scope": "me"
             },
+            "name": "onBodiesofworkssubjectsgridSelect",
             "designerId": "292467bf-d152-474e-b7b1-3c0383ab9564"
         },
         {
@@ -692,6 +708,7 @@
                 "ref": "BodiesOfWorkWhatTabPanel",
                 "selector": "#bodiesofworkwhattabpanel"
             },
+            "name": "BodiesOfWorkWhatTabPanel",
             "designerId": "43faf175-b2f0-4117-b97c-87a002245b0f"
         },
         {
@@ -705,6 +722,7 @@
                 "ref": "BodiesOfWorkDescriptionTabPanel",
                 "selector": "#bodiesofworkdescriptiontabpanel"
             },
+            "name": "BodiesOfWorkDescriptionTabPanel",
             "designerId": "1492a6cd-fd8b-4d79-aa48-23624aa9ab91"
         },
         {
@@ -718,6 +736,7 @@
                 "ref": "BodiesOfWorkObjectiveTabPanel",
                 "selector": "#bodiesofworkobjectivetabpanel"
             },
+            "name": "BodiesOfWorkObjectiveTabPanel",
             "designerId": "969986f9-9843-44c8-8415-d583f8e84b5c"
         },
         {
@@ -765,6 +784,7 @@
                     "}"
                 ]
             },
+            "name": "loadTabPanelForm",
             "designerId": "abdad28e-be44-4fc9-a955-e0b0df5af75d"
         },
         {
@@ -842,6 +862,7 @@
                     "this.buttonHandler( edit_ );"
                 ]
             },
+            "name": "blurHandler",
             "designerId": "ca710080-4cf8-4988-abbc-b6858e78191e"
         },
         {
@@ -888,6 +909,7 @@
                     ""
                 ]
             },
+            "name": "buttonHandler",
             "designerId": "7bef8609-2016-4903-8cdc-dbc9ce8afd43"
         }
     ]

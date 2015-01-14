@@ -22,6 +22,7 @@
                 "name": "id",
                 "type": null
             },
+            "name": "MyField135",
             "designerId": "ce7e32d8-2938-4a92-ba5a-6ec28cb8f0b8"
         },
         {
@@ -35,6 +36,7 @@
                 "name": "month_number",
                 "type": "int"
             },
+            "name": "MyField136",
             "designerId": "91e964ca-fda0-4115-8b55-158603586e04"
         },
         {
@@ -48,6 +50,7 @@
                 "name": "feelings",
                 "type": "string"
             },
+            "name": "MyField137",
             "designerId": "96ac51a2-e93c-4fc6-b0df-da2b05c0782c"
         },
         {
@@ -61,6 +64,7 @@
                 "name": "reflections",
                 "type": "string"
             },
+            "name": "MyField138",
             "designerId": "e70ab8ad-459b-4967-b0b8-6001363b22ee"
         },
         {
@@ -74,6 +78,7 @@
                 "name": "patternsOfCorrections",
                 "type": "string"
             },
+            "name": "MyField139",
             "designerId": "fcbe9544-fe7a-4c19-bf2f-97d9e9fa989f"
         },
         {
@@ -87,6 +92,7 @@
                 "name": "effectivenessOfActions",
                 "type": "string"
             },
+            "name": "MyField140",
             "designerId": "a49a8de6-aaf6-4ddd-98ca-b1e96e80b725"
         },
         {
@@ -100,6 +106,7 @@
                 "name": "actionResults",
                 "type": "string"
             },
+            "name": "MyField141",
             "designerId": "d6086084-8e81-4039-b57e-05df17ae3130"
         },
         {
@@ -113,6 +120,7 @@
                 "name": "realizations",
                 "type": "string"
             },
+            "name": "MyField142",
             "designerId": "14114d93-51e7-488d-8b60-8d73d084c2f6"
         },
         {
@@ -126,6 +134,7 @@
                 "name": "plannedChanges",
                 "type": "string"
             },
+            "name": "MyField143",
             "designerId": "ed6b42a3-89bb-43e1-a0f1-5115cb1b94bf"
         },
         {
@@ -139,6 +148,7 @@
                 "name": "comments",
                 "type": "string"
             },
+            "name": "MyField144",
             "designerId": "43e96fff-950c-4396-9616-7d4d0add25f2"
         },
         {
@@ -152,6 +162,7 @@
                 "name": "locked",
                 "type": "boolean"
             },
+            "name": "MyField145",
             "designerId": "a62909ab-50a0-4d65-9eb0-84be3c4b228a"
         },
         {
@@ -166,6 +177,7 @@
                 "name": "lastUpdated",
                 "type": "date"
             },
+            "name": "MyField146",
             "designerId": "2e19a77a-cd8f-4447-88be-8fbdc073a8cb"
         },
         {
@@ -179,6 +191,7 @@
                 "name": "whoUpdated",
                 "type": "string"
             },
+            "name": "MyField147",
             "designerId": "d45d2266-9427-4fbe-a167-4f0df53b7683"
         },
         {
@@ -192,6 +205,7 @@
                 "name": "qtrId",
                 "type": "int"
             },
+            "name": "MyField148",
             "designerId": "1053a228-b94e-4999-9d46-81663c913a6b"
         },
         {
@@ -205,6 +219,7 @@
                 "name": "qtrName",
                 "type": "string"
             },
+            "name": "MyField149",
             "designerId": "ef39aee9-2936-4f23-8641-4dd1e0d12073"
         },
         {
@@ -218,6 +233,7 @@
                 "name": "qtrYear",
                 "type": "int"
             },
+            "name": "MyField150",
             "designerId": "f4c3244c-80f1-4f91-a105-b27c21e15cb2"
         },
         {
@@ -230,6 +246,7 @@
             "userConfig": {
                 "name": "studentId"
             },
+            "name": "MyField151",
             "designerId": "d8338a8f-ecf7-4d29-8d2f-c2ad8ff5731a"
         },
         {
@@ -243,6 +260,7 @@
                 "name": "studentUserName",
                 "type": "string"
             },
+            "name": "MyField152",
             "designerId": "5250b22d-a43d-4254-a4ce-2d4a7389d649"
         },
         {
@@ -256,6 +274,7 @@
                 "name": "facultyUserName",
                 "type": "string"
             },
+            "name": "MyField153",
             "designerId": "b563d1b7-3757-4aa6-a6ad-a68151c70836"
         },
         {
@@ -269,6 +288,7 @@
                 "name": "subjId",
                 "type": "int"
             },
+            "name": "MyField154",
             "designerId": "2f72ac62-819f-413f-b08b-7e77c57079dd"
         },
         {
@@ -282,6 +302,7 @@
                 "name": "subjName",
                 "type": "string"
             },
+            "name": "MyField155",
             "designerId": "aad18c25-c1e5-4bf3-a2f1-5d20c8f3abbd"
         },
         {
@@ -295,6 +316,7 @@
                 "name": "version",
                 "type": "int"
             },
+            "name": "MyField156",
             "designerId": "55735811-8250-40a4-85ba-5be3b35f0ed6"
         },
         {
@@ -308,6 +330,7 @@
                 "name": "summaryId",
                 "type": "int"
             },
+            "name": "MyField157",
             "designerId": "28366692-ac34-4e2a-9aff-06d6e020c3d8"
         }
     ]

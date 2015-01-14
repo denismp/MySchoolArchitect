@@ -28,6 +28,7 @@
                 "name": "id",
                 "type": "int"
             },
+            "name": "MyField420",
             "designerId": "067e4a84-0184-495e-82ce-93b6f98c952f"
         },
         {
@@ -41,6 +42,7 @@
                 "name": "name",
                 "type": "string"
             },
+            "name": "MyField421",
             "designerId": "27ade990-1b15-4355-98e3-1e329136a996"
         },
         {
@@ -54,6 +56,7 @@
                 "name": "qtrId",
                 "type": "int"
             },
+            "name": "MyField422",
             "designerId": "4c73b49b-b7b6-4852-994e-9f68c9fa9416"
         },
         {
@@ -67,6 +70,7 @@
                 "name": "qtrName",
                 "type": "string"
             },
+            "name": "MyField423",
             "designerId": "ac038572-dbff-4029-9ae6-935cee6eedfa"
         },
         {
@@ -80,6 +84,7 @@
                 "name": "subjId",
                 "type": "int"
             },
+            "name": "MyField424",
             "designerId": "c6eee3c8-5111-471a-80d5-a3b88dc23241"
         },
         {
@@ -93,6 +98,7 @@
                 "name": "subjName",
                 "type": "string"
             },
+            "name": "MyField425",
             "designerId": "922c9069-87dc-4780-83d7-384448372c95"
         },
         {
@@ -132,6 +138,7 @@
                     "}"
                 ]
             },
+            "name": "myLoad",
             "designerId": "d88d614c-2316-482c-9d72-66dfd00a5436"
         }
     ]

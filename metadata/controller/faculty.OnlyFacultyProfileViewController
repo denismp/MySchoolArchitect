@@ -21,6 +21,7 @@
                 "ref": "OnlyFacultyForm",
                 "selector": "#facultyonlyprofileform"
             },
+            "name": "OnlyFacultyForm",
             "designerId": "2ae1ab86-e835-42ec-a874-62e6ae8d1a02"
         },
         {
@@ -34,6 +35,7 @@
                 "ref": "OnlyFacultyGridPanel",
                 "selector": "#facultyonlygridpanel"
             },
+            "name": "OnlyFacultyGridPanel",
             "designerId": "a51f29db-32d7-464c-a431-fab7d6256aa9"
         },
         {
@@ -71,6 +73,7 @@
                     "console.log('faculty.OnlyFacultyProfileViewController.loadForm(): completed');"
                 ]
             },
+            "name": "loadForm",
             "designerId": "3297f237-5c91-4115-98e1-3793969b678b"
         },
         {
@@ -95,6 +98,7 @@
                     "this.gridViewReady = true;"
                 ]
             },
+            "name": "onMyJsonStoreLoad",
             "designerId": "66ffd2c4-2ac1-47f8-b2f3-7acd5941b1b9"
         },
         {
@@ -124,6 +128,7 @@
                 "name": "selectionchange",
                 "scope": "me"
             },
+            "name": "onFacultyonlygridpanelSelectionChange",
             "designerId": "03822e56-b9d8-4509-aed5-9689a3e9c4a8"
         },
         {
@@ -190,6 +195,7 @@
                 "name": "viewready",
                 "scope": "me"
             },
+            "name": "onFacultyonlygridpanelViewReady",
             "designerId": "91500d39-f891-4ee8-bd6f-17fb5547d217"
         },
         {
@@ -252,6 +258,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyfacultyrefreshtoolClick",
             "designerId": "00fee40c-41d4-422a-b3fb-65f977dc6110"
         },
         {
@@ -283,6 +290,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyfacultynewtoolClick",
             "designerId": "3dc33e6a-2e03-4631-8881-c00bb1a00f87"
         },
         {
@@ -307,6 +315,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultycancelClick",
             "designerId": "046fbfda-7066-4480-866e-4099ceee332f"
         },
         {
@@ -395,6 +404,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultysubmitClick",
             "designerId": "e81a0936-0fd9-4210-9e4d-a30bec5bd189"
         },
         {
@@ -452,6 +462,7 @@
                     "myStore.sync();"
                 ]
             },
+            "name": "saveOnlyFacultyProfileForm",
             "designerId": "4d35f7a4-774a-46bc-8118-db2935739bfa"
         },
         {
@@ -485,6 +496,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyfacultyprofileformeditbuttonClick",
             "designerId": "431de9bf-0df0-4208-80ee-ea79640b22fc"
         },
         {
@@ -517,6 +529,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyfacultyprofileformcanelbuttonClick",
             "designerId": "560bce69-9b66-4942-85cc-6515558becbe"
         },
         {
@@ -551,6 +564,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyfacultyprofileformsavebuttonClick",
             "designerId": "2e034337-46d3-4040-bc88-74d4be0e6633"
         },
         {
@@ -579,6 +593,7 @@
                     "return \"\";"
                 ]
             },
+            "name": "getFormValue",
             "designerId": "116879b9-1962-4b2f-a9fb-fcfe5780641f"
         },
         {
@@ -614,6 +629,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onOnlyfacultylpasswordtoolClick",
             "designerId": "80ec78bd-846d-4686-b524-a97b006c3dfc"
         },
         {
@@ -637,6 +653,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultypasswordcanelbuttonClick",
             "designerId": "8ad37dde-c78e-4a4c-a491-72298f8cd827"
         },
         {
@@ -682,6 +699,7 @@
                 "name": "click",
                 "scope": "me"
             },
+            "name": "onFacultypasswordsubmitbuttonClick",
             "designerId": "91584f07-2e5f-481f-865f-8a6d3a0bdc61"
         },
         {
@@ -713,6 +731,7 @@
                 "name": "activate",
                 "scope": "me"
             },
+            "name": "onFacultyonlyprofilestabActivate",
             "designerId": "b8b9ebbf-32d8-4fda-a6de-2734d36fd6cc"
         }
     ]

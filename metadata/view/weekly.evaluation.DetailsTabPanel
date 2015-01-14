@@ -26,6 +26,7 @@
                 "itemId": "weeklyevaluationdetailstabpanel",
                 "title": "Comments"
             },
+            "name": "common.mytabpanel10",
             "designerId": "204f72c8-f03d-438a-bff6-175e990c7915",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -41,6 +42,7 @@
                             "'Click edit to modify'"
                         ]
                     },
+                    "name": "TabConfig10",
                     "designerId": "90844152-81cc-4f3c-b11d-ae8c94091023"
                 }
             ]
