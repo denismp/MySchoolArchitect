@@ -16,7 +16,7 @@
         "itemId": "newsubjectform",
         "jsonSubmit": true,
         "layout": null,
-        "title": "New Subject Quarter for Student",
+        "title": "New/Edit Subject And Term/Quarter for Student",
         "url": null,
         "width": 500
     },
@@ -187,6 +187,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "editable": false,
+                        "fieldLabel": "Term/Quarter",
                         "layout|anchor": "100%"
                     },
                     "name": "subject.quarternamescombobox",
@@ -202,6 +203,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "editable": false,
+                        "fieldLabel": "Term/Quarter Year",
                         "layout|anchor": "100%"
                     },
                     "name": "subject.quarteryearcombobox",
@@ -290,7 +292,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "newsubjectsubmit",
-                "text": "Create Quarter"
+                "text": "Create Term/Qtr"
             },
             "name": "MyButton22",
             "designerId": "f0a757c8-ada0-4bbc-90a6-5a88158c2b37"

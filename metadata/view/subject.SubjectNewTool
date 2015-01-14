@@ -9,7 +9,7 @@
         "designer|userAlias": "subjectnewtool",
         "designer|userClassName": "subject.SubjectNewTool",
         "id": "toolnewsubjects",
-        "tooltip": "New",
+        "tooltip": "Create/Edit subjects and term/quarters",
         "type": "plus"
     },
     "designerId": "61e1d116-9e61-4881-89e9-d69500508f0b"
