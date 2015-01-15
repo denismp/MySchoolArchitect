@@ -75,6 +75,9 @@
                 "type": "array"
             },
             "codeClass": null,
+            "userConfig": {
+                "disabled": true
+            },
             "name": "faculty.newtool",
             "designerId": "791ef195-62e2-4d23-9189-cfba563e6940",
             "masterInstanceId": "7a6772dd-4127-477c-8248-9d52c6544f7a"

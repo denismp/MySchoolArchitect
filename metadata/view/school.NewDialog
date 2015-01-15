@@ -1,0 +1,329 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "school.NewDialog",
+        "height": 607,
+        "itemId": "schoolnewdialog",
+        "title": "New School",
+        "width": 390
+    },
+    "name": "guardian.NewDialog1",
+    "designerId": "60424092-650a-483a-bb5c-5a95442b74f3",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "dock": "top",
+                "height": 534,
+                "itemId": "schoolnewform",
+                "title": null,
+                "width": 390
+            },
+            "name": "MyForm4",
+            "designerId": "e7bd32e0-5a07-40d0-bd6c-736badfe4bf3",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top",
+                        "height": 485,
+                        "itemId": "schoolnewformfieldset",
+                        "padding": 5,
+                        "title": null
+                    },
+                    "name": "MyFieldSet8",
+                    "designerId": "47959778-5c73-47f8-8753-fec97aad8b5d",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "School Name",
+                                "itemId": "schoolnewform_name",
+                                "layout|anchor": "100%",
+                                "name": "name"
+                            },
+                            "name": "MyTextField104",
+                            "designerId": "6d629e84-e0e3-4dc9-8df8-bf78a0da9867"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Custodian Of Records",
+                                "itemId": "schoolnewform_custodianofrecords",
+                                "layout|anchor": "100%",
+                                "name": "custodianOfRecords"
+                            },
+                            "name": "MyTextField105",
+                            "designerId": "d874c14c-d324-4791-9a0b-f919f3fa807d"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Custodian Title",
+                                "itemId": "schoolnewform_custodiantitle",
+                                "layout|anchor": "100%",
+                                "name": "custodianTitle"
+                            },
+                            "name": "MyTextField106",
+                            "designerId": "0768bbed-f766-4377-be9c-d9f0508ece8f"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "District",
+                                "itemId": "schoolnewform_district",
+                                "layout|anchor": "100%",
+                                "name": "district"
+                            },
+                            "name": "MyTextField107",
+                            "designerId": "4d49d2a8-dedf-48a9-85cd-8608b66b91ae"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Phone1",
+                                "itemId": "schoolnewform_phone1",
+                                "layout|anchor": "100%",
+                                "name": "phone1"
+                            },
+                            "name": "MyTextField108",
+                            "designerId": "2a83a056-e645-457b-961e-7ba497a9ffc4"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Phone2",
+                                "itemId": "schoolnewform_phone2",
+                                "layout|anchor": "100%",
+                                "name": "phone2"
+                            },
+                            "name": "MyTextField109",
+                            "designerId": "919c5896-3505-4091-9e3a-6d1d87f967eb"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Address1",
+                                "itemId": "schoolnewform_address1",
+                                "layout|anchor": "100%",
+                                "name": "address1"
+                            },
+                            "name": "MyTextField110",
+                            "designerId": "f72b21e2-5c91-4473-a012-891b12ac7f95"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Address2",
+                                "itemId": "schoolnewform_address2",
+                                "layout|anchor": "100%",
+                                "name": "address2"
+                            },
+                            "name": "MyTextField111",
+                            "designerId": "954a2901-1b4c-4e37-a6d0-40157484c9cd"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "City",
+                                "itemId": "schoolnewform_city",
+                                "layout|anchor": "100%",
+                                "name": "city"
+                            },
+                            "name": "MyTextField112",
+                            "designerId": "36c6b5f2-26dc-47e1-b065-1266269dd8a7"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "State/Province",
+                                "itemId": "schoolnewform_province",
+                                "layout|anchor": "100%",
+                                "name": "province"
+                            },
+                            "name": "MyTextField132",
+                            "designerId": "f9a0103a-a527-462b-9b0d-11484696cd80"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Postal Code",
+                                "itemId": "schoolnewform_postalcode",
+                                "layout|anchor": "100%",
+                                "name": "postalcode"
+                            },
+                            "name": "MyTextField114",
+                            "designerId": "011de058-8758-436a-9371-70eb051b60c9"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Country",
+                                "itemId": "schoolnewform_country",
+                                "layout|anchor": "100%",
+                                "name": "country"
+                            },
+                            "name": "MyTextField115",
+                            "designerId": "ea9be0da-85c9-4ecb-bb1d-d399b7995af7"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Email",
+                                "itemId": "schoolnewform_email",
+                                "layout|anchor": "100%",
+                                "name": "email"
+                            },
+                            "name": "MyTextField116",
+                            "designerId": "5c53612c-fd6d-4c90-9c90-a30f0f6b0765"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Comments",
+                                "itemId": "schoolnewform_comments",
+                                "layout|anchor": "100%",
+                                "name": "comments"
+                            },
+                            "name": "MyTextField131",
+                            "designerId": "b5817c76-43ec-4406-94f4-653669dafde7"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "displayField": "userName",
+                                "fieldLabel": "Admin User Name",
+                                "itemId": "schoolnewform_adminusername",
+                                "layout|anchor": "100%",
+                                "name": "adminUserName",
+                                "store": "admin.AdminProfileStore",
+                                "valueField": "userName"
+                            },
+                            "name": "MyComboBox2",
+                            "designerId": "59cfdea8-ce29-4172-a490-784258ff6b56"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "schoolcancel",
+                        "text": "Cancel"
+                    },
+                    "name": "MyButton44",
+                    "designerId": "4275e0eb-6374-4bcc-bed2-4fedcb8a44be"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "schoolsubmit",
+                        "text": "Submit"
+                    },
+                    "name": "MyButton45",
+                    "designerId": "1695c29c-7648-4591-a99d-2db09fa6fde3"
+                }
+            ]
+        }
+    ]
+}

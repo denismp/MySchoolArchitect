@@ -106,27 +106,7 @@
                 "type": "plus"
             },
             "name": "MyTool15",
-            "designerId": "ff6c3960-b2b1-4437-8318-789ccd23046c",
-            "cn": [
-                {
-                    "type": "basiceventbinding",
-                    "reference": {
-                        "name": "listeners",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "fn": "onSchoolnewtoolClick",
-                        "implHandler": [
-                            ""
-                        ],
-                        "name": "click",
-                        "scope": "me"
-                    },
-                    "name": "onSchoolnewtoolClick",
-                    "designerId": "5a2c0770-5db4-4764-b968-5c2942aae41f"
-                }
-            ]
+            "designerId": "ff6c3960-b2b1-4437-8318-789ccd23046c"
         },
         {
             "type": "Ext.panel.Tool",
