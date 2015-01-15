@@ -137,27 +137,7 @@
                 "type": "minus"
             },
             "name": "MyTool17",
-            "designerId": "e93ca998-a034-44c6-95ec-e90e2ac780e1",
-            "cn": [
-                {
-                    "type": "basiceventbinding",
-                    "reference": {
-                        "name": "listeners",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "fn": "onSchooldeletetoolClick",
-                        "implHandler": [
-                            ""
-                        ],
-                        "name": "click",
-                        "scope": "me"
-                    },
-                    "name": "onSchooldeletetoolClick",
-                    "designerId": "cbf110cc-bfa4-4056-9319-be71aebaf718"
-                }
-            ]
+            "designerId": "e93ca998-a034-44c6-95ec-e90e2ac780e1"
         },
         {
             "type": "Ext.panel.Tool",
@@ -173,27 +153,7 @@
                 "type": "pin"
             },
             "name": "MyTool18",
-            "designerId": "78b265a4-dfa8-44d0-a4e0-91bc86804aaf",
-            "cn": [
-                {
-                    "type": "basiceventbinding",
-                    "reference": {
-                        "name": "listeners",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "fn": "onSchoollocktoolClick",
-                        "implHandler": [
-                            ""
-                        ],
-                        "name": "click",
-                        "scope": "me"
-                    },
-                    "name": "onSchoollocktoolClick",
-                    "designerId": "9ece7a73-3c15-48f7-9036-51c7f25321a7"
-                }
-            ]
+            "designerId": "78b265a4-dfa8-44d0-a4e0-91bc86804aaf"
         }
     ]
 }

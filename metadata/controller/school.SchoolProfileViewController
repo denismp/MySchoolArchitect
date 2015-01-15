@@ -528,6 +528,161 @@
             },
             "name": "onSchoolcancelClick",
             "designerId": "3c254990-bb02-4d05-bc08-ce8c8ba7e2d0"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schooldeletetool",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyTool17",
+                "fn": "onSchooldeletetoolClick",
+                "implHandler": [
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onSchooldeletetoolClick",
+            "designerId": "9735c8b3-baf0-425b-8396-c353cb0584d5"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoollocktool",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyTool18",
+                "fn": "onSchoollocktoolClick",
+                "implHandler": [
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onSchoollocktoolClick",
+            "designerId": "362267ef-aedd-40ec-8af9-14ba5fc4f4c4"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoolprofileformeditbutton",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyButton13",
+                "fn": "onSchoolprofileformeditbuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var myForm = this.getSchoolProfileForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].enable();",
+                    "}",
+                    "//myForm.getForm().focus();studentprofileformeditbutton",
+                    "var cancelButton\t= button.up().down('#schoolprofileformcanelbutton');",
+                    "var saveButton\t\t= button.up().down('#schoolprofileformsavebutton');",
+                    "cancelButton.enable();",
+                    "saveButton.enable();",
+                    "button.disable();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onSchoolprofileformeditbuttonClick",
+            "designerId": "81074581-dbc4-4359-b880-722be3bbee10"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoolprofileformcanelbutton",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyButton14",
+                "fn": "onSchoolprofileformcanelbuttonClick",
+                "implHandler": [
+                    "var myForm = this.getSchoolProfileForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].disable();",
+                    "}",
+                    "//myForm.getForm().focus();",
+                    "//var cancelButton\t= button.up().down('#schoolprofileformcanelbutton');",
+                    "var saveButton\t\t= button.up().down('#schoolprofileformsavebutton');",
+                    "var editButton\t\t= button.up().down('#schoolprofileformeditbutton');",
+                    "editButton.enable();",
+                    "saveButton.disable();",
+                    "button.disable();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onSchoolprofileformcanelbuttonClick",
+            "designerId": "d33e8876-cf26-40d9-b0e7-fd3358575b4a"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#schoolprofileformsavebutton",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyButton15",
+                "fn": "onSchoolprofileformsavebuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "var myForm = this.getSchoolProfileForm();",
+                    "var myFields = myForm.getForm().getFields();",
+                    "for( var i = 0; i < myFields.length; i++ )",
+                    "{",
+                    "\tmyFields.items[i].disable();",
+                    "}",
+                    "//myForm.getForm().focus();",
+                    "var cancelButton\t= button.up().down('#schoolprofileformcanelbutton');",
+                    "//var saveButton\t\t= button.up().down('#schoolprofileformsavebutton');",
+                    "var editButton\t\t= button.up().down('#schoolprofileformeditbutton');",
+                    "editButton.enable();",
+                    "cancelButton.disable();",
+                    "button.disable();",
+                    "this.saveProfileForm();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onSchoolprofileformsavebuttonClick",
+            "designerId": "67d5f7b5-d3dd-4425-882d-c11e0181a000"
         }
     ]
 }
