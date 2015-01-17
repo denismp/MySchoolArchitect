@@ -8,7 +8,7 @@
     "userConfig": {
         "designer|userAlias": "adminadminprofilepanel",
         "designer|userClassName": "admin.AdminProfilePanel",
-        "itemId": "adminonlyprofilepanel",
+        "itemId": "adminprofilepanel",
         "layout": "fit",
         "title": "School Admin Profile Details"
     },
@@ -35,7 +35,7 @@
                 "type": "array"
             },
             "codeClass": null,
-            "name": "admin.adminonlyprofileform",
+            "name": "admin.adminprofileform",
             "designerId": "8ecf298c-94bc-4afe-a232-accc5481b622",
             "masterInstanceId": "83e4f3e8-93d4-4c79-b14b-c61498b1bf95"
         },
@@ -68,7 +68,24 @@
                 "type": "search"
             },
             "name": "MyTool20",
-            "designerId": "4d767b39-0de2-4d91-89c6-0c48db057cb9"
+            "designerId": "4d767b39-0de2-4d91-89c6-0c48db057cb9",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onOnlyadminsearchtoolClick",
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "name": "onOnlyadminsearchtoolClick",
+                    "designerId": "cb8a60bc-07c7-4bb0-b4e4-3ee6c995543c"
+                }
+            ]
         },
         {
             "type": "Ext.panel.Tool",
@@ -114,7 +131,24 @@
                 "type": "minus"
             },
             "name": "MyTool23",
-            "designerId": "dd1c2cec-e5dd-418a-a22d-a0dc73f71699"
+            "designerId": "dd1c2cec-e5dd-418a-a22d-a0dc73f71699",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onOnlyadmindeletetoolClick",
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "name": "onOnlyadmindeletetoolClick",
+                    "designerId": "68c25e8a-9c58-4a19-8531-3b5277c7301f"
+                }
+            ]
         },
         {
             "type": "Ext.panel.Tool",
@@ -130,7 +164,24 @@
                 "type": "pin"
             },
             "name": "MyTool24",
-            "designerId": "6814b3aa-8143-4db1-8af5-6f645548b0ae"
+            "designerId": "6814b3aa-8143-4db1-8af5-6f645548b0ae",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onOnlyadminlocktoolClick",
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "name": "onOnlyadminlocktoolClick",
+                    "designerId": "c019ae3e-dbbf-4f98-8c5f-2de33e0e1e2f"
+                }
+            ]
         },
         {
             "type": "Ext.panel.Tool",

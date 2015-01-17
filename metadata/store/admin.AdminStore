@@ -7,11 +7,12 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": true,
-        "designer|userClassName": "admin.AdminProfileStore",
-        "model": "admin.AdminProfileModel",
-        "storeId": "admin.AdminProfileStore"
+        "designer|userClassName": "admin.AdminStore",
+        "model": "admin.PasswordModel",
+        "storeId": "admin.AdminStore"
     },
-    "designerId": "a4034d36-4d65-4c15-939e-0195e3ca6748",
+    "name": "admin.AdminPasswordStore1",
+    "designerId": "f264d807-2e46-4395-b72a-b1383fb6d07a",
     "cn": [
         {
             "type": "Ext.data.proxy.Rest",
@@ -22,12 +23,13 @@
             "codeClass": null,
             "userConfig": {
                 "headers": [
-                    "{ 'Accept' : 'application/json' }"
+                    "{ 'Accept' : 'application/json' }",
+                    ""
                 ],
-                "url": "adminviews/json"
+                "url": "admins/json"
             },
-            "name": "MyRestProxy13",
-            "designerId": "9fd29e7b-8c56-4fca-a677-0430fb30c0ae",
+            "name": "MyRestProxy16",
+            "designerId": "46887e98-0070-4f01-8a43-a817f95224bd",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -39,8 +41,8 @@
                     "userConfig": {
                         "root": "data"
                     },
-                    "name": "MyJsonReader13",
-                    "designerId": "b3094ea6-7b3e-4e0b-838f-a36dcaeb9848"
+                    "name": "MyJsonReader16",
+                    "designerId": "bc65e52b-050b-4ad4-9045-8b9f1c041609"
                 },
                 {
                     "type": "basiceventbinding",
@@ -66,14 +68,13 @@
                             "//{",
                             "//    this.reload();",
                             "//}",
-                            "////this.reload();",
-                            ""
+                            "//this.reload();"
                         ],
                         "name": "exception",
                         "scope": "me"
                     },
                     "name": "onRestException",
-                    "designerId": "310df48e-9ae4-413d-9d88-953fef387d10"
+                    "designerId": "320c319c-33f2-4bb0-87c2-d64c59acb06a"
                 }
             ]
         },
@@ -85,36 +86,15 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "onJsonstoreLoad",
-                "implHandler": [
-                    "//debugger;",
-                    "console.log(\"admin.AdminProfileStore.onJsonstoreLoad() called...\");"
-                ],
-                "name": "load",
-                "scope": "me"
-            },
-            "name": "onJsonstoreLoad",
-            "designerId": "5dc93ba7-f41a-4db1-afab-70a5c5a7f5e6"
-        },
-        {
-            "type": "basiceventbinding",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
                 "fn": "onJsonstoreWrite",
                 "implHandler": [
-                    "//debugger;",
-                    "console.log(\"admin.AdminProfileStore.onJsonstoreWrite(): called...\");",
                     "store.reload();"
                 ],
                 "name": "write",
                 "scope": "me"
             },
             "name": "onJsonstoreWrite",
-            "designerId": "68d452ec-b096-46d1-b554-c68ccffbca05"
+            "designerId": "4fb0577e-5855-48d6-925c-64f256d83ed1"
         }
     ]
 }

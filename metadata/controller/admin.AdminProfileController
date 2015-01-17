@@ -6,14 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "school.SchoolProfileViewController",
+        "designer|userClassName": "admin.AdminProfileController",
         "stores": [
-            "school.SchoolProfileStore",
-            "subject.SchoolsStore",
+            "admin.AdminProfileStore",
             "admin.AdminStore"
         ]
     },
-    "designerId": "afd0d89f-ed12-49d1-95dd-130f9459d308",
+    "name": "guardian.OnlyGuardianProfileViewController1",
+    "designerId": "e6e3140f-bea9-423c-a220-4526d53dd693",
     "cn": [
         {
             "type": "controllerref",
@@ -23,11 +23,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "ref": "SchoolProfileForm",
-                "selector": "#schoolprofileform"
+                "ref": "AdminProfileForm",
+                "selector": "#adminprofileform"
             },
-            "name": "SchoolProfileForm",
-            "designerId": "abf6b5ad-7965-4d5b-bce5-a8a3f0de3e9d"
+            "name": "AdminProfileForm",
+            "designerId": "ab319980-5fff-4bcc-ac0c-96e1703df5ca"
         },
         {
             "type": "controllerref",
@@ -37,11 +37,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "ref": "SchoolGridPanel",
-                "selector": "#schoolprofilesgridpanel"
+                "ref": "AdminGridPanel",
+                "selector": "#admingridpanel"
             },
-            "name": "SchoolGridPanel",
-            "designerId": "e1202e8f-c724-4f86-8e70-95e51ef4aa9d"
+            "name": "AdminGridPanel",
+            "designerId": "d980bdbc-759e-4a1d-a1a1-7beba1494188"
         },
         {
             "type": "basicfunction",
@@ -68,11 +68,11 @@
                     "{",
                     "    myFields.items[i].disable();",
                     "}",
-                    "console.log('school.SchoolViewController.loadForm(): completed');"
+                    "console.log('admin.AdminProfileController.loadForm(): completed');"
                 ]
             },
             "name": "loadForm",
-            "designerId": "e36c9941-7f08-4e06-8ade-5e30a562a320"
+            "designerId": "f4db400e-17fd-474c-aaee-1ecfddcabd9e"
         },
         {
             "type": "basicfunction",
@@ -86,7 +86,7 @@
                 "implHandler": [
                     "//debugger;",
                     "//var g_ = Ext.ComponentQuery.query(\"#monthlysummarygridpanel\")[0];",
-                    "var g_ = this.getSchoolGridPanel();",
+                    "var g_ = this.getAdminGridPanel();",
                     "",
                     "if (g_.getStore().getCount() > 0) {",
                     "    g_.getSelectionModel().deselectAll();",
@@ -97,7 +97,7 @@
                 ]
             },
             "name": "onMyJsonStoreLoad",
-            "designerId": "e8434687-8a7a-4e73-af4f-9cd7feb03241"
+            "designerId": "36fd3bfa-aedf-4064-9db6-4dbd77eda8c3"
         },
         {
             "type": "basicfunction",
@@ -110,13 +110,13 @@
                 "fn": "saveProfileForm",
                 "implHandler": [
                     "debugger;",
-                    "window.console.log( \"Save School Profile Form\" );",
+                    "window.console.log( \"Save Admin Profile Form\" );",
                     "//var myForm\t\t\t\t\t= button.up().getForm();",
-                    "var myForm = this.getSchoolProfileForm();",
+                    "var myForm = this.getAdminProfileForm();",
                     "",
                     "",
                     "//\tGet the stores that we will need",
-                    "var myStore\t\t= this.getStore( 'school.SchoolProfileStore' );",
+                    "var myStore\t\t= this.getStore( 'admin.AdminProfileStore' );",
                     "",
                     "//var rForm = myForm.getForm();",
                     "",
@@ -155,7 +155,7 @@
                 ]
             },
             "name": "saveProfileForm",
-            "designerId": "1177a2a6-3838-45b8-bfe9-dc4b431bd0c5"
+            "designerId": "c69721fb-c8e9-41f8-9db5-fd665a7fd333"
         },
         {
             "type": "basicfunction",
@@ -184,7 +184,7 @@
                 ]
             },
             "name": "getFormValue",
-            "designerId": "138519dd-bfd5-4b07-888d-8302badab9b5"
+            "designerId": "4bcf7c24-8e9d-4801-b6fb-ff00ed201b69"
         },
         {
             "type": "controlleraction",
@@ -194,13 +194,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolprofilesgridpanel",
-                "designer|targetType": "Ext.grid.Panel",
-                "fn": "onSchoolprofilesgridpanelViewReady",
+                "designer|controlQuery": "#admingridpanel",
+                "designer|targetType": "admin.ProfileGridAdminOnlyPanel",
+                "fn": "onAdmingridpanelViewReady",
                 "implHandler": [
                     "debugger;",
-                    "console.log('onSchoolprofilesgridpanelViewReady()');",
-                    "var myStore = Ext.getStore('school.SchoolProfileStore');",
+                    "console.log('onAdmingridpanelViewReady()');",
+                    "var myStore = Ext.getStore('admin.AdminProfileStore');",
                     "",
                     "var securityStore = Ext.getStore('security.SecurityStore');",
                     "var securityRecord = securityStore.getAt(0);",
@@ -208,12 +208,12 @@
                     "this.userRole = securityRecord.get('userRole');",
                     "var ss_ = Ext.getStore('student.StudentStore');",
                     "",
-                    "var studentName_;",
+                    "//var studentName_;",
                     "",
                     "",
                     "var r_ = ss_.getAt(0);",
                     "var title;",
-                    "var myGrid = this.getSchoolGridPanel();",
+                    "var myGrid = this.getAdminGridPanel();",
                     "",
                     "",
                     "if( this.userRole === 'ROLE_FACULTY'){",
@@ -250,13 +250,14 @@
                     "\t\t\tstudentName: this.userName",
                     "\t\t}",
                     "\t});",
-                    "}"
+                    "}",
+                    "this.gridViewReady = true;"
                 ],
                 "name": "viewready",
                 "scope": "me"
             },
-            "name": "onSchoolprofilesgridpanelViewReady",
-            "designerId": "cdb23ada-d577-47f9-b802-8e3a2364a6a7"
+            "name": "onAdmingridpanelViewReady",
+            "designerId": "f141dbcd-3837-473b-912c-b6cc66e65067"
         },
         {
             "type": "controlleraction",
@@ -266,27 +267,27 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolprofilesgridpanel",
-                "designer|targetType": "Ext.grid.Panel",
-                "fn": "onSchoolprofilesgridpanelSelectionChange",
+                "designer|controlQuery": "#admingridpanel",
+                "designer|targetType": "admin.ProfileGridAdminOnlyPanel",
+                "fn": "onAdmingridpanelSelectionChange",
                 "implHandler": [
                     "debugger;",
                     "// in the onMyJsonStoreLoad we do a deselect so we need to test",
                     "// if selected[0] has a value",
                     "if ( Ext.isDefined( selected  ) && Ext.isDefined( selected[0]  )) {",
-                    "    var myForm = this.getSchoolProfileForm();",
+                    "    var myForm = this.getAdminProfileForm();",
                     "",
                     "    this.loadForm( myForm, selected );",
                     "",
                     "",
-                    "    console.log('onSchoolprofilesgridpanelSelectionChanged()');",
+                    "    console.log('onAdmingridpanelSelectionChange()');",
                     "}"
                 ],
                 "name": "selectionchange",
                 "scope": "me"
             },
-            "name": "onSchoolprofilesgridpanelSelectionChange",
-            "designerId": "381413d3-80be-413b-9a7a-e0d58c3d04df"
+            "name": "onAdmingridpanelSelectionChange",
+            "designerId": "b8b6b0d4-9446-40ee-8da6-c91f7797c362"
         },
         {
             "type": "controlleraction",
@@ -296,20 +297,32 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolrefreshtool",
-                "designer|targetType": "Ext.panel.Tool",
-                "fn": "onSchoolrefreshtoolClick",
+                "designer|controlQuery": "#onlyadminnewtool",
+                "designer|params": [
+                    "tool, e, eOpts"
+                ],
+                "designer|targetType": "MyTool21",
+                "fn": "onOnlyadminnewtoolClick",
                 "implHandler": [
                     "debugger;",
-                    "var myStore = Ext.getStore('school.SchoolProfileStore');",
-                    "myStore.reload();",
+                    "",
+                    "//var guardianStore = Ext.getStore('admin.AdminProfileStore');",
+                    "",
+                    "if( this.userRole === 'ROLE_ADMIN'){",
+                    "\tvar newDialog = Ext.create( 'MySchool.view.admin.NewDialog' );",
+                    "",
+                    "\twindow.console.log( 'New Admin Dialog' );",
+                    "",
+                    "\tnewDialog.render( Ext.getBody() );",
+                    "\tnewDialog.show();",
+                    "}",
                     ""
                 ],
                 "name": "click",
                 "scope": "me"
             },
-            "name": "onSchoolrefreshtoolClick",
-            "designerId": "e4e42f67-9fdc-41a1-9ac7-a68d68e2b42e"
+            "name": "onOnlyadminnewtoolClick",
+            "designerId": "18c982b0-bdb9-45a5-8466-91dd1f085070"
         },
         {
             "type": "controlleraction",
@@ -319,14 +332,17 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolsavetool",
-                "designer|targetType": "Ext.panel.Tool",
-                "fn": "onSchoolsavetoolClick",
+                "designer|controlQuery": "#onlyadminsavetool",
+                "designer|params": [
+                    "tool, e, eOpts"
+                ],
+                "designer|targetType": "MyTool22",
+                "fn": "onOnlyadminsavetoolClick",
                 "implHandler": [
-                    "window.console.log( \"school.SchoolProfileStore.Save\" );",
+                    "window.console.log( \"admin.AdminProfileStore.Save\" );",
                     "debugger;",
                     "",
-                    "var mystore = Ext.getStore(\"school.SchoolProfileStore\");",
+                    "var mystore = Ext.getStore(\"admin.AdminProfileStore\");",
                     "",
                     "var records = mystore.getModifiedRecords();",
                     "for( var i = 0; i < records.length; i++ )",
@@ -340,8 +356,8 @@
                 "name": "click",
                 "scope": "me"
             },
-            "name": "onSchoolsavetoolClick",
-            "designerId": "25f4a668-8eec-426c-8fb1-072df1e7ad9d"
+            "name": "onOnlyadminsavetoolClick",
+            "designerId": "784123d3-3677-4c81-9659-982d6fcf9d35"
         },
         {
             "type": "controlleraction",
@@ -351,9 +367,57 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolprofiletab",
-                "designer|targetType": "Ext.panel.Panel",
-                "fn": "onSchoolprofiletabActivate",
+                "designer|controlQuery": "#onlyadminpasswordtool",
+                "designer|params": [
+                    "tool, e, eOpts"
+                ],
+                "designer|targetType": "MyTool25",
+                "fn": "onOnlyadminpasswordtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "//var studentStore\t\t\t\t= Ext.getStore('admin.AdminStore');",
+                    "//var facultyStore\t\t\t\t= Ext.getStore('faculty.FacultyTableStore');",
+                    "//var subjectStore\t\t\t\t= Ext.getStore('subject.SubjectStore');",
+                    "//var commonQuarterSubjectStore\t= Ext.getStore( 'common.QuarterSubjectStore');",
+                    "//var commonMonthStore\t\t\t= Ext.getStore('common.MonthStore');",
+                    "",
+                    "//var studentRecord\t= studentStore.getAt(0);",
+                    "//var studentId\t\t= studentRecord.get( 'id' );",
+                    "//var studentName\t\t= studentRecord.get( 'userName' );",
+                    "",
+                    "var newDialog = Ext.create( 'MySchool.view.admin.PasswordDialog' );",
+                    "",
+                    "//newDialog.down('#studentid').setValue( studentId );",
+                    "//newDialog.down('#studentname').setValue( studentName );",
+                    "",
+                    "//commonQuarterSubjectStore.myLoad();",
+                    "//commonMonthStore.myLoad();",
+                    "",
+                    "window.console.log( 'Password Dialog' );",
+                    "",
+                    "newDialog.render( Ext.getBody() );",
+                    "newDialog.show();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onOnlyadminpasswordtoolClick",
+            "designerId": "059da92c-1d3e-487d-a70c-854ec6ec6048"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#adminprofiletab",
+                "designer|params": [
+                    "component, eOpts"
+                ],
+                "designer|targetType": "MyPanel12",
+                "fn": "onAdminprofiletabActivate",
                 "implHandler": [
                     "debugger;",
                     "//subjectsgrid",
@@ -363,7 +427,7 @@
                     "",
                     "if ( Ext.isDefined( this.gridViewReady  ) ) {",
                     "    //var g_ = Ext.ComponentQuery.query(\"#subjectsgrid\")[0];",
-                    "\tvar g_ = this.getSchoolGridPanel();",
+                    "\tvar g_ = this.getAdminGridPanel();",
                     "",
                     "    g_.getStore().reload();",
                     "}",
@@ -372,8 +436,8 @@
                 "name": "activate",
                 "scope": "me"
             },
-            "name": "onSchoolprofiletabActivate",
-            "designerId": "4f33768f-3d10-4e8d-b0ee-f2a89348da9e"
+            "name": "onAdminprofiletabActivate",
+            "designerId": "bc6a7087-7810-4fb9-ae02-521f924a0611"
         },
         {
             "type": "controlleraction",
@@ -383,30 +447,23 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolnewtool",
-                "designer|targetType": "MyTool15",
-                "fn": "onSchoolnewtoolClick",
+                "designer|controlQuery": "#onlyadminrefreshtool",
+                "designer|params": [
+                    "tool, e, eOpts"
+                ],
+                "designer|targetType": "MyTool19",
+                "fn": "onOnlyadminrefreshtoolClick",
                 "implHandler": [
                     "debugger;",
-                    "",
-                    "//var schoolStore = Ext.getStore('school.SchoolProfileStore');",
-                    "//var guardianTypesStore = Ext.getStore('guardian.GuardianTypeStore');",
-                    "//guardianTypesStore.myLoad();",
-                    "",
-                    "if( this.userRole === 'ROLE_ADMIN'){",
-                    "\tvar newDialog = Ext.create( 'MySchool.view.school.NewDialog' );",
-                    "",
-                    "\twindow.console.log( 'New School Dialog' );",
-                    "",
-                    "\tnewDialog.render( Ext.getBody() );",
-                    "\tnewDialog.show();",
-                    "}"
+                    "var myStore = Ext.getStore('admin.AdminProfileStore');",
+                    "myStore.reload();",
+                    ""
                 ],
                 "name": "click",
                 "scope": "me"
             },
-            "name": "onSchoolnewtoolClick",
-            "designerId": "260ebe2e-26ef-42b4-9976-58a4b1c346e6"
+            "name": "onOnlyadminrefreshtoolClick",
+            "designerId": "f0185413-84c2-421f-ac83-1cd2cdf8855b"
         },
         {
             "type": "controlleraction",
@@ -416,46 +473,77 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolsubmit",
+                "designer|controlQuery": "#admincancel",
                 "designer|params": [
                     "button, e, eOpts"
                 ],
-                "designer|targetType": "MyButton45",
-                "fn": "onSchoolsubmitClick",
+                "designer|targetType": "MyButton46",
+                "fn": "onAdmincancelClick",
                 "implHandler": [
                     "debugger;",
-                    "window.console.log( \"Submit New School\" );",
+                    "window.console.log( \"Cancel New School Admin\" );",
+                    "var myForm = button.up().getForm();",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onAdmincancelClick",
+            "designerId": "baf36ae3-f69d-40ee-bd19-87f88bc4d012"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#adminsubmit",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyButton47",
+                "fn": "onAdminsubmitClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Submit New School Admin\" );",
                     "var myForm\t\t\t\t\t= button.up().getForm();",
                     "var myPanel\t\t\t\t\t= button.up();",
-                    "var myGrid\t\t\t\t\t= this.getSchoolGridPanel();",
+                    "var myGrid\t\t\t\t\t= this.getAdminGridPanel();",
                     "",
-                    "//Get the values from the form and insert a new record into the SchoolProfileStore.",
+                    "//Get the values from the form and insert a new record into the AdminProfileStore.",
                     "",
                     "var formValues\t\t\t\t= myForm.getValues();",
                     "",
                     "//\tCreate an empty record",
-                    "var myRecord\t= Ext.create('MySchool.model.school.SchoolProfileModel');",
+                    "var myRecord\t= Ext.create('MySchool.model.admin.PasswordModel');",
                     "",
                     "//\tGet the stores that we will need",
                     "",
-                    "var schoolname\t= formValues.name;",
-                    "var district\t= formValues.district;",
-                    "var custodianofrecords\t= formValues.custodianOfRecords;",
-                    "var custodiantitle\t= formValues.custodianTitle;",
+                    "var firstname\t= formValues.firstname;",
+                    "var middlename\t= formValues.middlename;",
+                    "var lastname\t= formValues.lastname;",
                     "var phone1\t\t= formValues.phone1;",
                     "var phone2\t\t= formValues.phone2;",
                     "var address1\t= formValues.address1;",
                     "var address2\t= formValues.address2;",
                     "var city\t\t= formValues.city;",
-                    "var province\t= formValues.province;",
+                    "var state\t\t= formValues.state;",
                     "var postalcode\t= formValues.postalcode;",
                     "var country\t\t= formValues.country;",
                     "var email\t\t= formValues.email;",
-                    "var comments\t= formValues.comments;",
-                    "var adminUser\t= formValues.adminUserName;",
+                    "var username\t= formValues.username;",
+                    "var password\t= formValues.password;",
+                    "",
+                    "var type\t\t= formValues.combotype;",
+                    "",
+                    "var dob\t\t\t= formValues.dob;",
                     "",
                     "",
-                    "var myStore\t\t= this.getStore( 'school.SchoolProfileStore' );",
+                    "var myStore\t\t= this.getStore( 'admin.AdminPasswordStore' );",
                     "",
                     "//debugger;",
                     "",
@@ -466,23 +554,24 @@
                     "myRecord.set('whoUpdated', 'login');",
                     "myRecord.set('lastUpdated', new Date());",
                     "myRecord.set('email', email );",
-                    "myRecord.set('name', schoolname );",
-                    "myRecord.set('district', district );",
-                    "myRecord.set('comments', comments);",
+                    "myRecord.set('firstName', firstname );",
+                    "myRecord.set('middleName', middlename );",
+                    "myRecord.set('lastName', lastname);",
                     "myRecord.set('phone1', phone1 );",
                     "myRecord.set('phone2', phone2 );",
                     "myRecord.set('address1', address1);",
                     "myRecord.set('address2', address2);",
                     "myRecord.set('city', city);",
-                    "myRecord.set('province', province);",
+                    "myRecord.set('province', state);",
                     "myRecord.set('postalCode',postalcode);",
                     "myRecord.set('country',country);",
-                    "myRecord.set('custodianOfRecords',custodianofrecords);",
-                    "myRecord.set('custodianTitle', custodiantitle);",
-                    "myRecord.set('adminUserName', adminUser);",
+                    "myRecord.set('userName',username);",
+                    "myRecord.set('userPassword', password );",
                     "",
                     "myRecord.set('enabled', true);",
+                    "myRecord.set('dob', dob);",
                     "",
+                    "myRecord.set('type', type);",
                     "",
                     "//add to the store",
                     "",
@@ -494,13 +583,18 @@
                     "myForm.reset();",
                     "button.up().hide();",
                     "button.up().up().close();",
+                    "",
+                    "myStore.load({",
+                    "\tcallback: this.reloadGrid,",
+                    "\tscope: this",
+                    "});",
                     ""
                 ],
                 "name": "click",
                 "scope": "me"
             },
-            "name": "onSchoolsubmitClick",
-            "designerId": "3b91b622-20e0-42a8-ba03-ee3ff9d12d2b"
+            "name": "onAdminsubmitClick",
+            "designerId": "246eaff9-5216-47cf-9235-4f504f227117"
         },
         {
             "type": "controlleraction",
@@ -510,98 +604,24 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolcancel",
+                "designer|controlQuery": "#adminprofileformeditbutton",
                 "designer|params": [
                     "button, e, eOpts"
                 ],
-                "designer|targetType": "MyButton44",
-                "fn": "onSchoolcancelClick",
-                "implHandler": [
-                    "debugger;",
-                    "window.console.log( \"Cancel New School\" );",
-                    "var myForm = button.up().getForm();",
-                    "myForm.reset();",
-                    "button.up().hide();",
-                    "button.up().up().close();"
-                ],
-                "name": "click",
-                "scope": "me"
-            },
-            "name": "onSchoolcancelClick",
-            "designerId": "3c254990-bb02-4d05-bc08-ce8c8ba7e2d0"
-        },
-        {
-            "type": "controlleraction",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "designer|controlQuery": "#schooldeletetool",
-                "designer|params": [
-                    "button, e, eOpts"
-                ],
-                "designer|targetType": "MyTool17",
-                "fn": "onSchooldeletetoolClick",
-                "implHandler": [
-                    ""
-                ],
-                "name": "click",
-                "scope": "me"
-            },
-            "name": "onSchooldeletetoolClick",
-            "designerId": "9735c8b3-baf0-425b-8396-c353cb0584d5"
-        },
-        {
-            "type": "controlleraction",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "designer|controlQuery": "#schoollocktool",
-                "designer|params": [
-                    "button, e, eOpts"
-                ],
-                "designer|targetType": "MyTool18",
-                "fn": "onSchoollocktoolClick",
-                "implHandler": [
-                    ""
-                ],
-                "name": "click",
-                "scope": "me"
-            },
-            "name": "onSchoollocktoolClick",
-            "designerId": "362267ef-aedd-40ec-8af9-14ba5fc4f4c4"
-        },
-        {
-            "type": "controlleraction",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "designer|controlQuery": "#schoolprofileformeditbutton",
-                "designer|params": [
-                    "button, e, eOpts"
-                ],
-                "designer|targetType": "MyButton13",
-                "fn": "onSchoolprofileformeditbuttonClick",
+                "designer|targetType": "MyButton16",
+                "fn": "onAdminprofileformeditbuttonClick",
                 "implHandler": [
                     "debugger;",
                     "",
-                    "var myForm = this.getSchoolProfileForm();",
+                    "var myForm = this.getAdminProfileForm();",
                     "var myFields = myForm.getForm().getFields();",
                     "for( var i = 0; i < myFields.length; i++ )",
                     "{",
                     "\tmyFields.items[i].enable();",
                     "}",
                     "//myForm.getForm().focus();studentprofileformeditbutton",
-                    "var cancelButton\t= button.up().down('#schoolprofileformcanelbutton');",
-                    "var saveButton\t\t= button.up().down('#schoolprofileformsavebutton');",
+                    "var cancelButton\t= button.up().down('#adminprofileformcanelbutton');",
+                    "var saveButton\t\t= button.up().down('#adminprofileformsavebutton');",
                     "cancelButton.enable();",
                     "saveButton.enable();",
                     "button.disable();",
@@ -610,8 +630,8 @@
                 "name": "click",
                 "scope": "me"
             },
-            "name": "onSchoolprofileformeditbuttonClick",
-            "designerId": "81074581-dbc4-4359-b880-722be3bbee10"
+            "name": "onAdminprofileformeditbuttonClick",
+            "designerId": "eeb1896d-deeb-4dde-a011-a2eff727f692"
         },
         {
             "type": "controlleraction",
@@ -621,23 +641,23 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolprofileformcanelbutton",
+                "designer|controlQuery": "#adminprofileformcanelbutton",
                 "designer|params": [
                     "button, e, eOpts"
                 ],
-                "designer|targetType": "MyButton14",
-                "fn": "onSchoolprofileformcanelbuttonClick",
+                "designer|targetType": "MyButton17",
+                "fn": "onAdminprofileformcanelbuttonClick",
                 "implHandler": [
-                    "var myForm = this.getSchoolProfileForm();",
+                    "var myForm = this.getOnlyGuardianForm();",
                     "var myFields = myForm.getForm().getFields();",
                     "for( var i = 0; i < myFields.length; i++ )",
                     "{",
                     "\tmyFields.items[i].disable();",
                     "}",
                     "//myForm.getForm().focus();",
-                    "//var cancelButton\t= button.up().down('#schoolprofileformcanelbutton');",
-                    "var saveButton\t\t= button.up().down('#schoolprofileformsavebutton');",
-                    "var editButton\t\t= button.up().down('#schoolprofileformeditbutton');",
+                    "//var cancelButton\t= button.up().down('#onlyadminrofileformcanelbutton');",
+                    "var saveButton\t\t= button.up().down('#adminprofileformsavebutton');",
+                    "var editButton\t\t= button.up().down('#adminprofileformeditbutton');",
                     "editButton.enable();",
                     "saveButton.disable();",
                     "button.disable();"
@@ -645,8 +665,8 @@
                 "name": "click",
                 "scope": "me"
             },
-            "name": "onSchoolprofileformcanelbuttonClick",
-            "designerId": "d33e8876-cf26-40d9-b0e7-fd3358575b4a"
+            "name": "onAdminprofileformcanelbuttonClick",
+            "designerId": "e15bb76d-3532-477c-a448-f9a0d185f68f"
         },
         {
             "type": "controlleraction",
@@ -656,24 +676,24 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#schoolprofileformsavebutton",
+                "designer|controlQuery": "#adminprofileformsavebutton",
                 "designer|params": [
                     "button, e, eOpts"
                 ],
-                "designer|targetType": "MyButton15",
-                "fn": "onSchoolprofileformsavebuttonClick",
+                "designer|targetType": "MyButton18",
+                "fn": "onAdminprofileformsavebuttonClick",
                 "implHandler": [
                     "debugger;",
-                    "var myForm = this.getSchoolProfileForm();",
+                    "var myForm = this.getAdminProfileForm();",
                     "var myFields = myForm.getForm().getFields();",
                     "for( var i = 0; i < myFields.length; i++ )",
                     "{",
                     "\tmyFields.items[i].disable();",
                     "}",
                     "//myForm.getForm().focus();",
-                    "var cancelButton\t= button.up().down('#schoolprofileformcanelbutton');",
-                    "//var saveButton\t\t= button.up().down('#schoolprofileformsavebutton');",
-                    "var editButton\t\t= button.up().down('#schoolprofileformeditbutton');",
+                    "var cancelButton\t= button.up().down('#adminprofileformcanelbutton');",
+                    "//var saveButton\t\t= button.up().down('#adminprofileformsavebutton');",
+                    "var editButton\t\t= button.up().down('#adminprofileformeditbutton');",
                     "editButton.enable();",
                     "cancelButton.disable();",
                     "button.disable();",
@@ -682,8 +702,101 @@
                 "name": "click",
                 "scope": "me"
             },
-            "name": "onSchoolprofileformsavebuttonClick",
-            "designerId": "67d5f7b5-d3dd-4425-882d-c11e0181a000"
+            "name": "onAdminprofileformsavebuttonClick",
+            "designerId": "ace62348-5d45-4da0-ac31-d741865ef905"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#adminpasswordcancelbutton",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyButton38",
+                "fn": "onAdminpasswordcancelbuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Cancel Admin Password\" );",
+                    "var myForm = button.up().up().getForm();",
+                    "myForm.reset();",
+                    "button.up().up().up().hide();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onAdminpasswordcancelbuttonClick",
+            "designerId": "70d2bf41-50aa-445a-89b3-a5e33f2848db"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#adminpasswordsubmitbutton",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyButton39",
+                "fn": "onAdminpasswordsubmitbuttonClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Submit School Admin Password\" );",
+                    "var myForm = button.up().up().getForm();",
+                    "",
+                    "var myStore = Ext.getStore(\"admin.AdminPasswordStore\");",
+                    "var userName = myForm.findField('userName').getSubmitValue();",
+                    "var userPassword = myForm.findField('userPassword').getSubmitValue();",
+                    "var userRepeatPassword = myForm.findField('userRepeatPassword').getSubmitValue();",
+                    "var myRecord = myStore.findRecord('userName', userName );",
+                    "",
+                    "if( myRecord === null )",
+                    "{",
+                    "\tExt.MessageBox.show({",
+                    "\t\ttitle: 'INVALID USER EXCEPTION',",
+                    "\t\tmsg: 'You have entered an invalid user.',",
+                    "\t\ticon: Ext.MessageBox.ERROR,",
+                    "\t\tbuttons: Ext.Msg.OK",
+                    "\t});",
+                    "}",
+                    "if( userPassword == userRepeatPassword && myRecord !== null )",
+                    "{",
+                    "\tmyRecord.set( 'userPassword', userPassword );",
+                    "\tmyStore.sync();",
+                    "\t//myStore.reload();",
+                    "}",
+                    "myForm.reset();",
+                    "button.up().up().up().hide();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onAdminpasswordsubmitbuttonClick",
+            "designerId": "94166833-802c-43fd-9e0b-4a26a86f10f0"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "reloadGrid",
+                "implHandler": [
+                    "var myStore = Ext.getStore('admin.AdminProfileStore');",
+                    "myStore.reload();"
+                ]
+            },
+            "name": "reloadGrid",
+            "designerId": "704a160b-51a5-49f0-ad17-eaabe259a097"
         }
     ]
 }

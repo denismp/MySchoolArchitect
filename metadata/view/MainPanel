@@ -613,24 +613,6 @@
                             "name": "admin.adminprofilepanel",
                             "designerId": "eb555367-8672-4b17-993f-a93c83ee1d62",
                             "masterInstanceId": "49b7b18d-8597-4700-a2c6-5a851088ced3"
-                        },
-                        {
-                            "type": "basiceventbinding",
-                            "reference": {
-                                "name": "listeners",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "fn": "onAdminprofiletabActivate",
-                                "implHandler": [
-                                    ""
-                                ],
-                                "name": "activate",
-                                "scope": "me"
-                            },
-                            "name": "onAdminprofiletabActivate",
-                            "designerId": "201a3090-689e-4a39-904b-eec3c53911cc"
                         }
                     ]
                 }

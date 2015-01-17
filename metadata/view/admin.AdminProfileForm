@@ -10,12 +10,12 @@
         "bodyPadding": 10,
         "collapseFirst": false,
         "designer|snapToGrid": 10,
-        "designer|userAlias": "adminadminonlyprofileform",
-        "designer|userClassName": "admin.AdminOnlyProfileForm",
+        "designer|userAlias": "adminadminprofileform",
+        "designer|userClassName": "admin.AdminProfileForm",
         "frameHeader": false,
         "height": null,
         "id": null,
-        "itemId": "adminonlyprofileform",
+        "itemId": "adminprofileform",
         "layout": "absolute",
         "maxHeight": 450,
         "minHeight": 450,
@@ -33,7 +33,7 @@
             "userConfig": {
                 "fieldLabel": "First Name",
                 "id": null,
-                "itemId": "guardian-firstname",
+                "itemId": "admin-firstname",
                 "name": "firstName",
                 "width": 300
             },
@@ -50,7 +50,7 @@
             "userConfig": {
                 "fieldLabel": "Middle Name",
                 "id": null,
-                "itemId": "guardian-middlename",
+                "itemId": "admin-middlename",
                 "layout|x": 10,
                 "layout|y": 50,
                 "name": "middleName",
@@ -69,7 +69,7 @@
             "userConfig": {
                 "fieldLabel": "Last Name",
                 "id": null,
-                "itemId": "guardian-lastname",
+                "itemId": "admin-lastname",
                 "layout|x": 10,
                 "layout|y": 90,
                 "name": "lastName",
@@ -88,7 +88,7 @@
             "userConfig": {
                 "fieldLabel": "DOB",
                 "id": null,
-                "itemId": "guardian-dob",
+                "itemId": "admin-dob",
                 "layout|x": 360,
                 "layout|y": 10,
                 "name": "dob",
@@ -107,7 +107,7 @@
             "userConfig": {
                 "fieldLabel": "Phone1",
                 "id": null,
-                "itemId": "guardian-phone1",
+                "itemId": "admin-phone1",
                 "layout|x": 10,
                 "layout|y": 130,
                 "name": "phone1"
@@ -125,7 +125,7 @@
             "userConfig": {
                 "fieldLabel": "Phone2",
                 "id": null,
-                "itemId": "guardian-phone2",
+                "itemId": "admin-phone2",
                 "layout|x": 10,
                 "layout|y": 170,
                 "name": "phone2"
@@ -143,7 +143,7 @@
             "userConfig": {
                 "fieldLabel": "Address1",
                 "id": null,
-                "itemId": "guardian-address1",
+                "itemId": "admin-address1",
                 "layout|x": 360,
                 "layout|y": 90,
                 "name": "address1",
@@ -162,7 +162,7 @@
             "userConfig": {
                 "fieldLabel": "Address2",
                 "id": null,
-                "itemId": "guardian-address2",
+                "itemId": "admin-address2",
                 "layout|x": 360,
                 "layout|y": 130,
                 "name": "address2",
@@ -181,7 +181,7 @@
             "userConfig": {
                 "fieldLabel": "City",
                 "id": null,
-                "itemId": "guardian-city",
+                "itemId": "admin-city",
                 "layout|x": 360,
                 "layout|y": 170,
                 "name": "city",
@@ -200,7 +200,7 @@
             "userConfig": {
                 "fieldLabel": "Province/State",
                 "id": null,
-                "itemId": "guardian-province",
+                "itemId": "admin-province",
                 "layout|x": 360,
                 "layout|y": 210,
                 "name": "province",
@@ -218,7 +218,7 @@
             "codeClass": null,
             "userConfig": {
                 "fieldLabel": "Postal Code",
-                "itemId": "guardian-postalcode",
+                "itemId": "admin-postalcode",
                 "layout|x": 360,
                 "layout|y": 250,
                 "name": "postalCode"
@@ -236,7 +236,7 @@
             "userConfig": {
                 "fieldLabel": "Country",
                 "id": null,
-                "itemId": "guardian-country",
+                "itemId": "admin-country",
                 "layout|x": 360,
                 "layout|y": 290,
                 "name": "country"
@@ -254,7 +254,7 @@
             "userConfig": {
                 "fieldLabel": "Email",
                 "id": null,
-                "itemId": "guardian-email",
+                "itemId": "admin-email",
                 "layout|x": 360,
                 "layout|y": 50,
                 "name": "email",
@@ -271,7 +271,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "itemId": "onlyguardianprofileformeditbutton",
+                "itemId": "adminprofileformeditbutton",
                 "layout|x": 30,
                 "layout|y": 350,
                 "text": "Edit"
@@ -288,7 +288,7 @@
             "codeClass": null,
             "userConfig": {
                 "disabled": true,
-                "itemId": "onlyguardianprofileformcanelbutton",
+                "itemId": "adminprofileformcanelbutton",
                 "layout|x": 80,
                 "layout|y": 350,
                 "text": "Cancel"
@@ -305,7 +305,7 @@
             "codeClass": null,
             "userConfig": {
                 "disabled": true,
-                "itemId": "onlyguardianprofileformsavebutton",
+                "itemId": "adminprofileformsavebutton",
                 "layout|x": 150,
                 "layout|y": 350,
                 "text": "Save"

@@ -11,7 +11,7 @@
         "designer|userClassName": "admin.ProfileGridAdminOnlyPanel",
         "forceFit": true,
         "height": null,
-        "itemId": "adminonlygridpanel",
+        "itemId": "admingridpanel",
         "maxHeight": 200,
         "minHeight": 200,
         "store": "admin.AdminProfileStore",
@@ -95,7 +95,25 @@
                 "text": "Admin User Name"
             },
             "name": "MyColumn79",
-            "designerId": "bdf55612-bae4-4381-87a1-803ce8f492e0"
+            "designerId": "bdf55612-bae4-4381-87a1-803ce8f492e0",
+            "cn": [
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "displayField": "userName",
+                        "name": "username",
+                        "store": "admin.AdminStore",
+                        "valueField": "userName"
+                    },
+                    "name": "MyComboBox4",
+                    "designerId": "12937c59-3c3a-48b5-a5fd-4efaede550b1"
+                }
+            ]
         },
         {
             "type": "Ext.grid.column.Column",
@@ -394,6 +412,16 @@
             },
             "name": "MyGridView12",
             "designerId": "d09e867d-09ca-43e4-9df3-46d5d146d5f2"
+        },
+        {
+            "type": "Ext.grid.plugin.CellEditing",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": "Ext.grid.plugin.CellEditing",
+            "name": "MyCellEditingPlugin8",
+            "designerId": "7c60498a-29c3-40a8-835a-ca12416d8e61"
         }
     ]
 }

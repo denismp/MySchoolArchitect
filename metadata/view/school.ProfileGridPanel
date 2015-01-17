@@ -111,7 +111,25 @@
                 "text": "Subj Name"
             },
             "name": "MyColumn75",
-            "designerId": "3e6d09f2-5291-4c98-9492-8c9472812db6"
+            "designerId": "3e6d09f2-5291-4c98-9492-8c9472812db6",
+            "cn": [
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "displayField": "subjName",
+                        "name": null,
+                        "store": "subject.AllSubjectStore",
+                        "valueField": "subjName"
+                    },
+                    "name": "MyComboBox5",
+                    "designerId": "7e9a58e0-594d-4a0f-92bc-48605401005f"
+                }
+            ]
         },
         {
             "type": "Ext.grid.column.Column",
@@ -157,7 +175,25 @@
                 "text": "Admin User Name"
             },
             "name": "MyColumn77",
-            "designerId": "567042db-4ddc-4d61-8229-1d81a4c76d20"
+            "designerId": "567042db-4ddc-4d61-8229-1d81a4c76d20",
+            "cn": [
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "displayField": "userName",
+                        "name": null,
+                        "store": "admin.AdminStore",
+                        "valueField": "userName"
+                    },
+                    "name": "MyComboBox3",
+                    "designerId": "74a5505e-409b-453f-84d1-05fac92fff6a"
+                }
+            ]
         },
         {
             "type": "Ext.grid.column.CheckColumn",

@@ -18,7 +18,8 @@
             "student.ProfileViewController",
             "faculty.OnlyFacultyProfileViewController",
             "guardian.OnlyGuardianProfileViewController",
-            "school.SchoolProfileViewController"
+            "school.SchoolProfileViewController",
+            "admin.AdminProfileController"
         ],
         "models": [
             "subject.SubjectsModel",
@@ -42,7 +43,8 @@
             "guardian.GuardianProfileModel",
             "guardian.GuardianTypeModel",
             "school.SchoolProfileModel",
-            "admin.AdminProfileModel"
+            "admin.AdminProfileModel",
+            "admin.PasswordModel"
         ],
         "name": "MySchool",
         "stores": [
@@ -70,7 +72,9 @@
             "guardian.GuardianProfileStore",
             "guardian.GuardianTypeStore",
             "school.SchoolProfileStore",
-            "admin.AdminProfileStore"
+            "admin.AdminProfileStore",
+            "admin.AdminPasswordStore",
+            "admin.AdminStore"
         ],
         "views": [
             "MainPanel",
@@ -187,10 +191,12 @@
             "school.ProfileForm",
             "school.ProfileGridPanel",
             "school.ProfilePanel",
-            "admin.AdminOnlyProfileForm",
+            "admin.AdminProfileForm",
             "admin.ProfileGridAdminOnlyPanel",
             "admin.AdminProfilePanel",
-            "school.NewDialog"
+            "school.NewDialog",
+            "admin.PasswordDialog",
+            "admin.NewDialog"
         ]
     },
     "name": "Application",
