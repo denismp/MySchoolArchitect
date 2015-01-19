@@ -1,0 +1,122 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "guardian.AddChildDialog",
+        "height": 151,
+        "itemId": "guardianaddchilddialog",
+        "title": "Add Child",
+        "width": 390
+    },
+    "name": "guardian.NewDialog1",
+    "designerId": "d5c7d1d7-fc07-448a-a5b7-e4495a1cf51e",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "dock": "top",
+                "height": 112,
+                "itemId": "gaurdianaddchildform",
+                "title": null,
+                "width": 390
+            },
+            "name": "MyForm4",
+            "designerId": "a0308b03-f188-4c83-99df-1e690a5996d5",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top",
+                        "height": 51,
+                        "itemId": "guardiannaddchildformfieldset",
+                        "padding": 5,
+                        "title": null
+                    },
+                    "name": "MyFieldSet8",
+                    "designerId": "42ba371b-18d9-4e79-bfab-cc53a7ca5ff3",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Student User Name",
+                                "itemId": "guardianaddchildform_username",
+                                "layout|anchor": "100%",
+                                "name": "username"
+                            },
+                            "name": "MyTextField104",
+                            "designerId": "b4dc309d-b5c5-48ca-bdb4-909e0c41c6e5",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onGuardianaddchildform_usernameBoxReady",
+                                        "implHandler": [
+                                            "component.focus(false, 200);"
+                                        ],
+                                        "name": "boxready",
+                                        "scope": "me"
+                                    },
+                                    "name": "onGuardianaddchildform_usernameBoxReady",
+                                    "designerId": "28fabbed-e4a5-47c0-a36d-db1dce43743a"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "guardianaddchildcancel",
+                        "text": "Cancel"
+                    },
+                    "name": "MyButton44",
+                    "designerId": "b69162a8-a8ae-4e7e-9e36-94d907092370"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "guardianaddchildsubmit",
+                        "text": "Submit"
+                    },
+                    "name": "MyButton45",
+                    "designerId": "b63eb3a2-6c72-48cb-a9a3-211dbdf64299"
+                }
+            ]
+        }
+    ]
+}

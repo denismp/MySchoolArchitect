@@ -82,11 +82,26 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyguardiannewtool",
-                "tooltip": "New",
+                "tooltip": "New Guardian",
                 "type": "plus"
             },
             "name": "MyTool9",
             "designerId": "500ac3b3-32d8-4d8f-acbe-bd11e4e75ef7"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "onlyguardiannewchildtool",
+                "tooltip": "Add Child",
+                "type": "expand"
+            },
+            "name": "MyTool26",
+            "designerId": "c2abe5da-93b3-4057-93c2-02fc1f5522d6"
         },
         {
             "type": "Ext.panel.Tool",

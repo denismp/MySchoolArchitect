@@ -675,6 +675,137 @@
             },
             "name": "onGuardianprofiletabActivate",
             "designerId": "6a39d452-d70b-4fb2-87ab-34d9db38bd72"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#onlyguardiannewchildtool",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyTool26",
+                "fn": "onOnlyguardiannewchildtoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var guardianStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "var guardianTypesStore = Ext.getStore('guardian.GuardianTypeStore');",
+                    "guardianTypesStore.myLoad();",
+                    "",
+                    "if( this.userRole === 'ROLE_ADMIN'){",
+                    "\tvar newDialog = Ext.create( 'MySchool.view.guardian.AddChildDialog' );",
+                    "",
+                    "\twindow.console.log( 'Add Child Dialog' );",
+                    "",
+                    "\tnewDialog.render( Ext.getBody() );",
+                    "\tnewDialog.show();",
+                    "}",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onOnlyguardiannewchildtoolClick",
+            "designerId": "94a8eaf0-d346-4cac-91d7-9a95532633d0"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#guardianaddchildcancel",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyButton44",
+                "fn": "onGuardianaddchildcancelClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Cancel Add Child\" );",
+                    "var myForm = button.up().getForm();",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onGuardianaddchildcancelClick",
+            "designerId": "4f563c24-426b-4314-b191-a80d61bef8ce"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#guardianaddchildsubmit",
+                "designer|params": [
+                    "button, e, eOpts"
+                ],
+                "designer|targetType": "MyButton45",
+                "fn": "onGuardianaddchildsubmitClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Submit Add Child\" );",
+                    "var myForm\t\t\t\t\t= button.up().getForm();",
+                    "var myPanel\t\t\t\t\t= button.up();",
+                    "var myGrid\t\t\t\t\t= this.getOnlyGuardianGridPanel();",
+                    "",
+                    "//Get the values from the form and insert a new record into the GuardianProfileStore.",
+                    "",
+                    "var formValues\t\t\t\t= myForm.getValues();",
+                    "",
+                    "//\tCreate an empty record",
+                    "var myRecord\t= myGrid.getSelectionModel().getSelection()[0];",
+                    "//var myRecord\t= Ext.create('MySchool.model.guardian.GuardianProfileModel');",
+                    "",
+                    "//\tGet the stores that we will need",
+                    "",
+                    "var username\t= formValues.username;",
+                    "",
+                    "var myStore\t\t= this.getStore( 'guardian.GuardianProfileStore' );",
+                    "",
+                    "//debugger;",
+                    "",
+                    "//myRecord.set( 'quardianId', myRecord.get('guardianId') );",
+                    "myRecord.set( 'studentUserName', username );",
+                    "myRecord.set( 'id', null );",
+                    "",
+                    "//add to the store.  For a normal update, only the sync() is called.",
+                    "//In this case we are expecting the create method on the backend to ",
+                    "//perform an update instead of a create.  This will allow updated from",
+                    "//the grid to work as expected while allowing us to add a new student",
+                    "//child to the existing guardian relation.  This will actually create",
+                    "//another record in the guardian table with the new studentId.",
+                    "//The backend checks to see if the studentId in this records is ",
+                    "//different from the one with the specified studentUserName.  If so,",
+                    "//then the new record will be created.",
+                    "myStore.add( myRecord );",
+                    "",
+                    "//sync the store.",
+                    "myStore.sync();",
+                    "",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onGuardianaddchildsubmitClick",
+            "designerId": "cb9a9a13-9581-45c1-ab63-d5ffaefb602d"
         }
     ]
 }
