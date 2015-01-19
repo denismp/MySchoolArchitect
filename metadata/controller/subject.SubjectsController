@@ -170,10 +170,10 @@
                 "implHandler": [
                     "window.console.log( \"selected row in grid.\" );",
                     "window.console.log( \"index=\" + index );",
-                    "//debugger;",
-                    "//if ( record ) {",
-                    "//    this.getSubjectsForm().getForm().loadRecord(record);",
-                    "//}",
+                    "debugger;",
+                    "if ( record ) {",
+                    "    this.getSubjectsForm().getForm().loadRecord(record);",
+                    "}",
                     "this.selectedIndex = index;"
                 ],
                 "name": "select",
