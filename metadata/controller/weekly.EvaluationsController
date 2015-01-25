@@ -40,7 +40,7 @@
             "codeClass": null,
             "userConfig": {
                 "ref": "WeeklyEvaluationsCommentsTabPanel",
-                "selector": "#weeklyevaluationdetailstabpanel"
+                "selector": "#weeklyevaluationcommentstabpanel"
             },
             "name": "WeeklyEvaluationsCommentsTabPanel",
             "designerId": "36a9ba9d-c123-4843-bdc0-462581095693"
@@ -352,10 +352,10 @@
                 "fn": "init",
                 "implHandler": [
                     "this.control({",
-                    "    \"#editmonthlycommentstabpanel\": {",
+                    "    \"#editweeklyevaluationcommentstabpanel\": {",
                     "        click: this.buttonHandler",
                     "    },",
-                    "    \"#monthlycommentstabpaneltextbox\": {",
+                    "    \"#weeklyevaluationcommentstabpaneltextbox\": {",
                     "        blur: this.blurHandler",
                     "    }",
                     "});"

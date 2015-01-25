@@ -46,6 +46,20 @@
             },
             "codeClass": null,
             "userConfig": {
+                "name": "facultyId",
+                "type": "int"
+            },
+            "name": "MyField426",
+            "designerId": "7a52f083-d92e-4600-b6bc-489a45c1df45"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "email",
                 "type": "string"
             },

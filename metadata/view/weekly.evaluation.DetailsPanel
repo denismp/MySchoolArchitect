@@ -41,10 +41,11 @@
             "codeClass": null,
             "userConfig": {
                 "dock": "bottom",
-                "title": null
+                "itemId": "weeklyevaluationcommentstabpanel",
+                "layout|flex": null
             },
-            "name": "weekly.evaluation.detailstabpanel",
-            "designerId": "d134f4aa-3e61-400f-8aa7-bc0c8faf4798",
+            "name": "weekly.evaluation.detailstabpanel1",
+            "designerId": "2a1185c1-f2c2-4c3d-996d-5fd78aef2eac",
             "masterInstanceId": "cd66f02c-8260-4748-a75e-d8caed2e81a6"
         },
         {

@@ -52,6 +52,22 @@
             "designerId": "a07fe9f4-f340-435e-8ff7-db509ff00b27"
         },
         {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "facultyviewid",
+                "format": "000000",
+                "hidden": true,
+                "text": "facultyviewid"
+            },
+            "name": "MyNumberColumn100",
+            "designerId": "19c626fa-c1a7-4306-bb81-39db66c1d71c"
+        },
+        {
             "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
