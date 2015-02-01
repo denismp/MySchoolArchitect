@@ -117,22 +117,6 @@
             "designerId": "95e79a1f-e656-48aa-ab7a-c94f6f5b61aa"
         },
         {
-            "type": "Ext.grid.column.Number",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "schoolId",
-                "format": "000000",
-                "hidden": true,
-                "text": "schoolId"
-            },
-            "name": "MyNumberColumn103",
-            "designerId": "7ea43c2a-c261-42ee-9da6-7a1a11f3a676"
-        },
-        {
             "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
@@ -201,20 +185,6 @@
             },
             "name": "MyColumn50",
             "designerId": "f4e5d00d-a2ea-4351-8387-3e065d24122d"
-        },
-        {
-            "type": "Ext.grid.column.Column",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "schoolName",
-                "text": "School Name"
-            },
-            "name": "MyColumn97",
-            "designerId": "b4f6e5cd-6c84-4b7f-9ae5-6935e115d85f"
         },
         {
             "type": "Ext.grid.column.CheckColumn",
