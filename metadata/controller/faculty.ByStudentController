@@ -537,6 +537,39 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|controlQuery": "#facultyprofileassociatetool",
+                "designer|targetType": "MyTool27",
+                "fn": "onFacultyprofileassociatetoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var facultyByStudentStore = Ext.getStore('faculty.ByStudentStore');",
+                    "facultyByStudentStore.load();",
+                    "",
+                    "if( this.userRole === 'ROLE_ADMIN' || this.userRole === 'ROLE_SCHOOL'){",
+                    "\tvar newDialog = Ext.create( 'MySchool.view.faculty.AddChildDialog' );",
+                    "",
+                    "\twindow.console.log( 'Add Student to Another Faculty Dialog' );",
+                    "",
+                    "\tnewDialog.render( Ext.getBody() );",
+                    "\tnewDialog.show();",
+                    "}",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onFacultyprofileassociatetoolClick",
+            "designerId": "6cf11aa3-dad8-4210-9a03-44786df31f63"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "designer|controlQuery": "#facultyprofilesavetool",
                 "designer|targetType": "Ext.panel.Tool",
                 "fn": "onFacultyprofilesavetoolClick",
@@ -972,39 +1005,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#facultyprofileassociatetool",
-                "designer|targetType": "MyTool27",
-                "fn": "onFacultyprofileassociatetoolClick",
-                "implHandler": [
-                    "debugger;",
-                    "",
-                    "var facultyByStudentStore = Ext.getStore('faculty.ByStudentStore');",
-                    "facultyByStudentStore.load();",
-                    "",
-                    "if( this.userRole === 'ROLE_ADMIN' || this.userRole === 'ROLE_SCHOOL'){",
-                    "\tvar newDialog = Ext.create( 'MySchool.view.faculty.AddChildDialog' );",
-                    "",
-                    "\twindow.console.log( 'Add Student to Another Faculty Dialog' );",
-                    "",
-                    "\tnewDialog.render( Ext.getBody() );",
-                    "\tnewDialog.show();",
-                    "}",
-                    ""
-                ],
-                "name": "click",
-                "scope": "me"
-            },
-            "name": "onFacultyprofileassociatetoolClick",
-            "designerId": "6cf11aa3-dad8-4210-9a03-44786df31f63"
-        },
-        {
-            "type": "controlleraction",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
                 "designer|controlQuery": "#facultyaddchildsubmit",
                 "designer|params": [
                     "button",
@@ -1183,7 +1183,7 @@
                     "this.selectedIndex = 0;",
                     "myModel.select(0, false, true);",
                     "var mySelected = myModel.getLastSelected();",
-                    "myModel.fireEvent( 'selectionchange', this, mySelected );"
+                    "//myModel.fireEvent( 'selectionchange', this, mySelected );"
                 ]
             },
             "name": "onGridDataChanged",
