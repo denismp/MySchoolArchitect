@@ -67,7 +67,7 @@
                             "{",
                             "    this.reload();",
                             "}",
-                            "//this.reload();",
+                            "////this.reload();",
                             ""
                         ],
                         "name": "exception",

@@ -9,7 +9,7 @@
         "designer|userAlias": "studentnewdialog",
         "designer|userClassName": "student.NewDialog",
         "draggable": false,
-        "height": 590,
+        "height": 597,
         "itemId": "studentnewdialog",
         "title": "New Student",
         "width": 390
@@ -27,7 +27,7 @@
                 "bodyPadding": 10,
                 "dock": "top",
                 "frame": true,
-                "height": 526,
+                "height": 553,
                 "itemId": "studentnewform",
                 "title": null,
                 "width": 378
@@ -44,7 +44,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "dock": "top",
-                        "height": 478,
+                        "height": 502,
                         "itemId": "studentnewformfieldset",
                         "padding": 5,
                         "title": null
@@ -63,9 +63,30 @@
                                 "layout|anchor": "100%",
                                 "width": null
                             },
-                            "name": "subject.facultynamescombobox1",
+                            "name": "subject.facultynamescombobox",
                             "designerId": "22cd5a5e-1051-4da3-ba7c-957356f32161",
                             "masterInstanceId": "5dd35732-eed7-42fa-a4ef-42b8e310916a"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "displayField": "name",
+                                "emptyText": "Select one.",
+                                "fieldLabel": "School",
+                                "forceSelection": true,
+                                "itemId": "studentnewform_schoolcombobox",
+                                "layout|anchor": "100%",
+                                "name": "schoolName",
+                                "store": "subject.SchoolsStore",
+                                "valueField": "name"
+                            },
+                            "name": "MyComboBox7",
+                            "designerId": "40b596a3-ca2b-4153-bab8-f71463d75c19"
                         },
                         {
                             "type": "Ext.form.field.Text",

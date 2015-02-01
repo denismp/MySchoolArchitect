@@ -97,7 +97,9 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyguardiannewchildtool",
-                "tooltip": "Add Child",
+                "shrinkWrap": null,
+                "tooltip": "Add_Child",
+                "tooltipType": null,
                 "type": "expand"
             },
             "name": "MyTool26",

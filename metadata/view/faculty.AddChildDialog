@@ -1,0 +1,122 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "faculty.AddChildDialog",
+        "height": 151,
+        "itemId": "facultyaddchilddialog",
+        "title": "Add Child",
+        "width": 390
+    },
+    "name": "guardian.AddChildDialog2",
+    "designerId": "6da5358b-7247-45fd-b24a-8195698b13aa",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "dock": "top",
+                "height": 112,
+                "itemId": "facultyaddchildform",
+                "title": null,
+                "width": 390
+            },
+            "name": "MyForm4",
+            "designerId": "d0a71a11-c36a-4ea1-92a8-5d716df4b594",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top",
+                        "height": 51,
+                        "itemId": "facultyaddchildformfieldset",
+                        "padding": 5,
+                        "title": null
+                    },
+                    "name": "MyFieldSet8",
+                    "designerId": "6e53e829-1293-4b08-a63e-e4a00034da34",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Student User Name",
+                                "itemId": "facultyaddchildform_username",
+                                "layout|anchor": "100%",
+                                "name": "username"
+                            },
+                            "name": "MyTextField104",
+                            "designerId": "687d560a-e4ad-481b-b44b-623dac226ff9",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onFacultyaddchildform_usernameBoxReady",
+                                        "implHandler": [
+                                            "component.focus(false, 200);"
+                                        ],
+                                        "name": "boxready",
+                                        "scope": "me"
+                                    },
+                                    "name": "onFacultyaddchildform_usernameBoxReady",
+                                    "designerId": "40a7d41f-7263-46d7-9fb5-cf08b4c8da7e"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "facultyaddchildcancel",
+                        "text": "Cancel"
+                    },
+                    "name": "MyButton44",
+                    "designerId": "2a06b01b-b7e6-42dd-a21b-9dea3472caae"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "facultyaddchildsubmit",
+                        "text": "Submit"
+                    },
+                    "name": "MyButton45",
+                    "designerId": "efdf8ab8-846e-4447-82f2-dc544f2daf11"
+                }
+            ]
+        }
+    ]
+}

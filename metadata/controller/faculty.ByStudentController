@@ -9,10 +9,10 @@
         "designer|userAlias": "facultybystudentcontroller",
         "designer|userClassName": "faculty.ByStudentController",
         "models": [
-            "monthly.EvaluationRatings"
+            "faculty.ByStudentModel"
         ],
         "stores": [
-            "monthly.EvaluationRatingsStore"
+            "faculty.ByStudentStore"
         ]
     },
     "designerId": "f67c8368-e7ee-4d7c-949b-84a33169b9ad",
@@ -176,17 +176,15 @@
             "userConfig": {
                 "designer|params": [
                     "form",
-                    "selected"
+                    "record"
                 ],
                 "fn": "loadForm",
                 "implHandler": [
                     "debugger;",
                     "",
                     "console.log( form );",
-                    "//var textBox = myForm.dockedItems.items[0];",
-                    "//var textBox = myForm.down('textareafield');",
-                    "//textBox.name = fieldname;",
-                    "form.loadRecord( selected[0] );",
+                    "",
+                    "form.loadRecord( record );",
                     "var rform = form.getForm();",
                     "var myFields = form.getForm().getFields();",
                     "for( var i = 0; i < myFields.length; i++ )",
@@ -227,7 +225,7 @@
             "userConfig": {
                 "fn": "onMyJsonStoreLoad",
                 "implHandler": [
-                    "//debugger;",
+                    "debugger;",
                     "//var g_ = Ext.ComponentQuery.query(\"#monthlysummarygridpanel\")[0];",
                     "var g_ = this.getFacultyByStudentGridPanel();",
                     "",
@@ -407,8 +405,60 @@
                 "designer|targetType": "Ext.panel.Tool",
                 "fn": "onFacultyprofilerefreshtoolClick",
                 "implHandler": [
+                    "",
+                    "debugger;",
                     "var myStore = Ext.getStore('faculty.ByStudentStore');",
-                    "myStore.reload();"
+                    "myStore.reload();",
+                    "",
+                    "if( false ){",
+                    "//debugger;",
+                    "console.log('onFacultyprofilerefreshtoolClick()');",
+                    "var myStore = Ext.getStore('faculty.ByStudentStore');",
+                    "",
+                    "var securityStore = Ext.getStore('security.SecurityStore');",
+                    "var securityRecord = securityStore.getAt(0);",
+                    "this.userName = securityRecord.get('userName');",
+                    "this.userRole = securityRecord.get('userRole');",
+                    "var title;",
+                    "var myGrid = this.getFacultyByStudentGridPanel();",
+                    "",
+                    "",
+                    "if( this.userRole === 'ROLE_FACULTY'){",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}",
+                    "else if( this.userRole === 'ROLE_ADMIN' || this.userRole === 'ROLE_SCHOOL'){",
+                    "\ttitle = this.userName + '/' + this.userRole;",
+                    "",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this",
+                    "\t});",
+                    "}",
+                    "else{",
+                    "\ttitle = r_.get('firstName') + \" \" + r_.get('middleName') + ' ' + r_.get('lastName');",
+                    "",
+                    "\tmyGrid.setTitle('[' + title + ']' + ' Faculty Profiles by Student');",
+                    "\tmyStore.load({",
+                    "\t\tcallback: this.onMyJsonStoreLoad,",
+                    "\t\tscope: this,",
+                    "\t\tparams: {",
+                    "\t\t\tstudentName: this.userName",
+                    "\t\t}",
+                    "\t});",
+                    "}",
+                    "}"
                 ],
                 "name": "click",
                 "scope": "me"
@@ -618,43 +668,15 @@
                     "\t});",
                     "}",
                     "//grid.getSelectionModel().select( 0 );",
-                    "//tablepanel.getSelectionModel().select( 0 );"
+                    "//tablepanel.getSelectionModel().select( 0 );",
+                    "this.selectedIndex = 0;",
+                    "myGrid.getSelectionModel().select(0);"
                 ],
                 "name": "viewready",
                 "scope": "me"
             },
             "name": "onFacultyprofilesbystudentgridpanelViewReady",
             "designerId": "04767755-9b94-476b-9eb3-98c3a51ee53f"
-        },
-        {
-            "type": "controlleraction",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "designer|controlQuery": "#facultyprofilesbystudentgridpanel",
-                "designer|targetType": "Ext.grid.Panel",
-                "fn": "onFacultyprofilesbystudentgridpanelSelectionChange",
-                "implHandler": [
-                    "debugger;",
-                    "// in the onMyJsonStoreLoad we do a deselect so we need to test",
-                    "// if selected[0] has a value",
-                    "if ( Ext.isDefined( selected  ) && Ext.isDefined( selected[0]  )) {",
-                    "    var myForm = this.getFacultyByStudentForm();",
-                    "    var myPanel = myForm.up();",
-                    "    this.loadForm( myForm, selected );",
-                    "    //myForm.focus();",
-                    "",
-                    "    console.log('onFacultyprofielsbystudengridpanelSelectionChange()');",
-                    "}"
-                ],
-                "name": "selectionchange",
-                "scope": "me"
-            },
-            "name": "onFacultyprofilesbystudentgridpanelSelectionChange",
-            "designerId": "c6e7285d-9bc5-459b-afc2-103fe68e66fc"
         },
         {
             "type": "controlleraction",
@@ -933,6 +955,7 @@
                     "",
                     "    g_.getStore().reload();",
                     "}",
+                    "//this.onMyJsonStoreLoad();",
                     ""
                 ],
                 "name": "activate",
@@ -940,6 +963,247 @@
             },
             "name": "onFacultyprofilesbystudenttabActivate",
             "designerId": "8b685d5e-3151-483f-970d-0a5ecbec5950"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultyprofileassociatetool",
+                "designer|targetType": "MyTool27",
+                "fn": "onFacultyprofileassociatetoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var facultyByStudentStore = Ext.getStore('faculty.ByStudentStore');",
+                    "facultyByStudentStore.load();",
+                    "",
+                    "if( this.userRole === 'ROLE_ADMIN' || this.userRole === 'ROLE_SCHOOL'){",
+                    "\tvar newDialog = Ext.create( 'MySchool.view.faculty.AddChildDialog' );",
+                    "",
+                    "\twindow.console.log( 'Add Student to Another Faculty Dialog' );",
+                    "",
+                    "\tnewDialog.render( Ext.getBody() );",
+                    "\tnewDialog.show();",
+                    "}",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onFacultyprofileassociatetoolClick",
+            "designerId": "6cf11aa3-dad8-4210-9a03-44786df31f63"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultyaddchildsubmit",
+                "designer|params": [
+                    "button",
+                    "e",
+                    "eOpts"
+                ],
+                "designer|targetType": "MyButton45",
+                "fn": "onFacultyaddchildsubmitClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Submit Add Child\" );",
+                    "var myPanel\t\t\t\t\t= button.up();",
+                    "var myForm\t\t\t\t\t= myPanel.getForm();",
+                    "//var myForm\t\t\t\t\t= button.up().getForm();",
+                    "var myGrid\t\t\t\t\t= this.getFacultyByStudentGridPanel();",
+                    "",
+                    "//Get the values from the form and insert a new record into the store.",
+                    "",
+                    "var formValues\t\t\t\t= myForm.getValues();",
+                    "",
+                    "//\tCreate an empty record",
+                    "//var selectionModel = myGrid.getSelectionModel();",
+                    "//var selection\t= selectionModel.getSelection();",
+                    "var columns\t\t= myGrid.columns;",
+                    "//debugger;",
+                    "var myRecord\t= myGrid.getSelectionModel().getSelection()[0];",
+                    "//var fields\t\t= selectionModel.getFields();",
+                    "//var recordLen\t= fields.length;",
+                    "//var myNewRecord\t= Ext.create('MySchool.model.faculty.ByStudentModel');",
+                    "",
+                    "//\tGet the stores that we will need",
+                    "",
+                    "var username\t= formValues.username;",
+                    "",
+                    "var myStore\t\t= this.getStore( 'faculty.ByStudentStore' );",
+                    "",
+                    "//debugger;",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "// For some reason setting the id to null doesn't work.",
+                    "//\tforcing things this way.",
+                    "//var currentDataIndex;",
+                    "//for( var i = 0; i < columns.length; i++ ){",
+                    "//\tif( columns[i].dataIndex !== 'id' ){",
+                    "//\t\tcurrentDataIndex = columns[i].dataIndex;",
+                    "//\t\tmyNewRecord[currentDataIndex] = myRecord.get( currentDataIndex );",
+                    "//\t}",
+                    "//}",
+                    "//myRecord.set( 'studentId', myRecord.get('studentId') );",
+                    "myRecord.set( 'studentUserName', username );",
+                    "myRecord.set( 'id', null );",
+                    "",
+                    "",
+                    "",
+                    "//add to the store.  For a normal update, only the sync() is called.",
+                    "//In this case we are expecting the create method on the backend to",
+                    "//perform an update instead of a create.  This will allow updated from",
+                    "//the grid to work as expected while allowing us to add a new faculty",
+                    "//child to the existing student relation.  This will actually create",
+                    "//another record in the student_faculty table.",
+                    "",
+                    "myStore.add( myRecord );",
+                    "",
+                    "//sync the store.",
+                    "myStore.sync();",
+                    "",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onFacultyaddchildsubmitClick",
+            "designerId": "08c2adab-81da-442d-92d6-eabfba7328c9"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultyaddchildcancel",
+                "designer|params": [
+                    "button",
+                    "e",
+                    "eOpts"
+                ],
+                "designer|targetType": "MyButton44",
+                "fn": "onFacultyaddchildcancelClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Cancel Add Faculty to Student\" );",
+                    "var myForm = button.up().getForm();",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onFacultyaddchildcancelClick",
+            "designerId": "fa6327ad-2986-455a-989b-f2165108ff04"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#facultyprofilesbystudentgridpanel",
+                "designer|params": [
+                    "rowmodel",
+                    "record",
+                    "index",
+                    "eOpts"
+                ],
+                "designer|targetType": "faculty.ProfileGridPanel",
+                "fn": "onFacultyprofilesbystudentgridpanelSelect",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "var myForm = this.getFacultyByStudentForm();",
+                    "this.loadForm( myForm, record );",
+                    "rowmodel.deselect( this.selectedIndex, true );",
+                    "this.selectedIndex = index;",
+                    "rowmodel.select( index, false, true );"
+                ],
+                "name": "select",
+                "scope": "me"
+            },
+            "name": "onFacultyprofilesbystudentgridpanelSelect",
+            "designerId": "122753c3-83a9-4531-8cf5-6694f64f30a1"
+        },
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "application"
+                ],
+                "fn": "init",
+                "implHandler": [
+                    "Ext.getStore('faculty.ByStudentStore').addListener('datachanged', this.onGridDataChanged, this );",
+                    "Ext.getStore('faculty.ByStudentStore').addListener('load', this.onGridDataLoaded, this );"
+                ]
+            },
+            "name": "init",
+            "designerId": "602de07b-0a76-4cc5-99a0-c2061c39a356"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onGridDataChanged",
+                "implHandler": [
+                    "debugger;",
+                    "var myGrid = this.getFacultyByStudentGridPanel();",
+                    "var myModel = myGrid.getSelectionModel();",
+                    "myModel.deselectAll();",
+                    "this.selectedIndex = 0;",
+                    "myModel.select(0, false, true);",
+                    "var mySelected = myModel.getLastSelected();",
+                    "myModel.fireEvent( 'selectionchange', this, mySelected );"
+                ]
+            },
+            "name": "onGridDataChanged",
+            "designerId": "22a044fd-1043-47c9-a87f-84e37fa0323b"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onGridDataLoaded",
+                "implHandler": [
+                    "debugger;"
+                ]
+            },
+            "name": "onGridDataLoaded",
+            "designerId": "bc3a6b2b-d710-4999-a5ef-e4e5539a5caa"
         }
     ]
 }

@@ -61,7 +61,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
-                    "name": "common.quartersubjectcombobox1",
+                    "name": "common.quartersubjectcombobox5",
                     "designerId": "35a4aea4-e34d-4828-97da-87780f3727e0",
                     "masterInstanceId": "41872b83-972c-4338-a84b-63ceea0340bc"
                 },
@@ -75,7 +75,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
-                    "name": "common.monthcombobox",
+                    "name": "common.monthcombobox4",
                     "designerId": "bb3b8579-458d-4346-8b6d-16688b83b77e",
                     "masterInstanceId": "013dec09-40b4-43be-9cd0-ecf74b1836c2"
                 },

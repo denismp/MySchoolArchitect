@@ -196,7 +196,8 @@
             "school.NewDialog",
             "admin.PasswordDialog",
             "admin.NewDialog",
-            "guardian.AddChildDialog"
+            "guardian.AddChildDialog",
+            "faculty.AddChildDialog"
         ]
     },
     "name": "Application",

@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "allowDeselect": true,
         "autoScroll": true,
         "designer|userAlias": "guardianprofilegridguardianonlypanel",
         "designer|userClassName": "guardian.ProfileGridGuardianOnlyPanel",

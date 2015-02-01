@@ -8,7 +8,8 @@
     "userConfig": {
         "designer|userClassName": "guardian.OnlyGuardianProfileViewController",
         "stores": [
-            "guardian.GuardianTypeStore"
+            "guardian.GuardianTypeStore",
+            "guardian.GuardianProfileStore"
         ]
     },
     "designerId": "14e7624a-76a0-421d-81ed-2c093e4fc262",
@@ -54,15 +55,14 @@
                 "fn": "onGuardianonlygridpanelSelectionChange",
                 "implHandler": [
                     "debugger;",
+                    "console.log('onGuardianonlygridpanelSelectionChange()');",
                     "// in the onMyJsonStoreLoad we do a deselect so we need to test",
                     "// if selected[0] has a value",
+                    "var record = model.getLastSelected();",
                     "if ( Ext.isDefined( selected  ) && Ext.isDefined( selected[0]  )) {",
                     "    var myForm = this.getOnlyGuardianForm();",
                     "",
-                    "    this.loadForm( myForm, selected );",
-                    "",
-                    "",
-                    "    console.log('onGuardianonlygridpanelSelectionChange()');",
+                    "    this.loadForm( myForm, record );",
                     "}"
                 ],
                 "name": "selectionchange",
@@ -101,7 +101,7 @@
                     "var myGrid = this.getOnlyGuardianGridPanel();",
                     "",
                     "",
-                    "if( this.userRole === 'ROLE_FACULTY'){",
+                    "if( this.userRole === 'ROLE_FACULTY' || this.userRole === 'ROLE_SCHOOL'){",
                     "\ttitle = this.userName + '/' + this.userRole;",
                     "",
                     "",
@@ -153,7 +153,7 @@
             "userConfig": {
                 "designer|params": [
                     "form",
-                    "selected"
+                    "record"
                 ],
                 "fn": "loadForm",
                 "implHandler": [
@@ -161,7 +161,7 @@
                     "",
                     "console.log( form );",
                     "",
-                    "form.loadRecord( selected[0] );",
+                    "form.loadRecord( record );",
                     "",
                     "var myFields = form.getForm().getFields();",
                     "for( var i = 0; i < myFields.length; i++ )",

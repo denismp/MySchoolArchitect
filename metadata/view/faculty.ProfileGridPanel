@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "allowDeselect": true,
         "autoScroll": true,
         "designer|userAlias": "facultyprofilegridpanel",
         "designer|userClassName": "faculty.ProfileGridPanel",
@@ -32,7 +33,7 @@
                 "hidden": true,
                 "text": "id"
             },
-            "name": "MyNumberColumn70",
+            "name": "MyNumberColumn82",
             "designerId": "c978bdc4-445d-4765-96e3-d4e373e8a101"
         },
         {
@@ -75,7 +76,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "subjId",
+                "dataIndex": "schoolId",
                 "format": "000000",
                 "hidden": true,
                 "text": "subjId"
@@ -116,6 +117,22 @@
             "designerId": "95e79a1f-e656-48aa-ab7a-c94f6f5b61aa"
         },
         {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolId",
+                "format": "000000",
+                "hidden": true,
+                "text": "schoolId"
+            },
+            "name": "MyNumberColumn103",
+            "designerId": "7ea43c2a-c261-42ee-9da6-7a1a11f3a676"
+        },
+        {
             "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
@@ -137,11 +154,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "subjName",
-                "text": "Subj Name"
+                "dataIndex": "studentUserName",
+                "text": "Student User Name"
             },
-            "name": "MyColumn47",
-            "designerId": "f8950937-e608-4a45-b454-dab47cc39c98"
+            "name": "MyColumn48",
+            "designerId": "ee2fbb77-e12c-448a-aec6-6c6230bb0dd4"
         },
         {
             "type": "Ext.grid.column.Column",
@@ -151,11 +168,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "studentUserName",
-                "text": "Student User Name"
+                "dataIndex": "subjName",
+                "text": "Subj Name"
             },
-            "name": "MyColumn48",
-            "designerId": "ee2fbb77-e12c-448a-aec6-6c6230bb0dd4"
+            "name": "MyColumn47",
+            "designerId": "f8950937-e608-4a45-b454-dab47cc39c98"
         },
         {
             "type": "Ext.grid.column.Column",
@@ -184,6 +201,20 @@
             },
             "name": "MyColumn50",
             "designerId": "f4e5d00d-a2ea-4351-8387-3e065d24122d"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolName",
+                "text": "School Name"
+            },
+            "name": "MyColumn97",
+            "designerId": "b4f6e5cd-6c84-4b7f-9ae5-6935e115d85f"
         },
         {
             "type": "Ext.grid.column.CheckColumn",
@@ -259,6 +290,30 @@
             },
             "name": "MyGridView7",
             "designerId": "38f229f9-cc14-4a4d-bcb3-a85eff0cddee"
+        },
+        {
+            "type": "Ext.grid.plugin.CellEditing",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": "Ext.grid.plugin.CellEditing",
+            "name": "MyCellEditingPlugin9",
+            "designerId": "ba857843-21c3-46eb-ba45-c6cd4228ae1a"
+        },
+        {
+            "type": "Ext.selection.RowModel",
+            "reference": {
+                "name": "selModel",
+                "type": "object"
+            },
+            "codeClass": "Ext.selection.RowModel",
+            "userConfig": {
+                "allowDeselect": true,
+                "mode": "SINGLE"
+            },
+            "name": "MyRowSelectionModel",
+            "designerId": "f7bea57b-0ebc-4f2e-9ace-b9ce8bb2108a"
         }
     ]
 }

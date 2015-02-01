@@ -44,7 +44,7 @@
                 "itemId": "weeklyevaluationcommentstabpanel",
                 "layout|flex": null
             },
-            "name": "weekly.evaluation.detailstabpanel1",
+            "name": "weekly.evaluation.detailstabpanel",
             "designerId": "2a1185c1-f2c2-4c3d-996d-5fd78aef2eac",
             "masterInstanceId": "cd66f02c-8260-4748-a75e-d8caed2e81a6"
         },

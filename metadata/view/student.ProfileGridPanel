@@ -28,13 +28,77 @@
             },
             "codeClass": null,
             "userConfig": {
+                "dataIndex": "id",
+                "format": "000000",
+                "hidden": true,
+                "text": "id"
+            },
+            "name": "MyNumberColumn77",
+            "designerId": "da533f8e-94e3-4866-ad29-710ff93de7ea"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "dataIndex": "studentId",
                 "format": "000000",
                 "hidden": true,
                 "text": "studentId"
             },
-            "name": "MyNumberColumn77",
-            "designerId": "da533f8e-94e3-4866-ad29-710ff93de7ea"
+            "name": "MyNumberColumn101",
+            "designerId": "cd3c46f1-1d2c-4bdc-8b52-01462fbee361"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolId",
+                "format": "000000",
+                "hidden": true,
+                "text": "schoolId"
+            },
+            "name": "MyNumberColumn102",
+            "designerId": "77d6bce8-1624-4bcb-9625-3b1cfc257178"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "facultyId",
+                "format": "000000",
+                "hidden": true,
+                "text": "facultyId"
+            },
+            "name": "MyNumberColumn80",
+            "designerId": "9d610768-9ed9-4697-8110-bec753733662"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "guardianId",
+                "format": "000000",
+                "hidden": true,
+                "text": "guardianId"
+            },
+            "name": "MyNumberColumn81",
+            "designerId": "64f9eada-d0c5-4464-b16e-b901449fe40b"
         },
         {
             "type": "Ext.grid.column.Number",
@@ -116,11 +180,26 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "facultyEmail",
-                "text": "Faculty Email"
+                "dataIndex": "facultyUserName",
+                "text": "Faculty User Name"
             },
             "name": "MyColumn56",
             "designerId": "e1d12df9-0670-47dd-9aa0-e93b1f4e1a87"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "facultyEmail",
+                "hidden": true,
+                "text": "Faculty Email"
+            },
+            "name": "MyColumn95",
+            "designerId": "f1d655ee-8736-40d6-93df-bd39f29cfafe"
         },
         {
             "type": "Ext.grid.column.Column",
@@ -134,24 +213,7 @@
                 "text": "Guardian User Name"
             },
             "name": "MyColumn57",
-            "designerId": "89745d6a-9865-4523-866e-b19c086be988",
-            "cn": [
-                {
-                    "type": "Ext.form.field.Text",
-                    "reference": {
-                        "name": "editor",
-                        "type": "object"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "allowBlank": false,
-                        "allowOnlyWhitespace": false,
-                        "blankText": null
-                    },
-                    "name": "MyTextField12",
-                    "designerId": "463b0df6-60b3-464a-9971-2cd79627aec5"
-                }
-            ]
+            "designerId": "89745d6a-9865-4523-866e-b19c086be988"
         },
         {
             "type": "Ext.grid.column.Column",
@@ -166,6 +228,20 @@
             },
             "name": "MyColumn58",
             "designerId": "6c249c7e-2bb1-4132-aa5a-28c000ff1870"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolName",
+                "text": "School Name"
+            },
+            "name": "MyColumn94",
+            "designerId": "8e59edbb-69b1-4bc4-b85c-8e3eaee3d955"
         },
         {
             "type": "Ext.grid.column.CheckColumn",
@@ -256,38 +332,6 @@
             },
             "name": "MyGridView8",
             "designerId": "c4c88bb7-231c-47fe-9679-aa0cc8bfaffc"
-        },
-        {
-            "type": "Ext.grid.column.Number",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "facultyId",
-                "format": "000000",
-                "hidden": true,
-                "text": "facultyId"
-            },
-            "name": "MyNumberColumn80",
-            "designerId": "9d610768-9ed9-4697-8110-bec753733662"
-        },
-        {
-            "type": "Ext.grid.column.Number",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "dataIndex": "guardianId",
-                "format": "000000",
-                "hidden": true,
-                "text": "guardianId"
-            },
-            "name": "MyNumberColumn81",
-            "designerId": "64f9eada-d0c5-4464-b16e-b901449fe40b"
         },
         {
             "type": "Ext.grid.plugin.CellEditing",

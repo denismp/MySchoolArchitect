@@ -83,6 +83,41 @@
             "masterInstanceId": "7a6772dd-4127-477c-8248-9d52c6544f7a"
         },
         {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "facultyprofileassociatetool",
+                "tooltip": "Student2Faculty",
+                "type": "expand"
+            },
+            "name": "MyTool27",
+            "designerId": "38d3fb34-1cc6-4eab-ab6c-20d8a2fbfcf5",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onFacultyprofileassociatetoolBlur",
+                        "implHandler": [
+                            "component.setSize( 30, 10 );"
+                        ],
+                        "name": "blur",
+                        "scope": "me"
+                    },
+                    "name": "onFacultyprofileassociatetoolBlur",
+                    "designerId": "698ed47a-323b-4d3f-9e62-b72ffcd4f4cf"
+                }
+            ]
+        },
+        {
             "type": "linkedinstance",
             "reference": {
                 "name": "tools",
