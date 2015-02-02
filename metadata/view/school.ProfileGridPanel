@@ -59,13 +59,29 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "schoolId",
+                "dataIndex": "studentId",
                 "format": "000000",
                 "hidden": true,
                 "text": "schoolId"
             },
             "name": "MyNumberColumn91",
             "designerId": "948668d8-c73f-4903-9693-72ac56ba8b7f"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "studentId",
+                "format": "000000",
+                "hidden": true,
+                "text": "studentId"
+            },
+            "name": "MyNumberColumn104",
+            "designerId": "0c9a07be-65d6-4d06-99e5-366ed6a9fc21"
         },
         {
             "type": "Ext.grid.column.Number",
@@ -107,38 +123,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "subjectName",
-                "text": "Subj Name"
-            },
-            "name": "MyColumn75",
-            "designerId": "3e6d09f2-5291-4c98-9492-8c9472812db6",
-            "cn": [
-                {
-                    "type": "Ext.form.field.ComboBox",
-                    "reference": {
-                        "name": "editor",
-                        "type": "object"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "displayField": "subjName",
-                        "name": null,
-                        "store": "subject.AllSubjectStore",
-                        "valueField": "subjName"
-                    },
-                    "name": "MyComboBox5",
-                    "designerId": "7e9a58e0-594d-4a0f-92bc-48605401005f"
-                }
-            ]
-        },
-        {
-            "type": "Ext.grid.column.Column",
-            "reference": {
-                "name": "columns",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
                 "dataIndex": "name",
                 "text": "School Name"
             },
@@ -160,6 +144,52 @@
                     },
                     "name": "MyComboBox1",
                     "designerId": "65efad1a-6a19-4595-b4e8-b2c0383d27ef"
+                }
+            ]
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "studentUserName",
+                "text": "Student User Name"
+            },
+            "name": "MyColumn78",
+            "designerId": "5da7f9d8-8800-4de1-9eef-bed25d0e0ec3"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "subjectName",
+                "text": "Subj Name"
+            },
+            "name": "MyColumn75",
+            "designerId": "3e6d09f2-5291-4c98-9492-8c9472812db6",
+            "cn": [
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "editor",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "displayField": "subjName",
+                        "name": null,
+                        "store": "subject.AllSubjectStore",
+                        "valueField": "subjName"
+                    },
+                    "name": "MyComboBox5",
+                    "designerId": "7e9a58e0-594d-4a0f-92bc-48605401005f"
                 }
             ]
         },
@@ -239,8 +269,8 @@
                 "hidden": true,
                 "text": "Who Updated"
             },
-            "name": "MyColumn78",
-            "designerId": "5da7f9d8-8800-4de1-9eef-bed25d0e0ec3"
+            "name": "MyColumn98",
+            "designerId": "205e603a-e05a-414f-979f-3e3f621db505"
         },
         {
             "type": "Ext.grid.column.Date",

@@ -283,11 +283,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "displayField": "userName",
+                                "emptyText": "Select one.",
                                 "fieldLabel": "Admin User Name",
+                                "forceSelection": true,
                                 "itemId": "schoolnewform_adminusername",
                                 "layout|anchor": "100%",
                                 "name": "adminUserName",
-                                "store": "admin.AdminProfileStore",
+                                "store": "admin.AdminStore",
                                 "valueField": "userName"
                             },
                             "name": "MyComboBox2",
