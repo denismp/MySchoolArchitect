@@ -1,0 +1,128 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "student.AddChildDialog",
+        "height": 151,
+        "itemId": "studentaddchilddialog",
+        "title": "Add Child",
+        "width": 390
+    },
+    "name": "guardian.AddChildDialog1",
+    "designerId": "5a1d7bcb-0dfd-46d7-80a3-9eb27969fe85",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "dock": "top",
+                "height": 112,
+                "itemId": "studentaddchildform",
+                "title": null,
+                "width": 390
+            },
+            "name": "MyForm4",
+            "designerId": "4e25d34d-5177-4ef2-b91d-697eee124661",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top",
+                        "height": 51,
+                        "itemId": "studentaddchildformfieldset",
+                        "padding": 5,
+                        "title": null
+                    },
+                    "name": "MyFieldSet8",
+                    "designerId": "dd330018-e096-4dff-b1c3-8198d1908a8c",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": null,
+                                "displayField": "name",
+                                "emptyText": "Select one.",
+                                "fieldLabel": "School Name",
+                                "forceSelection": true,
+                                "itemId": "studentaddchildform_schoolname",
+                                "layout|anchor": "100%",
+                                "name": "schoolname",
+                                "store": "subject.SchoolsStore",
+                                "valueField": "name"
+                            },
+                            "name": "MyComboBox6",
+                            "designerId": "8aa89021-f357-4b98-b361-05f9356a1a0e",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onStudentaddchildform_schoolnameBoxReady",
+                                        "implHandler": [
+                                            "component.focus(false, 200);"
+                                        ],
+                                        "name": "boxready",
+                                        "scope": "me"
+                                    },
+                                    "name": "onStudentaddchildform_schoolnameBoxReady",
+                                    "designerId": "b2c914ed-f524-4611-9054-9dce27d586f0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "studentaddchildcancel",
+                        "text": "Cancel"
+                    },
+                    "name": "MyButton44",
+                    "designerId": "9c1fad6b-d693-4fbc-9220-e502d4b86d60"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "studentaddchildsubmit",
+                        "text": "Submit"
+                    },
+                    "name": "MyButton45",
+                    "designerId": "a8a104a6-7126-488a-8d63-0a08e38403ff"
+                }
+            ]
+        }
+    ]
+}

@@ -79,6 +79,21 @@
             "masterInstanceId": "d05f130f-9740-43c5-b85b-8a8841b20d29"
         },
         {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "studentprofilesassociatetool",
+                "tooltip": "Add School To Student",
+                "type": "expand"
+            },
+            "name": "MyTool28",
+            "designerId": "821f92c8-5565-438a-92df-f7158bc17483"
+        },
+        {
             "type": "linkedinstance",
             "reference": {
                 "name": "tools",
