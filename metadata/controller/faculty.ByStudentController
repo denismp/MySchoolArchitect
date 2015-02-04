@@ -12,7 +12,8 @@
             "faculty.ByStudentModel"
         ],
         "stores": [
-            "faculty.ByStudentStore"
+            "faculty.ByStudentStore",
+            "security.SecurityStore"
         ]
     },
     "designerId": "f67c8368-e7ee-4d7c-949b-84a33169b9ad",

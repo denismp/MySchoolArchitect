@@ -153,6 +153,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "displayField": "name",
+                        "editable": false,
                         "itemId": "subjectgridschoolnamecombobox",
                         "name": "schoolname",
                         "store": "subject.SchoolsStore",

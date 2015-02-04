@@ -6,7 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "faculty.OnlyFacultyProfileViewController"
+        "designer|userClassName": "faculty.OnlyFacultyProfileViewController",
+        "stores": [
+            "security.SecurityStore"
+        ]
     },
     "designerId": "785abbaf-cc45-4547-bdb9-c49f92523e95",
     "cn": [

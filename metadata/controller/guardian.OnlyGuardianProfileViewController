@@ -9,7 +9,8 @@
         "designer|userClassName": "guardian.OnlyGuardianProfileViewController",
         "stores": [
             "guardian.GuardianTypeStore",
-            "guardian.GuardianProfileStore"
+            "guardian.GuardianProfileStore",
+            "security.SecurityStore"
         ]
     },
     "designerId": "14e7624a-76a0-421d-81ed-2c093e4fc262",
