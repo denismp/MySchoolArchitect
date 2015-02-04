@@ -98,7 +98,7 @@
             "userConfig": {
                 "itemId": "onlyguardiannewchildtool",
                 "shrinkWrap": null,
-                "tooltip": "Add_Child",
+                "tooltip": "Student2Guardian",
                 "tooltipType": null,
                 "type": "expand"
             },

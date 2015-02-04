@@ -9,7 +9,8 @@
         "designer|userClassName": "admin.AdminProfileController",
         "stores": [
             "admin.AdminProfileStore",
-            "admin.AdminStore"
+            "admin.AdminStore",
+            "admin.AdminPasswordStore"
         ]
     },
     "name": "guardian.OnlyGuardianProfileViewController1",

@@ -52,35 +52,6 @@
             "userConfig": {
                 "designer|controlQuery": "#guardianonlygridpanel",
                 "designer|targetType": "Ext.grid.Panel",
-                "fn": "onGuardianonlygridpanelSelectionChange",
-                "implHandler": [
-                    "debugger;",
-                    "console.log('onGuardianonlygridpanelSelectionChange()');",
-                    "// in the onMyJsonStoreLoad we do a deselect so we need to test",
-                    "// if selected[0] has a value",
-                    "var record = model.getLastSelected();",
-                    "if ( Ext.isDefined( selected  ) && Ext.isDefined( selected[0]  )) {",
-                    "    var myForm = this.getOnlyGuardianForm();",
-                    "",
-                    "    this.loadForm( myForm, record );",
-                    "}"
-                ],
-                "name": "selectionchange",
-                "scope": "me"
-            },
-            "name": "onGuardianonlygridpanelSelectionChange",
-            "designerId": "1f2d8090-cc04-402f-9203-c96d77360b18"
-        },
-        {
-            "type": "controlleraction",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "designer|controlQuery": "#guardianonlygridpanel",
-                "designer|targetType": "Ext.grid.Panel",
                 "fn": "onGuardianonlygridpanelViewReady",
                 "implHandler": [
                     "debugger;",
@@ -135,7 +106,9 @@
                     "\t\t\tstudentName: this.userName",
                     "\t\t}",
                     "\t});",
-                    "}"
+                    "}",
+                    "this.selectedIndex = 0;",
+                    "myGrid.getSelectionModel().select(0);"
                 ],
                 "name": "viewready",
                 "scope": "me"
@@ -158,7 +131,7 @@
                 "fn": "loadForm",
                 "implHandler": [
                     "debugger;",
-                    "",
+                    "console.log('guardian.OnlyGuardianProfileViewController.loadForm(): completed');",
                     "console.log( form );",
                     "",
                     "form.loadRecord( record );",
@@ -168,7 +141,7 @@
                     "{",
                     "    myFields.items[i].disable();",
                     "}",
-                    "console.log('guardian.OnlyGuardianProfileViewController.loadForm(): completed');"
+                    ""
                 ]
             },
             "name": "loadForm",
@@ -700,7 +673,7 @@
                     "if( this.userRole === 'ROLE_ADMIN' || this.userRole === 'ROLE_SCHOOL'){",
                     "\tvar newDialog = Ext.create( 'MySchool.view.guardian.AddChildDialog' );",
                     "",
-                    "\twindow.console.log( 'Add Child Dialog' );",
+                    "\twindow.console.log( 'Associate Student to Guardian Dialog' );",
                     "",
                     "\tnewDialog.render( Ext.getBody() );",
                     "\tnewDialog.show();",
@@ -721,6 +694,40 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|controlQuery": "#guardianonlygridpanel",
+                "designer|params": [
+                    "model",
+                    "selected",
+                    "eOpts"
+                ],
+                "designer|targetType": "guardian.ProfileGridGuardianOnlyPanel",
+                "fn": "onGuardianonlygridpanelSelectionChange",
+                "implHandler": [
+                    "debugger;",
+                    "console.log('onGuardianonlygridpanelSelectionChange()');",
+                    "// in the onMyJsonStoreLoad we do a deselect so we need to test",
+                    "// if selected[0] has a value",
+                    "var record = model.getLastSelected();",
+                    "if ( Ext.isDefined( selected  ) && Ext.isDefined( selected[0]  )) {",
+                    "    var myForm = this.getOnlyGuardianForm();",
+                    "",
+                    "    this.loadForm( myForm, record );",
+                    "}"
+                ],
+                "name": "selectionchange",
+                "scope": "me"
+            },
+            "name": "onGuardianonlygridpanelSelectionChange",
+            "designerId": "17dc55fa-ad4e-4214-a2f5-e879396da4a7"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "designer|controlQuery": "#guardianaddchildcancel",
                 "designer|params": [
                     "button, e, eOpts"
@@ -729,7 +736,7 @@
                 "fn": "onGuardianaddchildcancelClick",
                 "implHandler": [
                     "debugger;",
-                    "window.console.log( \"Cancel Add Child\" );",
+                    "window.console.log( \"Cancel Associate Student to Guadian\" );",
                     "var myForm = button.up().getForm();",
                     "myForm.reset();",
                     "button.up().hide();",
@@ -751,13 +758,15 @@
             "userConfig": {
                 "designer|controlQuery": "#guardianaddchildsubmit",
                 "designer|params": [
-                    "button, e, eOpts"
+                    "button",
+                    "e",
+                    "eOpts"
                 ],
                 "designer|targetType": "MyButton45",
                 "fn": "onGuardianaddchildsubmitClick",
                 "implHandler": [
                     "debugger;",
-                    "window.console.log( \"Submit Add Child\" );",
+                    "window.console.log( \"Submit Associate Student to Guardian\" );",
                     "var myForm\t\t\t\t\t= button.up().getForm();",
                     "var myPanel\t\t\t\t\t= button.up();",
                     "var myGrid\t\t\t\t\t= this.getOnlyGuardianGridPanel();",
@@ -766,8 +775,9 @@
                     "",
                     "var formValues\t\t\t\t= myForm.getValues();",
                     "",
-                    "//\tCreate an empty record",
-                    "var myRecord\t= myGrid.getSelectionModel().getSelection()[0];",
+                    "//\tGet an empty record",
+                    "//var myRecord\t= myGrid.getSelectionModel().getSelection()[0];",
+                    "var myRecord\t= myGrid.getSelectionModel().getLastSelected();",
                     "//var myRecord\t= Ext.create('MySchool.model.guardian.GuardianProfileModel');",
                     "",
                     "//\tGet the stores that we will need",
@@ -783,12 +793,12 @@
                     "myRecord.set( 'id', null );",
                     "",
                     "//add to the store.  For a normal update, only the sync() is called.",
-                    "//In this case we are expecting the create method on the backend to ",
+                    "//In this case we are expecting the create method on the backend to",
                     "//perform an update instead of a create.  This will allow updated from",
                     "//the grid to work as expected while allowing us to add a new student",
                     "//child to the existing guardian relation.  This will actually create",
                     "//another record in the guardian table with the new studentId.",
-                    "//The backend checks to see if the studentId in this records is ",
+                    "//The backend checks to see if the studentId in this records is",
                     "//different from the one with the specified studentUserName.  If so,",
                     "//then the new record will be created.",
                     "myStore.add( myRecord );",
@@ -798,14 +808,13 @@
                     "",
                     "myForm.reset();",
                     "button.up().hide();",
-                    "button.up().up().close();",
-                    ""
+                    "button.up().up().close();"
                 ],
                 "name": "click",
                 "scope": "me"
             },
             "name": "onGuardianaddchildsubmitClick",
-            "designerId": "cb9a9a13-9581-45c1-ab63-d5ffaefb602d"
+            "designerId": "1762fcb1-794b-48e1-a9c0-285a1fa50a66"
         }
     ]
 }

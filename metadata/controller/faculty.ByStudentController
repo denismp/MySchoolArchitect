@@ -1015,7 +1015,7 @@
                 "fn": "onFacultyaddchildsubmitClick",
                 "implHandler": [
                     "debugger;",
-                    "window.console.log( \"Submit Add Child\" );",
+                    "window.console.log( \"Submit Associate School to Student\" );",
                     "var myPanel\t\t\t\t\t= button.up();",
                     "var myForm\t\t\t\t\t= myPanel.getForm();",
                     "//var myForm\t\t\t\t\t= button.up().getForm();",
@@ -1184,7 +1184,7 @@
                     "this.selectedIndex = 0;",
                     "myModel.select(0, false, true);",
                     "var mySelected = myModel.getLastSelected();",
-                    "//myModel.fireEvent( 'selectionchange', this, mySelected );"
+                    "//myModel.fireEvent( 'selectionchange', this, mySelected );//May need to comment this out."
                 ]
             },
             "name": "onGridDataChanged",

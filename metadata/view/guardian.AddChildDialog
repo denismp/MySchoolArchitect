@@ -9,7 +9,7 @@
         "designer|userClassName": "guardian.AddChildDialog",
         "height": 151,
         "itemId": "guardianaddchilddialog",
-        "title": "Add Child",
+        "title": "Associate Student To Guardian",
         "width": 390
     },
     "name": "guardian.NewDialog1",
