@@ -348,7 +348,7 @@
                 "implHandler": [
                     "debugger;",
                     "",
-                    "if( this.roleUser === 'ROLE_SCHOOL' || this.roleUser === 'ROLE_ADMIN'){",
+                    "if( this.userRole === 'ROLE_SCHOOL' || this.userRole === 'ROLE_ADMIN'){",
                     "\tvar myForm = this.getOnlyGuardianForm();",
                     "\tvar myFields = myForm.getForm().getFields();",
                     "\tfor( var i = 0; i < myFields.length; i++ )",
@@ -451,7 +451,7 @@
                     "window.console.log( \"guardian.GuardianProfileStore.Save\" );",
                     "debugger;",
                     "",
-                    "if( this.roleUser === 'ROLE_SCHOOL' || this.roleUser === 'ROLE_ADMIN'){",
+                    "if( this.userRole === 'ROLE_SCHOOL' || this.userRole === 'ROLE_ADMIN'){",
                     "\tvar mystore = Ext.getStore(\"guardian.GuardianProfileStore\");",
                     "",
                     "\tvar records = mystore.getModifiedRecords();",
@@ -672,7 +672,7 @@
                 "implHandler": [
                     "debugger;",
                     "",
-                    "if( this.roleUser === 'ROLE_SCHOOL' || this.roleUser === 'ROLE_ADMIN'){",
+                    "if( this.userRole === 'ROLE_SCHOOL' || this.userRole === 'ROLE_ADMIN'){",
                     "\tvar guardianStore = Ext.getStore('guardian.GuardianProfileStore');",
                     "\tvar guardianTypesStore = Ext.getStore('guardian.GuardianTypeStore');",
                     "\tguardianTypesStore.myLoad();",
