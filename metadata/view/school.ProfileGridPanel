@@ -59,7 +59,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "studentId",
+                "dataIndex": "facultyId",
                 "format": "000000",
                 "hidden": true,
                 "text": "schoolId"
@@ -75,7 +75,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "studentId",
+                "dataIndex": "facultyId",
                 "format": "000000",
                 "hidden": true,
                 "text": "studentId"
