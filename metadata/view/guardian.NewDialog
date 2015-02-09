@@ -7,7 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "designer|userClassName": "guardian.NewDialog",
-        "height": 541,
+        "height": 597,
         "itemId": "guardiannewdialog",
         "title": "New Guardian",
         "width": 390
@@ -24,7 +24,7 @@
             "userConfig": {
                 "bodyPadding": 10,
                 "dock": "top",
-                "height": 503,
+                "height": 557,
                 "itemId": "gaurdiannewform",
                 "title": null,
                 "width": 390
@@ -41,7 +41,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "dock": "top",
-                        "height": 445,
+                        "height": 497,
                         "itemId": "guardiannewformfieldset",
                         "padding": 5,
                         "title": null
@@ -49,6 +49,25 @@
                     "name": "MyFieldSet8",
                     "designerId": "23c8de9e-f22b-4e35-b0f4-4812c030b491",
                     "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "displayField": "userName",
+                                "fieldLabel": "Student User Name",
+                                "itemId": "guardiannewform_studentname",
+                                "layout|anchor": "100%",
+                                "name": "studentusername",
+                                "store": "student.StudentStore",
+                                "valueField": "userName"
+                            },
+                            "name": "MyComboBox9",
+                            "designerId": "8a3a8627-bbe4-42e3-b0e8-374289efc997"
+                        },
                         {
                             "type": "Ext.form.field.Text",
                             "reference": {
