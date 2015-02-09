@@ -59,6 +59,22 @@
             },
             "codeClass": null,
             "userConfig": {
+                "dataIndex": "schoolId",
+                "format": "000000",
+                "hidden": true,
+                "text": "schoolId"
+            },
+            "name": "MyNumberColumn103",
+            "designerId": "2545abca-f3c4-4970-bb8e-fd5239b691ec"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "dataIndex": "facultyviewid",
                 "format": "000000",
                 "hidden": true,
@@ -80,6 +96,20 @@
             },
             "name": "MyColumn60",
             "designerId": "eaf476ae-bb3c-446c-80fe-dbafbc54615c"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "schoolName",
+                "text": "School Name"
+            },
+            "name": "MyColumn96",
+            "designerId": "65d9123a-6373-44e1-9cd4-7d57e207d001"
         },
         {
             "type": "Ext.grid.column.Column",

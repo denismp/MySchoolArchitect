@@ -498,6 +498,8 @@
                 "fn": "onRefreshmonthlysummariestoolClick",
                 "implHandler": [
                     "var myStore = Ext.getStore('monthly.SummaryRatingsStore');",
+                    "var myGrid = this.getMonthlyDetailsGridPanel();",
+                    "myGrid.removeAll();",
                     "myStore.reload();"
                 ],
                 "name": "click",

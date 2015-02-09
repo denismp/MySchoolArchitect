@@ -75,13 +75,29 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "facultyId",
+                "dataIndex": "studentId",
                 "format": "000000",
                 "hidden": true,
                 "text": "studentId"
             },
             "name": "MyNumberColumn104",
             "designerId": "0c9a07be-65d6-4d06-99e5-366ed6a9fc21"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "facultyId",
+                "format": "000000",
+                "hidden": true,
+                "text": "facultyId"
+            },
+            "name": "MyNumberColumn6",
+            "designerId": "d105aac8-9059-42ed-9806-d20040d53186"
         },
         {
             "type": "Ext.grid.column.Number",
@@ -160,6 +176,20 @@
             },
             "name": "MyColumn78",
             "designerId": "5da7f9d8-8800-4de1-9eef-bed25d0e0ec3"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "facultyUserName",
+                "text": "Faculty User Name"
+            },
+            "name": "MyColumn11",
+            "designerId": "f16613e3-c161-413f-a9c4-93800080f960"
         },
         {
             "type": "Ext.grid.column.Column",

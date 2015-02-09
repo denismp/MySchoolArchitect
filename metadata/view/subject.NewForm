@@ -235,7 +235,7 @@
                     "userConfig": {
                         "layout|anchor": "100%"
                     },
-                    "name": "subject.facultynamescombobox1",
+                    "name": "subject.facultynamescombobox",
                     "designerId": "8655334e-bb23-45e3-abed-ac081af4d5ad",
                     "masterInstanceId": "5dd35732-eed7-42fa-a4ef-42b8e310916a"
                 }

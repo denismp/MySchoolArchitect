@@ -275,10 +275,12 @@
                 "implHandler": [
                     "debugger;",
                     "var myStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "var myGrid = this.getOnlyGuardianGridPanel();",
+                    "myGrid.removeAll();",
                     "myStore.reload();",
                     "",
                     "if( false ){",
-                    "//debugger;\t",
+                    "//debugger;",
                     "console.log('onGuardianprofilerefreshtoolClick()');",
                     "var myStore = Ext.getStore('guardian.GuardianProfileStore');",
                     "",

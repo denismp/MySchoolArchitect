@@ -63,7 +63,7 @@
                                 "layout|anchor": "100%",
                                 "width": null
                             },
-                            "name": "subject.facultynamescombobox",
+                            "name": "subject.facultynamescombobox1",
                             "designerId": "22cd5a5e-1051-4da3-ba7c-957356f32161",
                             "masterInstanceId": "5dd35732-eed7-42fa-a4ef-42b8e310916a"
                         },

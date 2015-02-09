@@ -250,6 +250,8 @@
                 "fn": "onMonthlyevaluationrefreshtoolClick",
                 "implHandler": [
                     "var myStore = Ext.getStore('monthly.EvaluationRatingsStore');",
+                    "var myGrid = this.getMonthlyEvaluationGridPanel();",
+                    "myGrid.removeAll();",
                     "myStore.reload();"
                 ],
                 "name": "click",

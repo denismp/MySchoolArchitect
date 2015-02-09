@@ -131,6 +131,8 @@
                 "fn": "onDailyrefreshtoolClick",
                 "implHandler": [
                     "var myStore = Ext.getStore('daily.MyJsonStore');",
+                    "var myGrid = this.getDailyGridPanel();",
+                    "myGrid.removeAll();",
                     "myStore.reload();"
                 ],
                 "name": "click",

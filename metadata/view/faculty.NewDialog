@@ -7,7 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "designer|userClassName": "faculty.NewDialog",
-        "height": 548,
+        "height": 563,
         "itemId": "facultynewdialog",
         "title": "New Faculty",
         "width": 390
@@ -25,7 +25,7 @@
                 "bodyPadding": 10,
                 "dock": "top",
                 "frame": true,
-                "height": 508,
+                "height": 523,
                 "itemId": "facultynewform",
                 "title": null,
                 "width": 381
@@ -42,7 +42,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "dock": "top",
-                        "height": 445,
+                        "height": 472,
                         "itemId": "facultynewformfieldset",
                         "padding": 5,
                         "title": null
@@ -309,6 +309,24 @@
                             },
                             "name": "MyTextField130",
                             "designerId": "4d9d29d6-0480-4046-bfca-f3e101647d55"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "displayField": "name",
+                                "fieldLabel": "School",
+                                "layout|anchor": "100%",
+                                "name": "schoolName",
+                                "store": "subject.SchoolsStore",
+                                "valueField": "name"
+                            },
+                            "name": "MyComboBox8",
+                            "designerId": "8ecaa386-d492-4f4e-9a8e-63a75c2a39fa"
                         }
                     ]
                 },

@@ -377,6 +377,8 @@
                 "fn": "onWeeklyevaluationrefreshtoolClick",
                 "implHandler": [
                     "var myStore = Ext.getStore('weekly.EvaluationsRatingsStore');",
+                    "var myGrid = this.getWeeklyEvaluationsGridPanel();",
+                    "myGrid.removeAll();",
                     "myStore.reload();"
                 ],
                 "name": "click",

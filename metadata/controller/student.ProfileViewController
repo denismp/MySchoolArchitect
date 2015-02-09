@@ -527,6 +527,8 @@
                 "fn": "onStudentprofilerefreshtoolClick",
                 "implHandler": [
                     "var myStore = Ext.getStore('student.StudentProfileStore');",
+                    "var myGrid = this.getStudentProfileGridPanel();",
+                    "myGrid.removeAll();",
                     "myStore.reload();"
                 ],
                 "name": "click",
@@ -743,6 +745,7 @@
                     "",
                     "var myStore\t\t= this.getStore( 'student.StudentProfileStore' );",
                     "var facultyStore= this.getStore('faculty.FacultyTableStore');",
+                    "var schoolStore = this.getStore('subject.SchoolStore');",
                     "var facultyComboBox = myPanel.down('#facultynamescombobox');",
                     "",
                     "//var selectedIndex = myGrid.getSelectionModel().getSelection()[0].index;",
@@ -751,7 +754,7 @@
                     "",
                     "var facultyId;",
                     "",
-                    "if( this.userRole === 'ROLE_FACULTY' )",
+                    "if( this.userRole === 'ROLE_FACULTY'  || this.userRole === 'ROLE_SCHOOL' || this.userRole === 'ROLE_ADMIN')",
                     "{",
                     "\tvar facultyRecord = facultyStore.findRecord( 'userName', this.userName );",
                     "\tif( facultyRecord !== null )",

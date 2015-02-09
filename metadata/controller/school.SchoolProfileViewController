@@ -302,6 +302,8 @@
                 "implHandler": [
                     "debugger;",
                     "var myStore = Ext.getStore('school.SchoolProfileStore');",
+                    "var myGrid = this.getSchoolGridPanel();",
+                    "myGrid.removeAll();",
                     "myStore.reload();",
                     ""
                 ],

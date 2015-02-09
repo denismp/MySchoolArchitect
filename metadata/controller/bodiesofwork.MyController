@@ -254,6 +254,8 @@
                     "//debugger;",
                     "window.console.log( 'Refresh' );",
                     "var mystore = Ext.getStore(\"bodiesofwork.MyJsonStore\");",
+                    "var myGrid = this.getBodiesOfWorkGridPanel();",
+                    "myGrid.removeAll();",
                     "mystore.reload();",
                     ""
                 ],
@@ -911,6 +913,20 @@
             },
             "name": "buttonHandler",
             "designerId": "7bef8609-2016-4903-8cdc-dbc9ce8afd43"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "BodiesOfWorkGridPanel",
+                "selector": "#bodiesofworkssubjectsgrid"
+            },
+            "name": "BodiesOfWorkGridPanel",
+            "designerId": "726612e6-2a36-4d94-8f14-1f28e7de7ffe"
         }
     ]
 }

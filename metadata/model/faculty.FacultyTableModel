@@ -60,6 +60,20 @@
             },
             "codeClass": null,
             "userConfig": {
+                "name": "schoolId",
+                "type": "int"
+            },
+            "name": "MyField430",
+            "designerId": "8d78d7c2-f2c6-405d-a92d-3b136f692272"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "email",
                 "type": "string"
             },
@@ -291,6 +305,20 @@
             },
             "name": "MyField255",
             "designerId": "c546b582-b8f6-4d1f-835f-6becff73ba55"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "schoolName",
+                "type": "string"
+            },
+            "name": "MyField429",
+            "designerId": "f9ec5d07-f57d-48e0-ac27-cbbe33ba59cd"
         },
         {
             "type": "Ext.data.Field",

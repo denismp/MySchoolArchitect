@@ -274,6 +274,8 @@
                 "fn": "onWeeklyskillrefreshtoolClick",
                 "implHandler": [
                     "var myStore = Ext.getStore('weekly.SkillRatingsStore');",
+                    "var myGrid = this.getWeeklySkillsGridPanel();",
+                    "myGrid.removeAll();",
                     "myStore.reload();"
                 ],
                 "name": "click",
