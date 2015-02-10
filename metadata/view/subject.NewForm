@@ -79,6 +79,7 @@
                     "userConfig": {
                         "editable": false,
                         "emptyText": null,
+                        "forceSelection": true,
                         "layout|anchor": "100%"
                     },
                     "name": "subject.schoolnamecombobox",
@@ -172,6 +173,7 @@
                         "displayField": "userName",
                         "emptyText": "Select one.",
                         "fieldLabel": "Student User Name",
+                        "forceSelection": true,
                         "itemId": "newsubjectform-studentName",
                         "layout|anchor": "100%",
                         "name": "studentName",

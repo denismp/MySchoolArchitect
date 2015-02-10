@@ -34,7 +34,7 @@
             "designerId": "c4d71b27-0cee-452f-9491-2d5270b5fbb4",
             "cn": [
                 {
-                    "type": "Ext.form.field.Text",
+                    "type": "Ext.form.field.ComboBox",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -42,13 +42,17 @@
                     "codeClass": null,
                     "userConfig": {
                         "allowBlank": false,
+                        "displayField": "userName",
                         "fieldLabel": "Student User Name",
+                        "forceSelection": true,
                         "itemId": "skills-studentname",
                         "layout|anchor": "100%",
                         "name": "studentUserName",
-                        "readOnly": true
+                        "readOnly": true,
+                        "store": "student.StudentStore",
+                        "valueField": "userName"
                     },
-                    "name": "MyTextField82",
+                    "name": "MyComboBox12",
                     "designerId": "36b56f5b-c4a2-41eb-b398-27bcce130557"
                 },
                 {

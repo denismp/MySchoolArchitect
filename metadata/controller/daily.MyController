@@ -214,7 +214,7 @@
                     "\t{",
                     "\t\t// The faculty or admin is going to have to enter it.",
                     "\t\tstudentId = 0;",
-                    "\t\tstudentName = \"Enter student user name\";",
+                    "\t\tstudentName = \"Select one.\";",
                     "\t}",
                     "}",
                     "",

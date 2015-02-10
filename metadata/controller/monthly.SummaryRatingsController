@@ -642,7 +642,7 @@
                     "\telse",
                     "\t{",
                     "\t\tstudentId = 0;",
-                    "\t\tstudentName = 'Enter student user name';",
+                    "\t\tstudentName = 'Select one.';",
                     "\t}",
                     "}",
                     "",

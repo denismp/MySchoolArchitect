@@ -59,6 +59,7 @@
                             "userConfig": {
                                 "displayField": "userName",
                                 "fieldLabel": "Student User Name",
+                                "forceSelection": true,
                                 "itemId": "guardiannewform_studentname",
                                 "layout|anchor": "100%",
                                 "name": "studentusername",

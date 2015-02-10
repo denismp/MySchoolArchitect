@@ -36,20 +36,25 @@
             "designerId": "d72f40c5-b549-4387-b3a2-5796eb92312c",
             "cn": [
                 {
-                    "type": "Ext.form.field.Text",
+                    "type": "Ext.form.field.ComboBox",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "displayField": "userName",
+                        "emptyText": "Select one.",
                         "fieldLabel": "Student User Name",
+                        "forceSelection": true,
                         "itemId": "newbodiesofworkform-studentName",
                         "layout|anchor": "100%",
                         "name": "studentUserName",
-                        "readOnly": true
+                        "readOnly": true,
+                        "store": "student.StudentStore",
+                        "valueField": "userName"
                     },
-                    "name": "MyTextField77",
+                    "name": "MyComboBox11",
                     "designerId": "0a08b136-b87f-4a53-930a-3aa2d8b9f9b2"
                 },
                 {

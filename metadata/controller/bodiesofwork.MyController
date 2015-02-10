@@ -344,7 +344,7 @@
                     "\t}",
                     "\telse",
                     "\t{",
-                    "\t\tstudentName_.setValue( \"Enter user name\" );",
+                    "\t\tstudentName_.setValue( \"Select one.\" );",
                     "\t}",
                     "}",
                     "if( this.userRole !== 'ROLE_USER')",

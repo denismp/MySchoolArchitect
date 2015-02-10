@@ -34,20 +34,24 @@
             "designerId": "942703ff-2aaa-42ce-b984-de890ffd403f",
             "cn": [
                 {
-                    "type": "Ext.form.field.Text",
+                    "type": "Ext.form.field.ComboBox",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "displayField": "userName",
                         "fieldLabel": "studentname",
+                        "forceSelection": true,
                         "itemId": "daily-studentname",
                         "layout|anchor": "100%",
                         "name": "studentUserName",
-                        "readOnly": true
+                        "readOnly": true,
+                        "store": "student.StudentStore",
+                        "valueField": "userName"
                     },
-                    "name": "MyTextField81",
+                    "name": "MyComboBox10",
                     "designerId": "67ba8c12-9395-4794-aedf-7c13baedb3cf"
                 },
                 {

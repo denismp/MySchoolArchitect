@@ -45,6 +45,7 @@
             "userConfig": {
                 "dataIndex": "subjId",
                 "format": "000000",
+                "hidden": true,
                 "text": "subjId"
             },
             "name": "MyNumberColumn1",
