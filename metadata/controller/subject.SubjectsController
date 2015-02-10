@@ -357,7 +357,7 @@
                     "",
                     "if( this.userRole !== 'ROLE_USER')",
                     "{",
-                    "\tstudentName_.setValue('Enter student user name');",
+                    "\t//studentName_.setValue('Enter student user name');",
                     "\tstudentName_.setReadOnly( false );",
                     "}",
                     "else",

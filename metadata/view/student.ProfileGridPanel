@@ -138,11 +138,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "middleName",
-                "text": "Middle Name"
+                "dataIndex": "firstName",
+                "text": "First Name"
             },
-            "name": "MyColumn53",
-            "designerId": "f5b5d633-7395-4860-8589-b664082d8a80"
+            "name": "MyColumn54",
+            "designerId": "64458316-f4b3-43c3-b882-c90a0109071d"
         },
         {
             "type": "Ext.grid.column.Column",
@@ -152,11 +152,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "firstName",
-                "text": "First Name"
+                "dataIndex": "middleName",
+                "text": "Middle Name"
             },
-            "name": "MyColumn54",
-            "designerId": "64458316-f4b3-43c3-b882-c90a0109071d"
+            "name": "MyColumn53",
+            "designerId": "f5b5d633-7395-4860-8589-b664082d8a80"
         },
         {
             "type": "Ext.grid.column.Column",

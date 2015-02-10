@@ -162,20 +162,24 @@
                     "designerId": "641907c1-bb99-4846-ac8a-d0572c385f49"
                 },
                 {
-                    "type": "Ext.form.field.Text",
+                    "type": "Ext.form.field.ComboBox",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "displayField": "userName",
+                        "emptyText": "Select one.",
                         "fieldLabel": "Student User Name",
                         "itemId": "newsubjectform-studentName",
                         "layout|anchor": "100%",
                         "name": "studentName",
-                        "readOnly": true
+                        "readOnly": true,
+                        "store": "student.StudentStore",
+                        "valueField": "userName"
                     },
-                    "name": "MyTextField75",
+                    "name": "MyComboBox7",
                     "designerId": "97a324d2-ef67-4d1e-9301-0cc44c9c486d"
                 },
                 {
