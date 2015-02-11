@@ -251,8 +251,9 @@
                 "implHandler": [
                     "var myStore = Ext.getStore('monthly.EvaluationRatingsStore');",
                     "var myGrid = this.getMonthlyEvaluationGridPanel();",
-                    "myGrid.removeAll();",
-                    "myStore.reload();"
+                    "//myGrid.removeAll();",
+                    "//myStore.reload();",
+                    "this.onMonthlyevaluationgridpanelViewReady( myGrid, null );"
                 ],
                 "name": "click",
                 "scope": "me"

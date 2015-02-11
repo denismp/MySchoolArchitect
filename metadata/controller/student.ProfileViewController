@@ -529,8 +529,9 @@
                 "implHandler": [
                     "var myStore = Ext.getStore('student.StudentProfileStore');",
                     "var myGrid = this.getStudentProfileGridPanel();",
-                    "myGrid.removeAll();",
-                    "myStore.reload();"
+                    "//myGrid.removeAll();",
+                    "//myStore.reload();",
+                    "this.onStudentprofilegridpanelViewReady( myGrid, null );"
                 ],
                 "name": "click",
                 "scope": "me"
