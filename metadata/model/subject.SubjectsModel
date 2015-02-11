@@ -111,6 +111,21 @@
             },
             "codeClass": null,
             "userConfig": {
+                "name": "subjSimpleName",
+                "sortType": "asText",
+                "type": "string"
+            },
+            "name": "MyField433",
+            "designerId": "8da961e6-79d0-42ed-9834-41b3f4c67543"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "studentName",
                 "type": "string"
             },

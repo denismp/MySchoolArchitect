@@ -14,7 +14,8 @@
         "stores": [
             "student.StudentStore",
             "faculty.FacultyTableStore",
-            "student.StudentProfileStore"
+            "student.StudentProfileStore",
+            "subject.SchoolsStore"
         ]
     },
     "designerId": "b3a562d1-cfa6-410d-8886-ed080063e2c4",
@@ -745,7 +746,7 @@
                     "",
                     "var myStore\t\t= this.getStore( 'student.StudentProfileStore' );",
                     "var facultyStore= this.getStore('faculty.FacultyTableStore');",
-                    "var schoolStore = this.getStore('subject.SchoolStore');",
+                    "var schoolStore = this.getStore('subject.SchoolsStore');",
                     "var facultyComboBox = myPanel.down('#facultynamescombobox');",
                     "",
                     "//var selectedIndex = myGrid.getSelectionModel().getSelection()[0].index;",
@@ -754,7 +755,7 @@
                     "",
                     "var facultyId;",
                     "",
-                    "if( this.userRole === 'ROLE_FACULTY'  || this.userRole === 'ROLE_SCHOOL' || this.userRole === 'ROLE_ADMIN')",
+                    "if( this.userRole === 'ROLE_FACULTY' )",
                     "{",
                     "\tvar facultyRecord = facultyStore.findRecord( 'userName', this.userName );",
                     "\tif( facultyRecord !== null )",

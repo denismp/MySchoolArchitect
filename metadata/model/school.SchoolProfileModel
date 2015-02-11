@@ -426,6 +426,20 @@
             },
             "codeClass": null,
             "userConfig": {
+                "name": "subjectSimpleName",
+                "type": "string"
+            },
+            "name": "MyField434",
+            "designerId": "2a8776ff-bbf8-4b6c-80e9-8eab01bfb650"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "enabled",
                 "type": "boolean"
             },

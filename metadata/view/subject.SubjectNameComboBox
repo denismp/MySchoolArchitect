@@ -8,7 +8,7 @@
     "userConfig": {
         "designer|userAlias": "subjectnamecombobox",
         "designer|userClassName": "subject.SubjectNameComboBox",
-        "displayField": "subjName",
+        "displayField": "subjSimpleName",
         "emptyText": "Select one.",
         "fieldLabel": "Subject Name",
         "forceSelection": true,

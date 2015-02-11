@@ -49,7 +49,7 @@
                         "hidden": true,
                         "itemId": "newsubjectform-subjName",
                         "layout|anchor": "100%",
-                        "name": "subjName"
+                        "name": "subjSimpleName"
                     },
                     "name": "MyTextField76",
                     "designerId": "43b3cd48-e7c5-42e5-9f41-3091ed5aca77"

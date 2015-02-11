@@ -121,13 +121,30 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "subjName",
+                "dataIndex": "subjSimpleName",
                 "flex": null,
                 "text": "Subject Name",
                 "width": null
             },
             "name": "MyColumn2",
             "designerId": "3d8e707c-25ca-4a62-87ae-86e43a3aeda0"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "subjName",
+                "flex": null,
+                "hidden": true,
+                "text": "Real Subject Name",
+                "width": null
+            },
+            "name": "MyColumn97",
+            "designerId": "3b73f19d-a3e3-4d0e-ac6b-e279ae0e739f"
         },
         {
             "type": "Ext.grid.column.Column",
