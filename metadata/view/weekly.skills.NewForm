@@ -342,7 +342,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "skillscancel",
-                "text": "Canel"
+                "text": "Cancel"
             },
             "name": "MyButton34",
             "designerId": "86d3e554-ef98-405c-ba23-2af952fc865e"

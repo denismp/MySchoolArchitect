@@ -42,7 +42,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "displayField": "userName",
-                        "fieldLabel": "studentname",
+                        "fieldLabel": "Student User Name",
                         "forceSelection": true,
                         "itemId": "evaluation-studentname",
                         "layout|anchor": "100%",
@@ -378,7 +378,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "evaluationcancel",
-                "text": "Canel"
+                "text": "Cancel"
             },
             "name": "MyButton36",
             "designerId": "f95e1815-2d78-4f85-a21d-6b6cbd11ade1"

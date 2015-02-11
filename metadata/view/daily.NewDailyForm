@@ -42,7 +42,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "displayField": "userName",
-                        "fieldLabel": "studentname",
+                        "fieldLabel": "Student User Name",
                         "forceSelection": true,
                         "itemId": "daily-studentname",
                         "layout|anchor": "100%",
@@ -321,7 +321,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "dailycancel",
-                "text": "Canel"
+                "text": "Cancel"
             },
             "name": "MyButton32",
             "designerId": "ac7c1862-b012-4c63-82e2-089f18a3caac"
