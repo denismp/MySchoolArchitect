@@ -595,7 +595,7 @@
                 "fn": "onSchoolprofileformeditbuttonClick",
                 "implHandler": [
                     "debugger;",
-                    "if( this.roleUser === 'ROLE_SCHOOL' || this.roleUser === 'ROLE_ADMIN'){",
+                    "if( this.userRole === 'ROLE_SCHOOL' || this.userRole === 'ROLE_ADMIN'){",
                     "\tvar myForm = this.getSchoolProfileForm();",
                     "\tvar myFields = myForm.getForm().getFields();",
                     "\tfor( var i = 0; i < myFields.length; i++ )",
