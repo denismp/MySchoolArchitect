@@ -85,7 +85,7 @@
                         "itemId": "newbodiesofworkform-quarter",
                         "layout|anchor": "100%"
                     },
-                    "name": "common.quartersubjectcombobox",
+                    "name": "common.quartersubjectcombobox1",
                     "designerId": "3c793355-3ebc-4ed2-8fc9-af21fd7f81cf",
                     "masterInstanceId": "41872b83-972c-4338-a84b-63ceea0340bc",
                     "cn": [
