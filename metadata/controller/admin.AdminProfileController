@@ -312,7 +312,7 @@
                     "//var guardianStore = Ext.getStore('admin.AdminProfileStore');",
                     "",
                     "",
-                    "if( this.userRole === 'ROLE_ADMIN' || this.userRole === 'ROLE_SCHOOL'){",
+                    "if( this.userRole === 'ROLE_ADMIN'){",
                     "\tvar newDialog = Ext.create( 'MySchool.view.admin.NewDialog' );",
                     "",
                     "\twindow.console.log( 'New Admin Dialog' );",
