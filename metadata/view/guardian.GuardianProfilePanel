@@ -98,8 +98,8 @@
             "userConfig": {
                 "itemId": "onlyguardiannewchildtool",
                 "shrinkWrap": null,
-                "tooltip": "Student2Guardian",
-                "tooltipType": null,
+                "tooltip": "Associate Student To Guardian",
+                "tooltipType": "title",
                 "type": "expand"
             },
             "name": "MyTool26",
@@ -146,6 +146,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyguardianlocktool",
+                "tooltip": "Lock",
                 "type": "pin"
             },
             "name": "MyTool12",

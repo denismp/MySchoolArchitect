@@ -87,7 +87,8 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "studentprofilesassociatetool",
-                "tooltip": "School2Student",
+                "tooltip": "Associate School To Student",
+                "tooltipType": "title",
                 "type": "expand"
             },
             "name": "MyTool28",

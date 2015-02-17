@@ -51,6 +51,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyfacultyrefreshtool",
+                "tooltip": "Refresh",
                 "type": "refresh"
             },
             "name": "MyTool",
@@ -66,6 +67,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyfacultysearchtool",
+                "tooltip": "Search",
                 "type": "search"
             },
             "name": "MyTool1",
@@ -97,6 +99,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyfacultynewtool",
+                "tooltip": "New",
                 "type": "plus"
             },
             "name": "MyTool2",
@@ -111,6 +114,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyfacultysavetool",
+                "tooltip": "Save",
                 "type": "save"
             },
             "name": "MyTool3",
@@ -143,6 +147,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyfacultydeletetool",
+                "tooltip": "Delete",
                 "type": "minus"
             },
             "name": "MyTool4",
@@ -175,6 +180,7 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "onlyfacultylocktool",
+                "tooltip": "Lock",
                 "type": "pin"
             },
             "name": "MyTool5",
@@ -206,6 +212,7 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "onlyfacultylpasswordtool",
+                "tooltip": "Password",
                 "type": "gear"
             },
             "name": "MyTool6",

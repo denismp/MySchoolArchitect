@@ -91,7 +91,8 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "facultyprofileassociatetool",
-                "tooltip": "Student2Faculty",
+                "tooltip": "Associate Student To Faculty",
+                "tooltipType": "title",
                 "type": "expand"
             },
             "name": "MyTool27",
