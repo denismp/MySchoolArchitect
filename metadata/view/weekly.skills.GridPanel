@@ -28,7 +28,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "subjName",
-                "text": "Subject Name"
+                "text": "Subject Name",
+                "tooltip": "Subject Name",
+                "tooltipType": "title"
             },
             "name": "MyColumn23",
             "designerId": "ef06654c-e165-4c5b-8f85-930bbf5a71f5"
@@ -42,7 +44,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrName",
-                "text": "Term"
+                "text": "Term",
+                "tooltip": "Quarter/Semester or Summer Session",
+                "tooltipType": "title"
             },
             "name": "MyColumn24",
             "designerId": "47987272-872c-494f-9a43-ab982029f57a"
@@ -57,7 +61,9 @@
             "userConfig": {
                 "dataIndex": "qtrYear",
                 "format": "0000",
-                "text": "Year"
+                "text": "Year",
+                "tooltip": "Year",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn20",
             "designerId": "d9049387-8fc9-4925-aff7-9ecca84fb034"
@@ -72,7 +78,9 @@
             "userConfig": {
                 "dataIndex": "week_month",
                 "format": "00",
-                "text": "Month"
+                "text": "Month",
+                "tooltip": "Month",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn21",
             "designerId": "2595fecb-990f-40bf-bc51-63d1b4a57e11"
@@ -87,7 +95,9 @@
             "userConfig": {
                 "dataIndex": "week_number",
                 "format": "0",
-                "text": "Week"
+                "text": "Week",
+                "tooltip": "Week",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn22",
             "designerId": "e03f264a-0ea6-408b-bcd6-3b4e893f9a38"
@@ -117,7 +127,9 @@
             "userConfig": {
                 "dataIndex": "remembering",
                 "format": "00",
-                "text": "Remembering"
+                "text": "Remembering",
+                "tooltip": "Remembering Skills",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn23",
             "designerId": "fb119870-38c1-44cd-b143-92b5a567add1",
@@ -148,7 +160,9 @@
             "userConfig": {
                 "dataIndex": "understanding",
                 "format": "00",
-                "text": "Understanding"
+                "text": "Understanding",
+                "tooltip": "Understanding Skills",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn24",
             "designerId": "2023aa69-7e56-440b-bf48-016bbe79adcd",
@@ -179,7 +193,9 @@
             "userConfig": {
                 "dataIndex": "applying",
                 "format": "00",
-                "text": "Applying"
+                "text": "Applying",
+                "tooltip": "Applying Skills",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn25",
             "designerId": "2b356f23-d48a-46d4-95bf-bcb2bae775ef",
@@ -210,7 +226,9 @@
             "userConfig": {
                 "dataIndex": "analyzing",
                 "format": "00",
-                "text": "Analyzing"
+                "text": "Analyzing",
+                "tooltip": "Analyzing Skills",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn26",
             "designerId": "204716bc-63c5-40c2-9663-7e1dda6b5127",
@@ -241,7 +259,9 @@
             "userConfig": {
                 "dataIndex": "evaluating",
                 "format": "00",
-                "text": "Evaluating"
+                "text": "Evaluating",
+                "tooltip": "Evaluating Skills",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn27",
             "designerId": "9bf870a0-b620-46bc-bae6-8cbe388dead3",
@@ -272,7 +292,9 @@
             "userConfig": {
                 "dataIndex": "creating",
                 "format": "00",
-                "text": "Creating"
+                "text": "Creating",
+                "tooltip": "Creativity Skills",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn28",
             "designerId": "ecc03121-e2cf-4383-8915-ae2e004ee4ed",
@@ -425,7 +447,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "text": "Student User Name"
+                "text": "Student User Name",
+                "tooltip": "Student User Name",
+                "tooltipType": "title"
             },
             "name": "MyColumn25",
             "designerId": "46d25752-e6c2-4020-b2c8-a8550ef7dcf6"
@@ -439,7 +463,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyUserName",
-                "text": "Faculty User Name"
+                "text": "Faculty User Name",
+                "tooltip": "Faculty User Name",
+                "tooltipType": "title"
             },
             "name": "MyColumn26",
             "designerId": "ae2823f9-4f25-4216-8244-1f992ea3bf9e"
@@ -455,7 +481,9 @@
                 "dataIndex": "lastUpdated",
                 "format": "m/d/Y",
                 "hidden": true,
-                "text": "Last Updated"
+                "text": "Last Updated",
+                "tooltip": "Last Updated",
+                "tooltipType": "title"
             },
             "name": "MyDateColumn3",
             "designerId": "b5b58f17-48bf-413c-9876-03d483d62a1d"
@@ -469,7 +497,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "whoUpdated",
-                "text": "Who Updated"
+                "text": "Who Updated",
+                "tooltip": "Who Updated",
+                "tooltipType": "title"
             },
             "name": "MyColumn27",
             "designerId": "365d3e7d-b4dd-4179-95d1-c0dcbeeaf1c0"

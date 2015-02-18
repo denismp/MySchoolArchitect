@@ -29,6 +29,8 @@
             "userConfig": {
                 "dataIndex": "subjName",
                 "text": "Subject Name",
+                "tooltip": "Subject Name",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyColumn28",
@@ -45,6 +47,8 @@
                 "dataIndex": "qtrYear",
                 "format": "0000",
                 "text": "Year",
+                "tooltip": "Year",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn35",
@@ -61,6 +65,8 @@
                 "dataIndex": "week_month",
                 "format": "00",
                 "text": "Month",
+                "tooltip": "Month",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn36",
@@ -77,6 +83,8 @@
                 "dataIndex": "week_number",
                 "format": "0",
                 "text": "Week",
+                "tooltip": "Week",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn37",
@@ -93,6 +101,8 @@
                 "dataIndex": "motivation",
                 "format": "00",
                 "text": "Motivation",
+                "tooltip": "Motivation",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn38",
@@ -125,6 +135,8 @@
                 "dataIndex": "organization",
                 "format": "00",
                 "text": "Organization",
+                "tooltip": "Organization",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn39",
@@ -157,6 +169,8 @@
                 "dataIndex": "effectiveUseOfStudyTime",
                 "format": "00",
                 "text": "Effective Use Of Time",
+                "tooltip": "Effective Use Of Time",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn40",
@@ -188,7 +202,9 @@
             "userConfig": {
                 "dataIndex": "qualityOfWork",
                 "format": "00",
-                "text": "Quality Of Work"
+                "text": "Quality Of Work",
+                "tooltip": "Quality Of Work",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn41",
             "designerId": "0f0fd767-9b96-4303-9d7f-814b621d48a4",
@@ -219,7 +235,9 @@
             "userConfig": {
                 "dataIndex": "accuracyOfWork",
                 "format": "00",
-                "text": "Accuracy Of Work"
+                "text": "Accuracy Of Work",
+                "tooltip": "Accuracy Of Work",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn42",
             "designerId": "a6f00808-fd44-49aa-8559-7a3a1a4a85b5",
@@ -251,6 +269,8 @@
                 "dataIndex": "complexityOfWork",
                 "format": "00",
                 "text": "Complexity Of Work",
+                "tooltip": "Complexity Of Work",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn43",
@@ -282,7 +302,9 @@
             "userConfig": {
                 "dataIndex": "growth",
                 "format": "00",
-                "text": "Growth"
+                "text": "Growth",
+                "tooltip": "Growth",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn44",
             "designerId": "7da92559-d36f-409b-bb0b-62f7fadd8788",
@@ -313,7 +335,9 @@
             "userConfig": {
                 "dataIndex": "consistency",
                 "format": "00",
-                "text": "Consistency"
+                "text": "Consistency",
+                "tooltip": "Consistency",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn45",
             "designerId": "0bacbe8f-1592-45f3-b7fe-4c81767ed033",
@@ -477,7 +501,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "text": "Student User Name"
+                "text": "Student User Name",
+                "tooltip": "Student User Name",
+                "tooltipType": "title"
             },
             "name": "MyColumn29",
             "designerId": "9a0fd64c-34ff-4108-b741-c679af2b9048"
@@ -491,7 +517,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyUserName",
-                "text": "Faculty User Name"
+                "text": "Faculty User Name",
+                "tooltip": "Faculty User Name",
+                "tooltipType": "title"
             },
             "name": "MyColumn30",
             "designerId": "3b48e174-ea7d-4ad5-8e9e-c507bccdcb91"
@@ -507,7 +535,9 @@
                 "dataIndex": "lastUpdated",
                 "format": "m/d/Y",
                 "hidden": true,
-                "text": "Last Updated"
+                "text": "Last Updated",
+                "tooltip": "Last Updated Date",
+                "tooltipType": "title"
             },
             "name": "MyDateColumn4",
             "designerId": "25c90bec-ef4d-4a54-a486-c473c382e3a6"
@@ -521,7 +551,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "whoUpdated",
-                "text": "Who Updated"
+                "text": "Who Updated",
+                "tooltip": "Who Performed Last Update",
+                "tooltipType": "title"
             },
             "name": "MyColumn31",
             "designerId": "1868c76a-4dea-409d-89df-c30658b7fe8c"

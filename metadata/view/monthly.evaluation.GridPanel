@@ -27,7 +27,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "subjName",
-                "text": "Subj Name"
+                "text": "Subj Name",
+                "tooltip": "Subject Name",
+                "tooltipType": "title"
             },
             "name": "MyColumn40",
             "designerId": "15b1b83f-9c29-4158-be4a-b9be487ab456"
@@ -41,7 +43,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "qtrName",
-                "text": "Term"
+                "text": "Term",
+                "tooltip": "Quarter/Semester or Summer Session",
+                "tooltipType": "title"
             },
             "name": "MyColumn41",
             "designerId": "5286260c-85e2-48aa-8229-a9acb2f1ecea"
@@ -56,7 +60,9 @@
             "userConfig": {
                 "dataIndex": "qtrYear",
                 "format": "0000",
-                "text": "Year"
+                "text": "Year",
+                "tooltip": "Year",
+                "tooltipType": "title"
             },
             "name": "MyNumberColumn56",
             "designerId": "47a53b78-0431-4fd9-b054-39402a08b763"
@@ -72,6 +78,8 @@
                 "dataIndex": "month_number",
                 "format": "00",
                 "text": "Month",
+                "tooltip": "Month",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn57",
@@ -103,6 +111,8 @@
                 "defaultWidth": null,
                 "format": "00",
                 "text": "LevelOfDifficulty",
+                "tooltip": "Level Of Difficulty for Subject",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn58",
@@ -135,6 +145,8 @@
                 "dataIndex": "criticalThinkingSkills",
                 "format": "00",
                 "text": "CriticalThinking",
+                "tooltip": "Level of Critical Thinking",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn59",
@@ -167,6 +179,8 @@
                 "dataIndex": "effectiveCorrectionActions",
                 "format": "00",
                 "text": "CorrectiveActions",
+                "tooltip": "Application of Corrective Actions",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn60",
@@ -199,6 +213,8 @@
                 "dataIndex": "accuratelyIdCorrections",
                 "format": "00",
                 "text": "AccuratelyIDsCorrections",
+                "tooltip": "How accurately are corrections identified.",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn61",
@@ -231,6 +247,8 @@
                 "dataIndex": "completingCourseObjectives",
                 "format": "00",
                 "text": "CompletesCourseObjectives",
+                "tooltip": "Completeness of course objectives",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn62",
@@ -263,6 +281,8 @@
                 "dataIndex": "thoughtfulnessOfReflections",
                 "format": "00",
                 "text": "ThoughtfulnessOfReflections",
+                "tooltip": "How thoughful are reflections",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn63",
@@ -295,6 +315,8 @@
                 "dataIndex": "responsibilityOfProgress",
                 "format": "00",
                 "text": "ResponsibilityOfProgress",
+                "tooltip": "How responsible is student of progress.",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn64",
@@ -327,6 +349,8 @@
                 "dataIndex": "workingEffectivelyWithAdvisor",
                 "format": "00",
                 "text": "WorksEffWithAdvisor",
+                "tooltip": "How well does student work with advisor.",
+                "tooltipType": "title",
                 "width": null
             },
             "name": "MyNumberColumn65",
@@ -385,7 +409,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "studentUserName",
-                "text": "Student User Name"
+                "text": "Student User Name",
+                "tooltip": "Student User Name",
+                "tooltipType": "title"
             },
             "name": "MyColumn42",
             "designerId": "01627cb0-caf6-4b98-8be7-b231eb21f659"
@@ -399,7 +425,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "facultyUserName",
-                "text": "Faculty User Name"
+                "text": "Faculty User Name",
+                "tooltip": "Faculty User Name",
+                "tooltipType": "title"
             },
             "name": "MyColumn43",
             "designerId": "6a01ddca-7cbd-4431-aca3-2fb1ecdc3a2e"
@@ -413,7 +441,9 @@
             "codeClass": null,
             "userConfig": {
                 "dataIndex": "whoUpdated",
-                "text": "Who Updated"
+                "text": "Who Updated",
+                "tooltip": "Who last updated.",
+                "tooltipType": "title"
             },
             "name": "MyColumn44",
             "designerId": "dcc8f8fa-3184-4ded-978a-7188fad593b4"
@@ -429,7 +459,9 @@
                 "dataIndex": "lastUpdated",
                 "format": "m/d/Y",
                 "hidden": true,
-                "text": "Last Updated"
+                "text": "Last Updated",
+                "tooltip": "Last Update",
+                "tooltipType": "title"
             },
             "name": "MyDateColumn6",
             "designerId": "5324170f-a974-494c-8df3-364693816d55"
