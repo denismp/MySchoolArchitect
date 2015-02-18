@@ -25,7 +25,7 @@
                 "itemId": "weeklyevaluationcommentstabpanel",
                 "title": "Comments"
             },
-            "name": "common.mytabpanel10",
+            "name": "common.mytabpanel30",
             "designerId": "e745e01d-fb27-4da9-8229-fb91defaf3eb",
             "masterInstanceId": "5aed8c98-5a34-426f-8afc-d830a4b11355",
             "cn": [
@@ -39,7 +39,8 @@
                     "userConfig": {
                         "tooltip": [
                             "'Click Edit to modify'"
-                        ]
+                        ],
+                        "tooltipType": "title"
                     },
                     "name": "TabConfig10",
                     "designerId": "7e1a8573-d557-4ca1-9a5c-19835c3128b3"

@@ -68,7 +68,8 @@
                         "text": "Edit",
                         "tooltip": [
                             "'Click edit to modify'"
-                        ]
+                        ],
+                        "tooltipType": "title"
                     },
                     "name": "MyButton",
                     "designerId": "aea036ee-cf76-4d3a-a2a1-b27e90f10a63"

@@ -6598,17 +6598,19 @@
             "b7ea4af6-425b-4954-a2a7-d2ea8cc375c5",
             "c00921ce-f39c-4a16-8f7a-108ee06748f5",
             "28a657ce-b2f2-4333-b0b5-6a0211f34cb0",
-            "beb0a073-1b46-4d8f-9592-0ec60f737034"
+            "beb0a073-1b46-4d8f-9592-0ec60f737034",
+            "cd66f02c-8260-4748-a75e-d8caed2e81a6",
+            "5aed8c98-5a34-426f-8afc-d830a4b11355"
         ]
     },
     "canvasState": {
-        "topInstance": null
+        "topInstance": "cd66f02c-8260-4748-a75e-d8caed2e81a6"
     },
     "inspectorState": {
-        "topInstance": "beb0a073-1b46-4d8f-9592-0ec60f737034",
-        "selectedInstance": "71c008a0-0374-447f-b282-0c108ad8b4b3"
+        "topInstance": "cd66f02c-8260-4748-a75e-d8caed2e81a6",
+        "selectedInstance": "e745e01d-fb27-4da9-8229-fb91defaf3eb"
     },
-    "editMode": "code",
+    "editMode": "design",
     "userSettings": {
         "no-cmd": true
     }
