@@ -2,9 +2,9 @@
     "name": "MySchool",
     "settings": {
         "cmd": {
-            "license": "",
-            "cmdVersion": "",
-            "frameworkVersion": ""
+            "license": "commercial",
+            "cmdVersion": "5.1.1.39",
+            "frameworkVersion": "4.2.1.883"
         },
         "urlPrefix": "http://localhost:8080/MySchool",
         "spacesToIndent": "tab",
@@ -12,7 +12,7 @@
         "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,
-        "cacheBust": false,
+        "cacheBust": true,
         "buildShouldOverwriteIndex": true,
         "canvasControls": {
             "viewportSize": {
@@ -37,7 +37,11 @@
         "displayfield-ExtBox1-1275-inputEl": "Not Installed",
         "displayfield-ExtBox1-1330-inputEl": "Not Installed",
         "displayfield-ExtBox1-1380-inputEl": "Not Installed",
-        "displayfield-ExtBox1-1834-inputEl": "Not Installed"
+        "displayfield-ExtBox1-1834-inputEl": "Not Installed",
+        "projectHasEnabledWebServer": false,
+        "lockUrlPrefix": false,
+        "installStatus": "Not Installed",
+        "displayfield-ExtBox1-1119-inputEl": "a new version of the framework is available"
     },
     "xdsVersion": "3.2.0",
     "xdsBuild": 75,
