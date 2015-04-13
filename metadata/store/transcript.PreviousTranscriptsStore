@@ -1,0 +1,136 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "designer|userClassName": "transcript.PreviousTranscriptsStore",
+        "model": "transcripts.PreviousTranscriptsModel",
+        "storeId": "transcript.PreviousTranscriptsStore"
+    },
+    "name": "student.StudentProfileStore1",
+    "designerId": "5d7a1d0b-3c46-47e8-8372-e00c3c65e725",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Rest",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "headers": [
+                    "{ 'Accept' : 'application/json' }"
+                ],
+                "url": "detailtranscripts/json"
+            },
+            "name": "MyRestProxy9",
+            "designerId": "445f53cc-63b7-4dac-9614-a1bf28a3ba52",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data"
+                    },
+                    "name": "MyJsonReader9",
+                    "designerId": "58560926-761c-4d04-8647-9f4e56d1c766"
+                },
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onRestException",
+                        "implHandler": [
+                            "debugger;",
+                            "var smsg = response.request.options.method + '<br>' + response.request.options.action + '<br>' + response.responseText + '<br>' + response.status + '<br>' + response.statusText + '<br>' + operation.params.data;",
+                            "var myStr = response.responseText;",
+                            "var n = myStr.search('No data for');",
+                            "var n2 = myStr.search('No records for');",
+                            "var displayMsg = true;",
+                            "if( n >= 0  ){",
+                            "\tdisplayMsg = false;",
+                            "}",
+                            "if( displayMsg === false || n2 >= 0 ){",
+                            "\tdisplayMsg = false;",
+                            "}",
+                            "",
+                            "window.console.log('n=' + n );",
+                            "",
+                            "if( displayMsg === true ){",
+                            "\tExt.MessageBox.show({",
+                            "\t\ttitle: 'REMOTE EXCEPTION',",
+                            "\t\tmsg: smsg,",
+                            "\t\ticon: Ext.MessageBox.ERROR,",
+                            "\t\tbuttons: Ext.Msg.OK,",
+                            "\t\tresizeable: true",
+                            "\t});",
+                            "}",
+                            "window.console.log( smsg );",
+                            "if( this.getTotalCount() > 0 )",
+                            "{",
+                            "    this.reload();",
+                            "}",
+                            "//this.reload();",
+                            ""
+                        ],
+                        "name": "exception",
+                        "scope": "me"
+                    },
+                    "name": "onRestException",
+                    "designerId": "03f14418-c3e0-4d17-97f2-6ade08f015a5"
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onJsonstoreLoad",
+                "implHandler": [
+                    "//debugger;",
+                    "console.log(\"student.PreviousTranscriptsStore.onJsonstoreLoad() called...\");"
+                ],
+                "name": "load",
+                "scope": "me"
+            },
+            "name": "onJsonstoreLoad",
+            "designerId": "d1f794be-5a38-4154-b90f-b02a2c770127"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onJsonstoreWrite",
+                "implHandler": [
+                    "//debugger;",
+                    "console.log(\"student.PreviousTranscriptsStore.onJsonstoreWrite(): called...\");",
+                    "store.reload();"
+                ],
+                "name": "write",
+                "scope": "me"
+            },
+            "name": "onJsonstoreWrite",
+            "designerId": "b2bf6299-4700-45c3-aebb-d5120c13942a"
+        }
+    ]
+}

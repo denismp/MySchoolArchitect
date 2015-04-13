@@ -15,7 +15,8 @@
             "student.StudentStore",
             "faculty.FacultyTableStore",
             "student.StudentProfileStore",
-            "subject.SchoolsStore"
+            "subject.SchoolsStore",
+            "transcript.PreviousTranscriptsStore"
         ]
     },
     "designerId": "b3a562d1-cfa6-410d-8886-ed080063e2c4",
@@ -1256,6 +1257,157 @@
             },
             "name": "onStudentprofilegridpanelSelect",
             "designerId": "c0a7ceaf-7a5e-45f2-bbbb-663d33e3d0fa"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#studentprofilestranscriptstool",
+                "designer|params": [
+                    "tool",
+                    "e",
+                    "eOpts"
+                ],
+                "designer|targetType": "MyTool29",
+                "fn": "onStudentprofilestranscriptstoolClick",
+                "implHandler": [
+                    "debugger;",
+                    "",
+                    "//var guardianStore = Ext.getStore('guardian.GuardianProfileStore');",
+                    "//var guardianTypesStore = Ext.getStore('guardian.GuardianTypeStore');",
+                    "//guardianTypesStore.myLoad();",
+                    "",
+                    "if( this.userRole === 'ROLE_ADMIN' || this.userRole === 'ROLE_SCHOOL'){",
+                    "\tvar newDialog = Ext.create( 'MySchool.view.student.TranscriptDialog' );",
+                    "",
+                    "\twindow.console.log( 'Student Transcript Dialog' );",
+                    "",
+                    "\tnewDialog.render( Ext.getBody() );",
+                    "\tnewDialog.show();",
+                    "}"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onStudentprofilestranscriptstoolClick",
+            "designerId": "e0fe65a4-dbc6-43dd-9921-b12b03a96a73"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#studenttranscriptform_schoolname",
+                "designer|params": [
+                    "component",
+                    "width",
+                    "height",
+                    "eOpts"
+                ],
+                "designer|targetType": "MyComboBox6",
+                "fn": "onStudenttranscriptform_schoolnameBoxReady",
+                "implHandler": [
+                    "component.focus(false, 200);"
+                ],
+                "name": "boxready",
+                "scope": "me"
+            },
+            "name": "onStudenttranscriptform_schoolnameBoxReady",
+            "designerId": "75f4c8e6-bea4-4ef9-8654-3b65c936c4a1"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#studenttranscriptcancel",
+                "designer|params": [
+                    "button",
+                    "e",
+                    "eOpts"
+                ],
+                "designer|targetType": "MyButton44",
+                "fn": "onStudenttranscriptcancelClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Cancel Create Transcript\" );",
+                    "var myForm = button.up().getForm();",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onStudenttranscriptcancelClick",
+            "designerId": "d9e7cd20-4912-41bb-a838-1d183e72e07c"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#studenttranscriptsubmit",
+                "designer|params": [
+                    "button",
+                    "e",
+                    "eOpts"
+                ],
+                "designer|targetType": "MyButton45",
+                "fn": "onStudenttranscriptsubmitClick",
+                "implHandler": [
+                    "debugger;",
+                    "window.console.log( \"Submit Create Transcript\" );",
+                    "var myForm = button.up().getForm();",
+                    "",
+                    "//var myStore = Ext.getStore(\"student.StudentStore\");",
+                    "var myStore = Ext.getStore(\"transcript.PreviousTranscriptsStore\");",
+                    "var userName = myForm.findField('userName').getSubmitValue();",
+                    "var schoolName = myForm.findField('schoolname').getSubmitValue();",
+                    "",
+                    "//var myRecord = myStore.findRecord('userName', userName );",
+                    "//\tCreate an empty record",
+                    "var myRecord\t= Ext.create('MySchool.model.transcripts.PreviousTranscriptsModel');",
+                    "",
+                    "",
+                    "if( myRecord === null )",
+                    "{",
+                    "\tExt.MessageBox.show({",
+                    "\t\ttitle: 'INVALID USER EXCEPTION',",
+                    "\t\tmsg: 'You have entered an invalid data.',",
+                    "\t\ticon: Ext.MessageBox.ERROR,",
+                    "\t\tbuttons: Ext.Msg.OK",
+                    "\t});",
+                    "}",
+                    "",
+                    "myRecord.set( 'studentUserName', userName );",
+                    "myRecord.set( 'schoolName', schoolName );",
+                    "myStore.add(myRecord);",
+                    "myStore.sync();",
+                    "//myStore.reload();",
+                    "",
+                    "myForm.reset();",
+                    "button.up().hide();",
+                    "button.up().up().close();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "name": "onStudenttranscriptsubmitClick",
+            "designerId": "03ea150e-138c-4465-a09f-0a7bef3602f1"
         }
     ]
 }

@@ -44,7 +44,8 @@
             "guardian.GuardianTypeModel",
             "school.SchoolProfileModel",
             "admin.AdminProfileModel",
-            "admin.PasswordModel"
+            "admin.PasswordModel",
+            "transcripts.PreviousTranscriptsModel"
         ],
         "name": "MySchool",
         "stores": [
@@ -74,7 +75,8 @@
             "school.SchoolProfileStore",
             "admin.AdminProfileStore",
             "admin.AdminPasswordStore",
-            "admin.AdminStore"
+            "admin.AdminStore",
+            "transcript.PreviousTranscriptsStore"
         ],
         "views": [
             "MainPanel",
@@ -198,7 +200,8 @@
             "admin.NewDialog",
             "guardian.AddChildDialog",
             "faculty.AddChildDialog",
-            "student.AddChildDialog"
+            "student.AddChildDialog",
+            "student.TranscriptDialog"
         ]
     },
     "name": "Application",
