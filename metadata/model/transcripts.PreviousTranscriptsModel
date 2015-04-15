@@ -397,6 +397,20 @@
             },
             "codeClass": null,
             "userConfig": {
+                "name": "type",
+                "type": "boolean"
+            },
+            "name": "MyField455",
+            "designerId": "376faac8-e718-43f4-8c77-b043820c1f50"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
                 "name": "pdfURL",
                 "type": "string"
             },
