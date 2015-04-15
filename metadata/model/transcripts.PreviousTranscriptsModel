@@ -397,7 +397,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "type",
+                "name": "official",
                 "type": "boolean"
             },
             "name": "MyField455",
